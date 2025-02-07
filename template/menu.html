@@ -1,0 +1,135 @@
+<style>
+    /* Simple checkbox hack for mobile menu toggling */
+    #menu-toggle:checked ~ #mobile-menu {
+      display: block;
+    }
+</style>
+<!-- Hidden checkbox for mobile menu toggling -->
+<input type="checkbox" id="menu-toggle" class="hidden" />
+
+<!-- Navigation Bar -->
+<nav class="bg-black text-white fixed top-0 inset-x-0 z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <!-- Brand: logo image -->
+      <div class="flex-shrink-0">
+        <a href="#">
+          <img src="img/logo_white.svg" alt="TrainTheAlgo logo" class="h-16" />
+        </a>
+      </div>
+      <!-- Mobile menu button (visible on small screens) -->
+      <div class="md:hidden">
+        <label for="menu-toggle" class="cursor-pointer">
+          <img src="img/hamburger.svg" alt="TrainTheAlgo logo" class="h-12" />
+        </label>
+      </div>
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-4">
+        <!-- Tech Dropdown -->
+        <div class="relative group">
+          <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+            Tech
+          </button>
+          <div
+            class="absolute left-0 mt-1 w-40 bg-black rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="#ai" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">AI</a>
+            <a href="#apps" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Apps</a>
+            <a href="#vehicles" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Vehicles</a>
+            <a href="#gaming" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Gaming</a>
+            <a href="#security" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Security</a>
+          </div>
+        </div>
+        <!-- Finance Dropdown -->
+        <div class="relative group">
+          <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+            Finance
+          </button>
+          <div
+            class="absolute left-0 mt-1 w-40 bg-black rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="#markets" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Markets</a>
+            <a href="#crypto" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Crypto</a>
+            <a href="#business" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Business</a>
+          </div>
+        </div>
+        <!-- Science Dropdown -->
+        <div class="relative group">
+          <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+            Science
+          </button>
+          <div
+            class="absolute left-0 mt-1 w-40 bg-black rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="#space" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Space</a>
+            <a href="#climate" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Climate</a>
+            <a href="#physics" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Physics</a>
+          </div>
+        </div>
+        <!-- Events Dropdown -->
+        <div class="relative group">
+          <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+            Events
+          </button>
+          <div
+            class="absolute left-0 mt-1 w-40 bg-black rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="#conferences" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Conferences</a>
+            <a href="#podcast" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Podcast</a>
+          </div>
+        </div>
+        <!-- More Dropdown -->
+        <div class="relative group">
+          <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+            More
+          </button>
+          <div
+            class="absolute left-0 mt-1 w-40 bg-black rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="#reviews" class="block px-4 py-2 hover:bg-gray-700 whitespace-no-wrap">Reviews</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu (visible when checkbox is checked) -->
+<div class="hidden md:hidden" id="mobile-menu">
+  <div class="bg-black text-white px-2 pt-2 pb-3 space-y-1">
+    <!-- Tech Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Tech</span>
+      <a href="#ai" class="block pl-6 py-1 hover:bg-gray-700">AI</a>
+      <a href="#apps" class="block pl-6 py-1 hover:bg-gray-700">Apps</a>
+      <a href="#vehicles" class="block pl-6 py-1 hover:bg-gray-700">Vehicles</a>
+      <a href="#gaming" class="block pl-6 py-1 hover:bg-gray-700">Gaming</a>
+      <a href="#security" class="block pl-6 py-1 hover:bg-gray-700">Security</a>
+    </div>
+    <!-- Finance Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Finance</span>
+      <a href="#markets" class="block pl-6 py-1 hover:bg-gray-700">Markets</a>
+      <a href="#crypto" class="block pl-6 py-1 hover:bg-gray-700">Crypto</a>
+      <a href="#business" class="block pl-6 py-1 hover:bg-gray-700">Business</a>
+    </div>
+    <!-- Science Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Science</span>
+      <a href="#space" class="block pl-6 py-1 hover:bg-gray-700">Space</a>
+      <a href="#climate" class="block pl-6 py-1 hover:bg-gray-700">Climate</a>
+      <a href="#physics" class="block pl-6 py-1 hover:bg-gray-700">Physics</a>
+    </div>
+    <!-- Events Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Events</span>
+      <a href="#conferences" class="block pl-6 py-1 hover:bg-gray-700">Conferences</a>
+      <a href="#podcast" class="block pl-6 py-1 hover:bg-gray-700">Podcast</a>
+    </div>
+    <!-- More Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">More</span>
+      <a href="#reviews" class="block pl-6 py-1 hover:bg-gray-700">Reviews</a>
+    </div>
+  </div>
+</div>
