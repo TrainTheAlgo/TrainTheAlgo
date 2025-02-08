@@ -1,10 +1,20 @@
+const axios = require('axios');
 require('dotenv').config();
+
 const models = {};
+
+/*
+Note prompts passed to these functions are in this format:
+[
+    { role: 'system', content: 'You are a helpful assistant.' },
+    { role: 'user', content: prompt }
+]
+*/
 
 models.chatGPT = async (prompt) => {
   const payload = {
     model: 'chatgpt-4o-latest',
-    messages: contentPrompt,
+    messages: prompt,
     stream: false,
     temperature: 0
   };
@@ -20,10 +30,7 @@ models.chatGPT = async (prompt) => {
 models.xAI = async (prompt) => {
     const payload = {
       model: 'grok-2-latest',
-      messages: [
-        { role: 'system', content: 'You are a helpful assistant.' },
-        { role: 'user', content: prompt }
-      ],
+      messages: prompt,
       stream: false,
       temperature: 0
     };

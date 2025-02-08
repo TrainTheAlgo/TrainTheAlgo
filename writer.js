@@ -1,14 +1,17 @@
-const axios = require('axios');
 const fs = require('fs');
-const models = require('models');
-const prompts = require('prompts');
+const models = require('./models.js');
+const prompts = require('./prompts.js');
 
-const write = async (subject, background) => {
+const writer = {};
+
+writer.write = async (subject, background) => {
   try {
-    const titlePrompt = prompts.titles.replace('$subject', subject).replace('$background', background);
-    const titles = await chatGPT(titlePrompt);
-    const authorPrompt = prompts.author.titles.replace('$subject', subject).replace('$background', background).replace('$titles', titles);
-    const htmlContent = await chatGPT(authorPrompt);
+    const titlePrompt = prompts.titles;
+    titlePrompt[1].content = titlePrompt[1].content.replace('$subject', subject).replace('$background', background);
+    const titles = await models.chatGPT(titlePrompt);
+    const authorPrompt = prompts.author;
+    authorPrompt[1].content = authorPrompt[1].content.replace('$subject', subject).replace('$background', background).replace('$titles', titles);
+    const htmlContent = await models.chatGPT(authorPrompt);
     const regex = /(title|slug|description|image):\s*"([^"]+)"/g;
     const article = {};
     let match;
@@ -20,15 +23,15 @@ const write = async (subject, background) => {
     const year = now.getFullYear().toString();
     const month = (now.getMonth() + 1).toString().padStart(2, '0');
     const outputDir = `content/${year}/${month}/`;
-    await fs.mkdir(outputDir, { recursive: true });
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
     const outputFile = `${outputDir}${slug}.html`;
-    await fs.writeFile(outputFile, htmlContent, 'utf8');
+    fs.writeFileSync(outputFile, htmlContent, 'utf8');
     console.log(`Article generated and saved to ${outputFile}`);
 
-    const indexPath = 'content/index.json';
+    const indexPath = './content/index.json';
     let indexData = [];
     try {
-      const data = await fs.readFile(indexPath, 'utf8');
+      const data = fs.readFileSync(indexPath, 'utf8');
       indexData = JSON.parse(data);
     } catch (err) {
       console.error('Error reading index.json, starting with a new file.', err);
@@ -43,12 +46,12 @@ const write = async (subject, background) => {
       date: new Date().toISOString()
     });
 
-    await fs.writeFile(indexPath, JSON.stringify(indexData, null, 2), 'utf8');
+    fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2), 'utf8');
     console.log(`Index updated at ${indexPath}`);
 
   } catch (error) {
-    console.error('Error calling the OpenAI API:', error.response ? error.response.data : error.message);
+    console.error('Error writer.js 51:', error.response ? error.response.data : error.message);
   }
 }
 
-module.exports = { write };
+module.exports = writer;
