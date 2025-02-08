@@ -67,6 +67,7 @@ Ensure the content is interesting and entertaining while not being too cringe an
 Captivate the readers interest to ensure they read on. First paragraph critical, why should they read? Start with a promise, or a question, or a fact/statement, or a tip, or some form of controversy.
 Capture attention with intrigue and offer value with lists, steps and stories. Provide as much value as possible. Entertain, educate, inspire. Teaching content, tips, how to sections, deep insights, unique perspectives, detailed specific examples, personal anecdotes.
 Reward: Ensure the reader leaves with a positive takeaway and the value promised
+Do not end the article with a conclusion or summary. If possible finish with a thought provoking final sentence that leaves the reader with a positive experience.
 
 1. Use simple and clear language, avoiding jargon unless necessary for the audience.
 2. Ensure logical flow between paragraphs and sections.
@@ -74,7 +75,7 @@ Reward: Ensure the reader leaves with a positive takeaway and the value promised
 4. Vary sentence structure to maintain reader interest.
 
 Choose the best category that the article fits into from this list:
-["AI", "Software", "Vehicles", "Gaming", "Security", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
+["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
 
 The article should then be formatted using HTML and Tailwind CSS and put into this template:
 
@@ -107,6 +108,8 @@ $background
     }
   ];
 
+
+/*
 prompts.latestNews = [
     {
       role: 'system',
@@ -133,6 +136,7 @@ prompts.latestNews = [
       content: `Collect the latest news and output a JSON array where each element has "subject" and "background" keys.`
     }
 ];
+*/
 
 prompts.extractNews = [
     {
@@ -142,19 +146,46 @@ I will provide some unformatted HTML code which will contain eight news stories 
 <span class="">Story Text Here</span>
 Each story will also include text to say how long ago it was posted, the category and how many posts it has received.
 <span class="">2 days ago · Politics · 788K posts</span>
-Rearrange the stories so that more recent stories are first. Anything trending now should have priority and then be ranked by how many posts with the highest number of posts being ranked first.
+Rearrange the stories so that stories that the following criteria are at the top of a list:
+- Prioritize stories about emerging technology
+- Prioritize global events over stories related the UK
+- Prioritize stories that fit into one of the following categories with AI being most important and reviews being least important. Anything that doesn't fit into one of these categories should be last.
+["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
+- Prioritize articles that will be of interest to a global audience of male tech enthusaists.
+The articles that meet the most of the above criteria should be at the top, any articles that aren't relevant should be at the bottom of the list.
 Extract the titles for all eight news stories from the HTML.
-Output the news stories one title per line with the exact text contained in the HTML.
-The first line of the output should be the title of the most recent story.
+Output the news stories one title per line with the exact text contained in the HTML. Do not output a numbered list or any other type of formatting. The output should just include the exact titles from the HTML.
 `
     },
     {
       role: 'user',
       content: `Extract the 8 news story titles from this HTML code:
 $html
+
+Remove any items from the list that have already been covered below:
+$covered
 `
     }
 ];
 
+prompts.illustrate = [
+    {
+      role: 'system',
+      content: `You are a prompt engineer and digital artist.
+I need you to create a Dall-E prompt for a beautiful illustrations for a online publication.
+The image prompts should describe an image which will be used as a background for the article provided title and description.
+Avoid potentially copyrighted logos in the image
+The images should be designed in a 3d render style similar to unreal engine, blender or unity.
+The image should be black and white and it should be stated at the end of the prompt to ensure the final image is a 3d rendered black and white image.
+`
+    },
+    {
+      role: 'user',
+      content: `Write an image generation prompt to create a wide image for this article.
+Article:
+$article
+`
+    }
+];
 
 module.exports = prompts;

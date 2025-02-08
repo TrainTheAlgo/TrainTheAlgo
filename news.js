@@ -69,8 +69,11 @@ news.find = async () => {
   await new Promise(resolve => setTimeout(resolve, 5000));
   const grokHTML = await page.content();
   const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
+  const data = fs.readFileSync('./content/index.json', 'utf8');
+  indexData = JSON.parse(data);
+  const covered = indexData.map(a => a.title).join("\n");
   const extractPrompt = prompts.extractNews;
-  extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML);
+  extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
   const topStory = titles.split("\n")[0];

@@ -36,19 +36,18 @@ writer.write = async (subject, background) => {
     } catch (err) {
       console.error('Error reading index.json, starting with a new file.', err);
     }
-
-    indexData.push({
+    const articleMetadata = {
       title,
       slug,
       description,
       image,
       path: `${year}/${month}/`,
       date: new Date().toISOString()
-    });
-
+    }
+    indexData.push(articleMetadata);
     fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2), 'utf8');
     console.log(`Index updated at ${indexPath}`);
-
+    return articleMetadata;
   } catch (error) {
     console.error('Error writer.js 51:', error.response ? error.response.data : error.message);
   }

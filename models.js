@@ -27,6 +27,23 @@ models.chatGPT = async (prompt) => {
   return response.data.choices[0].message.content;
 }
 
+models.dallE = async (prompt) => {
+    const payload = {
+      model: 'dall-e-3',
+      prompt,
+      size: "1792x1024",
+      quality: "hd",
+      n: 1
+    };
+    const response = await axios.post('https://api.openai.com/v1/images/generations', payload, {
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.OPENAI}`
+      }
+    });
+    return response.data;
+  }
+
 models.xAI = async (prompt) => {
     const payload = {
       model: 'grok-2-latest',
