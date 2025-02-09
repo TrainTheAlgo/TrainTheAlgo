@@ -1,4 +1,5 @@
 const git = require('isomorphic-git');
+const http = require('isomorphic-git/http/node'); 
 const fs = require('fs');
 const process = require('process');
 require('dotenv').config();
@@ -31,7 +32,7 @@ async function pushChanges() {
   await git.push({
     fs,
     dir: process.cwd(),
-    remote: 'http://github.com/TrainTheAlgo/TrainTheAlgo/',
+    remote: 'https://github.com/TrainTheAlgo/TrainTheAlgo/',
     ref: 'master',
     onAuth: () => ({
       username: 'TrainTheAlgo',
