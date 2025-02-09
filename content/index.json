@@ -1,11 +1,52 @@
 [
   {
+    "title": "Macron's €109 Billion AI Plan: Will It Make France a Tech Superpower?",
+    "slug": "macron-ai-investment",
+    "description": "Emmanuel Macron has announced a historic €109 billion investment in AI. Can this bold move position France as a global leader in artificial intelligence?",
+    "image": "macron-ai-investment.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-09T23:32:49.270Z"
+  },
+  {
+    "title": "Sam Altman's Bold Predictions On AI's Future And AGI",
+    "slug": "sam-altman-ai-future-agi",
+    "description": "Sam Altman shares his vision for AI's future, the path to AGI, and how artificial intelligence will reshape humanity.",
+    "image": "sam-altman-ai-future-agi.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-09T22:31:10.791Z"
+  },
+  {
+    "title": "China Hits US With 15% Tariffs On Energy And Cars - What It Means",
+    "slug": "china-15-percent-tariffs-us-energy-cars",
+    "description": "China has imposed 15% tariffs on US energy and vehicles in retaliation. What does this mean for global trade, the US economy, and consumers?",
+    "image": "china-15-percent-tariffs.png",
+    "category": "Markets",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-09T21:29:21.669Z"
+  },
+  {
+    "title": "Elon Musk Calls for Julius Malema's Sanction Over Whiteness' Remarks",
+    "slug": "musk-malema-whiteness-remarks",
+    "description": "Elon Musk has called for sanctions against Julius Malema over controversial whiteness' comments. The debate has ignited discussions on free speech, racism, and political accountability.",
+    "image": "musk-malema-whiteness-remarks.png",
+    "category": "Politics",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-09T20:27:38.890Z"
+  },
+  {
     "title": "iPhone SE 4 Release Date, Price & Features Revealed",
     "slug": "iphone-se-4-release-date-price-features",
     "description": "Apple's iPhone SE 4 is set to redefine budget smartphones with major upgrades. Here's everything you need to know about its release date, price, and features.",
     "image": "iphone-se-4.png",
     "category": "Software",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T18:42:43.471Z"
   },
   {
@@ -15,6 +56,7 @@
     "image": "dci-kenya-x-account-hacked.png",
     "category": "Security",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T17:41:06.502Z"
   },
   {
@@ -24,6 +66,7 @@
     "image": "solomon-islands-earthquake.png",
     "category": "Climate",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T16:39:26.728Z"
   },
   {
@@ -33,6 +76,7 @@
     "image": "microstrategy-bitcoin-buying.png",
     "category": "Crypto",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T15:37:50.304Z"
   },
   {
@@ -42,6 +86,7 @@
     "image": "quantum-threat-to-bitcoin.png",
     "category": "Crypto",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T14:36:17.555Z"
   },
   {
@@ -51,6 +96,7 @@
     "image": "quantum-computing-vs-bitcoin.png",
     "category": "Crypto",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T13:34:43.042Z"
   },
   {
@@ -60,6 +106,7 @@
     "image": "bnb-price-surge.png",
     "category": "Crypto",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T13:09:50.719Z"
   },
   {
@@ -69,6 +116,7 @@
     "image": "trump-iran-deal.png",
     "category": "Politics",
     "path": "2025/02/",
+    "featured": false,
     "date": "2025-02-09T12:57:12.658Z"
   }
 ]

@@ -52,6 +52,7 @@ writer.write = async (subject, background) => {
       image,
       category,
       path: `${year}/${month}/`,
+      featured: false,
       date: new Date().toISOString()
     }
     if (!indexData.some(item => item.slug === slug)) {
