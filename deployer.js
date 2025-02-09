@@ -35,7 +35,7 @@ async function pushChanges() {
     dir: process.cwd(),
     remote: 'origin',
     url: 'https://github.com/TrainTheAlgo/TrainTheAlgo/',
-    ref: 'master',
+    ref: 'main',
     onAuth: () => ({
       username: 'TrainTheAlgo',
       publicKey: process.env.SSH_PUBLIC_KEY,
