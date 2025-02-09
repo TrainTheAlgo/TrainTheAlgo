@@ -1,109 +1,99 @@
-// Import required modules
 const fs = require('fs');
-const path = require('path');
+const video = require('./video.js');
 
-// Constants for directory paths
-const CONTENT_DIR = path.join(__dirname, 'content');
-const DIST_DIR = path.join(__dirname, 'dist');
+const content = './content';
+const dist = './docs';
+const template = './template';
+const baseUrl = 'https://trainthealgo.com';
+  
+const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
+const index = JSON.parse(indexFile);
 
-// Utility to recursively read all files from a directory
-const getFilesRecursively = (dir, baseDir = '') => {
-    const files = [];
-    const entries = fs.readdirSync(dir, { withFileTypes: true });
+const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
+const videos = JSON.parse(videosFile);
 
-    for (const entry of entries) {
-        const fullPath = path.join(dir, entry.name);
-        const relativePath = path.join(baseDir, entry.name);
-
-        if (entry.isDirectory()) {
-            files.push(...getFilesRecursively(fullPath, relativePath));
-        } else if (entry.isFile() && entry.name.endsWith('.html')) {
-            files.push(relativePath);
+const copyArticles = () => {
+    const postTemplate = fs.readFileSync(`${template}/post.html`, 'utf-8');
+    for (const post of index) {
+        const file = `${content}/${post.path}${post.slug}.html`;
+        console.log(file);
+        const distDirectory = `${dist}/${post.path}`;
+        if (!fs.existsSync(distDirectory)) fs.mkdirSync(distDirectory, { recursive: true });
+        const postContent = fs.readFileSync(file, 'utf-8');
+        const postHTML = postTemplate
+            .replaceAll('$title', post.title)
+            .replaceAll('$description', post.description)
+            .replaceAll('$image', post.image)
+            .replaceAll('$content', postContent)
+        fs.writeFileSync(`${distDirectory}${post.slug}.html`, postHTML, 'utf-8');
+        const media = `${content}/${post.path}${post.image}`;
+        if (fs.existsSync(media)) {
+            const destination = `${dist}/${post.path}${post.image}`;
+            console.log(destination)
+            fs.copyFileSync(media, destination);
         }
     }
-
-    return files;
 };
 
-// Parse file paths into chronological article metadata
-const parseArticles = (files) => {
-    return files.map(file => {
-        const parts = file.split(path.sep);
-        const year = parts[0];
-        const category = parts[1];
-        const title = parts[2].replace(/\.html$/, '').replace(/-/g, ' ');
-        const url = file.replace(/\\/g, '/');
-        
-        return { year, category, title, url };
-    }).sort((a, b) => a.year - b.year || a.title.localeCompare(b.title));
-};
-
-// Generate HTML content for the index page
-const generateIndexHTML = (articles) => {
-    return `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article Index</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        .article-list { list-style: none; padding: 0; }
-        .article-item { margin: 0.5em 0; }
-        .article-link { text-decoration: none; color: #007BFF; }
-        .article-link:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>Article Index</h1>
-    <ul class="article-list">
-        ${articles.map(article => `
-            <li class="article-item">
-                <a class="article-link" href="/${article.url}">${article.year} - ${article.title}</a>
-            </li>`).join('')}
-    </ul>
-</body>
-</html>`;
-};
-
-// Copy article files to the dist directory
-const copyArticles = (files) => {
-    for (const file of files) {
-        const sourcePath = path.join(CONTENT_DIR, file);
-        const destPath = path.join(DIST_DIR, file);
-        const destDir = path.dirname(destPath);
-
-        if (!fs.existsSync(destDir)) {
-            fs.mkdirSync(destDir, { recursive: true });
-        }
-
-        fs.copyFileSync(sourcePath, destPath);
+const videoPages = () => {
+    const videoTemplate = fs.readFileSync(`${template}/video.html`, 'utf-8');
+    const distDirectory = `${dist}/videos/`;
+    if (!fs.existsSync(distDirectory)) fs.mkdirSync(distDirectory, { recursive: true });
+    for (const v of videos) {     
+        const videoHTML = videoTemplate
+            .replaceAll('$title', v.title)
+            .replaceAll('$description', v.description)
+            .replaceAll('$video', v.id)
+        fs.writeFileSync(`${distDirectory}/${v.id}.html`, videoHTML, 'utf-8');
     }
 };
 
-// Main function to build the site
-const buildSite = () => {
-    // Clean and recreate dist directory
-    if (fs.existsSync(DIST_DIR)) {
-        fs.rmSync(DIST_DIR, { recursive: true, force: true });
+const createHomePage = () => {
+    const homePage = fs.readFileSync(`${template}/index.html`, 'utf-8');
+    const sv = homePage.indexOf('<!-- Start Video -->');
+    const ev = homePage.indexOf('<!-- End Video -->');
+    const sp = homePage.indexOf('<!-- Start Post -->');
+    const ep = homePage.indexOf('<!-- End Post -->');
+    const top = homePage.slice(0, sv);
+    const vid = homePage.slice(sv, ev);
+    const mid = homePage.slice(ev, sp);
+    const post = homePage.slice(sp, ep);
+    const end = homePage.slice(ep);
+    let homeHTML = top;
+    for (let i = 0; i < 4; i++) {
+        homeHTML += vid.replaceAll('$video', videos[i].id);
     }
-    fs.mkdirSync(DIST_DIR);
+    homeHTML += mid;
+    for (let i = 0; i < 9; i++) {
+        homeHTML += post
+            .replaceAll('$title', index[i].title)
+            .replaceAll('$description', index[i].description)
+            .replaceAll('$image', `/${index[i].path}${index[i].image}`)
+            .replaceAll('$link', `/${index[i].path}${index[i].slug}.html`)
+    }
+    homeHTML += end;
+    fs.writeFileSync(`${dist}/index.html`, homeHTML, 'utf-8');
+    console.log(`${dist}/index.html`);
+}
 
-    // Get all HTML files from the content directory
-    const files = getFilesRecursively(CONTENT_DIR);
+const buildSitemap = () => {
+    const urls = index.map(post => `${baseUrl}/${post.path}${post.slug}.html`);
+    urls.unshift(`${baseUrl}`);
+    const sitemapContent = urls.join('\n');
+    fs.writeFileSync(`${dist}/sitemap.txt`, sitemapContent, 'utf-8');
+    console.log(`${dist}/sitemap.txt`);
+};
 
-    // Parse files into article metadata
-    const articles = parseArticles(files);
-
-    // Generate and write the index.html file
-    const indexHTML = generateIndexHTML(articles);
-    fs.writeFileSync(path.join(DIST_DIR, 'index.html'), indexHTML);
-
-    // Copy all article files to the dist directory
-    copyArticles(files);
-
+const buildSite = async () => {
+    if (fs.existsSync(dist)) fs.rmSync(dist, { recursive: true, force: true });
+    fs.mkdirSync(dist);
+    fs.cpSync(template, dist, { recursive: true });
+    await video.fetch();
+    copyArticles();
+    videoPages();
+    createHomePage();
+    buildSitemap();
     console.log('Site built successfully!');
 };
 
-// Run the build process
 buildSite();

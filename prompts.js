@@ -91,8 +91,8 @@ const article = {
 </script>
 <style></style>
 
-<h2 class="text-xl md:text-2xl font-bold">Sub Heading</h2>
-<p class="p-2 my-4">Article Content</p>
+<h2>Sub Heading</h2>
+<p>Article Content</p>
   `
     },
     {

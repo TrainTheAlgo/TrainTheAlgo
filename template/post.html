@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TrainTheAlgo - Emerging Technology</title>
+    <title>$title</title>
+    <meta name="description" content="$description">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   </head>
   <body class="bg-gray-100 text-gray-800">
@@ -11,69 +12,24 @@
     <!-- Hero Section -->
     <header class="relative mt-16">
       <div class="relative h-96 overflow-hidden">
-        <video
+        <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="img/bkg-top.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+          src="$image"
+          alt="$title"
+        />
       </div>
       <div
         class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center text-center justify-center"
       >
-        <h1 class="text-4xl md:text-6xl text-white font-bold">
-          A Tour Of The Top 10 Tech Conferences Worldwide
+        <h1 class="text-2xl md:text-3xl text-white font-bold">
+          $title
         </h1>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-
-      <!-- Introduction -->
-      <section class="mb-12">
-        <p class="p-2 my-4">Welcome to the ultimate tour of the world's best tech conferences! In this video I'm going to take you on a year-long trip to events across the globe.</p>
-        <p class="p-2 my-4">Have you ever wondered where the next Apple product is unveiled, where startups become unicorns, or where AI breakthroughs are announced? By the end of this video, you'll know which events to book for an unforgettable experience, exploring the future of technology.</p>
-      </section>
-      <section class="mb-12">
-          <h2 class="text-xl md:text-2xl font-bold">1. CES: The Consumer Electronics Show</h2>
-          <p class="p-2 my-4">Our first stop is the granddaddy of all tech conferences, CES, the Consumer Electronics Show in Las Vegas. This annual January event is a mecca for tech enthusiasts and industry leaders alike. Picture this: sprawling exhibition halls packed with self-driving cars, 8K TVs, and gadgets so futuristic they'd make James Bond jealous.</p>
-          <p class="p-2 my-4">With over 170,000 attendees and more than 4,000 exhibitors, CES sets the tone for consumer tech every year. Whether it's foldable phones or AI-powered toasters, CES is where innovation meets excitement.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">2. MWC: Mobile World Congress</h2>
-          <p class="p-2 my-4">Next up, we head across the Atlantic to Mobile World Congress (MWC) in Barcelona. This late-February event is the epicenter of mobile technology. From 5G advancements to smart city solutions, MWC is where connectivity comes to life. It's not just about phones—it's about how those phones will connect us to the Internet of Things and beyond.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">3. SXSW: South By South West</h2>
-          <p class="p-2 my-4">Now, let's switch gears to South by Southwest Interactive in Austin, Texas. This March festival is where tech meets creativity. You'll find blockchain innovators rubbing shoulders with filmmakers and musicians.</p>
-          <p class="p-2 my-4">It's where Elon Musk could be giving a keynote one day, and the next, you're sampling VR-powered art installations. The vibe is quirky, collaborative, and distinctly Austin.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">4. WWDC: Worldwide Developers Conference</h2>
-          <p class="p-2 my-4">Moving on to the corporate giants, we have WWDC, Apple's Worldwide Developers Conference. Held in June, this is the tech world's equivalent of Christmas morning for Apple fans. From iOS updates to potential new product launches, WWDC is all about the Apple ecosystem.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">5. Google I/O</h2>
-          <p class="p-2 my-4">Not to be outdone, Google I/O brings its own flavor of innovation. Held in May, this developer-focused event in Mountain View is where Google unveils updates to Android, AI advancements, and surprises like smart home tech.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">6. Microsoft Build</h2>
-          <p class="p-2 my-4">From Mountain View, we head to Seattle for Microsoft Build. Also in May, this conference is all about empowering developers. Think Azure updates, AI integrations, and tools that redefine productivity.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">7. AWS re:Invent</h2>
-          <p class="p-2 my-4">Let's pivot to the cloud with AWS re:Invent in Las Vegas. Held in late November, this conference is cloud computing nirvana. It's where Amazon Web Services rolls out new features, products, and services that shape the future of the cloud.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">8. Dreamforce</h2>
-          <p class="p-2 my-4">For something a little more philanthropic, there's Dreamforce in San Francisco. Hosted by Salesforce in September, Dreamforce blends enterprise tech with a focus on community and social good.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">9. Web Summit</h2>
-          <p class="p-2 my-4">Now, let's jet over to Lisbon for Web Summit. Held in November, this global gathering of tech leaders, startups, and investors is like speed-dating for innovation. With over 70,000 attendees, it's a hotspot for spotting emerging trends, discovering promising startups, and engaging in some serious networking.</p>
-          
-          <h2 class="text-xl md:text-2xl font-bold">10. Slush</h2>
-          <p class="p-2 my-4">Finally, we have Slush in Helsinki. This November event is all about startups, with a vibe that's part nightclub, part pitch session. Picture dark lighting, fog machines, and enthusiastic entrepreneurs pitching their ideas to investors in an electric atmosphere.</p>
-          
-          <p class="p-2 my-4">Did this tour of tech conferences spark your interest? If you've attended any of these events or have a favorite conference to add to the list, let me know in the comments! And if you want to stay updated on emerging technology and global events, hit the like button to train the algorithm and subscribe to the channel. See you in the next video and maybe even the next tech conference!</p>        0
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      $content
     </main>
 
     <div id="footer-placeholder"></div>
@@ -89,7 +45,7 @@
         .catch(err => console.error('Error loading HTML:', err));
     }
   
-    loadHTML('#menu-placeholder', './menu.html');
-    loadHTML('#footer-placeholder', './footer.html');
+    loadHTML('#menu-placeholder', '/menu.html');
+    loadHTML('#footer-placeholder', '/footer.html');
   </script>
 </html>

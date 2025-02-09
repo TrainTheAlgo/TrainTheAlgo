@@ -5,7 +5,7 @@ require('dotenv').config();
 const models = require('./models.js');
 const prompts = require('./prompts.js');
 
-const cookieFilePath = './content/cookies.json';
+const cookieFilePath = './.cookies.json';
 puppeteer.use(StealthPlugin());
 
 const news = {};
@@ -71,9 +71,10 @@ news.find = async () => {
   const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
   const data = fs.readFileSync('./content/index.json', 'utf8');
   indexData = JSON.parse(data);
-  const covered = indexData.map(a => a.title).join("\n");
+  const covered = indexData.map(a => a.title).join("\n").substr(0,1000);
   const extractPrompt = prompts.extractNews;
   extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
+  console.log(extractPrompt[1].content.slice(-700))
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
   const topStory = titles.split("\n")[0];

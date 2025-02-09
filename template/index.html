@@ -26,7 +26,7 @@
         class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center text-center justify-center"
       >
         <h1 class="text-3xl md:text-4xl text-white font-bold">
-          Welcome to TrainThe<span class="text-red-500">Algo</span>.com
+          Welcome to TrainThe<span class="text-red-600">Algo</span>.com
         </h1>
         <p class="mt-4 text-white">
           Your Open Source Gateway To Emerging Technology &amp; Global Events
@@ -40,92 +40,49 @@
       <!-- Latest Videos Section -->
       <section id="latest-videos" class="my-8">
           <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Videos</h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Video Card 1 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-              <iframe 
-              class="w-full h-full"
-              src="https://www.youtube.com/embed/Dqxz84iutDM" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-              </iframe>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Start Video -->
+            <div class="relative rounded shadow overflow-hidden h-64 group">
+              <div class="h-56">
+                <iframe 
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/$video" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="text-center"><a href="/videos/$video.html" class="text-xs text-black">View Full Screen</a></div>
+              
+            </div>
+            <!-- End Video -->
           </div>
-          <!-- Video Card 2 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-              <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/7HJXTgpFmqo" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-              </iframe>
-          </div>
-          <!-- Video Card 3 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-              <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/hW2AvHIE9qA" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-              </iframe>
-          </div>
-          </div>
+          <div class="text-center text-xs">View more on the <a href="https://www.youtube.com/@TrainTheAlgo" class="text-gray-700" targert="_blank">TrainTheAlgo Youtube Channel</a>...</div>
       </section>
     
       <!-- Latest Posts Section -->
       <section id="latest-posts" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest News</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Post 1 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/post1.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-xl font-semibold text-white transition duration-300">
-                Post Title 1
-              </h3>
-              <p class="text-white text-sm mt-2">
-                Short description of the post...
-              </p>
+          <!-- Start Post -->
+          <a href="$link" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('$image');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-30 transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold text-black transition duration-300">
+                  $title
+                </h3>
+                <p class="text-black text-sm mt-2">
+                  $description
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Post 2 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/post2.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-xl font-semibold text-white transition duration-300">
-                Post Title 2
-              </h3>
-              <p class="text-white text-sm mt-2">
-                Short description of the post...
-              </p>
-            </div>
-          </div>
-          <!-- Post 3 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/post3.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-xl font-semibold text-white transition duration-300">
-                Post Title 3
-              </h3>
-              <p class="text-white text-sm mt-2">
-                Short description of the post...
-              </p>
-            </div>
-          </div>
+          </a>
+          <!-- End Post -->
         </div>
       </section>
 
@@ -458,7 +415,7 @@
         .catch(err => console.error('Error loading HTML:', err));
     }
   
-    loadHTML('#menu-placeholder', './menu.html');
-    loadHTML('#footer-placeholder', './footer.html');
+    loadHTML('#menu-placeholder', '/menu.html');
+    loadHTML('#footer-placeholder', '/footer.html');
   </script>
 </html>

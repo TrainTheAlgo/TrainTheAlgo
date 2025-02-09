@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TrainTheAlgo - Emerging Technology</title>
+    <title>$title</title>
+    <meta name="description" content="$description">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   </head>
   <body class="bg-gray-100 text-gray-800">
@@ -11,382 +12,24 @@
     <!-- Hero Section -->
     <header class="relative mt-16">
       <div class="relative h-96 overflow-hidden">
-        <video
+        <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="img/bkg-top.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+          src="$image"
+          alt="$title"
+        />
       </div>
       <div
-        class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center"
+        class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center text-center justify-center"
       >
-        <h1 class="text-4xl md:text-6xl text-white font-bold">
-          Welcome to TrainThe<span class="text-red-500">Algo</span>
+        <h1 class="text-2xl md:text-3xl text-white font-bold">
+          $title
         </h1>
-        <p class="mt-4 text-xl text-white">
-          Your Open Source Gateway To Emerging Technology
-        </p>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-
-      <!-- Latest Videos Section -->
-      <section id="latest-videos" class="my-8">
-          <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Videos</h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Video Card 1 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-              <iframe 
-              class="w-full h-full"
-              src="https://www.youtube.com/embed/Dqxz84iutDM" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-              </iframe>
-          </div>
-          <!-- Video Card 2 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-              <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/7HJXTgpFmqo" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-              </iframe>
-          </div>
-          <!-- Video Card 3 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-              <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/hW2AvHIE9qA" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-              </iframe>
-          </div>
-          </div>
-      </section>
-    
-      <!-- Latest Posts Section -->
-      <section id="latest-posts" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest News</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Post 1 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/post1.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-xl font-semibold text-white transition duration-300">
-                Post Title 1
-              </h3>
-              <p class="text-white text-sm mt-2">
-                Short description of the post...
-              </p>
-            </div>
-          </div>
-          <!-- Post 2 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/post2.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-xl font-semibold text-white transition duration-300">
-                Post Title 2
-              </h3>
-              <p class="text-white text-sm mt-2">
-                Short description of the post...
-              </p>
-            </div>
-          </div>
-          <!-- Post 3 -->
-          <div class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/post3.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-xl font-semibold text-white transition duration-300">
-                Post Title 3
-              </h3>
-              <p class="text-white text-sm mt-2">
-                Short description of the post...
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Tech Section -->
-      <section id="tech" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Tech</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- AI Card -->
-          <div id="ai" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/ai.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                AI
-              </h3>
-              <p class="text-white">
-                Explore the latest in artificial intelligence innovations and trends.
-              </p>
-            </div>
-          </div>
-          <!-- Apps Card -->
-          <div id="apps" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/apps.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Apps
-              </h3>
-              <p class="text-white">
-                Discover breakthrough applications and mobile tech that are shaping our future.
-              </p>
-            </div>
-          </div>
-          <!-- Vehicles Card -->
-          <div id="vehicles" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/vehicles.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Vehicles
-              </h3>
-              <p class="text-white">
-                Learn about smart vehicles and futuristic transportation solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-          <!-- Gaming Card -->
-          <div id="gaming" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/gaming.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Gaming
-              </h3>
-              <p class="text-white">
-                Dive into the world of gaming technology and immersive experiences.
-              </p>
-            </div>
-          </div>
-          <!-- Security Card -->
-          <div id="security" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/security.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Security
-              </h3>
-              <p class="text-white">
-                Stay updated on cybersecurity trends and measures that protect our digital lives.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Finance Section -->
-      <section id="finance" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Finance</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Markets Card -->
-          <div id="markets" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/markets.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Markets
-              </h3>
-              <p class="text-white">
-                Analyze trends in global markets with our expert insights.
-              </p>
-            </div>
-          </div>
-          <!-- Crypto Card -->
-          <div id="crypto" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/crypto.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Crypto
-              </h3>
-              <p class="text-white">
-                Uncover the latest in cryptocurrency and blockchain technology.
-              </p>
-            </div>
-          </div>
-          <!-- Business Card -->
-          <div id="business" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/business.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Business
-              </h3>
-              <p class="text-white">
-                Explore business strategies and tech-driven entrepreneurship.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Science Section -->
-      <section id="science" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Science</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Space Card -->
-          <div id="space" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/space.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Space
-              </h3>
-              <p class="text-white">
-                Discover the mysteries of the cosmos and advances in space exploration.
-              </p>
-            </div>
-          </div>
-          <!-- Climate Card -->
-          <div id="climate" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/climate.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Climate
-              </h3>
-              <p class="text-white">
-                Stay informed on climate research and sustainable innovations.
-              </p>
-            </div>
-          </div>
-          <!-- Physics Card -->
-          <div id="physics" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/physics.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Physics
-              </h3>
-              <p class="text-white">
-                Dive into the world of physics and groundbreaking scientific discoveries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Events Section -->
-      <section id="events" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Events</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <!-- Conferences Card -->
-          <div id="conferences" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/conferences.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Conferences
-              </h3>
-              <p class="text-white">
-                Get the latest details on tech conferences and live events.
-              </p>
-            </div>
-          </div>
-          <!-- Podcast Card -->
-          <div id="podcast" class="relative rounded shadow overflow-hidden h-48 group">
-            <div
-              class="absolute inset-0 bg-cover"
-              style="background-image: url('img/backgrounds/podcast.jpg');"
-            ></div>
-            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-            <div class="relative p-4">
-              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-                Podcast
-              </h3>
-              <p class="text-white">
-                Tune into our podcasts featuring industry experts and innovators.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- More Section -->
-      <section id="more" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">More</h2>
-        <!-- Reviews Card -->
-        <div id="reviews" class="relative rounded shadow overflow-hidden h-48 group">
-          <div
-            class="absolute inset-0 bg-cover"
-            style="background-image: url('img/backgrounds/reviews.jpg');"
-          ></div>
-          <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
-          <div class="relative p-4">
-            <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
-              Reviews
-            </h3>
-            <p class="text-white">
-              Read our detailed reviews on the latest tech products and services.
-            </p>
-          </div>
-        </div>
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      $content
     </main>
 
     <div id="footer-placeholder"></div>
@@ -402,7 +45,7 @@
         .catch(err => console.error('Error loading HTML:', err));
     }
   
-    loadHTML('#menu-placeholder', './menu.html');
-    loadHTML('#footer-placeholder', './footer.html');
+    loadHTML('#menu-placeholder', '/menu.html');
+    loadHTML('#footer-placeholder', '/footer.html');
   </script>
 </html>

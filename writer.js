@@ -11,7 +11,16 @@ writer.write = async (subject, background) => {
     const titles = await models.chatGPT(titlePrompt);
     const authorPrompt = prompts.author;
     authorPrompt[1].content = authorPrompt[1].content.replace('$subject', subject).replace('$background', background).replace('$titles', titles);
-    const htmlContent = await models.chatGPT(authorPrompt);
+    let htmlContent = await models.chatGPT(authorPrompt);
+    htmlContent = htmlContent
+      .replaceAll(`—`,`-`)
+      .replaceAll(`–`,`-`)
+      .replaceAll(`’`,`'`) 
+      .replaceAll(`“`,`"`)
+      .replaceAll(`”`,`"`)
+      .replaceAll(`…`,`...`)
+      .replaceAll(``,``)
+      .replace(/[^\x09\x0A\x0D\x20-\x7E\xA3\u20AC]/g, '');
     const regex = /(title|slug|description|image):\s*"([^"]+)"/g;
     const article = {};
     let match;
@@ -44,12 +53,14 @@ writer.write = async (subject, background) => {
       path: `${year}/${month}/`,
       date: new Date().toISOString()
     }
-    indexData.push(articleMetadata);
+    if (!indexData.some(item => item.slug === slug)) {
+      indexData.unshift(articleMetadata);
+    }
     fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2), 'utf8');
     console.log(`Index updated at ${indexPath}`);
     return articleMetadata;
   } catch (error) {
-    console.error('Error writer.js 51:', error.response ? error.response.data : error.message);
+    console.error('Error writer.js 63:', error.response ? error.response.data : error.message);
   }
 }
 
