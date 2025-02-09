@@ -21,12 +21,12 @@ writer.write = async (subject, background) => {
       .replaceAll(`…`,`...`)
       .replaceAll(``,``)
       .replace(/[^\x09\x0A\x0D\x20-\x7E\xA3\u20AC]/g, '');
-    const regex = /(title|slug|description|image):\s*"([^"]+)"/g;
+    const regex = /(title|slug|description|image|category):\s*"([^"]+)"/g;
     const article = {};
     let match;
     while ((match = regex.exec(htmlContent)) !== null) article[match[1]] = match[2];
-    const { title, slug, description, image } = article;
-    console.log({ title, slug, description, image });
+    const { title, slug, description, image, category } = article;
+    console.log({ title, slug, description, image, category });
 
     const now = new Date();
     const year = now.getFullYear().toString();
@@ -50,6 +50,7 @@ writer.write = async (subject, background) => {
       slug,
       description,
       image,
+      category,
       path: `${year}/${month}/`,
       date: new Date().toISOString()
     }
