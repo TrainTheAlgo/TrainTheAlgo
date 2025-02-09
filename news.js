@@ -5,6 +5,7 @@ require('dotenv').config();
 const models = require('./models.js');
 const prompts = require('./prompts.js');
 
+const indexPath = './content/index.json';
 const cookieFilePath = './.cookies.json';
 puppeteer.use(StealthPlugin());
 
@@ -69,7 +70,8 @@ news.find = async () => {
   await new Promise(resolve => setTimeout(resolve, 5000));
   const grokHTML = await page.content();
   const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
-  const data = fs.readFileSync('./content/index.json', 'utf8');
+  if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
+  const data = fs.readFileSync(indexPath, 'utf8');
   indexData = JSON.parse(data);
   const covered = indexData.map(a => a.title).join("\n").substr(0,1000);
   const extractPrompt = prompts.extractNews;

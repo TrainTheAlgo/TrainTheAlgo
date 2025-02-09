@@ -9,8 +9,6 @@ const baseUrl = 'https://trainthealgo.com';
 const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
 const index = JSON.parse(indexFile);
 
-const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
-const videos = JSON.parse(videosFile);
 
 const copyArticles = () => {
     const postTemplate = fs.readFileSync(`${template}/post.html`, 'utf-8');
@@ -37,6 +35,8 @@ const copyArticles = () => {
 
 const videoPages = () => {
     const videoTemplate = fs.readFileSync(`${template}/video.html`, 'utf-8');
+    const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
+    const videos = JSON.parse(videosFile);
     const distDirectory = `${dist}/videos/`;
     if (!fs.existsSync(distDirectory)) fs.mkdirSync(distDirectory, { recursive: true });
     for (const v of videos) {     
@@ -50,6 +50,8 @@ const videoPages = () => {
 
 const createHomePage = () => {
     const homePage = fs.readFileSync(`${template}/index.html`, 'utf-8');
+    const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
+    const videos = JSON.parse(videosFile);
     const sv = homePage.indexOf('<!-- Start Video -->');
     const ev = homePage.indexOf('<!-- End Video -->');
     const sp = homePage.indexOf('<!-- Start Post -->');
@@ -60,11 +62,11 @@ const createHomePage = () => {
     const post = homePage.slice(sp, ep);
     const end = homePage.slice(ep);
     let homeHTML = top;
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < Math.min(videos.length, 4); i++) {
         homeHTML += vid.replaceAll('$video', videos[i].id);
     }
     homeHTML += mid;
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < Math.min(index.length, 9); i++) {
         homeHTML += post
             .replaceAll('$title', index[i].title)
             .replaceAll('$description', index[i].description)
