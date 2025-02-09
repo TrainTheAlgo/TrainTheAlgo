@@ -33,7 +33,8 @@ async function pushChanges() {
     fs,
     http,
     dir: process.cwd(),
-    remote: 'https://github.com/TrainTheAlgo/TrainTheAlgo/',
+    remote: 'origin',
+    url: 'https://github.com/TrainTheAlgo/TrainTheAlgo/',
     ref: 'master',
     onAuth: () => ({
       username: 'TrainTheAlgo',
