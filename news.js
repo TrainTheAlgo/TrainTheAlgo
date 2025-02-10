@@ -38,7 +38,7 @@ const loginIfNeeded = async (page) => {
 
 news.find = async () => {
   let executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
-  executablePath = '/usr/bin/google-chrome-stable';
+  if (process.platform === 'linux') executablePath = '/usr/bin/google-chrome-stable';
   const browser = await puppeteer.launch({
     headless: false,
     executablePath,
