@@ -43,6 +43,11 @@ const init = async () => {
     await build.buildSite();
     await deploy.update();
   }
+  if (command == 'automate') {
+    await write();
+    await build.buildSite();
+    await deploy.update();
+  }
 }
 
 init();
