@@ -38,7 +38,7 @@ async function pushChanges() {
     ref: 'main',
     onAuth: () => ({
         oauth2format: 'github',
-        token: process.env.GITHUB_TOKEN,
+        token: process.env.GITHUB_OAUTH,
     }),
   });
   console.log('Push successful');
