@@ -149,6 +149,9 @@ build.createHomePage = () => {
 
 build.buildSitemap = () => {
   const urls = index.map(post => `${baseUrl}/${post.path}${post.slug}.html`);
+  const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
+  const videos = JSON.parse(videosFile);
+  for (const v of videos) urls.unshift(`${baseUrl}/videos/${v.id}.html`);
   sections.forEach((section) => {
     urls.unshift(`${baseUrl}/${section.toLowerCase()}.html`);
   });
