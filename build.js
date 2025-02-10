@@ -90,7 +90,7 @@ const createHomePage = () => {
     const mid1 = homePage.slice(ev, sp);
     const post = homePage.slice(sp, ep);
     const mid2 = homePage.slice(ep, sn);
-    const news = homePage.slice(sn, en);
+    let news = homePage.slice(sn, en);
     const end = homePage.slice(en);
     let homeHTML = top;
     for (let i = 0; i < Math.min(videos.length, 4); i++) {
@@ -127,12 +127,12 @@ const createHomePage = () => {
         finance: '<!-- Finance News -->',
         science: '<!-- Science News -->',
     };
-    console.log(newsBundles)
     for (const category in placeholders) {
         const linksHTML = newsBundles[category]
             .slice(0, 10).map(article => `<a href="${article.link}">${article.title}</a><br />`).join('');
-        homeHTML = homeHTML.replace(placeholders[category], linksHTML);
+        news = news.replace(placeholders[category], linksHTML);
     }
+    homeHTML += news;
     homeHTML += end;
     fs.writeFileSync(`${dist}/index.html`, homeHTML, 'utf-8');
     console.log(`${dist}/index.html`);
