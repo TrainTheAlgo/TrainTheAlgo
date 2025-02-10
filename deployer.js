@@ -1,5 +1,5 @@
 const git = require('isomorphic-git');
-const http = require('isomorphic-git/http/node'); 
+const http = require('isomorphic-git/http/node');
 const fs = require('fs');
 const process = require('process');
 require('dotenv').config();
@@ -34,11 +34,13 @@ async function pushChanges() {
     http,
     dir: process.cwd(),
     remote: 'origin',
+    // Ensure the URL includes ".git"
     url: 'https://github.com/TrainTheAlgo/TrainTheAlgo.git',
     ref: 'main',
     onAuth: () => ({
-        oauth2format: 'github',
-        token: process.env.GITHUB_OAUTH,
+      // For GitHub, the username can be a dummy value and the token is used as the password
+      username: 'x-access-token',
+      password: process.env.GITHUB_OAUTH,
     }),
   });
   console.log('Push successful');
