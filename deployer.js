@@ -34,7 +34,7 @@ async function pushChanges() {
     http,
     dir: process.cwd(),
     remote: 'origin',
-    url: 'https://github.com/TrainTheAlgo/TrainTheAlgo/',
+    url: 'https://github.com/TrainTheAlgo/TrainTheAlgo.git',
     ref: 'main',
     onAuth: () => ({
         oauth2format: 'github',
