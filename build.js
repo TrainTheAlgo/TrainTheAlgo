@@ -10,7 +10,6 @@ const baseUrl = 'https://trainthealgo.com';
 const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
 const index = JSON.parse(indexFile);
 
-
 const copyArticles = () => {
     const postTemplate = fs.readFileSync(`${template}/post.html`, 'utf-8');
     for (const post of index) {
@@ -33,6 +32,29 @@ const copyArticles = () => {
         }
     }
 };
+
+const createSections = () => {
+    const sections = ["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"];
+    const sectionTemplate = fs.readFileSync(`${template}/section.html`, 'utf-8');
+    const sp = sectionTemplate.indexOf('<!-- Start Post -->');
+    const ep = sectionTemplate.indexOf('<!-- End Post -->');
+    const top = sectionTemplate.slice(0, sp);
+    const post = sectionTemplate.slice(sp, ep);
+    const end = sectionTemplate.slice(ep);
+    sections.forEach((section) => {
+        let sectionHTML = top;
+        for (let i = 0; i < Math.min(index.length, 9); i++) {
+            if (index[i].category !== section) continue;
+            sectionHTML += post
+                .replaceAll('$title', index[i].title)
+                .replaceAll('$description', index[i].description)
+                .replaceAll('$image', `/${index[i].path}${index[i].image}`)
+                .replaceAll('$link', `/${index[i].path}${index[i].slug}.html`)
+        }
+        sectionHTML += end;
+        fs.writeFileSync(`${dist}/${section.toLowerCase()}.html`, sectionHTML, 'utf-8');
+    });
+}
 
 const videoPages = () => {
     const videoTemplate = fs.readFileSync(`${template}/video.html`, 'utf-8');
@@ -93,6 +115,7 @@ const buildSite = async () => {
     fs.cpSync(template, dist, { recursive: true });
     await video.fetch();
     copyArticles();
+    createSections();
     videoPages();
     createHomePage();
     buildSitemap();
