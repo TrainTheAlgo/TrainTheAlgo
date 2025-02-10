@@ -46,6 +46,7 @@ deploy.pushChanges = async () => {
     remote: 'origin',
     url: 'https://github.com/TrainTheAlgo/TrainTheAlgo.git',
     ref: 'main',
+    force: true,
     onAuth: () => ({
       username: 'x-access-token',
       password: process.env.GIT_OAUTH,
