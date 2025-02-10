@@ -127,6 +127,7 @@ const createHomePage = () => {
         finance: '<!-- Finance News -->',
         science: '<!-- Science News -->',
     };
+    console.log(newsBundles)
     for (const category in placeholders) {
         const linksHTML = newsBundles[category]
             .slice(0, 10).map(article => `<a href="${article.link}">${article.title}</a><br />`).join('');
