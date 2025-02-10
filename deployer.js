@@ -39,7 +39,7 @@ async function pushChanges() {
     ref: 'main',
     onAuth: () => ({
       // For GitHub, the username can be a dummy value and the token is used as the password
-      username: 'x-access-token',
+      username: 'TrainTheAlgo',
       password: process.env.GITHUB_OAUTH,
     }),
   });
