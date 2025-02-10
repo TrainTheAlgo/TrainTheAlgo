@@ -42,7 +42,10 @@ const createSections = () => {
     const post = sectionTemplate.slice(sp, ep);
     const end = sectionTemplate.slice(ep);
     sections.forEach((section) => {
-        let sectionHTML = top;
+        let sectionHTML = top
+            .replaceAll('$title', section)
+            .replaceAll('$description', `Latest ${section} News`)
+            .replaceAll('$image', `/img/backgrounds/${section.toLowerCase()}.jpg`);
         for (let i = 0; i < Math.min(index.length, 9); i++) {
             if (index[i].category !== section) continue;
             sectionHTML += post
