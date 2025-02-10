@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TrainTheAlgo - Emerging Technology</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   </head>
   <body class="bg-gray-100 text-gray-800">
     <div id="menu-placeholder"></div>
+    <!-- Hero Section -->
     <header class="relative mt-16">
       <div class="relative h-96 overflow-hidden">
         <video
@@ -20,13 +18,11 @@
           muted
           playsinline
         >
-          <source src="img/bkg-top.mp4" type="video/mp4" />
+          <source src="img/bkg-top.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
-      <div
-        class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center text-center justify-center"
-      >
+      <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center text-center justify-center">
         <h1 class="text-3xl md:text-4xl text-white font-bold">
           Welcome to TrainThe<span class="text-red-600">Algo</span>.com
         </h1>
@@ -35,81 +31,259 @@
         </p>
       </div>
     </header>
+
+    <!-- Main Content -->
     <main class="max-w-7xl mx-auto p-4 my-8">
+
+      <!-- Latest Videos Section -->
       <section id="latest-videos" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Videos</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="relative rounded shadow overflow-hidden h-64 group">
-            <div class="h-56">
-              <iframe
-                class="w-full h-full"
-                src="https://www.youtube.com/embed/$video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+          <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Videos</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Start Video -->
+            <div class="relative rounded shadow overflow-hidden h-64 group">
+              <div class="h-56">
+                <iframe 
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/Dqxz84iutDM" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="text-center"><a href="/videos/Dqxz84iutDM.html" class="text-xs text-black">View Full Screen</a></div>
+              
             </div>
-            <div class="text-center">
-              <a href="/videos/$video.html" class="text-xs text-black"
-                >View Full Screen</a
-              >
+            <!-- Start Video -->
+            <div class="relative rounded shadow overflow-hidden h-64 group">
+              <div class="h-56">
+                <iframe 
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/7HJXTgpFmqo" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="text-center"><a href="/videos/7HJXTgpFmqo.html" class="text-xs text-black">View Full Screen</a></div>
+              
             </div>
+            <!-- Start Video -->
+            <div class="relative rounded shadow overflow-hidden h-64 group">
+              <div class="h-56">
+                <iframe 
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/hW2AvHIE9qA" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="text-center"><a href="/videos/hW2AvHIE9qA.html" class="text-xs text-black">View Full Screen</a></div>
+              
+            </div>
+            <!-- Start Video -->
+            <div class="relative rounded shadow overflow-hidden h-64 group">
+              <div class="h-56">
+                <iframe 
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/P_-wIuNF3QI" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="text-center"><a href="/videos/P_-wIuNF3QI.html" class="text-xs text-black">View Full Screen</a></div>
+              
+            </div>
+            <!-- End Video -->
           </div>
-        </div>
-        <div class="text-center text-xs">
-          View more on the
-          <a
-            href="https://www.youtube.com/@TrainTheAlgo"
-            class="text-gray-700"
-            targert="_blank"
-            >TrainTheAlgo Youtube Channel</a
-          >...
-        </div>
+          <div class="text-center text-xs">View more on the <a href="https://www.youtube.com/@TrainTheAlgo" class="text-gray-700" targert="_blank">TrainTheAlgo Youtube Channel</a>...</div>
       </section>
+    
+      <!-- Latest Posts Section -->
       <section id="latest-posts" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest News</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <a href="$link" class="block">
+          <!-- Start Post -->
+          <a href="/2025/02/oxford-quantum-teleportation-secure-networks.html" class="block">
             <div class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
-                style="background-image: url('$image');"
+                style="background-image: url('/2025/02/oxford-quantum-teleportation.png');"
               ></div>
-              <div
-                class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-xl font-semibold transition duration-300 group-hover:text-white"
-                >
-                  $title
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  Oxford's Quantum Teleportation Breakthrough: A Step Toward Secure Networks
                 </h3>
-                <p
-                  class="text-sm mt-2 transition duration-300 group-hover:text-white"
-                >
-                  $description
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  Oxford University has achieved a major breakthrough in quantum teleportation, paving the way for ultra-secure quantum networks and the future of encryption.
                 </p>
               </div>
             </div>
           </a>
+          <!-- Start Post -->
+          <a href="/2025/02/france-109b-ai-bet.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/france-109b-ai-bet.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  France's €109B AI Bet: Can It Compete With The U.S. And China?
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  France is making a bold move with a €109 billion AI investment. Can it challenge the dominance of the U.S. and China in the global AI race?
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/macron-ai-investment.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/macron-ai-investment.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  Macron's €109 Billion AI Plan: Will It Make France a Tech Superpower?
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  Emmanuel Macron has announced a historic €109 billion investment in AI. Can this bold move position France as a global leader in artificial intelligence?
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/sam-altman-ai-future-agi.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/sam-altman-ai-future-agi.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  Sam Altman's Bold Predictions On AI's Future And AGI
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  Sam Altman shares his vision for AI's future, the path to AGI, and how artificial intelligence will reshape humanity.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/china-15-percent-tariffs-us-energy-cars.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/china-15-percent-tariffs.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  China Hits US With 15% Tariffs On Energy And Cars - What It Means
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  China has imposed 15% tariffs on US energy and vehicles in retaliation. What does this mean for global trade, the US economy, and consumers?
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/musk-malema-whiteness-remarks.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/musk-malema-whiteness-remarks.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  Elon Musk Calls for Julius Malema's Sanction Over Whiteness' Remarks
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  Elon Musk has called for sanctions against Julius Malema over controversial whiteness' comments. The debate has ignited discussions on free speech, racism, and political accountability.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/iphone-se-4-release-date-price-features.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/iphone-se-4.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  iPhone SE 4 Release Date, Price & Features Revealed
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  Apple's iPhone SE 4 is set to redefine budget smartphones with major upgrades. Here's everything you need to know about its release date, price, and features.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/dci-kenya-x-account-hacked.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/dci-kenya-x-account-hacked.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  DCI Kenya's X Account Hacked-Used for Crypto Scam!
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  DCI Kenya's official X account was hacked and used to promote a crypto scam. How did this happen, and what does it mean for cybersecurity?
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Start Post -->
+          <a href="/2025/02/solomon-islands-earthquake.html" class="block">
+            <div class="relative rounded shadow overflow-hidden h-48 group">
+              <div
+                class="absolute inset-0 bg-cover"
+                style="background-image: url('/2025/02/solomon-islands-earthquake.png');"
+              ></div>
+              <div class="absolute inset-0 bg-white cursor-pointer opacity-90 group-hover:opacity-50 group-hover:bg-black transition duration-300"></div>
+              <div class="relative p-4">
+                <h3 class="text-xl font-semibold transition duration-300 group-hover:text-white">
+                  Powerful Earthquake Strikes Solomon Islands - What We Know So Far
+                </h3>
+                <p class="text-sm mt-2  transition duration-300 group-hover:text-white">
+                  A powerful earthquake has struck the Solomon Islands, triggering tsunami warnings and widespread concern. Here's what we know so far about the magnitude, damage, and emergency response.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- End Post -->
         </div>
       </section>
+
+      <!-- Tech Section -->
       <section id="tech" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">Tech</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- AI Card -->
           <a href="/ai.html" class="block">
             <div id="ai" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/ai.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   AI
                 </h3>
                 <p class="text-white">
@@ -118,22 +292,16 @@
               </div>
             </div>
           </a>
+          <!-- Software Card -->
           <a href="/software.html" class="block">
-            <div
-              id="software"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="software" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/software.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Software
                 </h3>
                 <p class="text-white">
@@ -142,22 +310,16 @@
               </div>
             </div>
           </a>
+          <!-- Vehicles Card -->
           <a href="/vehicles.html" class="block">
-            <div
-              id="vehicles"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="vehicles" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/vehicles.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Vehicles
                 </h3>
                 <p class="text-white">
@@ -168,22 +330,16 @@
           </a>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+          <!-- Gaming Card -->
           <a href="/gaming.html" class="block">
-            <div
-              id="gaming"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="gaming" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/gaming.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Gaming
                 </h3>
                 <p class="text-white">
@@ -192,22 +348,16 @@
               </div>
             </div>
           </a>
+          <!-- Security Card -->
           <a href="/security.html" class="block">
-            <div
-              id="security"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="security" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/security.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Security
                 </h3>
                 <p class="text-white">
@@ -218,25 +368,21 @@
           </a>
         </div>
       </section>
+
+      <!-- World Section -->
       <section id="world" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">World</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Politics Card -->
           <a href="/politics.html" class="block">
-            <div
-              id="politics"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="politics" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/politics.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Politics
                 </h3>
                 <p class="text-white">
@@ -245,22 +391,16 @@
               </div>
             </div>
           </a>
+          <!-- Sport Card -->
           <a href="/sport.html" class="block">
-            <div
-              id="sport"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="sport" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/sport.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Sport
                 </h3>
                 <p class="text-white">
@@ -269,22 +409,16 @@
               </div>
             </div>
           </a>
+          <!-- Lifestyle Card -->
           <a href="/lifestyle.html" class="block">
-            <div
-              id="lifestyle"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="lifestyle" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/lifestyle.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Lifestyle
                 </h3>
                 <p class="text-white">
@@ -295,25 +429,22 @@
           </a>
         </div>
       </section>
+
+
+      <!-- Finance Section -->
       <section id="finance" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">Finance</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Markets Card -->
           <a href="/markets.html" class="block">
-            <div
-              id="markets"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="markets" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/markets.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Markets
                 </h3>
                 <p class="text-white">
@@ -322,22 +453,16 @@
               </div>
             </div>
           </a>
+          <!-- Crypto Card -->
           <a href="/crypto.html" class="block">
-            <div
-              id="crypto"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="crypto" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/crypto.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Crypto
                 </h3>
                 <p class="text-white">
@@ -346,22 +471,16 @@
               </div>
             </div>
           </a>
+          <!-- Business Card -->
           <a href="/business.html" class="block">
-            <div
-              id="business"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="business" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/business.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Business
                 </h3>
                 <p class="text-white">
@@ -372,25 +491,21 @@
           </a>
         </div>
       </section>
+
+      <!-- Science Section -->
       <section id="science" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">Science</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Space Card -->
           <a href="/space.html" class="block">
-            <div
-              id="space"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="space" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/space.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Space
                 </h3>
                 <p class="text-white">
@@ -399,22 +514,16 @@
               </div>
             </div>
           </a>
+          <!-- Climate Card -->
           <a href="/climate.html" class="block">
-            <div
-              id="climate"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="climate" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/climate.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Climate
                 </h3>
                 <p class="text-white">
@@ -423,22 +532,16 @@
               </div>
             </div>
           </a>
+          <!-- Physics Card -->
           <a href="/physics.html" class="block">
-            <div
-              id="physics"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="physics" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/physics.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Physics
                 </h3>
                 <p class="text-white">
@@ -449,25 +552,21 @@
           </a>
         </div>
       </section>
+
+      <!-- Events Section -->
       <section id="events" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">Events</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Conferences Card -->
           <a href="/conferences.html" class="block">
-            <div
-              id="conferences"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="conferences" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/conferences.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Conferences
                 </h3>
                 <p class="text-white">
@@ -476,22 +575,16 @@
               </div>
             </div>
           </a>
+          <!-- Podcast Card -->
           <a href="/podcast.html" class="block">
-            <div
-              id="podcast"
-              class="relative rounded shadow overflow-hidden h-48 group"
-            >
+            <div id="podcast" class="relative rounded shadow overflow-hidden h-48 group">
               <div
                 class="absolute inset-0 bg-cover"
                 style="background-image: url('img/backgrounds/podcast.jpg');"
               ></div>
-              <div
-                class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-              ></div>
+              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
               <div class="relative p-4">
-                <h3
-                  class="text-2xl font-semibold mb-2 text-white transition duration-300"
-                >
+                <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                   Podcast
                 </h3>
                 <p class="text-white">
@@ -502,24 +595,20 @@
           </a>
         </div>
       </section>
+
+      <!-- More Section -->
       <section id="more" class="my-8">
         <h2 class="text-3xl font-bold border-b pb-2 mb-4">More</h2>
+        <!-- Reviews Card -->
         <a href="/reviews.html" class="block">
-          <div
-            id="reviews"
-            class="relative rounded shadow overflow-hidden h-48 group"
-          >
+          <div id="reviews" class="relative rounded shadow overflow-hidden h-48 group">
             <div
               class="absolute inset-0 bg-cover"
               style="background-image: url('img/backgrounds/reviews.jpg');"
             ></div>
-            <div
-              class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"
-            ></div>
+            <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 transition duration-300"></div>
             <div class="relative p-4">
-              <h3
-                class="text-2xl font-semibold mb-2 text-white transition duration-300"
-              >
+              <h3 class="text-2xl font-semibold mb-2 text-white transition duration-300">
                 Reviews
               </h3>
               <p class="text-white">
@@ -530,18 +619,21 @@
         </a>
       </section>
     </main>
+
     <div id="footer-placeholder"></div>
-    <script>
-      function loadHTML(selector, url) {
-        fetch(url)
-          .then((response) => response.text())
-          .then((data) => {
-            document.querySelector(selector).innerHTML = data;
-          })
-          .catch((err) => console.error("Error loading HTML:", err));
-      }
-      loadHTML("#menu-placeholder", "/menu.html");
-      loadHTML("#footer-placeholder", "/footer.html");
-    </script>
   </body>
+  <script>
+    // Function to load external HTML into an element
+    function loadHTML(selector, url) {
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          document.querySelector(selector).innerHTML = data;
+        })
+        .catch(err => console.error('Error loading HTML:', err));
+    }
+  
+    loadHTML('#menu-placeholder', '/menu.html');
+    loadHTML('#footer-placeholder', '/footer.html');
+  </script>
 </html>
