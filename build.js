@@ -83,22 +83,54 @@ const createHomePage = () => {
     const ev = homePage.indexOf('<!-- End Video -->');
     const sp = homePage.indexOf('<!-- Start Post -->');
     const ep = homePage.indexOf('<!-- End Post -->');
+    const sn = homePage.indexOf('<!-- Start News -->');
+    const en = homePage.indexOf('<!-- End News -->');
     const top = homePage.slice(0, sv);
     const vid = homePage.slice(sv, ev);
-    const mid = homePage.slice(ev, sp);
+    const mid1 = homePage.slice(ev, sp);
     const post = homePage.slice(sp, ep);
-    const end = homePage.slice(ep);
+    const mid2 = homePage.slice(ep, sn);
+    const news = homePage.slice(sn, en);
+    const end = homePage.slice(en);
     let homeHTML = top;
     for (let i = 0; i < Math.min(videos.length, 4); i++) {
         homeHTML += vid.replaceAll('$video', videos[i].id);
     }
-    homeHTML += mid;
+    homeHTML += mid1;
     for (let i = 0; i < Math.min(index.length, 9); i++) {
         homeHTML += post
             .replaceAll('$title', index[i].title)
             .replaceAll('$description', index[i].description)
             .replaceAll('$image', `/${index[i].path}${index[i].image}`)
             .replaceAll('$link', `/${index[i].path}${index[i].slug}.html`)
+    }
+    homeHTML += mid2;
+    newsBundles = {
+        tech: [],
+        world: [],
+        finance: [],
+        science: [],
+    };
+    for (let i = 0; i < index.length; i++) {
+        if (["AI", "Software", "Vehicles", "Gaming", "Security"].includes(index[i].category))
+            newsBundles.tech.push(index[i]);
+        if (["Politics", "Lifestyle", "Sport"].includes(index[i].category))
+            newsBundles.world.push(index[i]);
+        if (["Markets", "Crypto", "Business"].includes(index[i].category))
+            newsBundles.finance.push(index[i]);
+        if (["Space", "Climate", "Physics"].includes(index[i].category))
+            newsBundles.science.push(index[i]);
+    }
+    const placeholders = {
+        tech: '<!-- Tech News -->',
+        world: '<!-- World News -->',
+        finance: '<!-- Finance News -->',
+        science: '<!-- Science News -->',
+    };
+    for (const category in placeholders) {
+        const linksHTML = newsBundles[category]
+            .slice(0, 10).map(article => `<a href="${article.link}">${article.title}</a><br />`).join('');
+        homeHTML = homeHTML.replace(placeholders[category], linksHTML);
     }
     homeHTML += end;
     fs.writeFileSync(`${dist}/index.html`, homeHTML, 'utf-8');
