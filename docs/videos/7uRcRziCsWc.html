@@ -42,7 +42,160 @@ If you’re curious about the future of AI, this video breaks down the possibili
     </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
-    <div id="menu-placeholder"></div>
+    <style>
+    /* Simple checkbox hack for mobile menu toggling */
+    #menu-toggle:checked ~ #mobile-menu {
+      display: block;
+    }
+</style>
+<!-- Hidden checkbox for mobile menu toggling -->
+<input type="checkbox" id="menu-toggle" class="hidden" />
+
+<!-- Navigation Bar -->
+<nav class="bg-black text-white fixed top-0 inset-x-0 z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <!-- Brand: logo image -->
+      <div class="flex-shrink-0">
+        <a href="/">
+          <img src="/img/logo_white.svg" alt="TrainTheAlgo logo" class="h-16" />
+        </a>
+      </div>
+      <!-- Mobile menu button (visible on small screens) -->
+      <div class="md:hidden">
+        <label for="menu-toggle" class="cursor-pointer">
+          <img src="/img/hamburger.svg" alt="menu" class="h-12" />
+        </label>
+      </div>
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-4">
+        <!-- Tech Dropdown -->
+        <div class="relative group">
+          <a href="/#tech">
+            <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+              Tech
+            </button>
+          </a>
+          <div
+            class="absolute left-0 bg-black opacity-70 text-xs rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="/ai.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">AI</a>
+            <a href="/software.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Apps</a>
+            <a href="/vehicles.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Vehicles</a>
+            <a href="/gaming.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Gaming</a>
+            <a href="/security.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Security</a>
+          </div>
+        </div>
+        <!-- World Dropdown -->
+        <div class="relative group">
+          <a href="/#world">
+            <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+              World
+            </button>
+          </a>
+          <div
+            class="absolute left-0 bg-black opacity-70 text-xs rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="/politics.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Politics</a>
+            <a href="/sport.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Sport</a>
+            <a href="/lifestyle.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Lifestyle</a>
+          </div>
+        </div>
+        <!-- Finance Dropdown -->
+        <div class="relative group">
+          <a href="/#finance">
+            <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+              Finance
+            </button>
+          </a>
+          <div
+            class="absolute left-0 bg-black opacity-70 text-xs rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="/markets.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Markets</a>
+            <a href="/crypto.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Crypto</a>
+            <a href="/business.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Business</a>
+          </div>
+        </div>
+        <!-- Science Dropdown -->
+        <div class="relative group">
+          <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center">
+            Science
+          </button>
+          <div
+            class="absolute left-0 bg-black opacity-70 text-xs rounded shadow-lg hidden group-hover:block"
+          >
+            <a href="/space.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Space</a>
+            <a href="/climate.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Climate</a>
+            <a href="/physics.html" class="block px-3 py-2 hover:bg-gray-700 whitespace-no-wrap">Physics</a>
+          </div>
+        </div>
+        <!-- X -->
+        <div class="relative">
+          <a href="https://www.x.com/TrainTheAlgo" target="_blank">
+            <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center pointer">
+              X
+            </button>
+          </a>
+        </div>
+        <!-- Youtube -->
+        <div class="relative">
+          <a href="https://www.youtube.com/@TrainTheAlgo" target="_blank">
+            <button class="py-2 px-3 hover:bg-gray-700 rounded inline-flex items-center pointer">
+              YouTube
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu (visible when checkbox is checked) -->
+<div class="hidden md:hidden" id="mobile-menu">
+  <div class="bg-black text-white px-2 pt-2 pb-3 space-y-1 pt-20">
+    <!-- Tech Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Tech</span>
+      <a href="/ai.html" class="block pl-6 py-1 hover:bg-gray-700">AI</a>
+      <a href="/software.html" class="block pl-6 py-1 hover:bg-gray-700">Apps</a>
+      <a href="/vehicles.html" class="block pl-6 py-1 hover:bg-gray-700">Vehicles</a>
+      <a href="/gaming.html" class="block pl-6 py-1 hover:bg-gray-700">Gaming</a>
+      <a href="/security.html" class="block pl-6 py-1 hover:bg-gray-700">Security</a>
+    </div>
+    <!-- World Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">World</span>
+      <a href="/politics.html" class="block pl-6 py-1 hover:bg-gray-700">Politics</a>
+      <a href="/sport.html" class="block pl-6 py-1 hover:bg-gray-700">Sport</a>
+      <a href="/lifestyle.html" class="block pl-6 py-1 hover:bg-gray-700">Lifestyle</a>
+    </div>
+    <!-- Finance Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Finance</span>
+      <a href="/markets.html" class="block pl-6 py-1 hover:bg-gray-700">Markets</a>
+      <a href="/crypto.html" class="block pl-6 py-1 hover:bg-gray-700">Crypto</a>
+      <a href="/business.html" class="block pl-6 py-1 hover:bg-gray-700">Business</a>
+    </div>
+    <!-- Science Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Science</span>
+      <a href="/space.html" class="block pl-6 py-1 hover:bg-gray-700">Space</a>
+      <a href="/climate.html" class="block pl-6 py-1 hover:bg-gray-700">Climate</a>
+      <a href="/physics.html" class="block pl-6 py-1 hover:bg-gray-700">Physics</a>
+    </div>
+    <!-- Events Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">Events</span>
+      <a href="/conferences.html" class="block pl-6 py-1 hover:bg-gray-700">Conferences</a>
+      <a href="/podcast.html" class="block pl-6 py-1 hover:bg-gray-700">Podcast</a>
+    </div>
+    <!-- More Section -->
+    <div>
+      <span class="block px-3 py-2 font-semibold">More</span>
+      <a href="/reviews.html" class="block pl-6 py-1 hover:bg-gray-700">Reviews</a>
+    </div>
+  </div>
+</div>
 
     <!-- Main Content -->
     <main class="px-4 py-8">
@@ -81,18 +234,10 @@ If you’re curious about the future of AI, this video breaks down the possibili
       </div>
     </main>
 
-    <div id="footer-placeholder"></div>
-    <script>
-      function loadHTML(selector, url) {
-        fetch(url)
-          .then((response) => response.text())
-          .then((data) => {
-            document.querySelector(selector).innerHTML = data;
-          })
-          .catch((err) => console.error("Error loading HTML:", err));
-      }
-      loadHTML("#menu-placeholder", "/menu.html");
-      loadHTML("#footer-placeholder", "/footer.html");
-    </script>
+  <footer class="bg-black text-white py-4">
+    <div class="max-w-7xl mx-auto text-center">
+    <p>&copy; 2025 TrainTheAlgo. All Rights Reserved.</p>
+    </div>
+</footer>
   </body>
 </html>

@@ -22,7 +22,8 @@
     </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
-    <div id="menu-placeholder"></div>
+    <!-- Menu -->
+     
     <!-- Hero Section -->
     <header class="relative mt-16">
       <div class="relative h-96 overflow-hidden">
@@ -46,19 +47,6 @@
       $content
     </main>
 
-    <div id="footer-placeholder"></div>
+    <!-- Footer -->
   </body>
-  <script>
-    function loadHTML(selector, url) {
-      fetch(url)
-        .then(response => response.text())
-        .then(data => {
-          document.querySelector(selector).innerHTML = data;
-        })
-        .catch(err => console.error('Error loading HTML:', err));
-    }
-  
-    loadHTML('#menu-placeholder', '/menu.html');
-    loadHTML('#footer-placeholder', '/footer.html');
-  </script>
 </html>

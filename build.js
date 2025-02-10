@@ -8,6 +8,8 @@ const template = './template';
 const baseUrl = 'https://trainthealgo.com';
 const sections = ["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"];
 
+const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
+const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
   
 const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
 const index = JSON.parse(indexFile);
@@ -21,6 +23,8 @@ const copyArticles = () => {
         if (!fs.existsSync(distDirectory)) fs.mkdirSync(distDirectory, { recursive: true });
         const postContent = fs.readFileSync(file, 'utf-8');
         const postHTML = postTemplate
+            .replace('<!-- Menu -->', menu)
+            .replace('<!-- Footer -->', footer)
             .replaceAll('$title', post.title)
             .replaceAll('$description', post.description)
             .replaceAll('$image', post.image)
@@ -39,9 +43,9 @@ const createSections = () => {
     const sectionTemplate = fs.readFileSync(`${template}/section.html`, 'utf-8');
     const sp = sectionTemplate.indexOf('<!-- Start Post -->');
     const ep = sectionTemplate.indexOf('<!-- End Post -->');
-    const top = sectionTemplate.slice(0, sp);
+    const top = sectionTemplate.slice(0, sp).replace('<!-- Menu -->', menu);
     const post = sectionTemplate.slice(sp, ep);
-    const end = sectionTemplate.slice(ep);
+    const end = sectionTemplate.slice(ep).replace('<!-- Footer -->', footer);
     sections.forEach((section) => {
         let sectionHTML = top
             .replaceAll('$title', section)
@@ -68,6 +72,8 @@ const videoPages = () => {
     if (!fs.existsSync(distDirectory)) fs.mkdirSync(distDirectory, { recursive: true });
     for (const v of videos) {     
         const videoHTML = videoTemplate
+            .replace('<!-- Menu -->', menu)
+            .replace('<!-- Footer -->', footer)
             .replaceAll('$title', v.title)
             .replaceAll('$description', v.description)
             .replaceAll('$video', v.id)
@@ -85,13 +91,13 @@ const createHomePage = () => {
     const ep = homePage.indexOf('<!-- End Post -->');
     const sn = homePage.indexOf('<!-- Start News -->');
     const en = homePage.indexOf('<!-- End News -->');
-    const top = homePage.slice(0, sv);
+    const top = homePage.slice(0, sv).replace('<!-- Menu -->', menu);
     const vid = homePage.slice(sv, ev);
     const mid1 = homePage.slice(ev, sp);
     const post = homePage.slice(sp, ep);
     const mid2 = homePage.slice(ep, sn);
     let news = homePage.slice(sn, en);
-    const end = homePage.slice(en);
+    const end = homePage.slice(en).replace('<!-- Footer -->', footer);
     let homeHTML = top;
     for (let i = 0; i < Math.min(videos.length, 4); i++) {
         homeHTML += vid.replaceAll('$video', videos[i].id);
