@@ -1,5 +1,15 @@
 [
   {
+    "title": "OpenAI Takes On Nvidia With Its Own AI Chip - Here's What We Know",
+    "slug": "openai-ai-chip-development",
+    "description": "OpenAI is developing its own AI chip to reduce reliance on Nvidia. Here's what we know about its design, manufacturing plans, and potential impact on the AI hardware market.",
+    "image": "openai-ai-chip.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-10T19:34:01.922Z"
+  },
+  {
     "title": "OpenAI's Custom AI Chip: A Bold Move To Cut Nvidia Dependence",
     "slug": "openai-custom-ai-chip-nvidia-dependence",
     "description": "OpenAI is developing a custom AI chip with TSMC to reduce reliance on Nvidia. This move could reshape the AI hardware landscape and challenge Nvidia's dominance.",

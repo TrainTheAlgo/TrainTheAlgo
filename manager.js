@@ -44,9 +44,13 @@ const init = async () => {
     await deploy.update();
   }
   if (command == 'automate') {
-    await write();
-    await build.buildSite();
-    await deploy.update();
+    for (let i = 0; i < 1e18; i++) {
+      await write();
+      await build.buildSite();
+      await deploy.update();
+      console.log(`Completed automation: ${1}`);
+      await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));
+    }
   }
 }
 
