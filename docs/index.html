@@ -625,29 +625,13 @@
   <script>
     // Function to load external HTML into an element
     function loadHTML(selector, url) {
-        fetch(url)
-          .then(response => response.text())
-          .then(data => {
-            const container = document.querySelector(selector);
-            container.innerHTML = data;
-            // Find any script tags that came in with the loaded HTML…
-            const scripts = container.querySelectorAll("script");
-            scripts.forEach(oldScript => {
-              const newScript = document.createElement("script");
-              // If the script has a src attribute, copy it
-              if (oldScript.src) {
-                newScript.src = oldScript.src;
-              } else {
-                newScript.textContent = oldScript.textContent;
-              }
-              // Append the new script to the body (or to container, if you prefer)
-              document.body.appendChild(newScript);
-              // Remove the original script tag
-              oldScript.remove();
-            });
-          })
-          .catch(err => console.error('Error loading HTML:', err));
-      }
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          document.querySelector(selector).innerHTML = data;
+        })
+        .catch(err => console.error('Error loading HTML:', err));
+    }
   
     loadHTML('#menu-placeholder', '/menu.html');
     loadHTML('#footer-placeholder', '/footer.html');
