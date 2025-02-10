@@ -78,8 +78,8 @@
         document.getElementById('hero-title').innerText = formattedCategory + ' Posts';
         document.getElementById('section-heading').innerText = formattedCategory + ' Posts';
 
-        // Fetch the posts data from /content/index.json
-        fetch('/content/index.json')
+        // Fetch the posts data from /index.json
+        fetch('/index.json')
           .then(response => response.json())
           .then(data => {
             // Filter the posts by category (case-insensitive comparison)
