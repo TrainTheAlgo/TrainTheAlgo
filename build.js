@@ -130,7 +130,7 @@ const createHomePage = () => {
     for (const category in placeholders) {
         const linksHTML = newsBundles[category]
             .slice(0, 10)
-            .map(article => `<a href="/${article.path}${article.slug}.html"><div class="text-sm py-8 rounded hover:bg-gray-100 transition-colors duration-300">${article.title}</div></a>`)
+            .map(article => `<a href="/${article.path}${article.slug}.html"><div class="text-sm py-4 my-2 rounded bg-white hover:bg-gray-100">${article.title}</div></a>`)
             .join('');
         news = news.replace(placeholders[category], linksHTML);
     }
