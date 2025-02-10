@@ -37,9 +37,11 @@ const loginIfNeeded = async (page) => {
 }
 
 news.find = async () => {
+  let executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+  executablePath = '/usr/bin/google-chrome-stable';
   const browser = await puppeteer.launch({
     headless: false,
-    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    executablePath,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
