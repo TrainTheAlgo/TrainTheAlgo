@@ -37,10 +37,8 @@ async function pushChanges() {
     url: 'https://github.com/TrainTheAlgo/TrainTheAlgo/',
     ref: 'main',
     onAuth: () => ({
-      username: 'Anon',
-      publicKey: process.env.SSH_PUBLIC_KEY,
-      privateKey: process.env.SSH_PRIVATE_KEY,
-      passphrase: undefined,
+        oauth2format: 'github',
+        token: process.env.GITHUB_TOKEN,
     }),
   });
   console.log('Push successful');
