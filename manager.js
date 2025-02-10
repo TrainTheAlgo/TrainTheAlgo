@@ -45,10 +45,14 @@ const init = async () => {
   }
   if (command == 'automate') {
     for (let i = 0; i < 1e18; i++) {
-      await write();
-      await build.buildSite();
-      await deploy.update();
-      console.log(`Completed automation: ${1}`);
+      try {
+        await write();
+        await build.buildSite();
+        await deploy.update();
+        console.log(`Completed automation: ${i}`);
+      } catch (err) {
+        console.log(`automation error`, err)
+      }
       await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));
     }
   }
