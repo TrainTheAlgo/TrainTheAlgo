@@ -1,5 +1,6 @@
 const fs = require('fs');
 const video = require('./video.js');
+const deployer = require('./deployer.js');
 
 const content = './content';
 const dist = './docs';
@@ -95,6 +96,7 @@ const buildSite = async () => {
     videoPages();
     createHomePage();
     buildSitemap();
+    await deployer.update();
     console.log('Site built successfully!');
 };
 
