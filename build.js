@@ -6,6 +6,8 @@ const content = './content';
 const dist = './docs';
 const template = './template';
 const baseUrl = 'https://trainthealgo.com';
+const sections = ["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"];
+
   
 const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
 const index = JSON.parse(indexFile);
@@ -34,7 +36,6 @@ const copyArticles = () => {
 };
 
 const createSections = () => {
-    const sections = ["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"];
     const sectionTemplate = fs.readFileSync(`${template}/section.html`, 'utf-8');
     const sp = sectionTemplate.indexOf('<!-- Start Post -->');
     const ep = sectionTemplate.indexOf('<!-- End Post -->');
@@ -106,6 +107,9 @@ const createHomePage = () => {
 
 const buildSitemap = () => {
     const urls = index.map(post => `${baseUrl}/${post.path}${post.slug}.html`);
+    sections.forEach((section) => {
+        urls.unshift(`${baseUrl}/${section.toLowerCase()}.html`);
+    });
     urls.unshift(`${baseUrl}`);
     const sitemapContent = urls.join('\n');
     fs.writeFileSync(`${dist}/sitemap.txt`, sitemapContent, 'utf-8');
