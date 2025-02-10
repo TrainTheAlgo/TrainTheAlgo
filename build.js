@@ -82,6 +82,21 @@ build.videoPages = () => {
   }
 };
 
+build.additionalPages = () => {
+  const about = fs.readFileSync(`${template}/about.html`, 'utf-8')
+    .replace('<!-- Menu -->', menu)
+    .replace('<!-- Footer -->', footer)
+  fs.writeFileSync(`${dist}/about.html`, about, 'utf-8');
+  const partners = fs.readFileSync(`${template}/partners.html`, 'utf-8')
+    .replace('<!-- Menu -->', menu)
+    .replace('<!-- Footer -->', footer)
+  fs.writeFileSync(`${dist}/partners.html`, partners, 'utf-8');
+  const ethics = fs.readFileSync(`${template}/ethics.html`, 'utf-8')
+    .replace('<!-- Menu -->', menu)
+    .replace('<!-- Footer -->', footer)
+  fs.writeFileSync(`${dist}/ethics.html`, ethics, 'utf-8');
+};
+
 build.createHomePage = () => {
   const homePage = fs.readFileSync(`${template}/index.html`, 'utf-8');
   const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
@@ -169,6 +184,7 @@ build.buildSite = async () => {
   build.copyArticles();
   build.createSections();
   build.videoPages();
+  build.additionalPages();
   build.createHomePage();
   build.buildSitemap();
   console.log('Site built successfully!');
