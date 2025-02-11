@@ -4,7 +4,9 @@ const prompts = require('./prompts.js');
 
 const indexPath = './content/index.json';
 
-const questions = [
+const questions = {}
+
+questions.big = [
     {q: "Is privacy obsolete in a world of constant surveillance capitalism?", c: "Security"},
     {q: "How long will it take to create games that are indistinguishable from reality?", c: "Gaming"},
     {q: "Is human intuition still valuable in an age of data-driven decision-making?", c: "Lifestyle"},
@@ -86,7 +88,7 @@ const questions = [
     {q: "How will AI tutors disrupt education and what will be the first signs of adoption?", c: "AI"},
     {q: "What happens when virtual reality becomes more fulfilling than physical reality?", c: "Gaming"},
     {q: "What will be the biggest breakthroughs in physics over the next decade?", c: "Physics"},
-    {q: "How will humans maintain their sense of purpose when AI can perform most jobs better than they can?", c: "AI"},
+    {q: "How can humans maintain our sense of purpose when AI can perform most jobs better than they can?", c: "AI"},
     {q: "Could AI achieve consciousness but choose to hide it from humanity?", c: "AI"},
     {q: "What sectors are likely to home the first trillion-dollar company?", c: "Markets"},
     {q: "How close are we to a national financial system powered entirely by blockchain?", c: "Crypto"},
@@ -105,6 +107,7 @@ const questions = [
     {q: "What happens when games can perfectly simulate human relationships?", c: "Gaming"},
     {q: "Could dreams be glimpses into a parallel universe?", c: "Physics"},
     {q: "Could AI develop new laws of physics that humans can't comprehend?", c: "AI"},
+    {q: "Could human level understanding cap the potential for artificial super intelligence if it is being trained on our data", c: "AI"},
     {q: "Could consciousness be a fundamental physical property of the universe, like gravity or electromagnetism?", c: "Physics"},
     {q: "Could we ever trust AI to make better political decisions than human leaders?", c: "Politics"},
     {q: "Will cash or paper money still exist in twenty years' time?", c: "Crypto"},
@@ -132,6 +135,16 @@ const questions = [
     {q: "How would the ability to record and replay memories change human relationships?", c: "Technology"}
 ];
 
-const dupePrompt = prompts.removeDuplicateStories;
-  dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
-  const deduped = await models.deepseek(dupePrompt);
+// you can pass in a question or it will select one randomly from above
+// note categories are ignored for time being, writer.js will figure that out
+questions.answer = async (question=false) => {
+    if (!question) question = questions.big[Math.floor(Math.random() * questions.big.length)].q;
+    const researchPrompt = prompts.researchAssistant;
+    researchPrompt[1].content = researchPrompt[1].content.replace('$question', question);
+    console.log('Question:', question);
+    const answer = await models.deepseek(researchPrompt);
+    console.log('Answer:', answer);
+    return ({ question, answer });
+}
+
+module.exports = questions;

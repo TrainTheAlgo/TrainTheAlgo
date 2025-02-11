@@ -1,18 +1,27 @@
 const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const { spawn } = require('child_process');
 const build = require('./build.js');
 const deploy = require('./deploy.js');
 const news = require('./news.js');
 const writer = require('./writer.js');
 const illustrator = require('./illustrator.js');
 const models = require('./models.js');
+const questions = require('./questions.js');
+const { setInterval } = require('timers/promises');
 
 const coverNews = async () => {
   const story = await news.find();    
   const metadata = await writer.write(story.title, story.background);
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 };
+
+const bigQuestions = async () => {
+  const qa = await questions.answer();
+  const metadata = await writer.write(qa.question, qa.answer);
+  await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
+}
 
 const browse = async () => {
   puppeteer.use(StealthPlugin());
@@ -35,11 +44,33 @@ const browse = async () => {
   await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));     
 };
 
+const startLocalServer = async () => {
+  const command = process.platform === 'win32' ? 'npx.cmd' : 'npx';
+  const server = spawn(command, ['http-server', './docs/'], { stdio: 'inherit' });
+  const cleanup = () => {
+    console.log('Shutting down http-server...');
+    server.kill('SIGINT');
+  };
+  process.on('exit', cleanup);
+  process.on('SIGINT', () => {
+    cleanup();
+    process.exit();
+  });
+  process.on('SIGTERM', () => {
+    cleanup();
+    process.exit();
+  });
+};
+
 const init = async () => {
   const command = process.argv[2];
   if (command == 'news') coverNews();
+  if (command == 'questions') bigQuestions();
   if (command == 'browse') browse();
-  if (command == 'dev') build.buildSite();
+  if (command == 'dev') {
+    build.buildSite();
+    startLocalServer();
+  }
   if (command == 'pull') deploy.pullChanges();
   if (command == 'deploy') {
     await build.buildSite();
@@ -48,7 +79,12 @@ const init = async () => {
   if (command == 'automate') {
     for (let i = 0; i < 1e18; i++) {
       try {
-        await coverNews();
+        const dice = Math.random();
+        if (dice < 0.9) {
+          await coverNews();
+        } else {
+          await bigQuestions();
+        }
         await build.buildSite();
         await deploy.update();
         console.log(`Completed automation: ${i}`);
