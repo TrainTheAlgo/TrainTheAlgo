@@ -22,7 +22,8 @@ models.chatGPT = async (prompt) => {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${process.env.OPENAI}`
-    }
+    },
+    timeout: 300000,
   });
   return response.data.choices[0].message.content;
 }
@@ -53,7 +54,8 @@ models.dallE = async (prompt) => {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${process.env.OPENAI}`
-      }
+      },
+      timeout: 300000,
     });
     return response.data;
   }
@@ -73,7 +75,8 @@ models.xAI = async (prompt) => {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${process.env.XAI}`
-        }
+        },
+        timeout: 300000,
       }
     );
     return response.data.choices[0].message.content;

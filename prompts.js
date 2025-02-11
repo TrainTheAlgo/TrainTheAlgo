@@ -162,7 +162,7 @@ Output the news stories one title per line with the exact text contained in the 
       content: `Extract the 8 news story titles from this HTML code:
 $html
 
-Remove any items from the list that have already been covered below:
+Remove any stories from the list that have already been covered below (it doesn't need to be an exact name match but remove anything that is about the same thing):
 $covered
 `
     }
