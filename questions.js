@@ -1,3 +1,9 @@
+const fs = require('fs');
+const models = require('./models.js');
+const prompts = require('./prompts.js');
+
+const indexPath = './content/index.json';
+
 const questions = [
     {q: "Is privacy obsolete in a world of constant surveillance capitalism?", c: "Security"},
     {q: "How long will it take to create games that are indistinguishable from reality?", c: "Gaming"},
@@ -126,3 +132,6 @@ const questions = [
     {q: "How would the ability to record and replay memories change human relationships?", c: "Technology"}
 ];
 
+const dupePrompt = prompts.removeDuplicateStories;
+  dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
+  const deduped = await models.deepseek(dupePrompt);
