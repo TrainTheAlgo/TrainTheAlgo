@@ -32,7 +32,7 @@
 <input type="checkbox" id="menu-toggle" class="hidden" />
 
 <!-- Navigation Bar -->
-<nav class="bg-black text-white fixed top-0 inset-x-0 z-10">
+<nav class="bg-black text-white fixed top-0 inset-x-0 z-10 opacity-90">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-20">
       <!-- Brand: logo image -->
@@ -48,11 +48,11 @@
         </label>
       </div>
       <!-- Desktop Menu -->
-      <div class="hidden md:flex space-x-4">
+      <div class="hidden md:flex space-x-4 items-center">
         <!-- Tech Dropdown -->
         <div class="relative group">
           <a href="/#tech">
-            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center pointer">
+            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center cursor-pointer">
               Tech
             </button>
           </a>
@@ -69,7 +69,7 @@
         <!-- World Dropdown -->
         <div class="relative group">
           <a href="/#world">
-            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center pointer">
+            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center cursor-pointer">
               World
             </button>
           </a>
@@ -84,7 +84,7 @@
         <!-- Finance Dropdown -->
         <div class="relative group">
           <a href="/#finance">
-            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center pointer">
+            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center cursor-pointer">
               Finance
             </button>
           </a>
@@ -98,7 +98,7 @@
         </div>
         <!-- Science Dropdown -->
         <div class="relative group">
-          <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center pointer">
+          <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center cursor-pointer">
             Science
           </button>
           <div
@@ -111,17 +111,21 @@
         </div>
         <!-- X -->
         <div class="relative">
-          <a href="https://www.x.com/TrainTheAlgo" target="_blank">
-            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center pointer pointer">
-              X
+          <a href="https://x.com/intent/user?screen_name=TrainTheAlgo" target="_blank">
+            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center cursor-pointer cursor-pointer">
+              <svg fill="currentColor" viewBox="0 0 16 16" class="w-5 h-5">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
             </button>
           </a>
         </div>
         <!-- Youtube -->
         <div class="relative">
-          <a href="https://www.youtube.com/@TrainTheAlgo" target="_blank">
-            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center pointer pointer">
-              YouTube
+          <a href="https://www.youtube.com/@TrainTheAlgo?sub_confirmation=1" target="_blank">
+            <button class="py-2 px-3 hover:bg-gray-900 rounded inline-flex items-center cursor-pointer cursor-pointer">
+              <svg fill="currentColor" viewBox="0 0 24 24" class="w-8 h-8">
+                <path d="M23.498 6.186a2.996 2.996 0 00-2.116-2.119C19.93 3.5 12 3.5 12 3.5s-7.93 0-9.382.567a2.996 2.996 0 00-2.116 2.119C0 7.638 0 12 0 12s0 4.362.502 5.814a2.996 2.996 0 002.116 2.119C4.07 20.5 12 20.5 12 20.5s7.93 0 9.382-.567a2.996 2.996 0 002.116-2.119C24 16.362 24 12 24 12s0-4.362-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
             </button>
           </a>
         </div>
@@ -178,7 +182,7 @@
 </div>
      
     <!-- Hero Section -->
-    <header class="relative mt-16">
+    <header class="relative">
       <div class="relative h-96 overflow-hidden">
         <img
           class="absolute top-0 left-0 w-full h-full object-cover"
@@ -229,20 +233,20 @@ const article = {
 <p>So, where does that leave the gaming community? Divided, frustrated, and often at odds with itself. But perhaps the real takeaway isn't whether boycotts work-it's that gamers care deeply about the industry they love. And that passion, for better or worse, is what keeps gaming alive.</p>
     </main>
 
-    <footer class="bg-gray-950 text-gray-200 py-12">
+    <footer class="bg-black text-gray-200 py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Grid layout for footer sections -->
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <!-- About Us Section -->
         <div>
-          <h3 class="text-xl font-semibold mb-4">About Us</h3>
+          <h3 class="text-xl font-semibold mb-4 text-gray-600">About Us</h3>
           <p class="text-sm">
             <span class="font-bold">TrainThe<span class="text-red-600">Algo</span></span> is an open-source news aggregator which leverages cutting-edge AI to create unbiased news coverage of emerging technology and global events
           </p>
         </div>
         <!-- Quick Links -->
         <div>
-          <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+          <h3 class="text-xl font-semibold mb-4 text-gray-600">Latest News</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
             <li><a href="/#tech" class="hover:text-white transition-colors">Tech</a></li>
@@ -253,41 +257,42 @@ const article = {
         </div>
         <!-- Categories -->
         <div>
-          <h3 class="text-xl font-semibold mb-4">Categories</h3>
+          <h3 class="text-xl font-semibold mb-4 text-gray-600">Information</h3>
           <ul class="space-y-2 text-sm">
-            <li><a href="https://github.com/TrainTheAlgo/TrainTheAlgo/" class="hover:text-white transition-colors">Github</a></li>
-            <li><a href="/about.html" class="hover:text-white transition-colors">About</a></li>
+            <li><a href="https://github.com/TrainTheAlgo/TrainTheAlgo/" class="hover:text-white transition-colors">Source Code</a></li>
+            <li><a href="/about.html" class="hover:text-white transition-colors">About TTA</a></li>
             <li><a href="/partners.html" class="hover:text-white transition-colors">Partners</a></li>
-            <li><a href="/ethics.html" class="hover:text-white transition-colors">Ethics</a></li>
+            <li><a href="/ethics.html" class="hover:text-white transition-colors">Ethics &amp; Trust</a></li>
             <li><a href="https://x.com/messages/compose?recipient_id=1888104866926743552&text=Partnership%20Enquiry" class="hover:text-white transition-colors">Contact</a></li>
           </ul>
         </div>
-        <!-- Newsletter & Social Media -->
+        <!-- Social Media -->
         <div>
-          <h3 class="text-xl font-semibold mb-4">Stay Connected</h3>
-          <!-- Newsletter Form -->
-          <form>
-            <div class="flex items-center mb-4">
-              <input type="email" placeholder="Your email" class="w-full px-3 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-500" />
-              <button type="submit" class="bg-gray-600 px-4 py-2 rounded-r-md hover:bg-gray-700 transition-colors">
-                Subscribe
-              </button>
-            </div>
-          </form>
-          <!-- Social Media Icons -->
-          <div class="flex space-x-4">
-            <a href="https://x.com/TrainTheAlgo" target="_blank" class="hover:text-white transition-colors">
-              <!-- X Icon -->
-              <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
-                <path d="M6 18L18 6M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </a>
+          <h3 class="text-xl font-semibold mb-4 text-gray-600">Social Media</h3>
+          <div class="flex flex-row items-center mb-4 gap-4">
             <a href="https://youtube.com/@TrainTheAlgo" target="_blank" class="hover:text-white transition-colors">
-              <!-- YouTube Icon -->
-              <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+              <svg fill="currentColor" viewBox="0 0 24 24" class="w-8 h-8">
                 <path d="M23.498 6.186a2.996 2.996 0 00-2.116-2.119C19.93 3.5 12 3.5 12 3.5s-7.93 0-9.382.567a2.996 2.996 0 00-2.116 2.119C0 7.638 0 12 0 12s0 4.362.502 5.814a2.996 2.996 0 002.116 2.119C4.07 20.5 12 20.5 12 20.5s7.93 0 9.382-.567a2.996 2.996 0 002.116-2.119C24 16.362 24 12 24 12s0-4.362-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
             </a>
+            <form onsubmit="window.location.href='https://www.youtube.com/@TrainTheAlgo?sub_confirmation=1'; return false;"></form>
+              <button type="submit" class="bg-red-600 px-4 py-2 rounded-md hover:bg-red-500 transition-colors cursor-pointer">
+                Subscribe
+              </button>
+            </form>
+          </div>
+          
+          <div class="flex flex-row items-center mb-4 gap-4">
+            <a href="https://x.com/TrainTheAlgo" target="_blank" class="hover:text-white transition-colors">
+              <svg fill="currentColor" viewBox="0 0 16 16" class="w-8 h-8">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+            </a>
+            <form onsubmit="window.location.href='https://x.com/intent/user?screen_name=TrainTheAlgo'; return false;"></form>
+              <button type="submit" class="bg-blue-400 px-4 py-2 rounded-md hover:bg-blue-500 transition-colors cursor-pointer">
+                Follow
+              </button>
+            </form>
           </div>
         </div>
       </div>
