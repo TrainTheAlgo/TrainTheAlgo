@@ -6,11 +6,12 @@ const deploy = require('./deploy.js');
 const news = require('./news.js');
 const writer = require('./writer.js');
 const illustrator = require('./illustrator.js');
+const models = require('./models.js');
 
 const write = async () => {
   const story = await news.find();    
   const metadata = await writer.write(story.title, story.background);
-  illustrator.illustrate(`${metadata.title} ${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
+  await illustrator.illustrate(`${metadata.title} ${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 };
 
 const browse = async () => {
@@ -39,6 +40,7 @@ const init = async () => {
   if (command == 'write') write();
   if (command == 'browse') browse();
   if (command == 'dev') build.buildSite();
+  if (command == 'pull') deploy.pullChanges();
   if (command == 'deploy') {
     await build.buildSite();
     await deploy.update();
@@ -55,6 +57,14 @@ const init = async () => {
       }
       await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));
     }
+  }
+  if (command == 'ask') {
+    const prompt = [
+      { role: 'system', content: 'You are a helpful assistant.' },
+      { role: 'user', content: process.argv[4] }
+    ]
+    const response = await models[process.argv[3]](prompt);
+    console.log(response)
   }
 }
 
