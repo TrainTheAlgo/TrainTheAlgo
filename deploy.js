@@ -7,6 +7,29 @@ require('dotenv').config();
 
 const deploy = {};
 
+deploy.pullChanges = async () => {
+  console.log('Pulling changes from remote...');
+  await git.pull({
+    fs,
+    http,
+    dir: process.cwd(),
+    ref: 'main',
+    remote: 'origin',
+    url: 'https://github.com/TrainTheAlgo/TrainTheAlgo.git',
+    singleBranch: true,
+    fastForwardOnly: true, // Only update if a fast-forward is possible.
+    author: {
+      name: 'Anon',
+      email: 'anon@example.com',
+    },
+    onAuth: () => ({
+      username: 'x-access-token',
+      password: process.env.GIT_OAUTH,
+    }),
+  });
+  console.log('Git pull successful');
+};
+
 deploy.stageChanges = async () => {
   const statusMatrix = await git.statusMatrix({ fs, dir: process.cwd() });
   for (const [filepath, head, workdir, stage] of statusMatrix) {
@@ -57,6 +80,8 @@ deploy.pushChanges = async () => {
 
 deploy.update = async () => {
   try {
+    console.log('Pulling changes...');
+    await deploy.pullChanges();
     console.log('Staging changes...');
     await deploy.stageChanges();
     console.log('Committing changes...');
