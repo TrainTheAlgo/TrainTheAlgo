@@ -78,7 +78,7 @@ news.find = async () => {
   const covered = indexData.map(a => a.title).join("\n").substr(0,1000);
   const extractPrompt = prompts.extractNews;
   extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
-  console.log(extractPrompt[1].content.slice(-700))
+  //console.log(extractPrompt[1].content)
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
   let topStory = titles.split("\n")[0];
