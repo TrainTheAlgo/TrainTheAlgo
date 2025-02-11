@@ -7,15 +7,13 @@ const template = './template';
 const baseUrl = 'https://trainthealgo.com';
 const sections = ["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"];
 
-const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
-const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
-  
-const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
-const index = JSON.parse(indexFile);
-
 const build = {};
 
 build.copyArticles = () => {
+  const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
+  const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
+  const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
+  const index = JSON.parse(indexFile);
   const postTemplate = fs.readFileSync(`${template}/post.html`, 'utf-8');
   for (const post of index) {
     const file = `${content}/${post.path}${post.slug}.html`;
@@ -41,6 +39,10 @@ build.copyArticles = () => {
 };
 
 build.createSections = () => {
+  const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
+  const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
+  const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
+  const index = JSON.parse(indexFile);
   const sectionTemplate = fs.readFileSync(`${template}/section.html`, 'utf-8');
   const sp = sectionTemplate.indexOf('<!-- Start Post -->');
   const ep = sectionTemplate.indexOf('<!-- End Post -->');
@@ -66,6 +68,8 @@ build.createSections = () => {
 }
 
 build.videoPages = () => {
+  const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
+  const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
   const videoTemplate = fs.readFileSync(`${template}/video.html`, 'utf-8');
   const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
   const videos = JSON.parse(videosFile);
@@ -83,6 +87,8 @@ build.videoPages = () => {
 };
 
 build.additionalPages = () => {
+  const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
+  const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
   const about = fs.readFileSync(`${template}/about.html`, 'utf-8')
     .replace('<!-- Menu -->', menu)
     .replace('<!-- Footer -->', footer)
@@ -98,6 +104,10 @@ build.additionalPages = () => {
 };
 
 build.createHomePage = () => {
+  const menu = fs.readFileSync(`${template}/menu.html`, 'utf-8');
+  const footer = fs.readFileSync(`${template}/footer.html`, 'utf-8');
+  const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
+  const index = JSON.parse(indexFile);
   const homePage = fs.readFileSync(`${template}/index.html`, 'utf-8');
   const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
   const videos = JSON.parse(videosFile);
@@ -163,6 +173,8 @@ build.createHomePage = () => {
 }
 
 build.buildSitemap = () => {
+  const indexFile = fs.readFileSync(`${content}/index.json`, 'utf-8');
+  const index = JSON.parse(indexFile);
   const urls = index.map(post => `${baseUrl}/${post.path}${post.slug}.html`);
   const videosFile = fs.readFileSync(`${content}/videos.json`, 'utf-8');
   const videos = JSON.parse(videosFile);
