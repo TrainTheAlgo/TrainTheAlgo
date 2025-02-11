@@ -8,10 +8,10 @@ const writer = require('./writer.js');
 const illustrator = require('./illustrator.js');
 const models = require('./models.js');
 
-const write = async () => {
+const coverNews = async () => {
   const story = await news.find();    
   const metadata = await writer.write(story.title, story.background);
-  await illustrator.illustrate(`${metadata.title} ${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
+  await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 };
 
 const browse = async () => {
@@ -37,7 +37,7 @@ const browse = async () => {
 
 const init = async () => {
   const command = process.argv[2];
-  if (command == 'write') write();
+  if (command == 'news') coverNews();
   if (command == 'browse') browse();
   if (command == 'dev') build.buildSite();
   if (command == 'pull') deploy.pullChanges();
@@ -48,7 +48,7 @@ const init = async () => {
   if (command == 'automate') {
     for (let i = 0; i < 1e18; i++) {
       try {
-        await write();
+        await coverNews();
         await build.buildSite();
         await deploy.update();
         console.log(`Completed automation: ${i}`);

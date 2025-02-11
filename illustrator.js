@@ -11,8 +11,7 @@ illustrator.illustrate = async (article, fileLocation) => {
     //const articleText = article.replace(/<[^>]*>/g, '');
     const designerPrompt = prompts.illustrate;
     designerPrompt[1].content = designerPrompt[1].content.replace('$article', article);
-    console.log(designerPrompt)
-    const imagePrompt = await models.chatGPT(designerPrompt);
+    const imagePrompt = await models.deepseek(designerPrompt);
     console.log(imagePrompt)
     const imageResponse = await models.dallE(imagePrompt);
     //console.log('xAI API responded with:', imageResponse);

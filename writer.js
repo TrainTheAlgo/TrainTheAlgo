@@ -8,7 +8,7 @@ writer.write = async (subject, background) => {
   try {
     const titlePrompt = prompts.titles;
     titlePrompt[1].content = titlePrompt[1].content.replace('$subject', subject).replace('$background', background);
-    const titles = await models.chatGPT(titlePrompt);
+    const titles = await models.deepseek(titlePrompt);
     const authorPrompt = prompts.author;
     authorPrompt[1].content = authorPrompt[1].content.replace('$subject', subject).replace('$background', background).replace('$titles', titles);
     let htmlContent = await models.chatGPT(authorPrompt);

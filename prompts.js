@@ -36,14 +36,16 @@ Additional Well Formatted Title
     },
     {
       role: 'user',
-      content: `First find the top keywords related to the subject and background I provide.
-Then brainstorm a list of 30 titles based on the subject, background and keywords.
-The titles should balance findability (using relevant keywords for search) and clickability (enticing viewers to click).
-Narrow the list down to the top 10 best titles based on relevance the following critieria:
-    1) Relevance to original subject and background
-    2) Findability and expected keyword traffic
-    3) Clickability and expected click through rate
-Provide output as one title per line.
+      content: `Tasks:
+1) First find the top keywords related to the subject and background I provide. Look for phrases that users would actually type into a search engine to find this content.
+
+2) Then brainstorm a list of 10 titles based on the subject, background and keywords. The titles should balance findability (using relevant keywords for search) and clickability (enticing viewers to click).
+    a) Relevance to original subject and background
+    b) Findability and expected keyword traffic
+    c) Clickability and expected click through rate
+
+Output:
+Do not output the keyworkds, just the titles extracted directly from the HTML. Provide output as one plain text title per line with no other output, explanation or formatting. Do not add a concluding sentence or any other information at the end.
 
 Subject: "$subject"
 
@@ -99,7 +101,7 @@ const article = {
       role: 'user',
       content: `Write a detailed article about "$subject".
 
-Choose the best title from this list:
+Here are some suggestions for a title:
 $titles
 
 Background Information On The Topic:
