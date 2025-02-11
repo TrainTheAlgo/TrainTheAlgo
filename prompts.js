@@ -146,24 +146,29 @@ I will provide some unformatted HTML code which will contain eight news stories 
 <span class="">Story Text Here</span>
 Each story will also include text to say how long ago it was posted, the category and how many posts it has received.
 <span class="">2 days ago · Politics · 788K posts</span>
-Rearrange the stories so that stories that the following criteria are at the top of a list:
-- Prioritize stories about emerging technology
-- Prioritize global events over stories related the UK
-- Prioritize stories that fit into one of the following categories with AI being most important and reviews being least important. Anything that doesn't fit into one of these categories should be last.
-["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
-- Prioritize articles that will be of interest to a global audience of male tech enthusaists.
-The articles that meet the most of the above criteria should be at the top, any articles that aren't relevant should be at the bottom of the list.
-Extract the titles for all eight news stories from the HTML.
-Output the news stories one title per line with the exact text contained in the HTML. Do not output a numbered list or any other type of formatting. The output should just include the exact titles from the HTML.
-`
+Extract the text data, along with the category and number of posts.`
     },
     {
       role: 'user',
       content: `Extract the 8 news story titles from this HTML code:
 $html
 
+Remove Duplicates:
 Remove any stories from the list that have already been covered below (it doesn't need to be an exact name match but remove anything that is about the same thing):
 $covered
+
+Ordering:
+Rearrange the stories so that stories that the following criteria are at the top of a list:
+- Prioritize stories about emerging technology
+- Prioritize global events over stories related the UK
+- Prioritize stories that fit into one of the following categories with AI being most important and reviews being least important. Anything that doesn't fit into one of these categories should be last.
+["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
+- Prioritize articles that will be of interest to a global audience of male tech enthusaists.
+
+The articles that meet the most of the above criteria should be at the top, any articles that aren't relevant should be at the bottom of the list.
+
+Output:
+Output the news stories one title per line with the exact text and grammar contained in the original HTML. Do not output a numbered list or any other type of formatting. The output should just include the exact titles from the HTML, one per line.
 `
     }
 ];
