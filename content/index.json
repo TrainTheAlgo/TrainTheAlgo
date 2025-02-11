@@ -1,13 +1,43 @@
 [
   {
-    "title": "OpenAI's Custom AI Chip: A Bold Move To Cut Nvidia Dependence",
-    "slug": "openai-custom-ai-chip",
-    "description": "OpenAI is developing its own AI chip to reduce reliance on Nvidia. Here's what we know about its design, production timeline, and potential impact on the AI hardware market.",
-    "image": "openai-custom-ai-chip.png",
+    "title": "Gumi Inc. Invests $6.6M In Bitcoin-What It Means For Web3 Gaming",
+    "slug": "gumi-inc-bitcoin-investment",
+    "description": "Japanese gaming giant Gumi Inc. is investing $6.6M in Bitcoin for staking. Could this move reshape the future of Web3 gaming and corporate crypto adoption?",
+    "image": "gumi-inc-bitcoin-investment.png",
+    "category": "Crypto",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-11T10:08:12.861Z"
+  },
+  {
+    "title": "Anthropic AI Economic Index: What It Reveals About Jobs in 2025",
+    "slug": "anthropic-ai-economic-index-2025",
+    "description": "Anthropic's AI Economic Index sheds light on how AI is reshaping the workforce, revealing that augmentation, not automation, is the dominant trend.",
+    "image": "anthropic-ai-economic-index.png",
     "category": "AI",
     "path": "2025/02/",
     "featured": false,
-    "date": "2025-02-10T15:01:45.595Z"
+    "date": "2025-02-11T09:42:28.359Z"
+  },
+  {
+    "title": "Elon Musk's $97.4B OpenAI Bid Rejected-Altman Fires Back",
+    "slug": "elon-musk-openai-bid-rejected-altman-fires-back",
+    "description": "Elon Musk's $97.4B bid to acquire OpenAI was swiftly rejected by Sam Altman, who countered with a cheeky Twitter offer. The battle for AI's future just got personal.",
+    "image": "elon-musk-openai-bid.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-11T08:24:19.368Z"
+  },
+  {
+    "title": "OpenAI Takes On Nvidia With Its Own AI Chip - Here's What We Know",
+    "slug": "openai-ai-chip-development",
+    "description": "OpenAI is developing its own AI chip to reduce reliance on Nvidia. Here's what we know about its design, manufacturing plans, and potential impact on the AI hardware market.",
+    "image": "openai-ai-chip.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-10T19:34:01.922Z"
   },
   {
     "title": "Metaplanet's Bold Plan: 21,000 Bitcoin by 2026",
