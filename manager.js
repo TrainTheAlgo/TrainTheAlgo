@@ -6,6 +6,7 @@ const deploy = require('./deploy.js');
 const news = require('./news.js');
 const writer = require('./writer.js');
 const illustrator = require('./illustrator.js');
+const models = require('./models.js');
 
 const write = async () => {
   const story = await news.find();    
@@ -47,6 +48,14 @@ const init = async () => {
     await write();
     await build.buildSite();
     await deploy.update();
+  }
+  if (command == 'ask') {
+    const prompt = [
+      { role: 'system', content: 'You are a helpful assistant.' },
+      { role: 'user', content: process.argv[4] }
+    ]
+    const response = await models[process.argv[3]](prompt);
+    console.log(response)
   }
 }
 

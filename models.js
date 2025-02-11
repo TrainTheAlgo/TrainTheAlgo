@@ -27,6 +27,20 @@ models.chatGPT = async (prompt) => {
   return response.data.choices[0].message.content;
 }
 
+models.ollama = async (prompt) => {
+  const payload = {
+    model: 'deepseek-r1:14b',
+    messages: prompt,
+    stream: false,
+    temperature: 0
+  };
+  // Note the URL is now local and no Authorization header is needed
+  const response = await axios.post('http://192.168.1.26:11434/api/chat', payload, {
+    headers: { 'Content-Type': 'application/json' }
+  });
+  return response.data.message.content;
+};
+
 models.dallE = async (prompt) => {
     const payload = {
       model: 'dall-e-3',
