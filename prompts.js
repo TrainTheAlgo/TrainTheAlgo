@@ -156,7 +156,7 @@ Extract the text data, along with the category and number of posts.`
 $html
 
 Remove Duplicates:
-Remove any stories from the list that have already been covered below (it doesn't need to be an exact name match but remove anything that is about the same thing):
+Remove any stories from the list that are similar to previous stories which have been covered in the list below:
 $covered
 
 Ordering:
@@ -173,6 +173,27 @@ Output:
 Output the news stories one title per line with the exact text and grammar contained in the original HTML. Do not output a numbered list or any other type of formatting. The output should just include the exact titles from the HTML, one per line.
 `
     }
+];
+
+prompts.removeDuplicateStories = [
+  {
+    role: 'system',
+    content: `You are tasked with removing duplicate articles from our website. Based on the article titles you have to guess if the stories are duplicate and remove any duplicate news stories.`
+  },
+  {
+    role: 'user',
+    content: `Here is a list of recent stories covered on my website:
+$covered
+
+Here is a list of new stories:
+$titles
+
+Can you remove any titles from the list of new stories that match recent stories that have already been covered.
+
+Output:
+Output one title per line with the exact text and grammar contained in the original list. Do not output a numbered list or any other type of formatting. The output should just include the exact titles, one per line.
+`
+  }
 ];
 
 prompts.illustrate = [

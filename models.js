@@ -35,7 +35,7 @@ models.deepseek = async (prompt) => {
     stream: false,
     temperature: 0
   };
-  const response = await axios.post('http://192.168.1.26:11434/api/chat', payload, {
+  const response = await axios.post(`${process.env.OLLAMA}/api/chat`, payload, {
     headers: { 'Content-Type': 'application/json' }
   });
   const removeThinking = response.data.message.content.split('</think>')[1].trim()+"\n";

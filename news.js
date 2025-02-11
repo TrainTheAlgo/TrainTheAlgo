@@ -75,18 +75,23 @@ news.find = async () => {
   if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
   const data = fs.readFileSync(indexPath, 'utf8');
   indexData = JSON.parse(data);
-  const covered = indexData.map(a => a.title).join("\n").substr(0,1000);
+  const covered = indexData.slice(0, 10).map(a => a.title).join("\n");
   const extractPrompt = prompts.extractNews;
   extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
-  //console.log(extractPrompt[1].content)
+  console.log(extractPrompt[1].content)
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
-  let topStory = titles.split("\n")[0];
+  const dupePrompt = prompts.removeDuplicateStories;
+  dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
+  const deduped = await models.deepseek(dupePrompt);
+  console.log('Deduped: ',deduped);
+  let topStory = deduped.split("\n")[0];
   console.log('Top Story: ', topStory);
   await new Promise(resolve => setTimeout(resolve, 5000));
   try {
     await page.locator(`text/${topStory.slice(0, 12)}`).click();
   } catch(err) {
+    // catch original incase there are formatting issues
     topStory = titles.split("\n")[1];
     console.log('Second Story: ', topStory);
     await page.locator(`text/${topStory.slice(0, 12)}`).click();
