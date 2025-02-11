@@ -81,10 +81,16 @@ news.find = async () => {
   console.log(extractPrompt[1].content.slice(-700))
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
-  const topStory = titles.split("\n")[0];
+  let topStory = titles.split("\n")[0];
   console.log('Top Story: ', topStory);
   await new Promise(resolve => setTimeout(resolve, 5000));
-  await page.locator(`text/${topStory.slice(0, 20)}`).click();
+  try {
+    await page.locator(`text/${topStory.slice(0, 12)}`).click();
+  } catch(err) {
+    topStory = titles.split("\n")[1];
+    console.log('Second Story: ', topStory);
+    await page.locator(`text/${topStory.slice(0, 12)}`).click();
+  }
   await new Promise(resolve => setTimeout(resolve, 30000));
   //const storyHTML = await page.content();
   await page.click('button[aria-label="Copy text"]')
