@@ -4,11 +4,14 @@ require('dotenv').config();
 const models = {};
 
 /*
-Note prompts passed to these functions are in this format:
-[
-    { role: 'system', content: 'You are a helpful assistant.' },
-    { role: 'user', content: prompt }
-]
+  Note prompts passed to these functions are in this format:
+  [
+      { role: 'system', content: 'You are a helpful assistant.' },
+      { role: 'user', content: prompt }
+  ]
+
+  NB. IMPORTANT: Always create a duplicate of these rather than
+  a reference     const titlePrompt = { ...prompts.titles };
 */
 
 models.chatGPT = async (prompt) => {

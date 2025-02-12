@@ -77,7 +77,7 @@ const init = async () => {
     await deploy.update();
   }
   if (command == 'automate') {
-    for (let i = 0; i < 1e18; i++) {
+    for (let i = 0; i < 1e6; i++) {
       try {
         const dice = Math.random();
         if (dice < 0.9) {

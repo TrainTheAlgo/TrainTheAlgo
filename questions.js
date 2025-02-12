@@ -139,7 +139,7 @@ questions.big = [
 // note categories are ignored for time being, writer.js will figure that out
 questions.answer = async (question=false) => {
     if (!question) question = questions.big[Math.floor(Math.random() * questions.big.length)].q;
-    const researchPrompt = prompts.researchAssistant;
+    const researchPrompt = { ...prompts.researchAssistant };
     researchPrompt[1].content = researchPrompt[1].content.replace('$question', question);
     console.log('Question:', question);
     const answer = await models.deepseek(researchPrompt);

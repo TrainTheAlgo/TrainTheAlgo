@@ -9,7 +9,7 @@ const illustrator = {};
 illustrator.illustrate = async (article, fileLocation) => {
   try {
     //const articleText = article.replace(/<[^>]*>/g, '');
-    const designerPrompt = prompts.illustrate;
+    const designerPrompt = { ...prompts.illustrate };
     designerPrompt[1].content = designerPrompt[1].content.replace('$article', article);
     const imagePrompt = await models.deepseek(designerPrompt);
     console.log(imagePrompt)
