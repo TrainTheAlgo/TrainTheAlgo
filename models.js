@@ -11,7 +11,7 @@ const models = {};
   ]
 
   NB. IMPORTANT: Always create a duplicate of these rather than
-  a reference     const titlePrompt = { ...prompts.titles };
+  a reference     const titlePrompt = [ ...prompts.titles ];
 */
 
 models.chatGPT = async (prompt) => {

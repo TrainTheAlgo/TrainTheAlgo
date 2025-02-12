@@ -76,12 +76,12 @@ news.find = async () => {
   const data = fs.readFileSync(indexPath, 'utf8');
   indexData = JSON.parse(data);
   const covered = indexData.slice(0, 10).map(a => a.title).join("\n");
-  const extractPrompt = { ...prompts.extractNews };
+  const extractPrompt = [ ...prompts.extractNews ];
   extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
   console.log(extractPrompt[1].content)
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
-  const dupePrompt = { ...prompts.removeDuplicateStories };
+  const dupePrompt = [ ...prompts.removeDuplicateStories ];
   dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
   const deduped = await models.deepseek(dupePrompt);
   console.log('Deduped: ',deduped);
