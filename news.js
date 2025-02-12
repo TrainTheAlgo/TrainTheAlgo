@@ -83,18 +83,19 @@ news.find = async () => {
   console.log('Latest news stories:', titles);
   const dupePrompt = [ ...prompts.removeDuplicateStories ];
   dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
-  const deduped = await models.deepseek(dupePrompt);
+  let deduped = await models.deepseek(dupePrompt);
+  if (deduped.split("\n").length < 3) deduped = titles; // check it's sent back a meaningful response
   console.log('Deduped: ',deduped);
-  let topStory = deduped.split("\n")[0];
-  console.log('Top Story: ', topStory);
-  await new Promise(resolve => setTimeout(resolve, 5000));
-  try {
-    await page.locator(`text/${topStory.slice(0, 12)}`).click();
-  } catch(err) {
-    // catch original incase there are formatting issues
-    topStory = titles.split("\n")[1];
-    console.log('Second Story: ', topStory);
-    await page.locator(`text/${topStory.slice(0, 12)}`).click();
+  const titlesArray = deduped.split("\n");
+  for (let i = 0; i < titlesArray.length; i++) {
+    const clickText = titlesArray[i].slice(4, 12).trim();
+    console.log('Clicking Story: ', titlesArray[i], clickText);
+    try {
+      await page.locator(`text/${clickText}`).click();
+      break;
+    } catch(err) {
+      console.log(`Click failed :(`);
+    }
   }
   await new Promise(resolve => setTimeout(resolve, 30000));
   //const storyHTML = await page.content();
