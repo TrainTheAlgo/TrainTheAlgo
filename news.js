@@ -70,6 +70,10 @@ news.find = async () => {
   await loginIfNeeded(page);
 
   await new Promise(resolve => setTimeout(resolve, 5000));
+  await page.evaluate(() => {
+    window.scrollTo(0, document.body.scrollHeight - Math.floor(Math.random() * 101));
+  });
+  await new Promise(resolve => setTimeout(resolve, 5000));
   const grokHTML = await page.content();
   const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
   if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
@@ -90,7 +94,7 @@ news.find = async () => {
   let storyTitle;
   for (let i = 0; i < titlesArray.length; i++) {
     storyTitle = titlesArray[i].trim();
-    const clickText = storyTitle.slice(4, 12).trim();
+    const clickText = storyTitle.slice(0, 12).trim();
     console.log('Clicking Story: ', titlesArray[i], clickText);
     try {
       await page.locator(`text/${clickText}`).click();
