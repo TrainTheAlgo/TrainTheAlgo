@@ -87,8 +87,10 @@ news.find = async () => {
   if (deduped.split("\n").length < 3) deduped = titles; // check it's sent back a meaningful response
   console.log('Deduped: ',deduped);
   const titlesArray = deduped.split("\n");
+  let storyTitle;
   for (let i = 0; i < titlesArray.length; i++) {
-    const clickText = titlesArray[i].slice(4, 12).trim();
+    storyTitle = titlesArray[i].trim();
+    const clickText = storyTitle.slice(4, 12).trim();
     console.log('Clicking Story: ', titlesArray[i], clickText);
     try {
       await page.locator(`text/${clickText}`).click();
@@ -110,7 +112,7 @@ news.find = async () => {
   //console.log('sleeping...')
   //await new Promise(resolve => setTimeout(resolve, 500000));
   await browser.close();
-  return { title: topStory, background: storyResult };
+  return { title: storyTitle, background: storyResult };
 }
 
 module.exports = news;
