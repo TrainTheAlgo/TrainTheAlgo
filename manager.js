@@ -78,6 +78,7 @@ const init = async () => {
   }
   if (command == 'automate') {
     for (let i = 0; i < 1e6; i++) {
+      deploy.pullChanges();
       try {
         const dice = Math.random();
         if (dice < 0.9) {
