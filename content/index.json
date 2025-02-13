@@ -1,5 +1,15 @@
 [
   {
+    "title": "How GPT-5 Will Transform AI for Everyone",
+    "slug": "gpt-5-transforming-ai",
+    "description": "OpenAI's roadmap for GPT-5 aims to simplify AI, making it more accessible and intuitive. Here's how their new strategy will change the way we interact with artificial intelligence.",
+    "image": "gpt-5-transforming-ai.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-13T09:48:21.437Z"
+  },
+  {
     "title": "OpenAI's New Model Spec: A Groundbreaking Shift in AI Behavior",
     "slug": "openai-model-spec-update",
     "description": "OpenAI's latest Model Spec update redefines AI behavior, emphasizing intellectual freedom, transparency, and customization while maintaining safety. Here's what it means for the future of AI.",
