@@ -178,7 +178,12 @@ Output the news stories one title per line with the exact text and grammar conta
 prompts.removeDuplicateStories = [
   {
     role: 'system',
-    content: `You are tasked with removing duplicate articles from our website. Based on the article titles you have to guess if the stories are duplicate and remove any duplicate news stories.`
+    content: `You are tasked with removing duplicate articles from our website.
+Based on the article titles you have to guess if the stories are duplicate, related or about the same news stories.
+Remove anything that sounds similar, is about the same subject or same company
+The output should be the new stories listed as one title per line with the exact text and grammar contained in the original list.
+Do not output a numbered list or any other type of formatting.
+`
   },
   {
     role: 'user',
