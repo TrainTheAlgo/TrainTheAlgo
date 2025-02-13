@@ -18,14 +18,6 @@ const loginIfNeeded = async (page) => {
     if (content.match("Sign in to X")) {
         console.log('Login required – performing login...');
         await new Promise(resolve => setTimeout(resolve, 30000));
-        /*
-        Log in manually for now, it will store a cookie so you wont need to do it every time
-        const delay = Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000; // Random typing delay
-        await page.type('input[name="text"]', process.env.X_USERNAME, { delay });
-        await page.type('input[name="session[password]"]', process.env.X_PASSWORD, { delay });
-        await page.click('div[data-testid="LoginForm_Login_Button"]');
-        await page.waitForNavigation({ waitUntil: 'networkidle2' });
-        */
         await page.goto('https://x.com/i/grok', { waitUntil: 'networkidle2' });
     }
     const cookies = await page.cookies();
@@ -76,18 +68,22 @@ news.find = async () => {
   await new Promise(resolve => setTimeout(resolve, 5000));
   const grokHTML = await page.content();
   const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
-  if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
+  const cleanedText = trimmedHTML.replace(/<[^>]+>/g, ' ')
+    .replaceAll('  ', ' ').replaceAll('  ', ' ').trim()
+    .replaceAll('posts', "posts\n");
+ if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
   const data = fs.readFileSync(indexPath, 'utf8');
   const covered = JSON.parse(data).slice(0, 10).map(a => a.title).join("\n");
-  const extractPrompt = structuredClone(prompts.extractNews);
-  extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
-  console.log(extractPrompt[1].content)
-  const titles = await models.chatGPT(extractPrompt);
-  console.log('Latest news stories:', titles);
+  //const extractPrompt = structuredClone(prompts.extractNews);
+  //extractPrompt[1].content = extractPrompt[1].content.replace('$html', cleanedText).replace('$covered', covered);
+  //console.log(extractPrompt[1].content)
+  //const titles = await models.chatGPT(extractPrompt);
+  console.log('Latest news stories:', cleanedText);
   const dupePrompt = structuredClone(prompts.removeDuplicateStories);
-  dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
-  let deduped = await models.deepseek(dupePrompt);
-  if (deduped.split("\n").length < 3) deduped = titles; // check it's sent back a meaningful response
+  dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', cleanedText);
+  console.log('dupePrompt', dupePrompt)
+  let deduped = await models.chatGPT(dupePrompt);
+  if (deduped.split("\n").length < 3) deduped = cleanedText; // check it's sent back a meaningful response
   console.log('Deduped: ',deduped);
   const titlesArray = deduped.split("\n");
   let storyTitle;
