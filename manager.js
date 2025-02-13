@@ -9,6 +9,7 @@ const writer = require('./writer.js');
 const illustrator = require('./illustrator.js');
 const models = require('./models.js');
 const questions = require('./questions.js');
+const newsletters = require('./newsletters.js');
 
 const coverNews = async () => {
   const story = await news.find();    
@@ -19,6 +20,12 @@ const coverNews = async () => {
 const bigQuestions = async () => {
   const qa = await questions.answer();
   const metadata = await writer.write(qa.question, qa.answer);
+  await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
+}
+
+const trendingNewsletters = async () => {
+  const tb = await newsletters.latest();
+  const metadata = await writer.write(tb.title, tb.background);
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 }
 
@@ -79,8 +86,10 @@ const init = async () => {
     for (let i = 0; i < 1e6; i++) {
       try {
         const dice = Math.random();
-        if (dice < 0.95) {
+        if (dice < 0.9) {
           await coverNews();
+        } else if (dice < 0.95) {
+          await trendingNewsletters();
         } else {
           await bigQuestions();
         }
