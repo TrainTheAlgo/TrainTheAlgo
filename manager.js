@@ -9,7 +9,6 @@ const writer = require('./writer.js');
 const illustrator = require('./illustrator.js');
 const models = require('./models.js');
 const questions = require('./questions.js');
-const { setInterval } = require('timers/promises');
 
 const coverNews = async () => {
   const story = await news.find();    
@@ -64,12 +63,12 @@ const startLocalServer = async () => {
 
 const init = async () => {
   const command = process.argv[2];
-  if (command == 'news') coverNews();
-  if (command == 'questions') bigQuestions();
-  if (command == 'browse') browse();
+  if (command == 'news') await coverNews();
+  if (command == 'questions') await bigQuestions();
+  if (command == 'browse') await browse();
   if (command == 'dev') {
-    build.buildSite();
-    startLocalServer();
+    await build.buildSite();
+    await startLocalServer();
   }
   if (command == 'pull') deploy.pullChanges();
   if (command == 'deploy') {
@@ -78,10 +77,9 @@ const init = async () => {
   }
   if (command == 'automate') {
     for (let i = 0; i < 1e6; i++) {
-      deploy.pullChanges();
       try {
         const dice = Math.random();
-        if (dice < 0.9) {
+        if (dice < 0.95) {
           await coverNews();
         } else {
           await bigQuestions();
@@ -92,7 +90,7 @@ const init = async () => {
       } catch (err) {
         console.log(`automation error`, err)
       }
-      await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));
+      await new Promise(resolve => setTimeout(resolve, 30 * 60 * 1000));
     }
   }
   if (command == 'ask') {

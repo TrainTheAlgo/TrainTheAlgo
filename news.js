@@ -78,14 +78,13 @@ news.find = async () => {
   const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
   if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
   const data = fs.readFileSync(indexPath, 'utf8');
-  indexData = JSON.parse(data);
-  const covered = indexData.slice(0, 10).map(a => a.title).join("\n");
-  const extractPrompt = [ ...prompts.extractNews ];
+  const covered = JSON.parse(data).slice(0, 10).map(a => a.title).join("\n");
+  const extractPrompt = structuredClone(prompts.extractNews);
   extractPrompt[1].content = extractPrompt[1].content.replace('$html', trimmedHTML).replace('$covered', covered);
   console.log(extractPrompt[1].content)
   const titles = await models.chatGPT(extractPrompt);
   console.log('Latest news stories:', titles);
-  const dupePrompt = [ ...prompts.removeDuplicateStories ];
+  const dupePrompt = structuredClone(prompts.removeDuplicateStories);
   dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', titles);
   let deduped = await models.deepseek(dupePrompt);
   if (deduped.split("\n").length < 3) deduped = titles; // check it's sent back a meaningful response

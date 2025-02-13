@@ -6,10 +6,10 @@ const writer = {};
 
 writer.write = async (subject, background) => {
   try {
-    const titlePrompt = [ ...prompts.titles ];
+    const titlePrompt = structuredClone(prompts.titles);
     titlePrompt[1].content = titlePrompt[1].content.replace('$subject', subject).replace('$background', background);
     const titles = await models.deepseek(titlePrompt);
-    const authorPrompt = [ ...prompts.author ];
+    const authorPrompt = structuredClone(prompts.author);
     authorPrompt[1].content = authorPrompt[1].content.replace('$subject', subject).replace('$background', background).replace('$titles', titles);
     let htmlContent = await models.chatGPT(authorPrompt);
     htmlContent = htmlContent
@@ -19,7 +19,6 @@ writer.write = async (subject, background) => {
       .replaceAll(`“`,`"`)
       .replaceAll(`”`,`"`)
       .replaceAll(`…`,`...`)
-      .replaceAll(``,``)
       .replace(/[^\x09\x0A\x0D\x20-\x7E\xA3\u20AC]/g, '');
     const regex = /(title|slug|description|image|category):\s*"([^"]+)"/g;
     const article = {};
@@ -27,7 +26,7 @@ writer.write = async (subject, background) => {
     while ((match = regex.exec(htmlContent)) !== null) article[match[1]] = match[2];
     const { title, slug, description, image, category } = article;
     console.log({ title, slug, description, image, category });
-
+    if (!title) return;
     const now = new Date();
     const year = now.getFullYear().toString();
     const month = (now.getMonth() + 1).toString().padStart(2, '0');
