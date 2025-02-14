@@ -1,5 +1,15 @@
 [
   {
+    "title": "Inside DeepSeek's Journey to Develop Domestic AI Chips",
+    "slug": "deepseek-ai-chip-development",
+    "description": "DeepSeek is making bold moves to develop its own AI chips, aiming to reduce reliance on foreign semiconductors. Could this reshape the global AI hardware landscape?",
+    "image": "deepseek-ai-chip-development.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-14T15:58:02.842Z"
+  },
+  {
     "title": "Ethereum's Pectra Upgrade: What You Need to Know Before It Hits Mainnet",
     "slug": "ethereum-pectra-upgrade-2025",
     "description": "Ethereum's Pectra upgrade is set to bring major changes to staking, scalability, and account abstraction. Here's everything you need to know before it goes live in 2025.",
