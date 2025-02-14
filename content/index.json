@@ -1,5 +1,15 @@
 [
   {
+    "title": "Unitree G1: The Humanoid Robot That Dances Like Us",
+    "slug": "unitree-g1-humanoid-robot-dance",
+    "description": "The Unitree G1 is redefining humanoid robotics with its fluid dance moves and advanced AI. Discover how this affordable robot is making waves in entertainment, research, and beyond.",
+    "image": "unitree-g1-dancing.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-14T16:49:34.508Z"
+  },
+  {
     "title": "Inside DeepSeek's Journey to Develop Domestic AI Chips",
     "slug": "deepseek-ai-chip-development",
     "description": "DeepSeek is making bold moves to develop its own AI chips, aiming to reduce reliance on foreign semiconductors. Could this reshape the global AI hardware landscape?",
