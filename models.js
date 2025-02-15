@@ -50,7 +50,7 @@ models.dallE = async (prompt) => {
       model: 'dall-e-3',
       prompt,
       size: "1792x1024",
-      quality: "hd",
+      quality: "standard", //"hd",
       n: 1
     };
     const response = await axios.post('https://api.openai.com/v1/images/generations', payload, {
