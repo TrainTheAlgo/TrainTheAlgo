@@ -35,8 +35,6 @@ https://trainthealgo.com/videos/hW2AvHIE9qA.html
 https://trainthealgo.com/videos/7HJXTgpFmqo.html
 https://trainthealgo.com/videos/Dqxz84iutDM.html
 https://trainthealgo.com/videos/4Wz9c_c3vzw.html
-<<<<<<< HEAD
-=======
 https://trainthealgo.com/2025/02/deepseek-r1-transparent-ai-reasoning.html
 https://trainthealgo.com/2025/02/perplexity-deep-research.html
 https://trainthealgo.com/2025/02/state-street-citi-crypto-custody.html
@@ -79,7 +77,6 @@ https://trainthealgo.com/2025/02/apple-iphone-se-4-rumors.html
 https://trainthealgo.com/2025/02/29-years-all-eyez-on-me-tupac-legacy.html
 https://trainthealgo.com/2025/02/taurus-solana-banking-integration.html
 https://trainthealgo.com/2025/02/steelers-trevor-lawrence-trade.html
->>>>>>> parent of cb9a906 (t)
 https://trainthealgo.com/2025/02/firing-programmers-for-ai.html
 https://trainthealgo.com/2025/02/valentines-2025-virtual-mailboxes.html
 https://trainthealgo.com/2025/02/openai-gpt-4-5-gpt-5-roadmap.html
