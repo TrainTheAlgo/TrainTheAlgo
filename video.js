@@ -25,7 +25,7 @@ video.fetch = async (uploadsPlaylistId) => {
     const response = await axios.get(url, { params });
     const items = response.data.items;
     items.forEach(item => {
-      if(item.snippet.description.toLowerCase().includes('short')) return; // don't include shorts
+      if(item.snippet.description.toLowerCase().includes('short') || item.snippet.title.toLowerCase().includes('short')) return;
       if (item.snippet && item.snippet.resourceId && item.snippet.resourceId.videoId) {
       videos.push({
         id: item.snippet.resourceId.videoId,

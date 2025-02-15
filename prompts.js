@@ -89,6 +89,9 @@ const article = {
     description: "max 250 character summary of the article, will be used as an overlay on the article image thumbnail and as a promotional tweet.",
     category: "miscellaneous",
     image: "article-title.png",
+    "research": "$research",
+    "author": "$author",
+    "illustrator": "$illustrator"
 }
 </script>
 <style></style>

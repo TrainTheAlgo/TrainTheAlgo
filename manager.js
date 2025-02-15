@@ -13,13 +13,13 @@ const newsletters = require('./newsletters.js');
 
 const coverNews = async () => {
   const story = await news.find();    
-  const metadata = await writer.write(story.title, story.background);
+  const metadata = await writer.write(story.title, story.background, "xAI Grok 2");
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 };
 
 const bigQuestions = async () => {
   const qa = await questions.answer();
-  const metadata = await writer.write(qa.question, qa.answer);
+  const metadata = await writer.write(qa.question, qa.answer, "Deepseek R1");
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 }
 

@@ -24,6 +24,9 @@ build.copyArticles = () => {
     const postHTML = postTemplate
       .replace('<!-- Menu -->', menu)
       .replace('<!-- Footer -->', footer)
+      .replaceAll('$research', post.research)
+      .replaceAll('$author', post.author)
+      .replaceAll('$illustrator', post.illustrator)
       .replaceAll('$title', post.title)
       .replaceAll('$description', post.description)
       .replaceAll('$image', post.image)
