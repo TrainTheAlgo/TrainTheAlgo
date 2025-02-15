@@ -1,5 +1,15 @@
 [
   {
+    "title": "Trump Media Dives into Crypto: What You Need to Know",
+    "slug": "trump-media-crypto-investment",
+    "description": "Trump Media and Technology Group has authorized a $250 million investment into cryptocurrency, launching ETFs and SMAs under the Truth.Fi brand. What does this mean for the market and investors?",
+    "image": "trump-media-crypto-investment.png",
+    "category": "Crypto",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-15T01:25:25.509Z"
+  },
+  {
     "title": "React's New Direction: Frameworks Over Create React App",
     "slug": "react-frameworks-over-cra",
     "description": "Create React App is being deprecated in favor of modern frameworks like Next.js, Remix, and Gatsby. Here's why React developers are making the switch.",
