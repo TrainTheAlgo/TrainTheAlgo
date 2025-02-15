@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Software</title>
-    <meta name="description" content="Latest Software News">
+    <title>React's New Direction: Frameworks Over Create React App</title>
+    <meta name="description" content="Create React App is being deprecated in favor of modern frameworks like Next.js, Remix, and Gatsby. Here's why React developers are making the switch.">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      h2 {
+        color: #3e4756;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: #222;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <style>
@@ -193,46 +207,62 @@
       <div class="relative h-96 overflow-hidden">
         <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          src="/img/backgrounds/software.jpg"
-          alt="Software"
+          src="react-frameworks-over-cra.png"
+          alt="React's New Direction: Frameworks Over Create React App"
         />
       </div>
       <div
         class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center"
       >
         <h1 class="text-2xl md:text-3xl text-white font-bold">
-          Software
+          React's New Direction: Frameworks Over Create React App
         </h1>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-      <!-- Latest Posts Section -->
-      <section id="latest-posts" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Software News</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Start Post -->
-          <a href="/2025/02/react-frameworks-over-cra.html" class="block">
-            <div class="relative rounded shadow overflow-hidden h-48 group">
-              <div
-                class="absolute inset-0 bg-cover"
-                style="background-image: url('/2025/02/react-frameworks-over-cra.png');"
-              ></div>
-              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 group-hover:bg-black transition duration-300"></div>
-              <div class="relative p-4">
-                <h3 class="text-lg font-semibold transition duration-300 text-gray-50 group-hover:text-white">
-                  React's New Direction: Frameworks Over Create React App
-                </h3>
-                <p class="text-sm mt-2  transition duration-300 text-gray-400 group-hover:text-white">
-                  Create React App is being deprecated in favor of modern frameworks like Next.js, Remix, and Gatsby. Here's why React developers are making the switch.
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Post -->
-        </div>
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      <script>
+const article = {
+    title: "React's New Direction: Frameworks Over Create React App",
+    slug: "react-frameworks-over-cra",
+    description: "Create React App is being deprecated in favor of modern frameworks like Next.js, Remix, and Gatsby. Here's why React developers are making the switch.",
+    category: "Software",
+    image: "react-frameworks-over-cra.png",
+}
+</script>
+<style></style>
+
+<h2>The End of Create React App</h2>
+<p>For years, Create React App (CRA) was the go-to tool for setting up a new React project. It provided a simple way to get started without worrying about complex configurations. But times have changed. CRA is now officially deprecated for new projects, and the React team is steering developers toward modern frameworks like Next.js, Remix, and Gatsby.</p>
+
+<p>Why the shift? The web has evolved, and so have the demands of developers. Performance, scalability, and maintainability are now top priorities, and CRA simply hasn't kept up. If you're still using CRA, it's time to reconsider. Here's what you need to know about React's new direction.</p>
+
+<h2>Why Create React App is Being Phased Out</h2>
+<p>CRA was once a great starting point, but it has struggled to keep pace with modern web development needs. One of its biggest drawbacks is performance. As projects grow, CRA's build times slow down, and its lack of built-in optimizations makes it harder to maintain large applications.</p>
+
+<p>Another issue is its lack of support for essential features like server-side rendering (SSR), static site generation (SSG), and efficient data fetching. These are now standard requirements for modern web applications, and CRA doesn't provide them out of the box.</p>
+
+<p>Additionally, CRA has suffered from a lack of active maintenance. While it will remain in maintenance mode with updates for React 19, it's no longer the recommended choice for new projects. Instead, the React team is encouraging developers to adopt frameworks that offer better performance and developer experience.</p>
+
+<h2>The Rise of Modern React Frameworks</h2>
+<p>Instead of relying on CRA, developers are now turning to frameworks that provide built-in optimizations and better scalability. The three main frameworks recommended by the React team are Next.js, Remix, and Gatsby.</p>
+
+<h3>Next.js</h3>
+<p>Next.js has become the most popular React framework, offering features like server-side rendering, static site generation, and API routes. It allows developers to build fast, scalable applications with minimal configuration. With support for React Server Components, Next.js is at the forefront of modern React development.</p>
+
+<h3>Remix</h3>
+<p>Remix focuses on improving the user experience by optimizing data loading and server-side rendering. It provides a full-stack development experience, making it easier to build applications that handle both client and server logic efficiently.</p>
+
+<h3>Gatsby</h3>
+<p>Gatsby is ideal for building static sites with dynamic content. It offers powerful optimizations for performance and security, making it a great choice for blogs, marketing sites, and content-driven applications.</p>
+
+<h2>What This Means for React Developers</h2>
+<p>If you're starting a new React project, the recommendation is clear: use a framework. These frameworks provide better performance, improved developer experience, and built-in features that CRA lacks.</p>
+
+<p>For those who prefer a custom setup, React now provides documentation on how to create a bespoke framework from scratch. However, for most developers, using an existing framework will save time and effort while ensuring better long-term maintainability.</p>
+
+<p>The shift away from CRA marks a new era for React development. It's a move toward more scalable, performant, and efficient applications. If you haven't explored frameworks like Next.js or Remix yet, now is the time. The future of React is here, and it's built on frameworks, not Create React App.</p>
     </main>
 
     <footer class="bg-black text-gray-200 py-12">
