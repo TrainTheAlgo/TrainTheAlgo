@@ -19,8 +19,6 @@ writer.write = async (subject, background) => {
       .replaceAll(`“`,`"`)
       .replaceAll(`”`,`"`)
       .replaceAll(`…`,`...`)
-      .replaceAll('```html','')
-      .replaceAll('```','')
       .replace(/[^\x09\x0A\x0D\x20-\x7E\xA3\u20AC]/g, '');
     const regex = /(title|slug|description|image|category):\s*"([^"]+)"/g;
     const article = {};
