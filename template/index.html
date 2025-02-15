@@ -7,6 +7,15 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style>
       .h-120 { height: 30rem }
+      .hero-video { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 120%;
+        height: 120%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+      }
     </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
@@ -15,16 +24,9 @@
     <!-- Hero Section -->
     <header class="relative">
       <div class="relative h-120 overflow-hidden">
-        <video
-          class="absolute top-0 left-0 w-full h-full object-cover"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="img/bkg-top.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <iframe class="hero-video" src="https://www.youtube.com/embed/opfF2GUlpzo?autoplay=1&controls=0&mute=1&loop=1&playlist=opfF2GUlpzo&modestbranding=1&showinfo=0&rel=0"
+            frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+        </iframe>
       </div>
       <div class="absolute inset-0 flex flex-col items-center text-center justify-center">
         <h1 class="text-3xl md:text-4xl text-white font-bold">
