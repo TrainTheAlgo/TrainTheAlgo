@@ -13,7 +13,7 @@ writer.write = async (subject, background, research="xAI Grok 2") => {
     authorPrompt[0].content = authorPrompt[0].content
       .replace('$author', 'OpenAI ChatGPT 4o')
       .replace('$research', research)
-      .replace('$illustrator', "OpenAI Dall-E 3")
+      .replace('$illustrator', "OpenAI Dall-E 3");
       authorPrompt[1].content = authorPrompt[1].content
       .replace('$subject', subject)
       .replace('$background', background)
