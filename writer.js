@@ -29,12 +29,12 @@ writer.write = async (subject, background, research="xAI Grok 2") => {
       .replaceAll('```html','')
       .replaceAll('```','')
       .replace(/[^\x09\x0A\x0D\x20-\x7E\xA3\u20AC]/g, '');
-    const regex = /(title|slug|description|image|category):\s*"([^"]+)"/g;
+    const regex = /(title|slug|description|image|category|author|research|illustrator):\s*"([^"]+)"/g;
     const article = {};
     let match;
     while ((match = regex.exec(htmlContent)) !== null) article[match[1]] = match[2];
     const { title, slug, description, image, category } = article;
-    console.log({ title, slug, description, image, category });
+    console.log({ title, slug, description, image, category, author, research, illustrator });
     if (!title) return;
     const now = new Date();
     const year = now.getFullYear().toString();
@@ -61,7 +61,10 @@ writer.write = async (subject, background, research="xAI Grok 2") => {
       category,
       path: `${year}/${month}/`,
       featured: false,
-      date: new Date().toISOString()
+      date: new Date().toISOString(),
+      author,
+      research,
+      illustrator
     }
     if (!indexData.some(item => item.slug === slug)) {
       indexData.unshift(articleMetadata);
