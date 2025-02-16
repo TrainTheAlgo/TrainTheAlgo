@@ -79,6 +79,8 @@ Do not end the article with a conclusion or summary. If possible finish with a t
 Choose the best category that the article fits into from this list:
 ["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
 
+Leave the research, author and illustrator fields as they are in the example output below.
+
 The article should then be formatted using HTML and Tailwind CSS and put into this template:
 
 Example Output:
@@ -89,9 +91,9 @@ const article = {
     description: "max 250 character summary of the article, will be used as an overlay on the article image thumbnail and as a promotional tweet.",
     category: "miscellaneous",
     image: "article-title.png",
-    "research": "$research",
-    "author": "$author",
-    "illustrator": "$illustrator"
+    research: "$research",
+    author: "$author",
+    illustrator: "$illustrator"
 }
 </script>
 <style></style>

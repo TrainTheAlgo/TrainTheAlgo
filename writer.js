@@ -4,7 +4,7 @@ const prompts = require('./prompts.js');
 
 const writer = {};
 
-writer.write = async (subject, background, research="xAI Grok 2") => {
+writer.write = async (subject, background, researchModel="xAI Grok 2") => {
   try {
     const titlePrompt = structuredClone(prompts.titles);
     titlePrompt[1].content = titlePrompt[1].content.replace('$subject', subject).replace('$background', background);
@@ -12,12 +12,13 @@ writer.write = async (subject, background, research="xAI Grok 2") => {
     const authorPrompt = structuredClone(prompts.author);
     authorPrompt[0].content = authorPrompt[0].content
       .replace('$author', 'OpenAI ChatGPT 4o')
-      .replace('$research', research)
+      .replace('$research', researchModel)
       .replace('$illustrator', "OpenAI Dall-E 3");
       authorPrompt[1].content = authorPrompt[1].content
       .replace('$subject', subject)
       .replace('$background', background)
       .replace('$titles', titles);
+      console.log(authorPrompt)
     let htmlContent = await models.chatGPT(authorPrompt);
     htmlContent = htmlContent
       .replaceAll(`—`,`-`)
@@ -29,12 +30,12 @@ writer.write = async (subject, background, research="xAI Grok 2") => {
       .replaceAll('```html','')
       .replaceAll('```','')
       .replace(/[^\x09\x0A\x0D\x20-\x7E\xA3\u20AC]/g, '');
-    const regex = /(title|slug|description|image|category|author|research|illustrator):\s*"([^"]+)"/g;
+    const regex = /(title|slug|description|image|category|research|author|illustrator):\s*"([^"]+)"/g;
     const article = {};
     let match;
     while ((match = regex.exec(htmlContent)) !== null) article[match[1]] = match[2];
-    const { title, slug, description, image, category } = article;
-    console.log({ title, slug, description, image, category, author, research, illustrator });
+    const { title, slug, description, image, category, research, author, illustrator } = article;
+    console.log({ title, slug, description, image, category, research, author, illustrator });
     if (!title) return;
     const now = new Date();
     const year = now.getFullYear().toString();
@@ -62,10 +63,11 @@ writer.write = async (subject, background, research="xAI Grok 2") => {
       path: `${year}/${month}/`,
       featured: false,
       date: new Date().toISOString(),
-      author,
       research,
+      author,
       illustrator
     }
+    console.log('articleMetadata', articleMetadata)
     if (!indexData.some(item => item.slug === slug)) {
       indexData.unshift(articleMetadata);
     }
