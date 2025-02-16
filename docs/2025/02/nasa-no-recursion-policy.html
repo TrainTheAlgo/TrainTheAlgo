@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Software</title>
-    <meta name="description" content="Latest Software News">
+    <title>Why Programmers Are Debating NASA's No-Recursion Policy</title>
+    <meta name="description" content="NASA's strict coding standards prohibit recursion in mission-critical software. Here's why this policy exists and why it's sparking debate among programmers.">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      h2 {
+        color: #3e4756;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: #222;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <style>
@@ -193,46 +207,58 @@
       <div class="relative h-96 overflow-hidden">
         <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          src="/img/backgrounds/software.jpg"
-          alt="Software"
+          src="nasa-no-recursion-policy.png"
+          alt="Why Programmers Are Debating NASA's No-Recursion Policy"
         />
       </div>
-      <div
-        class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center"
-      >
+      <div class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center">
         <h1 class="text-2xl md:text-3xl text-white font-bold">
-          Software
+          Why Programmers Are Debating NASA's No-Recursion Policy
         </h1>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-      <!-- Latest Posts Section -->
-      <section id="latest-posts" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Software News</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Start Post -->
-          <a href="/2025/02/nasa-no-recursion-policy.html" class="block">
-            <div class="relative rounded shadow overflow-hidden h-48 group">
-              <div
-                class="absolute inset-0 bg-cover"
-                style="background-image: url('/2025/02/nasa-no-recursion-policy.png');"
-              ></div>
-              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 group-hover:bg-black transition duration-300"></div>
-              <div class="relative p-4">
-                <h3 class="text-lg font-semibold transition duration-300 text-gray-50 group-hover:text-white">
-                  Why Programmers Are Debating NASA's No-Recursion Policy
-                </h3>
-                <p class="text-sm mt-2  transition duration-300 text-gray-400 group-hover:text-white">
-                  NASA's strict coding standards prohibit recursion in mission-critical software. Here's why this policy exists and why it's sparking debate among programmers.
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Post -->
-        </div>
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      <div class="mb-8 text-xs text-right text-gray-600">Models: <span class="text-gray-400">research(xAI Grok 2)</span> / <span class="text-gray-400">author(OpenAI ChatGPT 4o)</span> / <span class="text-gray-400">illustrator(OpenAI Dall-E 3)</span></div>
+      <script>
+const article = {
+    title: "Why Programmers Are Debating NASA's No-Recursion Policy",
+    slug: "nasa-no-recursion-policy",
+    description: "NASA's strict coding standards prohibit recursion in mission-critical software. Here's why this policy exists and why it's sparking debate among programmers.",
+    category: "Software",
+    image: "nasa-no-recursion-policy.png",
+    research: "xAI Grok 2",
+    author: "OpenAI ChatGPT 4o",
+    illustrator: "OpenAI Dall-E 3"
+}
+</script>
+<style></style>
+
+<h2>NASA's No-Recursion Rule: A Necessary Precaution or Overkill?</h2>
+<p>NASA has a rule that might surprise many programmers: recursion is off-limits in its mission-critical software. This policy, part of NASA's stringent "Power of 10" coding rules, is designed to ensure reliability in space missions. But is banning recursion really necessary, or is it an outdated restriction? The debate is heating up.</p>
+
+<h2>Why NASA Avoids Recursion</h2>
+<p>At first glance, recursion is a powerful tool. It allows for elegant solutions to problems like tree traversal, sorting algorithms, and mathematical computations. However, in safety-critical systems-where failure is not an option-recursion introduces risks that NASA isn't willing to take.</p>
+
+<p>The primary concern is stack growth. Recursive functions rely on the call stack, and if not carefully controlled, they can lead to stack overflows. In real-time systems, where memory and execution time must be precisely managed, this unpredictability is unacceptable. A single unexpected recursive call could cause a system crash, jeopardizing an entire mission.</p>
+
+<p>Another issue is control flow complexity. Recursion can make it harder to predict exactly how a program will behave in all scenarios. In space missions, software must be deterministic-meaning its behavior must be fully predictable under all conditions. Loops with fixed bounds provide this level of certainty, while recursion does not.</p>
+
+<h2>The Programmer Backlash</h2>
+<p>Not everyone agrees with NASA's stance. On social media, programmers have been debating whether banning recursion is an overreaction. Some argue that recursion, when properly managed, is no more dangerous than loops. Others point out that modern compilers and static analysis tools can detect and mitigate recursion-related risks.</p>
+
+<p>However, those familiar with aerospace software development understand NASA's caution. In environments where a single software failure could mean the loss of a billion-dollar spacecraft-or worse, human lives-eliminating even small risks makes sense. The trade-off is clear: safety and predictability over code elegance.</p>
+
+<h2>Is This Just a NASA Thing?</h2>
+<p>NASA isn't alone in this approach. Many industries that deal with safety-critical software, such as aviation, medical devices, and automotive systems, follow similar guidelines. The goal is always the same: minimize risk by enforcing strict coding standards.</p>
+
+<p>That said, outside of these high-stakes environments, recursion remains a valuable tool. In everyday software development, recursion can lead to cleaner, more maintainable code. The key is knowing when and where to use it.</p>
+
+<h2>The Bigger Picture</h2>
+<p>This debate highlights a fundamental tension in software engineering: the balance between efficiency, readability, and safety. While recursion can make code more concise, it also introduces uncertainty. NASA's decision to ban it isn't about rejecting modern programming techniques-it's about ensuring that every line of code is as predictable and fail-proof as possible.</p>
+
+<p>For programmers, the lesson is clear. In high-risk environments, simplicity and reliability trump cleverness. And when the stakes are as high as space exploration, even a single recursive function might be one risk too many.</p>
     </main>
 
     <footer class="bg-black text-gray-200 py-12">

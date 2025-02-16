@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why Programmers Are Debating NASA's No-Recursion Policy",
+    "slug": "nasa-no-recursion-policy",
+    "description": "NASA's strict coding standards prohibit recursion in mission-critical software. Here's why this policy exists and why it's sparking debate among programmers.",
+    "image": "nasa-no-recursion-policy.png",
+    "category": "Software",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-16T13:50:05.038Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Growth Maze vs The Idea Maze: Navigating Innovation and Expansion",
     "slug": "growth-maze-vs-idea-maze",
     "description": "Understanding the Idea Maze and Growth Maze is crucial for startups and tech companies. Learn how to navigate product innovation and distribution effectively.",
