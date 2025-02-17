@@ -1,5 +1,18 @@
 [
   {
+    "title": "Smart Dust: The Key to the 4th Industrial Revolution",
+    "slug": "smart-dust-4th-industrial-revolution",
+    "description": "Smart Dust is revolutionizing industries from healthcare to military surveillance. These microscopic sensors are monitoring everything, everywhere. But at what cost?",
+    "image": "smart-dust.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-17T04:01:07.622Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "New Delhi Earthquake: 4.0 Magnitude Shakes NCR - Impact and Reactions",
     "slug": "new-delhi-earthquake-40-magnitude",
     "description": "A 4.0 magnitude earthquake struck New Delhi early this morning, shaking the NCR region. Residents took to social media to share their experiences. Here's what happened.",
