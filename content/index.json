@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Dark Side of AI - Transhumanism and the War Against Humanity",
+    "slug": "dark-side-ai-transhumanism",
+    "description": "As AI advances, the transhumanist movement seeks to merge humans with machines. But at what cost? Explore the ethical, societal, and existential risks of this technological revolution.",
+    "image": "dark-side-ai-transhumanism.png",
+    "category": "AI",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-19T21:01:54.352Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How I Survived 30 Days Without My Smartphone",
     "slug": "how-i-survived-30-days-without-my-smartphone",
     "description": "A month-long experiment with a flip phone led to unexpected revelations about life, attention, and the grip of digital addiction.",
