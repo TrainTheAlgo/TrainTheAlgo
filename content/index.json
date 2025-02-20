@@ -1,5 +1,18 @@
 [
   {
+    "title": "Are Your Dreams Windows to a Parallel Universe?",
+    "slug": "are-your-dreams-windows-to-a-parallel-universe",
+    "description": "Could your dreams be glimpses into a parallel universe? Science and speculation collide as we explore the fascinating link between dreams and the multiverse.",
+    "image": "are-your-dreams-windows-to-a-parallel-universe.png",
+    "category": "Physics",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-20T05:34:05.952Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Dark Side of AI - Transhumanism and the War Against Humanity",
     "slug": "dark-side-ai-transhumanism",
     "description": "As AI advances, the transhumanist movement seeks to merge humans with machines. But at what cost? Explore the ethical, societal, and existential risks of this technological revolution.",
