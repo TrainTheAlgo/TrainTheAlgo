@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Power Of Fame: How Celebrities Are Redefining Politics",
+    "slug": "celebrities-redefining-politics",
+    "description": "From social media activism to running for office, celebrities are playing an increasing role in shaping political discourse. But is this a good thing?",
+    "image": "celebrities-redefining-politics.png",
+    "category": "Politics",
+    "path": "2025/02/",
+    "featured": false,
+    "date": "2025-02-21T06:36:21.221Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Data Isn't Transparency: Why USASpending.gov Buried the Truth (and DOGE Dug It Up)",
     "slug": "data-isnt-transparency-usaspending-doge",
     "description": "USASpending.gov hosts federal spending data, but its search limitations make it nearly impossible to access meaningful insights. DataRepublican.com changes that with an inverted index, making government spending truly searchable.",
