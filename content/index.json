@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Algorithmic Gaze: Why You Don't See Certain Posts Online",
+    "slug": "algorithmic-gaze-survivorship-bias",
+    "description": "Social media algorithms shape what you see-and what you don't. Survivorship bias distorts reality, creating a perception gap that fuels polarization.",
+    "image": "algorithmic-gaze-survivorship-bias.png",
+    "category": "Politics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-04T23:39:21.713Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Crypto Market Crash: $1.09 Billion Lost in One Day",
     "slug": "crypto-market-crash-1-billion-liquidated",
     "description": "The cryptocurrency market suffered a historic $1.09 billion liquidation in a single day, sending Bitcoin and Ethereum into freefall. What caused this massive sell-off?",
