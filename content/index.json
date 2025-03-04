@@ -1,5 +1,18 @@
 [
   {
+    "title": "FlexiMuscle: The New Soft Robotics Material Mimicking Human Muscle",
+    "slug": "fleximuscle-soft-robotics-breakthrough",
+    "description": "ETH Zurich's FlexiMuscle mimics human muscle with 87% efficiency, promising breakthroughs in prosthetics, surgery, and industrial robotics.",
+    "image": "fleximuscle-soft-robotics.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-04T14:31:12.244Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Just Got a Major Boost: 85% Error Reduction Achieved",
     "slug": "quantum-computing-error-reduction",
     "description": "A breakthrough in quantum computing has been achieved with a new error correction technique, reducing errors by 85% and bringing commercial viability closer than ever.",
