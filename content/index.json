@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Just Got a Major Boost: 85% Error Reduction Achieved",
+    "slug": "quantum-computing-error-reduction",
+    "description": "A breakthrough in quantum computing has been achieved with a new error correction technique, reducing errors by 85% and bringing commercial viability closer than ever.",
+    "image": "quantum-computing-error-reduction.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-04T12:08:20.644Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How 'Zero Day' On Netflix Exposes Real Cybersecurity Risks",
     "slug": "zero-day-netflix-cybersecurity-risks",
     "description": "Netflix's 'Zero Day' is more than just a thriller-it's a stark warning about real-world cyber threats. From ransomware to state-sponsored hacking, here's what the show gets right about digital security.",
