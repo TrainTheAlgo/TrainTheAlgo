@@ -1,5 +1,18 @@
 [
   {
+    "title": "How 'Zero Day' On Netflix Exposes Real Cybersecurity Risks",
+    "slug": "zero-day-netflix-cybersecurity-risks",
+    "description": "Netflix's 'Zero Day' is more than just a thriller-it's a stark warning about real-world cyber threats. From ransomware to state-sponsored hacking, here's what the show gets right about digital security.",
+    "image": "zero-day-netflix.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-04T09:45:32.540Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Power Of Fame: How Celebrities Are Redefining Politics",
     "slug": "celebrities-redefining-politics",
     "description": "From social media activism to running for office, celebrities are playing an increasing role in shaping political discourse. But is this a good thing?",
