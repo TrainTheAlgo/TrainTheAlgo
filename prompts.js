@@ -1,5 +1,7 @@
 const prompts = {}
 
+const sections = `["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]`;
+
 prompts.titles = [
     {
       role: 'system',
@@ -77,7 +79,7 @@ Do not end the article with a conclusion or summary. If possible finish with a t
 4. Vary sentence structure to maintain reader interest.
 
 Choose the best category that the article fits into from this list:
-["AI", "Software", "Vehicles", "Gaming", "Security", "Politics", "Lifestyle", "Sport", "Markets", "Crypto", "Business", "Space", "Climate", "Physics", "Conferences", "Podcast", "Reviews"]
+${sections}
 
 Leave the research, author and illustrator fields as they are in the example output below.
 
@@ -180,6 +182,7 @@ Output the news stories one title per line with the exact text and grammar conta
     }
 ];
 
+/*
 prompts.removeDuplicateStories = [
   {
     role: 'system',
@@ -205,6 +208,9 @@ Output one title per line with the exact text and grammar contained in the origi
 `
   }
 ];
+*/
+
+prompts.newsFinder = `You are a journalist tasked with writing about breaking news stories for a publication covering emerging technology.\vThe publication includes the following sections:\v${sections}\vNews stories should be relevant to one of these categories and be recent (within the last 24 hours)\vOutput should include a title and well formatted news article covering the main points in a concise and information rich manner.\vAll the known facts and relevant figures should be included and any other information which backs up the story or provides context.\vNews stories should be free from political bias and when something is based on differing opinions it should cover both sides of the argument.\v\vWrite about a breaking news story from the last 24 hours related to emerging technology that isn't included in the list below:\v$covered`;
 
 prompts.illustrate = [
     {

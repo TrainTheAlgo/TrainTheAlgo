@@ -32,7 +32,7 @@ news.find = async () => {
   let executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
   if (process.platform === 'linux') executablePath = '/usr/bin/google-chrome-stable';
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
     executablePath,
     args: [
       '--no-sandbox',
@@ -60,46 +60,19 @@ news.find = async () => {
 
   await page.goto('https://x.com/i/grok', { waitUntil: 'networkidle2' });
   await loginIfNeeded(page);
-
   await new Promise(resolve => setTimeout(resolve, 5000));
-  await page.evaluate(() => {
-    window.scrollTo(0, document.body.scrollHeight - Math.floor(Math.random() * 101));
-  });
-  await new Promise(resolve => setTimeout(resolve, 5000));
-  const grokHTML = await page.content();
-  const trimmedHTML = grokHTML.split('Ask Grok about today’s news')[1].split('<script')[0];
-  const cleanedText = trimmedHTML.replace(/<[^>]+>/g, ' ')
-    .replaceAll('  ', ' ').replaceAll('  ', ' ').trim()
-    .replaceAll('posts', "posts\n");
- if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
+  await page.click('textarea');
+  await new Promise(resolve => setTimeout(resolve, 1500));
+  if (!fs.existsSync(indexPath)) fs.writeFileSync(indexPath, '[]', 'utf8');
   const data = fs.readFileSync(indexPath, 'utf8');
-  const covered = JSON.parse(data).slice(0, 10).map(a => a.title).join("\n");
-  //const extractPrompt = structuredClone(prompts.extractNews);
-  //extractPrompt[1].content = extractPrompt[1].content.replace('$html', cleanedText).replace('$covered', covered);
-  //console.log(extractPrompt[1].content)
-  //const titles = await models.chatGPT(extractPrompt);
-  console.log('Latest news stories:', cleanedText);
-  const dupePrompt = structuredClone(prompts.removeDuplicateStories);
-  dupePrompt[1].content = dupePrompt[1].content.replace('$covered', covered).replace('$titles', cleanedText);
-  console.log('dupePrompt', dupePrompt)
-  let deduped = await models.chatGPT(dupePrompt);
-  if (deduped.split("\n").length < 3) deduped = cleanedText; // check it's sent back a meaningful response
-  console.log('Deduped: ',deduped);
-  const titlesArray = deduped.split("\n");
-  let storyTitle;
-  for (let i = 0; i < titlesArray.length; i++) {
-    storyTitle = titlesArray[i].trim();
-    const clickText = storyTitle.slice(0, 12).trim();
-    console.log('Clicking Story: ', titlesArray[i], clickText);
-    try {
-      await page.locator(`text/${clickText}`).click();
-      break;
-    } catch(err) {
-      console.log(`Click failed :(`);
-    }
-  }
+  const covered = JSON.parse(data).slice(0, 10).map(a => a.title).join("\v");
+  let newsPrompt = structuredClone(prompts.newsFinder);
+  newsPrompt = newsPrompt.replace('$covered', covered);
+  //await page.type('textarea', 'Hello, Puppeteer!');
+  await page.keyboard.type(newsPrompt, {delay: 30});
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  await page.keyboard.press('Enter');
   await new Promise(resolve => setTimeout(resolve, 30000));
-  //const storyHTML = await page.content();
   await page.click('button[aria-label="Copy text"]')
   await new Promise(resolve => setTimeout(resolve, 5000));
   const storyResult = await page.evaluate(() => {
@@ -108,10 +81,16 @@ news.find = async () => {
     return story;
   });
   console.log('storyResult', storyResult);
-  //console.log('sleeping...')
-  //await new Promise(resolve => setTimeout(resolve, 500000));
   await browser.close();
-  return { title: storyTitle, background: storyResult };
+  return { title: storyResult.split("\n")[0], background: storyResult };
 }
+
+/*
+const test = async () => {
+  const res = await news.find();
+  console.log(res);
+}
+test();
+*/
 
 module.exports = news;
