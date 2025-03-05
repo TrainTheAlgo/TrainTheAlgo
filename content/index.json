@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Wearables Take Center Stage at Tech Expo 2025",
+    "slug": "ai-powered-wearables-tech-expo-2025",
+    "description": "Tech Expo 2025 unveils a new era of AI-powered wearables, from health-monitoring wristbands to AR glasses, redefining personal wellness and convenience.",
+    "image": "ai-powered-wearables-tech-expo-2025.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-05T02:04:33.514Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Algorithmic Gaze: Why You Don't See Certain Posts Online",
     "slug": "algorithmic-gaze-survivorship-bias",
     "description": "Social media algorithms shape what you see-and what you don't. Survivorship bias distorts reality, creating a perception gap that fuels polarization.",
