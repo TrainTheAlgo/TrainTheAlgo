@@ -1,5 +1,18 @@
 [
   {
+    "title": "UnitedHealth Fraud Ruling: A Shift in Healthcare Tech Oversight",
+    "slug": "unitedhealth-fraud-ruling-healthcare-tech",
+    "description": "A major ruling in UnitedHealth's Medicare fraud case could reshape how AI and data analytics are regulated in healthcare. Here's what it means for the future of tech-driven billing.",
+    "image": "unitedhealth-fraud-ruling.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-05T23:20:31.548Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: New Algorithm Achieves 50% Speed Increase",
     "slug": "quantum-computing-breakthrough-new-algorithm",
     "description": "MIT researchers unveil a groundbreaking quantum algorithm that accelerates problem-solving by 50%, bringing quantum computing closer to real-world applications.",
