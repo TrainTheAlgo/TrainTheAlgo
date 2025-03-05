@@ -1,5 +1,18 @@
 [
   {
+    "title": "Singapore Probes Nvidia AI Chip Smuggling Route: Breaking Down the Investigation",
+    "slug": "singapore-nvidia-ai-chip-smuggling",
+    "description": "Singaporean authorities are investigating a suspected smuggling operation involving Nvidia AI chips, raising concerns over U.S. export controls and global tech security.",
+    "image": "singapore-nvidia-ai-chip-smuggling.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-05T18:26:50.545Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink Brain Interface Breakthrough: Paralyzed Patient Controls Computer with Thoughts",
     "slug": "neuralink-brain-interface-breakthrough",
     "description": "Neuralink's latest human trial shows a paralyzed patient controlling a computer with their thoughts, marking a major step in brain-computer interface technology.",
