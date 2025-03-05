@@ -1,5 +1,18 @@
 [
   {
+    "title": "DOJ's Tech-Driven Crackdown in Boston Sparks Sanctuary City Debate",
+    "slug": "doj-tech-crackdown-boston",
+    "description": "The DOJ's latest operation in Boston leverages advanced surveillance and data analytics, igniting a fierce debate over sanctuary city policies and civil liberties.",
+    "image": "doj-tech-crackdown-boston.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-05T04:27:06.367Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Wearables Take Center Stage at Tech Expo 2025",
     "slug": "ai-powered-wearables-tech-expo-2025",
     "description": "Tech Expo 2025 unveils a new era of AI-powered wearables, from health-monitoring wristbands to AR glasses, redefining personal wellness and convenience.",
