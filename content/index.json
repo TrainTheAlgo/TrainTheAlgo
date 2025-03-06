@@ -1,5 +1,18 @@
 [
   {
+    "title": "Augmented Reality Breaks Language Barriers with Real-Time Translation",
+    "slug": "augmented-reality-language-translation",
+    "description": "LinguaTech's new AR platform, LinguaVision, offers real-time language translation, revolutionizing global communication with AI-powered subtitles and voice dubbing.",
+    "image": "augmented-reality-language-translation.png",
+    "category": "Software",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-06T23:20:56.656Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Can AI Systems Spread Like Viruses? The Surprising Truth",
     "slug": "can-ai-systems-spread-like-viruses",
     "description": "Could an AI system spread like an internet worm or virus? The idea sounds like science fiction, but cybersecurity experts are taking the possibility seriously.",
