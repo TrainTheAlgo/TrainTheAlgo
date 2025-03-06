@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why You Keep Seeing 'Something Went Wrong' - And How to Fix It Fast",
+    "slug": "why-you-keep-seeing-something-went-wrong",
+    "description": "Frustrated by the dreaded 'Something went wrong, please try again' error? Learn why it happens and how to fix it quickly with this easy-to-follow guide.",
+    "image": "something-went-wrong.png",
+    "category": "Software",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-06T13:39:55.687Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Why Does 'Something Went Wrong, Please Try Again' Happen?",
     "slug": "why-does-something-went-wrong-happen",
     "description": "Frustrated by the 'Something Went Wrong, Please Try Again' error? Learn why it happens and how to fix it with this step-by-step guide.",
