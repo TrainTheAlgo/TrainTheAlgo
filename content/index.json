@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Achieves 92% Accuracy in Crop Yield Predictions",
+    "slug": "ai-crop-yield-predictions",
+    "description": "A groundbreaking AI model, YieldSense, is transforming agriculture with 92% accuracy in crop yield predictions, helping farmers optimize resources and combat climate change.",
+    "image": "ai-crop-yield-predictions.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-06T01:40:12.781Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "UnitedHealth Fraud Ruling: A Shift in Healthcare Tech Oversight",
     "slug": "unitedhealth-fraud-ruling-healthcare-tech",
     "description": "A major ruling in UnitedHealth's Medicare fraud case could reshape how AI and data analytics are regulated in healthcare. Here's what it means for the future of tech-driven billing.",
