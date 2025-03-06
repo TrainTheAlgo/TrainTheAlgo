@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can This Band Really Track Stress with 95% Accuracy?",
+    "slug": "stresssense-band-95-accuracy",
+    "description": "VitalSense's new StressSense Band claims to track stress levels with 95% accuracy. Is this the future of mental wellness, or just another wearable gimmick?",
+    "image": "stresssense-band.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-06T16:01:15.635Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Why You Keep Seeing 'Something Went Wrong' - And How to Fix It Fast",
     "slug": "why-you-keep-seeing-something-went-wrong",
     "description": "Frustrated by the dreaded 'Something went wrong, please try again' error? Learn why it happens and how to fix it quickly with this easy-to-follow guide.",
