@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can AI Systems Spread Like Viruses? The Surprising Truth",
+    "slug": "can-ai-systems-spread-like-viruses",
+    "description": "Could an AI system spread like an internet worm or virus? The idea sounds like science fiction, but cybersecurity experts are taking the possibility seriously.",
+    "image": "can-ai-systems-spread-like-viruses.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-06T20:56:06.996Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How NeuralSync's Breakthrough Is Redefining Brain-Computer Communication",
     "slug": "neuralsync-brain-computer-breakthrough",
     "description": "NeuralSync unveils NeuraLink 2.0, a non-invasive brain-computer interface that translates thoughts into text with 87% accuracy, revolutionizing AI and accessibility.",
