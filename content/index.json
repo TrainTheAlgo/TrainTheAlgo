@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stranded Astronauts Spark Debate Over SpaceX Rescue Mission",
+    "slug": "stranded-astronauts-spacex-rescue",
+    "description": "Two NASA astronauts have been stranded on the ISS for eight months. Elon Musk claims SpaceX could have rescued them six months ago, but the Biden administration allegedly blocked the mission. Now, Trump has authorized SpaceX to proceed. What really happened?",
+    "image": "stranded-astronauts-spacex-rescue.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-07T13:59:05.878Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "SpaceX Unveils Raptor 3.1 - A Giant Leap for Mars Exploration",
     "slug": "spacex-raptor-3-1-mars-thruster",
     "description": "SpaceX has revealed the Raptor 3.1 thruster, a major upgrade for Starship, bringing Mars missions closer to reality with improved efficiency and thrust.",
