@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stranded Astronauts: How Elon Musk and Donald Trump Are Pushing for a SpaceX Rescue",
+    "slug": "stranded-astronauts-musk-trump-spacex-rescue",
+    "description": "Astronauts stranded in space for eight months have become the center of a political and technological standoff. Can SpaceX's Starship save them, or will bureaucracy and politics stand in the way?",
+    "image": "stranded-astronauts-spacex-rescue.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-07T18:52:21.481Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Soft Robotics: Self-Healing Material Revealed",
     "slug": "breakthrough-soft-robotics-self-healing-material",
     "description": "Stanford researchers unveil a self-healing polymer that could revolutionize soft robotics, enhancing durability and reducing maintenance costs.",
