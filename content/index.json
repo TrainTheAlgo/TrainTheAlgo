@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Sports Analytics: Real-Time Insights for Coaches and Broadcasters",
+    "slug": "ai-powered-sports-analytics",
+    "description": "A groundbreaking AI tool is transforming sports analytics, offering real-time insights into player performance, fatigue, and strategy. Could this be the future of competitive sports?",
+    "image": "ai-powered-sports-analytics.png",
+    "category": "Sport",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-07T09:04:14.211Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Could AI Be Humanity's Final Invention? Exploring Superintelligence",
     "slug": "ai-humanitys-final-invention",
     "description": "If AI surpasses human intelligence, will we ever need to invent anything again? Exploring the potential of superintelligent AI and its implications for the future of innovation.",
