@@ -1,5 +1,18 @@
 [
   {
+    "title": "Playbook to Fine-Tune and Deploy LLMs",
+    "slug": "playbook-fine-tune-deploy-llms",
+    "description": "Learn how to fine-tune and deploy large language models (LLMs) efficiently using Hugging Face, LoRA, QLoRA, and Unsloth.",
+    "image": "playbook-fine-tune-deploy-llms.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-07T01:50:30.170Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Augmented Reality Breaks Language Barriers with Real-Time Translation",
     "slug": "augmented-reality-language-translation",
     "description": "LinguaTech's new AR platform, LinguaVision, offers real-time language translation, revolutionizing global communication with AI-powered subtitles and voice dubbing.",
