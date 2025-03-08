@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Breakthrough: Algorithm Doubles Processing Speed",
+    "slug": "quantum-computing-breakthrough-algorithm-doubles-processing-speed",
+    "description": "Cambridge researchers unveil Quantum Velocity Boost (QVB), an algorithm that doubles quantum processing speed, marking a major leap in computing power.",
+    "image": "quantum-computing-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-08T09:19:39.959Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "98.7% Detection Rate - AI Algorithm Boosts Cybersecurity",
     "slug": "ai-algorithm-boosts-cybersecurity",
     "description": "A new AI algorithm, ThreatSentry, is revolutionizing cybersecurity with real-time threat detection, achieving a 98.7% success rate in identifying cyber threats.",
