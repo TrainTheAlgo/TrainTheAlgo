@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tesla Sales Plunge 76% in Germany Amid Political Backlash",
+    "slug": "tesla-sales-plunge-germany",
+    "description": "Tesla's sales in Germany have dropped by 76% in February 2025, with political controversy surrounding Elon Musk's statements playing a key role in the decline.",
+    "image": "tesla-sales-plunge-germany.png",
+    "category": "Vehicles",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-08T04:29:01.441Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Sony Layoffs Signal Major Shift In Gaming Industry Focus",
     "slug": "sony-layoffs-shift-gaming-industry",
     "description": "Sony's recent layoffs mark a turning point for PlayStation, signaling a retreat from live-service games and a potential return to narrative-driven experiences.",
