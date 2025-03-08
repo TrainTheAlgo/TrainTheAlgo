@@ -1,5 +1,18 @@
 [
   {
+    "title": "Genetically Engineered Woolly Mouse: A Giant Leap Toward Mammoth Revival",
+    "slug": "genetically-engineered-woolly-mouse",
+    "description": "Scientists unveil a genetically engineered woolly mouse, marking a major step toward resurrecting the woolly mammoth. Could this tiny creature hold the key to de-extinction?",
+    "image": "genetically-engineered-woolly-mouse.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-08T11:49:13.787Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: Algorithm Doubles Processing Speed",
     "slug": "quantum-computing-breakthrough-algorithm-doubles-processing-speed",
     "description": "Cambridge researchers unveil Quantum Velocity Boost (QVB), an algorithm that doubles quantum processing speed, marking a major leap in computing power.",
