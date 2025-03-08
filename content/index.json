@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Exoskeleton Revolutionizes Industrial Work",
+    "slug": "ai-powered-exoskeleton-revolutionizes-industrial-work",
+    "description": "IronForge Robotics unveils IronLift, an AI-driven exoskeleton designed to enhance worker strength, reduce injuries, and boost productivity in industrial settings.",
+    "image": "ai-powered-exoskeleton.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-08T21:31:44.359Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "NeuralSync's MindScribe: The Breakthrough in Non-Invasive Brain-Computer Interfaces",
     "slug": "neuralsync-mindscribe-breakthrough",
     "description": "NeuralSync unveils MindScribe, a non-invasive brain-computer interface with 92% accuracy, revolutionizing thought-to-text communication.",
