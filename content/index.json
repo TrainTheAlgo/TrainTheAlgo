@@ -1,5 +1,18 @@
 [
   {
+    "title": "Starship Gets Green Light After 8-Month Delay",
+    "slug": "starship-gets-green-light",
+    "description": "After months of political tension, SpaceX's Starship has been approved for a critical astronaut rescue mission. What caused the delay, and what happens next?",
+    "image": "starship-rescue-mission.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-08T14:14:19.329Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Genetically Engineered Woolly Mouse: A Giant Leap Toward Mammoth Revival",
     "slug": "genetically-engineered-woolly-mouse",
     "description": "Scientists unveil a genetically engineered woolly mouse, marking a major step toward resurrecting the woolly mammoth. Could this tiny creature hold the key to de-extinction?",
