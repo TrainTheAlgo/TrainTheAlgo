@@ -1,5 +1,18 @@
 [
   {
+    "title": "Microsoft Advances AI Models to Challenge OpenAI",
+    "slug": "microsoft-ai-challenge-openai",
+    "description": "Microsoft is intensifying its AI efforts, testing models from xAI, Meta, and DeepSeek to reduce reliance on OpenAI and compete in the evolving AI landscape.",
+    "image": "microsoft-ai-challenge-openai.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-09T17:00:37.638Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "DeepSeek vs OpenAI: New Frontiers in the AI Race",
     "slug": "deepseek-vs-openai-new-frontiers-in-the-ai-race",
     "description": "Chinese startup DeepSeek has unveiled a groundbreaking AI chatbot, shaking up the industry and challenging tech giants like OpenAI and Meta.",
