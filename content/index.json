@@ -1,5 +1,18 @@
 [
   {
+    "title": "Flexible Solar Cells Break Record With 26.8% Efficiency",
+    "slug": "flexible-solar-cells-record-efficiency",
+    "description": "Researchers at the University of Cambridge have developed flexible solar cells with a record-breaking 26.8% efficiency, promising a revolution in renewable energy applications.",
+    "image": "flexible-solar-cells.png",
+    "category": "Climate",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-09T12:07:36.566Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Driven Sports Analytics Breakthrough: Transforming Training and Strategy",
     "slug": "ai-driven-sports-analytics-breakthrough",
     "description": "A revolutionary AI-powered sports analytics platform promises to reshape training and strategy with real-time insights and injury prevention capabilities.",
