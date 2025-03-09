@@ -1,5 +1,18 @@
 [
   {
+    "title": "DeepSeek vs OpenAI: New Frontiers in the AI Race",
+    "slug": "deepseek-vs-openai-new-frontiers-in-the-ai-race",
+    "description": "Chinese startup DeepSeek has unveiled a groundbreaking AI chatbot, shaking up the industry and challenging tech giants like OpenAI and Meta.",
+    "image": "deepseek-ai-chatbot.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-09T14:33:28.290Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Flexible Solar Cells Break Record With 26.8% Efficiency",
     "slug": "flexible-solar-cells-record-efficiency",
     "description": "Researchers at the University of Cambridge have developed flexible solar cells with a record-breaking 26.8% efficiency, promising a revolution in renewable energy applications.",
