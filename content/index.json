@@ -1,5 +1,18 @@
 [
   {
+    "title": "Wearable Sensors Revolutionizing Sports Performance Monitoring",
+    "slug": "wearable-sensors-revolutionizing-sports-performance-monitoring",
+    "description": "A groundbreaking wearable sensor is changing the way athletes train and recover, offering real-time insights into muscle activity, hydration, and fatigue with 95% accuracy.",
+    "image": "wearable-sensors-sports.png",
+    "category": "Sport",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-09T04:51:56.920Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How InjurySync AI is Revolutionizing Sports Injury Recovery with 92% Accuracy",
     "slug": "injurysync-ai-sports-recovery",
     "description": "A groundbreaking AI tool, InjurySync AI, is transforming sports injury diagnostics with 92% accuracy, reducing recovery times and improving athlete rehabilitation.",
