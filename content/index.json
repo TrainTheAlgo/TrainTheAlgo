@@ -1,5 +1,18 @@
 [
   {
+    "title": "Siemens Invests $285M to Revolutionize U.S. Manufacturing",
+    "slug": "siemens-invests-285m-us-manufacturing",
+    "description": "Siemens is investing $285 million to expand U.S. manufacturing, creating 900 jobs and advancing automation, robotics, and industrial software.",
+    "image": "siemens-invests-285m-us-manufacturing.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-09T00:00:32.423Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Exoskeleton Revolutionizes Industrial Work",
     "slug": "ai-powered-exoskeleton-revolutionizes-industrial-work",
     "description": "IronForge Robotics unveils IronLift, an AI-driven exoskeleton designed to enhance worker strength, reduce injuries, and boost productivity in industrial settings.",
