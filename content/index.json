@@ -1,5 +1,18 @@
 [
   {
+    "title": "The AI Chip Race Heats Up: Inside Groq's Vision for the Future",
+    "slug": "ai-chip-race-groq",
+    "description": "Groq is challenging NVIDIA's dominance in AI inference with a unique approach to hardware and compilers. Here's how they plan to reshape the future of AI chips.",
+    "image": "ai-chip-race-groq.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-10T00:13:19.543Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "SpaceX Launches Historic Rescue Mission Amid Political Tensions",
     "slug": "spacex-rescue-mission-political-tensions",
     "description": "SpaceX has been authorized to rescue two stranded NASA astronauts after months of political deadlock. The mission could redefine private spaceflight's role in emergencies.",
