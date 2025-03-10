@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breaking: Amazon Launches Ambitious Agentic AI Initiative Set to Redefine Industry Standards",
+    "slug": "amazon-agentic-ai-expansion",
+    "description": "Amazon is making a bold move into agentic AI, aiming to revolutionize automation, e-commerce, and cloud computing. Here's what it means for the industry.",
+    "image": "amazon-agentic-ai-expansion.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-10T12:10:55.670Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Smart Fabric Breakthrough: Power Your Devices with Every Move",
     "slug": "smart-fabric-breakthrough",
     "description": "A revolutionary smart fabric generates electricity from human movement, paving the way for self-powered wearable technology.",
