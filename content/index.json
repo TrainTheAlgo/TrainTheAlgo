@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Robotic Surgery: First Autonomous Operation Successful",
+    "slug": "breakthrough-robotic-surgery-first-autonomous-operation",
+    "description": "A new AI-powered robotic system has successfully performed the first fully autonomous surgery, marking a major milestone in medical technology. What does this mean for the future of healthcare?",
+    "image": "breakthrough-robotic-surgery.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-11T15:46:09.256Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "China Sets New Standard for Solar Panel Efficiency at 26.81%",
     "slug": "china-solar-panel-efficiency-record",
     "description": "Chinese researchers have set a new world record for solar panel efficiency at 26.81%, surpassing previous benchmarks and pushing renewable energy technology forward.",
