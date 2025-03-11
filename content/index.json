@@ -1,5 +1,18 @@
 [
   {
+    "title": "Navy's Tech-Driven Victory: How Data Changed Basketball",
+    "slug": "navy-tech-driven-victory",
+    "description": "Navy's stunning upset over Bucknell in the Patriot League Tournament highlights the growing role of data analytics and wearable tech in college basketball.",
+    "image": "navy-tech-driven-victory.png",
+    "category": "Sport",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-11T18:13:09.375Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Robotic Surgery: First Autonomous Operation Successful",
     "slug": "breakthrough-robotic-surgery-first-autonomous-operation",
     "description": "A new AI-powered robotic system has successfully performed the first fully autonomous surgery, marking a major milestone in medical technology. What does this mean for the future of healthcare?",
