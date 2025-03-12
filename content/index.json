@@ -1,5 +1,18 @@
 [
   {
+    "title": "How SpaceX Just Leaped Ahead in the Race to Mars",
+    "slug": "spacex-starship-thruster-breakthrough",
+    "description": "SpaceX has unveiled the Raptor 3.1 thruster, boasting 15% greater efficiency and a 10% reduction in launch costs. Could this be the breakthrough that accelerates Mars colonization?",
+    "image": "spacex-starship-thruster.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-12T03:59:24.816Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT's AI-Powered Exoskeleton: A Breakthrough in Mobility",
     "slug": "mit-ai-powered-exoskeleton",
     "description": "MIT unveils an AI-powered exoskeleton that enhances mobility, reduces energy use, and adapts to users in real time. Could this be the future of assistive technology?",
