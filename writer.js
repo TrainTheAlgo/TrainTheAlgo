@@ -4,7 +4,7 @@ const prompts = require('./prompts.js');
 
 const writer = {};
 
-writer.write = async (subject, background, researchModel="xAI Grok 2") => {
+writer.write = async (subject, background, researchModel="xAI Grok 3") => {
   try {
     const titlePrompt = structuredClone(prompts.titles);
     titlePrompt[1].content = titlePrompt[1].content.replace('$subject', subject).replace('$background', background);
