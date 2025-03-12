@@ -1,5 +1,18 @@
 [
   {
+    "title": "Masked Protester at U.S. Capitol Sparks Tech vs Health Debate",
+    "slug": "masked-protester-tech-health-debate",
+    "description": "A masked protester at the U.S. Capitol reignites debate over tech influence, workplace morale, and lingering health norms in 2025.",
+    "image": "masked-protester-tech-health-debate.png",
+    "category": "Politics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-12T13:38:53.090Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM Unveils Revolutionary 1000-Qubit Processor Condor",
     "slug": "ibm-1000-qubit-processor-condor",
     "description": "IBM has unveiled its groundbreaking 1000-qubit quantum processor, Condor, marking a major leap in quantum computing. This breakthrough could redefine cryptography, material science, and optimization.",
