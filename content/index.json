@@ -1,5 +1,18 @@
 [
   {
+    "title": "IBM Unveils Revolutionary 1000-Qubit Processor Condor",
+    "slug": "ibm-1000-qubit-processor-condor",
+    "description": "IBM has unveiled its groundbreaking 1000-qubit quantum processor, Condor, marking a major leap in quantum computing. This breakthrough could redefine cryptography, material science, and optimization.",
+    "image": "ibm-1000-qubit-processor-condor.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-12T11:14:24.523Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionary Nanotech Battery Promises 50% More Capacity in Half the Size",
     "slug": "revolutionary-nanotech-battery",
     "description": "Stanford researchers unveil a groundbreaking nanotech battery with 50% more capacity in half the size, potentially transforming EVs, smartphones, and more.",
