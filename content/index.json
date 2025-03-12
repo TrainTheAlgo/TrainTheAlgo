@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT's AI-Powered Exoskeleton: A Breakthrough in Mobility",
+    "slug": "mit-ai-powered-exoskeleton",
+    "description": "MIT unveils an AI-powered exoskeleton that enhances mobility, reduces energy use, and adapts to users in real time. Could this be the future of assistive technology?",
+    "image": "mit-ai-powered-exoskeleton.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-12T01:32:08.313Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink Patents: Telepathy and Telekinesis Closer Than Ever",
     "slug": "neuralink-patents-telepathy-telekinesis",
     "description": "Neuralink's latest patents reveal groundbreaking steps toward telepathic communication and mind-controlled technology, pushing the boundaries of human-machine interaction.",
