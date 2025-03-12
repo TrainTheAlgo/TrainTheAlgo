@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionary Nanotech Battery Promises 50% More Capacity in Half the Size",
+    "slug": "revolutionary-nanotech-battery",
+    "description": "Stanford researchers unveil a groundbreaking nanotech battery with 50% more capacity in half the size, potentially transforming EVs, smartphones, and more.",
+    "image": "revolutionary-nanotech-battery.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-12T06:27:11.219Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How SpaceX Just Leaped Ahead in the Race to Mars",
     "slug": "spacex-starship-thruster-breakthrough",
     "description": "SpaceX has unveiled the Raptor 3.1 thruster, boasting 15% greater efficiency and a 10% reduction in launch costs. Could this be the breakthrough that accelerates Mars colonization?",
