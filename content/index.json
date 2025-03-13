@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Breakthrough: 30% More Accurate Translations in Real-Time",
+    "slug": "ai-translation-breakthrough-30-percent",
+    "description": "A new AI model, LinguaNet, improves real-time language translation accuracy by 30%, revolutionizing global communication across business, travel, and diplomacy.",
+    "image": "ai-translation-breakthrough.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-13T10:01:30.009Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Novo Nordisk Obesity Drug Trial Disappoints Investors",
     "slug": "novo-nordisk-obesity-drug-trial-disappoints",
     "description": "Novo Nordisk's experimental obesity drug CagriSema failed to meet market expectations, triggering a sharp 12% drop in its stock price. Investors and analysts react to the underwhelming trial results.",
