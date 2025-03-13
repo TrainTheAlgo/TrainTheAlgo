@@ -1,5 +1,18 @@
 [
   {
+    "title": "Novo Nordisk Obesity Drug Trial Disappoints Investors",
+    "slug": "novo-nordisk-obesity-drug-trial-disappoints",
+    "description": "Novo Nordisk's experimental obesity drug CagriSema failed to meet market expectations, triggering a sharp 12% drop in its stock price. Investors and analysts react to the underwhelming trial results.",
+    "image": "novo-nordisk-obesity-drug-trial.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-13T07:37:01.443Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Brain-Computer Interface Breaks Ground with Human Trial Success",
     "slug": "neuralink-brain-computer-interface-human-trial",
     "description": "Neuralink has successfully demonstrated its first human brain-computer interface, allowing a paralyzed participant to control a computer with their thoughts.",
