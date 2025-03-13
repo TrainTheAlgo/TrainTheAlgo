@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Brain-Computer Interface Breaks Ground with Human Trial Success",
+    "slug": "neuralink-brain-computer-interface-human-trial",
+    "description": "Neuralink has successfully demonstrated its first human brain-computer interface, allowing a paralyzed participant to control a computer with their thoughts.",
+    "image": "neuralink-bci-human-trial.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-13T06:49:14.855Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Refereeing System Debuts in European Football League",
     "slug": "ai-refereeing-system-european-football",
     "description": "A European football league has introduced an AI-powered refereeing system, promising faster and more accurate decisions. But is it the future of fair play or a threat to the human element of the game?",
