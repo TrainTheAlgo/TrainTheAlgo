@@ -1,5 +1,18 @@
 [
   {
+    "title": "Apple Alarms Failing: Users Miss Work, Exams, and More",
+    "slug": "apple-alarms-failing",
+    "description": "A widespread iPhone alarm failure has left users oversleeping and missing critical events. With no official response from Apple, concerns over software reliability grow.",
+    "image": "apple-alarms-failing.png",
+    "category": "Software",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-13T01:55:36.730Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Trump Nominates Sean Plankey as CISA Director: A Crucial Moment in Cybersecurity",
     "slug": "trump-nominates-sean-plankey-cisa-director",
     "description": "President Trump has nominated cybersecurity expert Sean Plankey to lead CISA, a move that could reshape U.S. cyber defense amid rising AI-driven threats.",
