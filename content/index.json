@@ -1,5 +1,18 @@
 [
   {
+    "title": "Elon, It Ain't That Hard! The Fractal Computing Revolution",
+    "slug": "elon-it-aint-that-hard",
+    "description": "Elon Musk says government systems are a mess. What if there was a way to fix them in 90 days, without billion-dollar budgets or massive data centers? Enter Fractal Computing.",
+    "image": "elon-it-aint-that-hard.png",
+    "category": "Technology",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-13T14:53:19.577Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Tech Just Got Smarter: Meet the Energy-Generating Fabrics",
     "slug": "wearable-tech-energy-generating-fabrics",
     "description": "Cambridge researchers unveil a smart fabric that generates electricity from movement, promising a future where clothes charge devices and wearables power themselves.",
