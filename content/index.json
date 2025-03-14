@@ -1,5 +1,18 @@
 [
   {
+    "title": "QuamCore's $9M Breakthrough: 1 Million Qubits in One Chip",
+    "slug": "quamcore-9m-quantum-breakthrough",
+    "description": "Quantum computing startup QuamCore has announced a $9M breakthrough that could pack 1 million qubits into a single chip, potentially revolutionizing the field.",
+    "image": "quamcore-quantum-chip.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T19:57:35.931Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Lockheed Martin's GPS-Free Quantum Navigation Breakthrough",
     "slug": "lockheed-martin-quantum-navigation",
     "description": "Lockheed Martin's QuINS system promises precise navigation without GPS, leveraging quantum mechanics to revolutionize military and civilian applications.",
