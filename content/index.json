@@ -1,5 +1,18 @@
 [
   {
+    "title": "Lockheed Martin's GPS-Free Quantum Navigation Breakthrough",
+    "slug": "lockheed-martin-quantum-navigation",
+    "description": "Lockheed Martin's QuINS system promises precise navigation without GPS, leveraging quantum mechanics to revolutionize military and civilian applications.",
+    "image": "lockheed-martin-quantum-navigation.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T17:33:49.360Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered StrideSync Exoskeleton: A Game-Changer for Lower-Limb Impairments",
     "slug": "ai-powered-stridesync-exoskeleton",
     "description": "NeuroMotion's StrideSync exoskeleton leverages AI to enhance mobility for individuals with lower-limb impairments, offering real-time adaptive support and up to 12 hours of battery life.",
