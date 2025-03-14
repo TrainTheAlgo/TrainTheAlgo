@@ -1,5 +1,18 @@
 [
   {
+    "title": "New Robotic Surgery System Offers 25% More Precision",
+    "slug": "new-robotic-surgery-system-precision",
+    "description": "A breakthrough in robotic surgery: The da Vinci XPro enhances precision by 25%, promising safer, faster procedures. But is the cost worth it?",
+    "image": "robotic-surgery-precision.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T00:53:58.857Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: New Method Cuts Errors by 40%",
     "slug": "quantum-leap-new-method-cuts-errors-40",
     "description": "A breakthrough in quantum error correction reduces errors by 40%, bringing scalable quantum computing closer to reality.",
