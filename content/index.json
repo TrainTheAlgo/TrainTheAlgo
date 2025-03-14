@@ -1,5 +1,18 @@
 [
   {
+    "title": "COVID-19 Lab Leak Theory Gains Ground: German Intel Report Reveals 80-95% Likelihood",
+    "slug": "covid-lab-leak-german-intel",
+    "description": "A newly surfaced German intelligence report suggests an 80-95% likelihood that COVID-19 originated from a Wuhan lab, reigniting debates on transparency and scientific accountability.",
+    "image": "covid-lab-leak-german-intel.png",
+    "category": "Politics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T12:53:28.726Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "QuantumShield: Unbreakable Encryption for Crypto Transactions",
     "slug": "quantumshield-unbreakable-encryption-crypto",
     "description": "A new encryption algorithm, QuantumShield, promises to revolutionize cryptocurrency security by making transactions resistant to quantum computing threats.",
