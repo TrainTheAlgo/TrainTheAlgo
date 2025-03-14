@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Wearable Tech: Smart Contact Lenses Streamline AR Integration",
+    "slug": "smart-contact-lenses-ar",
+    "description": "A revolutionary leap in wearable technology, smart contact lenses promise seamless AR integration, eliminating bulky headsets and redefining digital interaction.",
+    "image": "smart-contact-lenses-ar.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T22:22:30.499Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "QuamCore's $9M Breakthrough: 1 Million Qubits in One Chip",
     "slug": "quamcore-9m-quantum-breakthrough",
     "description": "Quantum computing startup QuamCore has announced a $9M breakthrough that could pack 1 million qubits into a single chip, potentially revolutionizing the field.",
