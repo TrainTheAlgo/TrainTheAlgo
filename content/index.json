@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered StrideSync Exoskeleton: A Game-Changer for Lower-Limb Impairments",
+    "slug": "ai-powered-stridesync-exoskeleton",
+    "description": "NeuroMotion's StrideSync exoskeleton leverages AI to enhance mobility for individuals with lower-limb impairments, offering real-time adaptive support and up to 12 hours of battery life.",
+    "image": "ai-powered-stridesync-exoskeleton.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T15:13:18.360Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "COVID-19 Lab Leak Theory Gains Ground: German Intel Report Reveals 80-95% Likelihood",
     "slug": "covid-lab-leak-german-intel",
     "description": "A newly surfaced German intelligence report suggests an 80-95% likelihood that COVID-19 originated from a Wuhan lab, reigniting debates on transparency and scientific accountability.",
