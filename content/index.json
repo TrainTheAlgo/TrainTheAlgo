@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Will Change Learning Forever",
+    "slug": "how-ai-will-change-learning-forever",
+    "description": "AI tutors are set to revolutionize education by offering personalized, scalable, and 24/7 learning. Here's how they will disrupt traditional teaching and the first signs of adoption.",
+    "image": "how-ai-will-change-learning-forever.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-14T07:59:48.147Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Space Travel: New Ion Thruster Achieves 85% Efficiency",
     "slug": "ion-thruster-breakthrough-85-percent-efficiency",
     "description": "A next-generation ion thruster has achieved a record-breaking 85% efficiency, promising faster, cheaper space missions and a potential reduction in Mars travel time.",
