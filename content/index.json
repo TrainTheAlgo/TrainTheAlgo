@@ -1,5 +1,18 @@
 [
   {
+    "title": "Apple Investigates Silent Alarm Glitch Affecting iPhone Users",
+    "slug": "apple-silent-alarm-glitch",
+    "description": "iPhone users worldwide are reporting a major issue with alarms failing to sound. Apple has acknowledged the problem and is working on a fix. Here's what you need to know.",
+    "image": "apple-silent-alarm-glitch.png",
+    "category": "Software",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T07:59:22.667Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Zed's Return Shakes Up Competitive Gaming Scene",
     "slug": "zeds-return-shakes-up-competitive-gaming",
     "description": "After more than 1,000 days, Zed has returned to professional League of Legends play, thanks to Zeka's bold pick at the First Stand Tournament 2025. What does this mean for the meta?",
