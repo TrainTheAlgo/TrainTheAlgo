@@ -1,5 +1,18 @@
 [
   {
+    "title": "Microsoft's HoloLens 3: The Next Evolution in AI-Powered Mixed Reality",
+    "slug": "microsoft-hololens-3-ai-mixed-reality",
+    "description": "Microsoft unveils the HoloLens 3, featuring AI-driven spatial computing, a wider field of view, and an adaptive AI assistant. Is this the future of mixed reality?",
+    "image": "microsoft-hololens-3.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T22:28:12.601Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "xAI Unveils Grok 3: A Leap in Conversational AI",
     "slug": "xai-grok-3-conversational-ai",
     "description": "xAI has launched Grok 3, a next-generation conversational AI with real-time web access and advanced data analysis. Could this be the future of human-AI interaction?",
