@@ -1,5 +1,18 @@
 [
   {
+    "title": "How MIT's Robotic Fish Is Revolutionizing Underwater Exploration",
+    "slug": "mit-robotic-fish-underwater-exploration",
+    "description": "MIT's latest robotic fish mimics real marine life with precision, offering groundbreaking applications in ocean research, environmental monitoring, and deep-sea exploration.",
+    "image": "mit-robotic-fish.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T12:54:30.268Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "SoftBank Unveils AI-Driven 6G Network Prototype with Record Speeds",
     "slug": "softbank-ai-6g-network",
     "description": "SoftBank's AI-powered 6G prototype achieves record-breaking speeds of 1.2 Tbps, promising a future of ultra-fast, intelligent connectivity.",
