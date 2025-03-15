@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink Breaks Record with 200 Mbps Brain-Computer Interface",
+    "slug": "neuralink-200mbps-bci",
+    "description": "Neuralink's latest brain-computer interface achieves a record-breaking 200 Mbps data transfer rate, redefining human-AI interaction and setting new industry standards.",
+    "image": "neuralink-200mbps-bci.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T03:13:41.146Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Ion-Powered Drone Flies for 45 Minutes - A New Record!",
     "slug": "ion-powered-drone-record-flight",
     "description": "A breakthrough in drone technology: Berkeley researchers unveil an ion-powered drone that achieves a record-breaking 45-minute flight, revolutionizing electric aviation.",
