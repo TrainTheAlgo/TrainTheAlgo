@@ -1,5 +1,18 @@
 [
   {
+    "title": "SoftBank Unveils AI-Driven 6G Network Prototype with Record Speeds",
+    "slug": "softbank-ai-6g-network",
+    "description": "SoftBank's AI-powered 6G prototype achieves record-breaking speeds of 1.2 Tbps, promising a future of ultra-fast, intelligent connectivity.",
+    "image": "softbank-ai-6g-network.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T10:30:10.102Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Apple Investigates Silent Alarm Glitch Affecting iPhone Users",
     "slug": "apple-silent-alarm-glitch",
     "description": "iPhone users worldwide are reporting a major issue with alarms failing to sound. Apple has acknowledged the problem and is working on a fix. Here's what you need to know.",
