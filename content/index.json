@@ -1,5 +1,18 @@
 [
   {
+    "title": "xAI Unveils Grok 3: A Leap in Conversational AI",
+    "slug": "xai-grok-3-conversational-ai",
+    "description": "xAI has launched Grok 3, a next-generation conversational AI with real-time web access and advanced data analysis. Could this be the future of human-AI interaction?",
+    "image": "xai-grok-3.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T20:03:54.897Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tesla's Autopilot Gets a Major AI Upgrade-Here's What You Need to Know",
     "slug": "tesla-autopilot-ai-upgrade",
     "description": "Tesla's latest Autopilot update introduces advanced AI capabilities, promising faster decision-making, improved safety, and smoother autonomous driving. Here's what it means for the future of self-driving cars.",
