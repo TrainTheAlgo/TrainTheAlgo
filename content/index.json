@@ -1,5 +1,18 @@
 [
   {
+    "title": "Zed's Return Shakes Up Competitive Gaming Scene",
+    "slug": "zeds-return-shakes-up-competitive-gaming",
+    "description": "After more than 1,000 days, Zed has returned to professional League of Legends play, thanks to Zeka's bold pick at the First Stand Tournament 2025. What does this mean for the meta?",
+    "image": "zeds-return-shakes-up-competitive-gaming.png",
+    "category": "Gaming",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-15T05:34:47.867Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink Breaks Record with 200 Mbps Brain-Computer Interface",
     "slug": "neuralink-200mbps-bci",
     "description": "Neuralink's latest brain-computer interface achieves a record-breaking 200 Mbps data transfer rate, redefining human-AI interaction and setting new industry standards.",
