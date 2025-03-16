@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Referee System Just Debuted in Football-Here's What Happened!",
+    "slug": "ai-referee-system-debut-football",
+    "description": "An AI-powered referee system made its debut in a football league match, sparking debate over the future of officiating. Is this the end of human referees?",
+    "image": "ai-referee-system-debut-football.png",
+    "category": "Sport",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-16T22:23:50.316Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: New Chip Design Boosts Power",
     "slug": "quantum-computing-breakthrough-new-chip-design-boosts-power",
     "description": "Quantum Dynamics Inc. unveils the QDX-1, a revolutionary chip that enhances qubit stability and reduces error rates by 40%, marking a major leap in quantum computing.",
