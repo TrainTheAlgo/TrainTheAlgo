@@ -1,5 +1,18 @@
 [
   {
+    "title": "FlexiFiber: The Soft Robotic Material That Mimics Human Muscle",
+    "slug": "flexifiber-soft-robotics",
+    "description": "Stanford researchers unveil FlexiFiber, a revolutionary soft robotic material that mimics human muscle, promising breakthroughs in robotics, prosthetics, and wearable technology.",
+    "image": "flexifiber-soft-robotics.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-16T17:34:56.058Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's BCI Breakthrough: A New Era in Human-AI Interaction",
     "slug": "neuralink-bci-breakthrough",
     "description": "Neuralink's latest brain-computer interface has shown promising results in human trials, allowing a paralyzed participant to control a computer with their thoughts.",
