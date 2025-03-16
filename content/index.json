@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Capitalist Resource Allocation Will Transform Over the Next Decade",
+    "slug": "capitalist-resource-allocation-future",
+    "description": "Technological advancements, climate concerns, and shifting demographics are set to reshape capitalist resource allocation over the next decade. Here's what to expect.",
+    "image": "capitalist-resource-allocation-future.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-16T03:02:54.854Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Microsoft's HoloLens 3: The Next Evolution in AI-Powered Mixed Reality",
     "slug": "microsoft-hololens-3-ai-mixed-reality",
     "description": "Microsoft unveils the HoloLens 3, featuring AI-driven spatial computing, a wider field of view, and an adaptive AI assistant. Is this the future of mixed reality?",
