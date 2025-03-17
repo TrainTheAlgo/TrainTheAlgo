@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Breakthrough: Qubit Stability Jumps by 50%",
+    "slug": "quantum-computing-qubit-stability-50-percent",
+    "description": "A major leap in quantum computing: researchers extend qubit stability by 50%, pushing coherence time to 300 microseconds. What does this mean for the future of computation?",
+    "image": "quantum-computing-qubit-stability.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-17T22:48:28.564Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MindSync: The Future of Brain-Controlled Gaming",
     "slug": "mindsync-brain-controlled-gaming",
     "description": "NeuralPlay's MindSync headset lets gamers control in-game actions using only their thoughts. Is this the future of gaming?",
