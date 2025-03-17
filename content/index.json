@@ -1,5 +1,18 @@
 [
   {
+    "title": "First Fully Autonomous Robotic Surgery Completed",
+    "slug": "first-fully-autonomous-robotic-surgery",
+    "description": "A groundbreaking moment in medical history: AI-driven robotic surgery has been performed without human intervention, marking a new era in healthcare.",
+    "image": "first-fully-autonomous-robotic-surgery.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-17T15:21:43.711Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Tech Breakthrough: The First Device To Track Stress With Unprecedented Accuracy",
     "slug": "wearable-tech-breakthrough-stress-tracking",
     "description": "The StressSync Band claims to track stress levels with 95% accuracy. Is this the future of mental health management? Here's what you need to know.",
