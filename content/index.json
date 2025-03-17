@@ -1,5 +1,18 @@
 [
   {
+    "title": "Wearable Tech Breakthrough: The First Device To Track Stress With Unprecedented Accuracy",
+    "slug": "wearable-tech-breakthrough-stress-tracking",
+    "description": "The StressSync Band claims to track stress levels with 95% accuracy. Is this the future of mental health management? Here's what you need to know.",
+    "image": "stresssync-band.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-17T12:57:27.631Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Could Hackers Paralyze an Entire City via Self-Driving Cars?",
     "slug": "hackers-paralyze-city-self-driving-cars",
     "description": "As cities embrace autonomous vehicles, could hackers exploit vulnerabilities to bring entire urban centers to a standstill? The risks, realities, and defenses explained.",
