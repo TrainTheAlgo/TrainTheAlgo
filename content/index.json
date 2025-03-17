@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Hackers Paralyze an Entire City via Self-Driving Cars?",
+    "slug": "hackers-paralyze-city-self-driving-cars",
+    "description": "As cities embrace autonomous vehicles, could hackers exploit vulnerabilities to bring entire urban centers to a standstill? The risks, realities, and defenses explained.",
+    "image": "hackers-paralyze-city-self-driving-cars.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-17T10:37:09.540Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Holographic Displays at Tech Expo 2025 - Meet HoloSphere",
     "slug": "breakthrough-holographic-displays-tech-expo-2025",
     "description": "HoloTech's HoloSphere is redefining digital interaction with 8K holograms that float in mid-air-no headsets required. A game-changer for AR, gaming, and education.",
