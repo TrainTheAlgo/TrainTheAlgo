@@ -1,5 +1,18 @@
 [
   {
+    "title": "Robotaxis Are Here: The Future of Transportation Has Arrived",
+    "slug": "robotaxis-are-here",
+    "description": "Self-driving taxis are no longer a futuristic dream-they're on the streets today. How will they reshape cities, industries, and daily life?",
+    "image": "robotaxis-are-here.png",
+    "category": "Vehicles",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-17T18:01:31.832Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "First Fully Autonomous Robotic Surgery Completed",
     "slug": "first-fully-autonomous-robotic-surgery",
     "description": "A groundbreaking moment in medical history: AI-driven robotic surgery has been performed without human intervention, marking a new era in healthcare.",
