@@ -1,5 +1,18 @@
 [
   {
+    "title": "MindSync: The Future of Brain-Controlled Gaming",
+    "slug": "mindsync-brain-controlled-gaming",
+    "description": "NeuralPlay's MindSync headset lets gamers control in-game actions using only their thoughts. Is this the future of gaming?",
+    "image": "mindsync-brain-controlled-gaming.png",
+    "category": "Gaming",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-17T20:26:52.744Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Robotaxis Are Here: The Future of Transportation Has Arrived",
     "slug": "robotaxis-are-here",
     "description": "Self-driving taxis are no longer a futuristic dream-they're on the streets today. How will they reshape cities, industries, and daily life?",
