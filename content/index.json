@@ -1,5 +1,18 @@
 [
   {
+    "title": "48-Hour Solar-Powered Drone Breaks Endurance Record",
+    "slug": "48-hour-solar-powered-drone-breaks-endurance-record",
+    "description": "AeroSun's Helios X sets a new benchmark in UAV endurance, flying nonstop for 48 hours using only solar power. This breakthrough could revolutionize aerial surveillance, telecommunications, and environmental monitoring.",
+    "image": "48-hour-solar-powered-drone.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-18T03:35:38.804Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's New Implant Sets Record Data Transfer Speed",
     "slug": "neuralink-500mbps-brain-computer-interface",
     "description": "Neuralink's latest brain implant achieves an unprecedented 500 Mbps data transfer speed, revolutionizing brain-computer interfaces and unlocking new possibilities for human-AI interaction.",
