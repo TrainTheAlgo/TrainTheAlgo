@@ -1,5 +1,18 @@
 [
   {
+    "title": "Bioengineered Skin Patch Cuts Healing Time in Half",
+    "slug": "bioengineered-skin-patch-cuts-healing-time",
+    "description": "A revolutionary bioengineered skin patch accelerates wound healing by 50%, reducing scarring and infection risks. Could this be the future of wound care?",
+    "image": "bioengineered-skin-patch.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-18T08:30:35.660Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI Referee Makes Debut in Soccer: 98% Accuracy?",
     "slug": "ai-referee-debut-soccer",
     "description": "An AI-powered referee system made its professional soccer debut, boasting 98% accuracy. Could this technology revolutionize officiating and eliminate human error?",
