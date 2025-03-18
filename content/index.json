@@ -1,5 +1,18 @@
 [
   {
+    "title": "Smart Contact Lenses Project Augmented Reality Directly into Your Eyes",
+    "slug": "smart-contact-lenses-augmented-reality",
+    "description": "VisionTech Labs unveils VisionAR, smart contact lenses that project augmented reality directly onto your field of vision, revolutionizing wearable tech.",
+    "image": "smart-contact-lenses-ar.png",
+    "category": "Technology",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-18T16:05:32.291Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tesla's Optimus Robot Unveils Enhanced Hands: A Major Leap in Humanoid Tech",
     "slug": "tesla-optimus-robot-enhanced-hands",
     "description": "Tesla has unveiled a major upgrade to its Optimus robot, showcasing new dexterous hands capable of intricate tasks. Could this be the future of automation?",
