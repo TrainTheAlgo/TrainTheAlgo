@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Hidden Dangers of IoB: Could Hacked Devices Become a Kill Switch?",
+    "slug": "hidden-dangers-of-iob-hacking",
+    "description": "The rise of Internet of Bodies (IoB) devices brings convenience and medical breakthroughs, but also serious risks. Could hackers exploit these devices to cause harm or even death?",
+    "image": "hidden-dangers-of-iob-hacking.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-18T11:03:44.433Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Bioengineered Skin Patch Cuts Healing Time in Half",
     "slug": "bioengineered-skin-patch-cuts-healing-time",
     "description": "A revolutionary bioengineered skin patch accelerates wound healing by 50%, reducing scarring and infection risks. Could this be the future of wound care?",
