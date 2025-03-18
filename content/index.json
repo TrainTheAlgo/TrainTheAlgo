@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Referee Makes Debut in Soccer: 98% Accuracy?",
+    "slug": "ai-referee-debut-soccer",
+    "description": "An AI-powered referee system made its professional soccer debut, boasting 98% accuracy. Could this technology revolutionize officiating and eliminate human error?",
+    "image": "ai-referee-debut-soccer.png",
+    "category": "Sport",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-18T06:00:49.758Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "48-Hour Solar-Powered Drone Breaks Endurance Record",
     "slug": "48-hour-solar-powered-drone-breaks-endurance-record",
     "description": "AeroSun's Helios X sets a new benchmark in UAV endurance, flying nonstop for 48 hours using only solar power. This breakthrough could revolutionize aerial surveillance, telecommunications, and environmental monitoring.",
