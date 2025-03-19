@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Stopped a Cyberattack on a Major Bank in Real Time",
+    "slug": "ai-stopped-cyberattack-major-bank",
+    "description": "A cutting-edge AI security system, GuardianNet, thwarted a sophisticated cyberattack on a major U.S. bank in real time, marking a breakthrough in digital defense.",
+    "image": "ai-stopped-cyberattack-major-bank.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-19T18:29:04.603Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Apple TV's 'Dope Thief' Is Revolutionizing Streaming Technology",
     "slug": "apple-tv-dope-thief-streaming-revolution",
     "description": "Apple TV's 'Dope Thief' is more than just a gripping crime drama-it's a bold leap in streaming technology and storytelling, setting new industry standards.",
