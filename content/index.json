@@ -1,5 +1,18 @@
 [
   {
+    "title": "New Battery Tech Promises 800+ Mile Range for EVs",
+    "slug": "new-battery-tech-800-mile-range-evs",
+    "description": "A breakthrough in battery technology could double the range of electric vehicles, promising over 800 miles on a single charge. Could this be the end of range anxiety?",
+    "image": "new-battery-tech-800-mile-range-evs.png",
+    "category": "Vehicles",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-19T13:50:38.218Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Drone Swarm Sets New Record for Autonomous Flight Coordination",
     "slug": "ai-powered-drone-swarm-record",
     "description": "A swarm of 50 AI-powered drones has set a new benchmark in autonomous flight, demonstrating unprecedented coordination and efficiency.",
