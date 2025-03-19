@@ -1,5 +1,18 @@
 [
   {
+    "title": "Minima and Siemens: Pioneering a Blockchain Revolution in Security",
+    "slug": "minima-siemens-blockchain-security",
+    "description": "Minima and Siemens Cre8Ventures are redefining security with blockchain technology, enhancing resilience in automotive, energy, and healthcare industries.",
+    "image": "minima-siemens-blockchain-security.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-19T20:49:12.158Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How AI Stopped a Cyberattack on a Major Bank in Real Time",
     "slug": "ai-stopped-cyberattack-major-bank",
     "description": "A cutting-edge AI security system, GuardianNet, thwarted a sophisticated cyberattack on a major U.S. bank in real time, marking a breakthrough in digital defense.",
