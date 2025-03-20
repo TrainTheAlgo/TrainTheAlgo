@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionizing Health Monitoring: The Wearable AI Patch That Detects Issues Early",
+    "slug": "wearable-ai-patch-health-monitoring",
+    "description": "BioSync Labs unveils the VitalPatch, an AI-powered wearable that tracks vital signs in real time, detecting health issues before symptoms appear.",
+    "image": "wearable-ai-patch.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T04:06:22.545Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tech Expo 2025 Unveils Game-Changer: HoloVision's No-Glasses Holography",
     "slug": "tech-expo-2025-holovision-holography",
     "description": "HoloVision stuns Tech Expo 2025 with an 8K holographic projector that delivers lifelike 3D images-no glasses required. Is this the future of immersive tech?",
