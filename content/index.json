@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tesla Recalls 46,000 Cybertrucks Over Detachable Panel Flaw",
+    "slug": "tesla-cybertruck-recall-detachable-panel",
+    "description": "Tesla recalls 46,000 Cybertrucks due to a flaw that could cause exterior panels to detach while driving. Here's what owners need to know.",
+    "image": "tesla-cybertruck-recall.png",
+    "category": "Vehicles",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T13:42:35.208Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap Forward: New Algorithm Unlocks Faster Simulations on Existing Hardware",
     "slug": "quantum-leap-faster-simulations",
     "description": "A breakthrough algorithm, QASP, enhances quantum computing efficiency by 40%, enabling faster simulations on existing hardware without costly upgrades.",
