@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionary Game Engine Unveils Real-Time Fluid Dynamics",
+    "slug": "revolutionary-game-engine-fluid-dynamics",
+    "description": "FluidityLabs' HydroCore engine brings real-time fluid dynamics to gaming, promising unprecedented realism and accessibility for developers.",
+    "image": "hydrocore-fluid-dynamics.png",
+    "category": "Gaming",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T16:06:49.642Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tesla Recalls 46,000 Cybertrucks Over Detachable Panel Flaw",
     "slug": "tesla-cybertruck-recall-detachable-panel",
     "description": "Tesla recalls 46,000 Cybertrucks due to a flaw that could cause exterior panels to detach while driving. Here's what owners need to know.",
