@@ -1,5 +1,18 @@
 [
   {
+    "title": "Elon Musk Reveals Mars Colony Timeline: Can We Settle the Red Planet in Just 30 Years?",
+    "slug": "elon-musk-mars-colony-timeline",
+    "description": "Elon Musk has unveiled an ambitious plan to establish a human colony on Mars within 20 to 30 years. Can SpaceX turn this vision into reality, or is it just science fiction?",
+    "image": "elon-musk-mars-colony-timeline.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T21:01:31.257Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neural Interface Breakthrough: First Human Successfully Controls Drone with Thoughts Alone",
     "slug": "neural-interface-drone-control",
     "description": "A groundbreaking experiment has enabled a human to control a drone using only their thoughts, marking a major leap in brain-computer interface technology.",
