@@ -1,5 +1,18 @@
 [
   {
+    "title": "IBM Unveils Groundbreaking 1,000-Qubit Processor",
+    "slug": "ibm-1000-qubit-quantum-computing",
+    "description": "IBM has unveiled its 1,000-qubit quantum processor, Condor, marking a major leap in quantum computing. This breakthrough could revolutionize industries from cryptography to drug discovery.",
+    "image": "ibm-1000-qubit-quantum-computing.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T08:48:18.377Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "SpaceX Astronaut Return Hoax Sparks Online Satire",
     "slug": "spacex-astronaut-return-hoax",
     "description": "A viral hoax claiming a judge ordered SpaceX astronauts back to the ISS has taken social media by storm, blending satire with misinformation.",
