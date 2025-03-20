@@ -1,5 +1,18 @@
 [
   {
+    "title": "SpaceX Astronaut Return Hoax Sparks Online Satire",
+    "slug": "spacex-astronaut-return-hoax",
+    "description": "A viral hoax claiming a judge ordered SpaceX astronauts back to the ISS has taken social media by storm, blending satire with misinformation.",
+    "image": "spacex-astronaut-return-hoax.png",
+    "category": "Space",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T06:25:50.943Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Health Monitoring: The Wearable AI Patch That Detects Issues Early",
     "slug": "wearable-ai-patch-health-monitoring",
     "description": "BioSync Labs unveils the VitalPatch, an AI-powered wearable that tracks vital signs in real time, detecting health issues before symptoms appear.",
