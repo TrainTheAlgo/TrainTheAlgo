@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neural Interface Breakthrough: First Human Successfully Controls Drone with Thoughts Alone",
+    "slug": "neural-interface-drone-control",
+    "description": "A groundbreaking experiment has enabled a human to control a drone using only their thoughts, marking a major leap in brain-computer interface technology.",
+    "image": "neural-interface-drone-control.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-20T18:35:21.517Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionary Game Engine Unveils Real-Time Fluid Dynamics",
     "slug": "revolutionary-game-engine-fluid-dynamics",
     "description": "FluidityLabs' HydroCore engine brings real-time fluid dynamics to gaming, promising unprecedented realism and accessibility for developers.",
