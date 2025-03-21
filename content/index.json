@@ -1,5 +1,18 @@
 [
   {
+    "title": "Netflix's The Residence: Redefining Storytelling with Smart Tech",
+    "slug": "netflix-the-residence-smart-tech",
+    "description": "Netflix's The Residence uses AI-driven cameras and interactive storytelling to revolutionize the murder-mystery genre. Discover how smart tech is shaping the future of entertainment.",
+    "image": "netflix-the-residence-smart-tech.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-21T11:32:03.233Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Over 46,000 Cybertrucks Recalled Due to Safety Risks",
     "slug": "cybertruck-recall-safety-risks",
     "description": "Tesla recalls nearly all Cybertrucks due to a critical safety issue with exterior trim panels detaching during operation, raising concerns about quality control.",
