@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Leap Forward: New Algorithm Slashes Processing Times",
+    "slug": "quantum-computing-qfast-breakthrough",
+    "description": "Cambridge researchers unveil Q-FAST, a groundbreaking quantum algorithm that reduces processing times by up to 40%, accelerating applications in cryptography, AI, and materials science.",
+    "image": "quantum-computing-qfast.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-21T18:57:46.626Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Why the Rich Stay Rich: How the Global Financial System Keeps Wealth Concentrated",
     "slug": "why-the-rich-stay-rich",
     "description": "The global financial system is structured to favor the wealthy, ensuring their power remains intact. From tax loopholes to central bank policies, here's how the system keeps the rich on top.",
