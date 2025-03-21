@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Driven Security Patch Cuts Cyberattack Response Time by 40%",
+    "slug": "ai-security-patch-cyberattack-response",
+    "description": "SentinelLabs' new AI-driven security patch, Guardian AI, reduces cyberattack response time by 40%, revolutionizing digital defense strategies.",
+    "image": "ai-security-patch.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-21T21:20:24.597Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Leap Forward: New Algorithm Slashes Processing Times",
     "slug": "quantum-computing-qfast-breakthrough",
     "description": "Cambridge researchers unveil Q-FAST, a groundbreaking quantum algorithm that reduces processing times by up to 40%, accelerating applications in cryptography, AI, and materials science.",
