@@ -1,5 +1,18 @@
 [
   {
+    "title": "Painkiller Revival Announced for PS5: A Modern Take on a Classic Shooter",
+    "slug": "painkiller-revival-ps5",
+    "description": "Painkiller is making a comeback on PS5, blending its classic fast-paced action with modern enhancements. Here's what to expect from the 2025 revival.",
+    "image": "painkiller-revival-ps5.png",
+    "category": "Gaming",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-22T06:59:42.028Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT's EdgeFlow Cuts Latency by 30% in Real-Time Applications",
     "slug": "mit-edgeflow-cuts-latency-30-percent",
     "description": "MIT's new EdgeFlow system reduces latency by 30%, revolutionizing real-time applications like autonomous vehicles and remote healthcare.",
