@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT's EdgeFlow Cuts Latency by 30% in Real-Time Applications",
+    "slug": "mit-edgeflow-cuts-latency-30-percent",
+    "description": "MIT's new EdgeFlow system reduces latency by 30%, revolutionizing real-time applications like autonomous vehicles and remote healthcare.",
+    "image": "mit-edgeflow.png",
+    "category": "Software",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-22T04:36:56.067Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Soft Robotics: New Material Mimics Human Muscle",
     "slug": "revolutionizing-soft-robotics-new-material-mimics-human-muscle",
     "description": "MIT researchers unveil FlexiFiber, a groundbreaking material that mimics human muscle, promising advancements in prosthetics, robotics, and wearable technology.",
