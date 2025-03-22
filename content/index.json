@@ -1,5 +1,18 @@
 [
   {
+    "title": "Assam Medical College Wins Award for Healthcare Innovation",
+    "slug": "assam-medical-college-healthcare-innovation",
+    "description": "Assam Medical College has been named the Best Performing College in Medical Research for the second consecutive year, highlighting its groundbreaking contributions to healthcare technology.",
+    "image": "assam-medical-college-award.png",
+    "category": "Conferences",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-22T14:13:30.038Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Tech Breakthrough: Device Tracks Stress with 92% Accuracy",
     "slug": "wearable-tech-tracks-stress",
     "description": "A new wearable device, StressSync, monitors stress levels with 92% accuracy using advanced biosensors. Could this be the future of stress management?",
