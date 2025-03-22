@@ -1,5 +1,18 @@
 [
   {
+    "title": "Governor Walz's Tesla Stock Remarks Cost Minnesota Pensioners Over $200M",
+    "slug": "governor-walz-tesla-stock-remarks",
+    "description": "Minnesota Governor Tim Walz's comments on Tesla's stock drop have sparked outrage as the state's pension fund faces over $200 million in losses. Was it a political statement or a financial misstep?",
+    "image": "governor-walz-tesla-stock-remarks.png",
+    "category": "Markets",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-22T23:48:51.317Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM's 1000-Qubit Processor Breakthrough in Quantum Computing",
     "slug": "ibm-1000-qubit-quantum-breakthrough",
     "description": "IBM has unveiled a 1,000-qubit quantum processor, marking a major leap in quantum computing. Could this be the breakthrough that brings quantum advantage closer to reality?",
