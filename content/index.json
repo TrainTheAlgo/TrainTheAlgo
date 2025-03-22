@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Human Implant Success: First Real-Time Gaming Control Achieved",
+    "slug": "neuralink-human-implant-gaming-control",
+    "description": "Neuralink has achieved a historic milestone: a paralyzed patient successfully controlled a video game in real time using only their thoughts. This breakthrough marks a major step in brain-computer interface technology.",
+    "image": "neuralink-human-implant-gaming-control.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-22T19:02:57.814Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Solar-Powered Drone Flies for 48 Hours - A Major Milestone in Aviation",
     "slug": "solar-powered-drone-48-hour-flight",
     "description": "AeroSun Robotics' Helios X sets a new record with a 48-hour solar-powered flight, showcasing the future of sustainable aviation.",
