@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tech-Related Actions You Need to Take Now for Security",
+    "slug": "tech-actions-for-security",
+    "description": "Cyber threats are evolving fast. Here are the essential tech actions you need to take now to protect your data, finances, and privacy.",
+    "image": "tech-actions-for-security.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-23T14:07:01.445Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Google Maps Data Loss: What You Need to Know About Timeline Deletion",
     "slug": "google-maps-timeline-data-deletion",
     "description": "A Google Maps glitch has erased years of location history for some users, raising concerns over data security and cloud reliability. Here's what happened and what it means for you.",
