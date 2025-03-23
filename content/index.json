@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Historic Breakthrough: First Human Typing via Brain-Computer Interface",
+    "slug": "neuralink-brain-computer-interface-typing",
+    "description": "Neuralink has achieved a major milestone, demonstrating a quadriplegic patient typing using only brain signals. This breakthrough could redefine communication and human-machine interaction.",
+    "image": "neuralink-brain-computer-interface-typing.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-23T21:26:11.543Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robotics Breakthrough: New Material Mimics Human Muscle",
     "slug": "soft-robotics-breakthrough-new-material-mimics-human-muscle",
     "description": "MIT researchers unveil FlexiFiber, a revolutionary soft robotic material that mimics human muscle, promising advancements in prosthetics, wearables, and AI-driven robotics.",
