@@ -1,5 +1,18 @@
 [
   {
+    "title": "98.7% Accuracy: New AI Security System Transforms Threat Detection",
+    "slug": "ai-security-system-threat-detection",
+    "description": "NexGuard's ThreatSentry leverages AI to detect threats with 98.7% accuracy, revolutionizing security with real-time analysis and minimal false positives.",
+    "image": "ai-security-system-threat-detection.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-23T04:32:24.806Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Model Context Protocol (MCP) Is Transforming AI Integration",
     "slug": "model-context-protocol-mcp-ai-integration",
     "description": "Model Context Protocol (MCP) is redefining AI integration, enabling real-time data access and seamless system interactions. Could this be the future of AI?",
