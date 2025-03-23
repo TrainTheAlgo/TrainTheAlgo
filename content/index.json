@@ -1,5 +1,18 @@
 [
   {
+    "title": "Painkiller Revival: A Love Letter to Retro Gaming",
+    "slug": "painkiller-revival-love-letter-retro-gaming",
+    "description": "Painkiller returns in Fall 2025, bringing its brutal, fast-paced action to next-gen consoles. Can this revival capture the magic of the original while embracing modern innovations?",
+    "image": "painkiller-revival.png",
+    "category": "Gaming",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-23T16:30:29.601Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tech-Related Actions You Need to Take Now for Security",
     "slug": "tech-actions-for-security",
     "description": "Cyber threats are evolving fast. Here are the essential tech actions you need to take now to protect your data, finances, and privacy.",
