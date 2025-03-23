@@ -1,5 +1,18 @@
 [
   {
+    "title": "Chinese AI Chipmaker Makes Historic Breakthrough with 5nm Processor",
+    "slug": "chinese-ai-chipmaker-5nm-breakthrough",
+    "description": "Horizon Robotics unveils the Journey 7, a 5nm AI processor delivering 300 teraflops, challenging Nvidia and reshaping the global semiconductor landscape.",
+    "image": "chinese-ai-chipmaker-5nm-breakthrough.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-23T23:50:56.019Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Historic Breakthrough: First Human Typing via Brain-Computer Interface",
     "slug": "neuralink-brain-computer-interface-typing",
     "description": "Neuralink has achieved a major milestone, demonstrating a quadriplegic patient typing using only brain signals. This breakthrough could redefine communication and human-machine interaction.",
