@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI vs Hackers: How ThreatSentry Defends Against Zero-Day Exploits",
+    "slug": "ai-vs-hackers-threatsentry",
+    "description": "ThreatSentry AI is redefining cybersecurity with real-time threat detection, stopping ransomware in just 0.3 seconds. Can AI finally outpace hackers?",
+    "image": "ai-vs-hackers-threatsentry.png",
+    "category": "Security",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-24T18:44:47.664Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Intel's Next-Gen Chip: Can Lunar Lake Outperform Nvidia and AMD?",
     "slug": "intel-lunar-lake-chip",
     "description": "Intel unveils Lunar Lake, its next-gen chip architecture promising 30% more efficiency and AI acceleration. Can it compete with Nvidia and AMD?",
