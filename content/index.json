@@ -1,5 +1,18 @@
 [
   {
+    "title": "DOGE Engineers Sacrifice Everything to Fight Government Waste",
+    "slug": "doge-engineers-sacrifice-to-fight-government-waste",
+    "description": "Elon Musk's DOGE initiative aims to eliminate government waste, but its engineers face financial sacrifices and even threats in their mission for efficiency.",
+    "image": "doge-engineers-sacrifice.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-24T04:37:15.333Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: Oxford's New Algorithm Reduces Processing Times Dramatically",
     "slug": "quantum-leap-oxford-algorithm",
     "description": "Researchers at the University of Oxford have unveiled a groundbreaking quantum algorithm that slashes processing times by 40%, marking a major step toward practical quantum computing.",
