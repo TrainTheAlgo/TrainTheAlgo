@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel's Next-Gen Chip: Can Lunar Lake Outperform Nvidia and AMD?",
+    "slug": "intel-lunar-lake-chip",
+    "description": "Intel unveils Lunar Lake, its next-gen chip architecture promising 30% more efficiency and AI acceleration. Can it compete with Nvidia and AMD?",
+    "image": "intel-lunar-lake-chip.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-24T16:19:48.370Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Film Screenings Redefine Entertainment Promotion",
     "slug": "ai-powered-film-screenings",
     "description": "Ariana Grande's short film Brighter Days Ahead' leverages AI for both production and promotion, signaling a new era in entertainment marketing.",
