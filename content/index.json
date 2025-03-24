@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: Oxford's New Algorithm Reduces Processing Times Dramatically",
+    "slug": "quantum-leap-oxford-algorithm",
+    "description": "Researchers at the University of Oxford have unveiled a groundbreaking quantum algorithm that slashes processing times by 40%, marking a major step toward practical quantum computing.",
+    "image": "quantum-leap-oxford-algorithm.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-24T02:15:10.013Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Chinese AI Chipmaker Makes Historic Breakthrough with 5nm Processor",
     "slug": "chinese-ai-chipmaker-5nm-breakthrough",
     "description": "Horizon Robotics unveils the Journey 7, a 5nm AI processor delivering 300 teraflops, challenging Nvidia and reshaping the global semiconductor landscape.",
