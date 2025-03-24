@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Technology Render Traditional Relationships Obsolete? The Impact of Digital Advances on Romantic Connections",
+    "slug": "technology-traditional-relationships",
+    "description": "As technology reshapes how we connect, could it eventually replace traditional relationships? Explore the impact of digital advances on love and intimacy.",
+    "image": "technology-traditional-relationships.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-24T21:30:58.763Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI vs Hackers: How ThreatSentry Defends Against Zero-Day Exploits",
     "slug": "ai-vs-hackers-threatsentry",
     "description": "ThreatSentry AI is redefining cybersecurity with real-time threat detection, stopping ransomware in just 0.3 seconds. Can AI finally outpace hackers?",
