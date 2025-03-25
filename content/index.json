@@ -1,5 +1,18 @@
 [
   {
+    "title": "Brain-Computer Interface Breakthrough: Neuralink Achieves Real-Time Gaming Control",
+    "slug": "neuralink-real-time-gaming-control",
+    "description": "Neuralink has demonstrated a major leap in brain-computer interfaces, allowing a paralyzed participant to control a video game using only their thoughts. This breakthrough could redefine gaming and assistive technology.",
+    "image": "neuralink-gaming-bci.png",
+    "category": "Gaming",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-25T19:00:50.524Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "RedDitto's Historic Sweep Shakes Up Competitive Gaming",
     "slug": "redditto-historic-sweep-esports",
     "description": "RedDitto's unprecedented victory in both the LCQ and main event of the Arc World Tour 2024 Finals has sent shockwaves through the fighting game community. Here's why it matters.",
