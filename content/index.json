@@ -1,5 +1,18 @@
 [
   {
+    "title": "Near-Perfect Cancer Detection: AI System Sets New Benchmark in Medical Diagnostics",
+    "slug": "ai-cancer-detection-breakthrough",
+    "description": "A groundbreaking AI system achieves 98% accuracy in cancer detection, surpassing human radiologists and setting a new standard in medical diagnostics.",
+    "image": "ai-cancer-detection.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-25T06:58:16.253Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tencent's T1 Model: A Game-Changer in China's AI Race",
     "slug": "tencent-t1-ai-model",
     "description": "Tencent has unveiled its T1 reasoning model, intensifying competition in China's AI sector. With advanced problem-solving capabilities, T1 could reshape the industry and challenge major players like Baidu and Huawei.",
