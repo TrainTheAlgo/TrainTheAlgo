@@ -1,5 +1,18 @@
 [
   {
+    "title": "Samsung Unveils Flex Ultra: The Foldable Screen With 300k+ Folds",
+    "slug": "samsung-flex-ultra-foldable-screen",
+    "description": "Samsung's new Flex Ultra display redefines foldable tech with 300,000 folds, a 7.6-inch 120Hz screen, and 2,200 nits brightness. Is this the future of mobile devices?",
+    "image": "samsung-flex-ultra-foldable-screen.png",
+    "category": "Reviews",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-25T21:22:09.557Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Brain-Computer Interface Breakthrough: Neuralink Achieves Real-Time Gaming Control",
     "slug": "neuralink-real-time-gaming-control",
     "description": "Neuralink has demonstrated a major leap in brain-computer interfaces, allowing a paralyzed participant to control a video game using only their thoughts. This breakthrough could redefine gaming and assistive technology.",
