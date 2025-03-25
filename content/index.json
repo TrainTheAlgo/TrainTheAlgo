@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tencent's T1 Model: A Game-Changer in China's AI Race",
+    "slug": "tencent-t1-ai-model",
+    "description": "Tencent has unveiled its T1 reasoning model, intensifying competition in China's AI sector. With advanced problem-solving capabilities, T1 could reshape the industry and challenge major players like Baidu and Huawei.",
+    "image": "tencent-t1-ai-model.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-25T04:36:49.191Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stanford's Breakthrough: Soft Robotics That Move Like Human Muscles",
     "slug": "stanford-soft-robotics-muscle",
     "description": "Stanford researchers unveil FlexiMuscle, a revolutionary material that mimics human muscle response, promising major advancements in prosthetics and automation.",
