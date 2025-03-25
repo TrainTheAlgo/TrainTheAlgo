@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Cybertruck as a Collision of Cultural Values",
+    "slug": "cybertruck-cultural-values",
+    "description": "The Cybertruck's rejection in Europe reveals a deeper divide in automotive safety philosophy. Is it a fortress on wheels or a danger to pedestrians? A look at what this vehicle symbolizes.",
+    "image": "cybertruck-cultural-values.png",
+    "category": "Vehicles",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-25T14:10:38.000Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap Forward: New Algorithm Boosts Quantum Computing Efficiency",
     "slug": "quantum-computing-efficiency-boost",
     "description": "A groundbreaking algorithm from Cambridge promises a 30% efficiency boost in quantum computing, potentially accelerating advancements in AI, cryptography, and materials science.",
