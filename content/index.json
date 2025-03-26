@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Next Trillion: Which Sectors Will Lead the Charge?",
+    "slug": "next-trillion-dollar-sectors",
+    "description": "Which industries are poised to produce the next trillion-dollar company? From AI to space exploration, we explore the sectors with the highest potential for massive growth.",
+    "image": "next-trillion-dollar-sectors.png",
+    "category": "Markets",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-26T04:55:54.827Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "German Business Climate Index Rises: Signs of Tech-Driven Recovery",
     "slug": "german-business-climate-index-tech-recovery",
     "description": "Germany's Ifo Business Climate Index climbed to 86.7 in March 2025, signaling renewed optimism for tech sectors like AI, software, and climate tech. Could this be the start of a broader economic rebound?",
