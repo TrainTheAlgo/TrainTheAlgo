@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Leap: IBM Unveils 1,000-Qubit Processor",
+    "slug": "quantum-computing-ibm-1000-qubit",
+    "description": "IBM has unveiled its most powerful quantum processor yet, the 1,000-qubit Quantum Heron. This breakthrough could redefine industries from cryptography to drug discovery.",
+    "image": "quantum-computing-ibm-1000-qubit.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-26T17:02:39.917Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "United Airlines Flight Diverted Due to Pilot's Missing Passport Highlights Tech Gaps in Aviation",
     "slug": "united-airlines-flight-diverted-pilot-missing-passport",
     "description": "A United Airlines flight to Shanghai was forced to turn back after a pilot forgot his passport, exposing surprising gaps in aviation technology and crew verification systems.",
