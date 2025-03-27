@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Germany's Ifo Index Signals a Tech-Driven Economic Rebound in 2025",
+    "slug": "germany-ifo-index-tech-rebound-2025",
+    "description": "Germany's Ifo Business Climate Index rises, signaling optimism for a tech-driven recovery. Emerging technologies, automation, and green tech are shaping the future of Europe's largest economy.",
+    "image": "germany-ifo-index-tech-rebound-2025.png",
+    "category": "Business",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-27T14:51:09.865Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Wireless BCI Success: A Major Leap in Human-Machine Interaction",
     "slug": "neuralink-wireless-bci-success",
     "description": "Neuralink has achieved a historic milestone: the first successful human trial of a wireless brain-computer interface, allowing a paralyzed patient to control a computer with their thoughts.",
