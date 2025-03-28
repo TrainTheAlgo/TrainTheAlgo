@@ -99,7 +99,7 @@ const init = async () => {
       } catch (err) {
         console.log(`automation error`, err)
       }
-      await new Promise(resolve => setTimeout(resolve, 120 * 60 * 1000));
+      await new Promise(resolve => setTimeout(resolve, 360 * 60 * 1000));
     }
   }
   if (command == 'ask') {
