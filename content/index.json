@@ -1,5 +1,18 @@
 [
   {
+    "title": "Wearables Just Got Smarter: Fabrics Generate Power from Your Body Heat",
+    "slug": "smart-fabric-generates-power-from-body-heat",
+    "description": "A revolutionary smart fabric converts body heat into electricity, powering wearables without batteries. Discover how this innovation could reshape the future of tech-integrated clothing.",
+    "image": "smart-fabric-generates-power-from-body-heat.png",
+    "category": "Lifestyle",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-29T11:33:41.266Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "No Surgery, Just Thoughts: NeuralTech's Revolutionary Prosthetic Arm",
     "slug": "neuraltech-thought-controlled-prosthetics",
     "description": "NeuralTech unveils a non-invasive, thought-controlled prosthetic arm with 92% accuracy and under 50ms latency, redefining mobility for amputees.",
