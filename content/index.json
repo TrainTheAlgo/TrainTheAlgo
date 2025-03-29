@@ -1,5 +1,18 @@
 [
   {
+    "title": "No Surgery, Just Thoughts: NeuralTech's Revolutionary Prosthetic Arm",
+    "slug": "neuraltech-thought-controlled-prosthetics",
+    "description": "NeuralTech unveils a non-invasive, thought-controlled prosthetic arm with 92% accuracy and under 50ms latency, redefining mobility for amputees.",
+    "image": "neuraltech-thought-controlled-prosthetics.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-29T05:10:30.695Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "New Soft Robotics Material Mimics Human Muscle, Promising Revolutionary Prosthetics",
     "slug": "soft-robotics-material-mimics-human-muscle",
     "description": "Stanford researchers unveil FlexiMuscle, a soft robotic material that stretches 300% and lifts 50x its weight-poised to transform prosthetics, automation, and wearable tech.",
