@@ -1,5 +1,18 @@
 [
   {
+    "title": "Fixing The Frustration: How To Resolve 'Something Went Wrong'",
+    "slug": "fixing-the-frustration-something-went-wrong",
+    "description": "The dreaded 'Something went wrong, please try again' error can appear anywhere - apps, websites, devices. Here's what it really means and how to fix it fast.",
+    "image": "something-went-wrong.png",
+    "category": "Software",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-30T06:39:59.545Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Real-Time Language Translation via Neural Interface Breakthrough",
     "slug": "real-time-language-translation-neural-interface",
     "description": "A revolutionary brain-computer interface called LinguaNet translates thoughts into speech across languages with 92% accuracy, redefining communication and accessibility.",
