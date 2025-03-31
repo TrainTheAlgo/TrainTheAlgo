@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap That's Doubling Processing Power",
+    "slug": "quantum-leap-doubling-processing-power",
+    "description": "A revolutionary new quantum chip design doubles processing power, promising faster breakthroughs in science, business, and beyond.",
+    "image": "quantum-leap-doubling-processing-power.png",
+    "category": "Physics",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-31T08:26:12.806Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Should We Think About the Economics of AI?",
     "slug": "economics-of-ai",
     "description": "AI is transforming productivity, reshaping labor markets, and challenging traditional economic models. Here's how economists are rethinking growth, inequality, and the future of work in the age of artificial intelligence.",
