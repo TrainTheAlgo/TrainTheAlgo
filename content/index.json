@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Rise of Slop Capitalism: Is the Dead Internet Theory Becoming Reality?",
+    "slug": "slop-capitalism-dead-internet-theory",
+    "description": "AI-generated content is flooding the internet, replacing human voices with algorithmic slop. Is the Dead Internet Theory no longer a conspiracy, but a business model?",
+    "image": "slop-capitalism-dead-internet-theory.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-31T21:24:07.660Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neural Overlays: Could BCIs Redefine Reality?",
     "slug": "neural-overlays-bcis-redefine-reality",
     "description": "Brain-computer interfaces are no longer science fiction. They could soon reshape how we see, hear, and experience the world-both real and virtual.",
