@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Should We Think About the Economics of AI?",
+    "slug": "economics-of-ai",
+    "description": "AI is transforming productivity, reshaping labor markets, and challenging traditional economic models. Here's how economists are rethinking growth, inequality, and the future of work in the age of artificial intelligence.",
+    "image": "economics-of-ai.png",
+    "category": "AI",
+    "path": "2025/03/",
+    "featured": false,
+    "date": "2025-03-31T02:03:13.948Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Could AI Develop Its Own Advanced Communication System?",
     "slug": "ai-develop-own-language",
     "description": "AI is already reshaping how we communicate-but could it go further and invent a language more efficient than any human tongue? Here's what we know.",
