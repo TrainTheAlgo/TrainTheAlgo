@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tesla's Record Sales Drop Signals Challenges for EV Giant",
+    "slug": "tesla-record-sales-drop-ev-challenges",
+    "description": "Tesla's 13% drop in Q1 2025 deliveries marks its biggest sales decline ever, raising questions about aging models, rising competition, and Elon Musk's leadership focus.",
+    "image": "tesla-record-sales-drop-ev-challenges.png",
+    "category": "Vehicles",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-03T07:22:10.668Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Chinese Breakthrough: 4 Patients Regain Leg Control in 24 Hours",
     "slug": "chinese-breakthrough-neural-remodeling-paralysis",
     "description": "A revolutionary brain-spinal interface developed in China has helped four paralyzed patients regain leg control within 24 hours, offering new hope for millions living with spinal cord injuries.",
