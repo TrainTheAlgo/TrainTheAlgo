@@ -1,5 +1,18 @@
 [
   {
+    "title": "Congress Proposes Mandatory Drug Tests for Tech Moguls and Officials",
+    "slug": "congress-drug-tests-tech-leaders",
+    "description": "A new bill targets Elon Musk and government advisors with random drug testing, sparking debate over accountability in tech and politics.",
+    "image": "congress-drug-tests-tech-leaders.png",
+    "category": "Politics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-04T15:31:05.340Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM Unveils 1000-Qubit Processor: A Major Milestone in Quantum Computing",
     "slug": "ibm-1000-qubit-processor",
     "description": "IBM's new 1000-qubit quantum processor, Condor, marks a pivotal leap toward practical quantum computing, with implications for cryptography, AI, and beyond.",
