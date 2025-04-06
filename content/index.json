@@ -1,5 +1,18 @@
 [
   {
+    "title": "Giant Organic Molecules on Mars Hint at Ancient Life: Breakthrough Discovery",
+    "slug": "giant-organic-molecules-mars-ancient-life",
+    "description": "NASA's Curiosity rover has detected the most complex organic molecules ever found on Mars, raising new questions about the Red Planet's potential to have once supported life.",
+    "image": "giant-organic-molecules-mars.png",
+    "category": "Space",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-06T18:39:36.323Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Guardian AI: The Future of Proactive Cybersecurity",
     "slug": "guardian-ai-future-of-cybersecurity",
     "description": "SentinelLabs unveils Guardian AI, a new security system that detects cyber threats 40% faster using machine learning. Is this the future of digital defense?",
