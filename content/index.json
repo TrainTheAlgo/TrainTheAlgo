@@ -1,5 +1,18 @@
 [
   {
+    "title": "PulseTrack Pro: How This Wearable Tech Could Revolutionize Athlete Training",
+    "slug": "pulsetrack-pro-wearable-tech-athlete-training",
+    "description": "Kinetic Labs' PulseTrack Pro promises 98% accuracy in tracking athlete performance, aiming to reduce injuries and optimize training like never before.",
+    "image": "pulsetrack-pro-wearable-tech-athlete-training.png",
+    "category": "Sport",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-08T08:47:43.693Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "BioFlex Breakthrough Offers Superhuman Strength in a Flexible Material",
     "slug": "bioflex-breakthrough-superhuman-strength",
     "description": "UCSD's BioFlex material mimics human muscle with 300% more power than previous soft robotics tech, promising a revolution in prosthetics, wearables, and autonomous machines.",
