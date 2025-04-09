@@ -1,5 +1,18 @@
 [
   {
+    "title": "GuardianNet: The 98% Accurate Defense Against Zero-Day Threats",
+    "slug": "guardiannet-ai-cybersecurity-defense",
+    "description": "SecureSphere launches GuardianNet, an AI-powered cybersecurity system boasting 98% accuracy in detecting zero-day threats and reducing breach detection time from months to minutes.",
+    "image": "guardiannet-ai-cybersecurity-defense.png",
+    "category": "Security",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-09T23:30:17.880Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Thin-Film Solar Cells Hit 30% Efficiency - A Game-Changer for Renewable Energy",
     "slug": "thin-film-solar-cells-30-percent-efficiency",
     "description": "SolarFlare's new thin-film solar cells have reached a record 30% efficiency in lab tests, potentially transforming the future of clean energy with cheaper, flexible, and more powerful solar tech.",
