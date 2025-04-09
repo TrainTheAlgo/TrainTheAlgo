@@ -1,5 +1,18 @@
 [
   {
+    "title": "40% More Efficient Battery Unveiled by NanoCore",
+    "slug": "nanocore-40-percent-more-efficient-battery",
+    "description": "NanoCore's new NanoCell battery charges in 15 minutes, delivers 40% more energy density, and could reshape the future of EVs and clean energy.",
+    "image": "nanocore-40-percent-more-efficient-battery.png",
+    "category": "Vehicles",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-09T10:35:29.787Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "NeuralSync's Brain-Computer Interface Breakthrough: Redefining Human-Machine Interaction",
     "slug": "neuralsync-brain-computer-interface-breakthrough",
     "description": "NeuralSync's SyncSphere BCI system, unveiled at the 2025 NeuroTech Summit, achieves 92% accuracy in thought-controlled computing, setting a new standard for non-invasive brain-computer interfaces.",
