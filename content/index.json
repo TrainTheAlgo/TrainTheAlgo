@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Breakthrough: QubitCore Unveils 500-Qubit Processor",
+    "slug": "qubitcore-500-qubit-processor",
+    "description": "QubitCore's new 500-qubit processor doubles coherence time and promises to revolutionize AI, cryptography, and materials science. Here's what it means for the future of quantum computing.",
+    "image": "qubitcore-500-qubit-processor.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-10T18:53:52.872Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Starlink Achieves Breakthrough with Airborne Streaming Latency Test",
     "slug": "starlink-airborne-streaming-latency-test",
     "description": "Starlink just proved low-latency, high-speed internet is possible mid-flight-reshaping the future of in-flight entertainment, aviation safety, and global connectivity.",
