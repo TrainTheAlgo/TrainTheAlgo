@@ -1,5 +1,18 @@
 [
   {
+    "title": "25% Yield Boost: SkyNet's Autonomous Drones Transform Farming",
+    "slug": "skynet-autonomous-drones-precision-agriculture",
+    "description": "SkyNet Robotics unveils AgroSwarm, an AI-powered drone fleet that promises to boost crop yields by 25%, cut water use, and revolutionize precision farming.",
+    "image": "skynet-autonomous-drones-precision-agriculture.png",
+    "category": "Business",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-11T01:17:51.020Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: QubitCore Unveils 500-Qubit Processor",
     "slug": "qubitcore-500-qubit-processor",
     "description": "QubitCore's new 500-qubit processor doubles coherence time and promises to revolutionize AI, cryptography, and materials science. Here's what it means for the future of quantum computing.",
