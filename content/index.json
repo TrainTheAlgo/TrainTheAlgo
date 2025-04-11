@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionizing Surgery: AI-Powered Holographic Assistant Cuts Time by 15%",
+    "slug": "ai-powered-holographic-surgery-assistant",
+    "description": "HoloMed's FDA-approved HoloSurgeon blends AI and holograms to guide surgeons in real time, cutting surgery time by 15% and reducing complications by 20%.",
+    "image": "ai-powered-holographic-surgery-assistant.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-11T07:40:33.901Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "25% Yield Boost: SkyNet's Autonomous Drones Transform Farming",
     "slug": "skynet-autonomous-drones-precision-agriculture",
     "description": "SkyNet Robotics unveils AgroSwarm, an AI-powered drone fleet that promises to boost crop yields by 25%, cut water use, and revolutionize precision farming.",
