@@ -1,5 +1,18 @@
 [
   {
+    "title": "BioSynth's PETase-3: The Key to a Circular Plastic Economy",
+    "slug": "biosynth-enzyme-plastic-recycling-breakthrough",
+    "description": "BioSynth Labs unveils PETase-3, a revolutionary enzyme that recycles plastic with 90% efficiency in under two hours-without degrading quality. Could this be the future of sustainable recycling?",
+    "image": "biosynth-enzyme-plastic-recycling-breakthrough.png",
+    "category": "Climate",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-11T14:03:37.235Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Surgery: AI-Powered Holographic Assistant Cuts Time by 15%",
     "slug": "ai-powered-holographic-surgery-assistant",
     "description": "HoloMed's FDA-approved HoloSurgeon blends AI and holograms to guide surgeons in real time, cutting surgery time by 15% and reducing complications by 20%.",
