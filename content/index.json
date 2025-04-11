@@ -1,5 +1,18 @@
 [
   {
+    "title": "Brain-Inspired AI Chip Extends Drone Flight Time By Up To 50%",
+    "slug": "brain-inspired-ai-chip-extends-drone-flight-time",
+    "description": "A new AI chip developed at Texas A&M mimics the brain's neurons to dramatically extend drone flight time by up to 50%, potentially transforming industries from disaster response to delivery.",
+    "image": "brain-inspired-ai-chip-extends-drone-flight-time.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-11T20:25:02.899Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "BioSynth's PETase-3: The Key to a Circular Plastic Economy",
     "slug": "biosynth-enzyme-plastic-recycling-breakthrough",
     "description": "BioSynth Labs unveils PETase-3, a revolutionary enzyme that recycles plastic with 90% efficiency in under two hours-without degrading quality. Could this be the future of sustainable recycling?",
