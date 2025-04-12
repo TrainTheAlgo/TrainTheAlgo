@@ -1,5 +1,18 @@
 [
   {
+    "title": "Who Is the Greatest Athlete of All Time? Analyzing Icons Across Sports",
+    "slug": "greatest-athlete-of-all-time",
+    "description": "From Jordan to Serena, Ali to Bolt-who truly stands above the rest? We explore the legends, the metrics, and the meaning behind the GOAT debate.",
+    "image": "greatest-athlete-of-all-time.png",
+    "category": "Sport",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-12T09:27:48.592Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "92% Accuracy: Neuralink's BCI Game-Changer",
     "slug": "neuralink-bci-game-control",
     "description": "Neuralink's first human trial shows a paralyzed participant playing a video game using only brain signals, achieving 92% accuracy and redefining the future of brain-computer interfaces.",
