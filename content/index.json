@@ -1,5 +1,18 @@
 [
   {
+    "title": "92% Accuracy: Neuralink's BCI Game-Changer",
+    "slug": "neuralink-bci-game-control",
+    "description": "Neuralink's first human trial shows a paralyzed participant playing a video game using only brain signals, achieving 92% accuracy and redefining the future of brain-computer interfaces.",
+    "image": "neuralink-bci-game-control.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-12T02:48:31.469Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Brain-Inspired AI Chip Extends Drone Flight Time By Up To 50%",
     "slug": "brain-inspired-ai-chip-extends-drone-flight-time",
     "description": "A new AI chip developed at Texas A&M mimics the brain's neurons to dramatically extend drone flight time by up to 50%, potentially transforming industries from disaster response to delivery.",
