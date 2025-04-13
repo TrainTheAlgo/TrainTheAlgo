@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Breakthrough: 20 WPM Telepathic Typing",
+    "slug": "neuralink-telepathic-typing-20-wpm",
+    "description": "Neuralink's brain implant enables a paralyzed patient to type 20 words per minute using only their thoughts, marking a major leap in brain-computer interface technology.",
+    "image": "neuralink-telepathic-typing-20-wpm.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-13T23:53:43.333Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: IBM Unveils 1,000-Qubit Processor with Groundbreaking Error Reduction",
     "slug": "ibm-1000-qubit-quantum-processor-condor",
     "description": "IBM's new 1,000-qubit Condor processor marks a major milestone in quantum computing, slashing error rates by 20% and bringing practical quantum applications closer to reality.",
