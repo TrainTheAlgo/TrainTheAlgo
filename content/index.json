@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: IBM Unveils 1,000-Qubit Processor with Groundbreaking Error Reduction",
+    "slug": "ibm-1000-qubit-quantum-processor-condor",
+    "description": "IBM's new 1,000-qubit Condor processor marks a major milestone in quantum computing, slashing error rates by 20% and bringing practical quantum applications closer to reality.",
+    "image": "ibm-1000-qubit-quantum-processor-condor.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-13T17:24:23.862Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Meta's Orion AR Glasses Gain Neural Interface Upgrade for Seamless Control",
     "slug": "meta-orion-ar-glasses-neural-interface",
     "description": "Meta's Orion AR glasses now let users control apps with their thoughts, thanks to a new neural interface. But is this the future of AR or a privacy minefield?",
