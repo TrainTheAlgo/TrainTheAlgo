@@ -1,5 +1,18 @@
 [
   {
+    "title": "HoloLens 3 Unveils Mixed Reality Breakthrough with 40% Wider Field of View",
+    "slug": "hololens-3-mixed-reality-breakthrough",
+    "description": "Microsoft's HoloLens 3 debuts with a 40% wider field of view, AI-driven spatial mapping, and enterprise-grade performance. Is it the future of augmented reality?",
+    "image": "hololens-3-mixed-reality-breakthrough.png",
+    "category": "Software",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-13T04:40:42.424Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "3D-Printed Battery Breaks Records with 30% Higher Energy Density",
     "slug": "3d-printed-battery-30-percent-higher-energy-density",
     "description": "Synthia Labs unveils a 3D-printed solid-state battery with 30% more energy density, promising longer EV range, lower costs, and a potential shift in the energy storage landscape.",
