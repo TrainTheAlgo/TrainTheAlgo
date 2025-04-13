@@ -1,5 +1,18 @@
 [
   {
+    "title": "Meta's Orion AR Glasses Gain Neural Interface Upgrade for Seamless Control",
+    "slug": "meta-orion-ar-glasses-neural-interface",
+    "description": "Meta's Orion AR glasses now let users control apps with their thoughts, thanks to a new neural interface. But is this the future of AR or a privacy minefield?",
+    "image": "meta-orion-ar-glasses-neural-interface.png",
+    "category": "Software",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-13T11:00:20.368Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "HoloLens 3 Unveils Mixed Reality Breakthrough with 40% Wider Field of View",
     "slug": "hololens-3-mixed-reality-breakthrough",
     "description": "Microsoft's HoloLens 3 debuts with a 40% wider field of view, AI-driven spatial mapping, and enterprise-grade performance. Is it the future of augmented reality?",
