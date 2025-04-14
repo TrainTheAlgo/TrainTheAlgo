@@ -1,5 +1,18 @@
 [
   {
+    "title": "Soft Robotics Just Got a Major Upgrade with FlexiFiber",
+    "slug": "soft-robotics-flexifiber-breakthrough",
+    "description": "MIT's FlexiFiber mimics human muscle with 90% efficiency, promising a revolution in prosthetics, wearable tech, and robotics. Here's how it works and why it matters.",
+    "image": "soft-robotics-flexifiber-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-14T19:05:16.990Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Real-Time Translation Just Got 40% Better. Here's Why You Need to Know",
     "slug": "real-time-translation-40-percent-better",
     "description": "A revolutionary neural network called LinguaNet is transforming real-time language translation with a 40% boost in speed and accuracy-especially for low-resource languages.",
