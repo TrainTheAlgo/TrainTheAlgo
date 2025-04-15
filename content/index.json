@@ -1,5 +1,18 @@
 [
   {
+    "title": "Walking Without Thinking: The Breakthrough in Neural Prosthetics",
+    "slug": "walking-without-thinking-neural-prosthetics",
+    "description": "Stanford's AI-driven prosthetic system achieves 92% movement accuracy by decoding neural signals, offering amputees more natural mobility and less effort.",
+    "image": "walking-without-thinking-neural-prosthetics.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-15T14:24:46.068Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "HaptX G2: Revolutionizing Virtual Reality with Advanced Haptics",
     "slug": "haptx-g2-revolutionizing-vr-haptics",
     "description": "The HaptX G2 glove introduces 133 actuators per hand, delivering unprecedented tactile precision in VR. With 40% greater accuracy and sub-10ms latency, it sets a new standard for immersive virtual experiences.",
