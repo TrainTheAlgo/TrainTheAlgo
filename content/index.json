@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stanford's Modular Batteries: The Key to Longer-Lasting Electric Cars",
+    "slug": "stanfords-modular-batteries-ev-breakthrough",
+    "description": "Stanford researchers unveil a modular battery system that cuts EV charging time by 30% and extends battery life by 20%, potentially transforming the future of electric vehicles.",
+    "image": "stanfords-modular-batteries-ev-breakthrough.png",
+    "category": "Vehicles",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-15T20:48:52.027Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Walking Without Thinking: The Breakthrough in Neural Prosthetics",
     "slug": "walking-without-thinking-neural-prosthetics",
     "description": "Stanford's AI-driven prosthetic system achieves 92% movement accuracy by decoding neural signals, offering amputees more natural mobility and less effort.",
