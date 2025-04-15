@@ -1,5 +1,18 @@
 [
   {
+    "title": "CRISPR Breakthrough: 95% Accuracy in Gene Editing Trials",
+    "slug": "crispr-breakthrough-95-percent-accuracy",
+    "description": "CRISPR-Prime, a new gene-editing platform from the Broad Institute, achieves 95% accuracy in correcting genetic mutations, marking a major leap toward safe, scalable gene therapy.",
+    "image": "crispr-breakthrough-95-percent-accuracy.png",
+    "category": "Lifestyle",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-15T01:31:24.425Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robotics Just Got a Major Upgrade with FlexiFiber",
     "slug": "soft-robotics-flexifiber-breakthrough",
     "description": "MIT's FlexiFiber mimics human muscle with 90% efficiency, promising a revolution in prosthetics, wearable tech, and robotics. Here's how it works and why it matters.",
