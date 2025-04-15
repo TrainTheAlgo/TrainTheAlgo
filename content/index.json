@@ -1,5 +1,18 @@
 [
   {
+    "title": "HaptX G2: Revolutionizing Virtual Reality with Advanced Haptics",
+    "slug": "haptx-g2-revolutionizing-vr-haptics",
+    "description": "The HaptX G2 glove introduces 133 actuators per hand, delivering unprecedented tactile precision in VR. With 40% greater accuracy and sub-10ms latency, it sets a new standard for immersive virtual experiences.",
+    "image": "haptx-g2-revolutionizing-vr-haptics.png",
+    "category": "Gaming",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-15T07:57:46.888Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "CRISPR Breakthrough: 95% Accuracy in Gene Editing Trials",
     "slug": "crispr-breakthrough-95-percent-accuracy",
     "description": "CRISPR-Prime, a new gene-editing platform from the Broad Institute, achieves 95% accuracy in correcting genetic mutations, marking a major leap toward safe, scalable gene therapy.",
