@@ -1,5 +1,18 @@
 [
   {
+    "title": "Transparent Electrodes Boost OLED Efficiency by 20%",
+    "slug": "transparent-electrodes-boost-oled-efficiency",
+    "description": "A new graphene-doped ITO composite developed by the University of Tokyo increases OLED efficiency by 20%, promising brighter displays and lower power consumption.",
+    "image": "transparent-electrodes-boost-oled-efficiency.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-16T09:35:44.149Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Perovskite Solar Cells Hit 26% Efficiency: A Game-Changer for Renewable Energy",
     "slug": "perovskite-solar-cells-26-efficiency",
     "description": "Oxford researchers have achieved a record 26% efficiency in perovskite solar cells, marking a major leap toward affordable, high-performance renewable energy.",
