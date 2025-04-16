@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Dots Get 30% Brighter Thanks to New Nanocrystals",
+    "slug": "quantum-dots-30-percent-brighter-nanocrystals",
+    "description": "MIT scientists have developed a new nanocrystal synthesis method that boosts quantum dot brightness by 30%, promising sharper, more energy-efficient displays for TVs, smartphones, and AR devices.",
+    "image": "quantum-dots-30-percent-brighter-nanocrystals.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-16T21:59:54.711Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Transparent Electrodes Boost OLED Efficiency by 20%",
     "slug": "transparent-electrodes-boost-oled-efficiency",
     "description": "A new graphene-doped ITO composite developed by the University of Tokyo increases OLED efficiency by 20%, promising brighter displays and lower power consumption.",
