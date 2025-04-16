@@ -1,5 +1,18 @@
 [
   {
+    "title": "Perovskite Solar Cells Hit 26% Efficiency: A Game-Changer for Renewable Energy",
+    "slug": "perovskite-solar-cells-26-efficiency",
+    "description": "Oxford researchers have achieved a record 26% efficiency in perovskite solar cells, marking a major leap toward affordable, high-performance renewable energy.",
+    "image": "perovskite-solar-cells-26-efficiency.png",
+    "category": "Climate",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-16T03:14:05.338Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stanford's Modular Batteries: The Key to Longer-Lasting Electric Cars",
     "slug": "stanfords-modular-batteries-ev-breakthrough",
     "description": "Stanford researchers unveil a modular battery system that cuts EV charging time by 30% and extends battery life by 20%, potentially transforming the future of electric vehicles.",
