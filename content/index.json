@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuromorphic Breakthrough: 70% Power Reduction in AI Chips",
+    "slug": "neuromorphic-breakthrough-70-percent-power-reduction-ai-chips",
+    "description": "A new brain-inspired chip called NeuroCore slashes AI energy use by 70%, promising a greener future for data centers and edge devices alike.",
+    "image": "neuromorphic-breakthrough.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-17T10:48:09.155Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Will AI Ever Answer Life's Meaning?",
     "slug": "will-ai-ever-answer-lifes-meaning",
     "description": "AI is transforming how we explore life's biggest question-but can it ever truly understand the meaning of life? A deep dive into philosophy, consciousness, and machine intelligence.",
