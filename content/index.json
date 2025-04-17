@@ -1,5 +1,18 @@
 [
   {
+    "title": "Technofeudalism: Why Happy Accidents Are Dying Out",
+    "slug": "technofeudalism-why-happy-accidents-are-dying-out",
+    "description": "In a world increasingly shaped by algorithms and platforms, the spontaneous joys of life-those unplanned, magical moments-are quietly disappearing. Here's why that matters.",
+    "image": "technofeudalism-serendipity.png",
+    "category": "Lifestyle",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-17T23:36:13.570Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Photonic Computing Breakthrough Delivers 100x AI Speed Boost",
     "slug": "photonic-computing-breakthrough-100x-ai-speed-boost",
     "description": "A new photonic chip from UC San Diego achieves 100x speedup and 80% less power consumption for AI workloads, signaling a major leap in computing efficiency.",
