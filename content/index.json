@@ -1,5 +1,18 @@
 [
   {
+    "title": "Photonic Computing Breakthrough Delivers 100x AI Speed Boost",
+    "slug": "photonic-computing-breakthrough-100x-ai-speed-boost",
+    "description": "A new photonic chip from UC San Diego achieves 100x speedup and 80% less power consumption for AI workloads, signaling a major leap in computing efficiency.",
+    "image": "photonic-computing-breakthrough-100x-ai-speed-boost.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-17T17:12:15.230Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuromorphic Breakthrough: 70% Power Reduction in AI Chips",
     "slug": "neuromorphic-breakthrough-70-percent-power-reduction-ai-chips",
     "description": "A new brain-inspired chip called NeuroCore slashes AI energy use by 70%, promising a greener future for data centers and edge devices alike.",
