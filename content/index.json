@@ -1,5 +1,18 @@
 [
   {
+    "title": "Holographic Displays Breakthrough: AR/VR Experiences Just Got 50% Better",
+    "slug": "holographic-displays-breakthrough-ar-vr",
+    "description": "A new holographic display developed by Cambridge researchers boosts resolution and field-of-view, promising a major leap forward for AR and VR experiences.",
+    "image": "holographic-displays-breakthrough.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-18T18:42:45.835Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Microsoft's AI Agents Achieve New Autonomy with Reasoning Capabilities",
     "slug": "microsoft-ai-agents-autonomy-reasoning",
     "description": "Microsoft's latest AI breakthrough gives its agents the power to reason and act independently, marking a major shift in how we interact with technology.",
