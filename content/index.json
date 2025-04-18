@@ -1,5 +1,18 @@
 [
   {
+    "title": "Microsoft's AI Agents Achieve New Autonomy with Reasoning Capabilities",
+    "slug": "microsoft-ai-agents-autonomy-reasoning",
+    "description": "Microsoft's latest AI breakthrough gives its agents the power to reason and act independently, marking a major shift in how we interact with technology.",
+    "image": "microsoft-ai-agents-autonomy-reasoning.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-18T12:21:18.213Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Real-Time Thought Translation: A Major Leap in BCI Technology from UCSF Researchers",
     "slug": "real-time-thought-translation-bci-ucsf",
     "description": "UCSF researchers have developed a brain-computer interface that translates thoughts into text at 90 words per minute, offering new hope for people with speech impairments.",
