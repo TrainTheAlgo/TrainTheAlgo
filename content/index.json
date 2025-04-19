@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Wireless Brain Implant Achieves 10x Data Transfer Speed",
+    "slug": "neuralink-10x-brain-implant-speed",
+    "description": "Neuralink's new Blindsight 2.0 implant hits 200 Mbps, a tenfold leap in brain-computer interface speed, unlocking real-time neural communication and raising ethical questions.",
+    "image": "neuralink-10x-brain-implant-speed.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-19T01:05:51.026Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Holographic Displays Breakthrough: AR/VR Experiences Just Got 50% Better",
     "slug": "holographic-displays-breakthrough-ar-vr",
     "description": "A new holographic display developed by Cambridge researchers boosts resolution and field-of-view, promising a major leap forward for AR and VR experiences.",
