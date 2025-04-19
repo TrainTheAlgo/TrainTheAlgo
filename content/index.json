@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT's Battery-Free Sensor: Energy from Ambient Light for IoT Devices",
+    "slug": "mits-battery-free-sensor-energy-from-ambient-light-for-iot-devices",
+    "description": "MIT has developed a battery-free sensor that powers itself using ambient light, offering a sustainable solution for IoT devices and reducing global battery waste.",
+    "image": "mits-battery-free-sensor-energy-from-ambient-light-for-iot-devices.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-19T07:28:49.569Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Wireless Brain Implant Achieves 10x Data Transfer Speed",
     "slug": "neuralink-10x-brain-implant-speed",
     "description": "Neuralink's new Blindsight 2.0 implant hits 200 Mbps, a tenfold leap in brain-computer interface speed, unlocking real-time neural communication and raising ethical questions.",
