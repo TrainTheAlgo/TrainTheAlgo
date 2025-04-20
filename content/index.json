@@ -1,5 +1,18 @@
 [
   {
+    "title": "Sweden's Kreuger-100 Drone Hunter Just Rewrote the Rules of War",
+    "slug": "kreuger-100-drone-hunter",
+    "description": "The Kreuger-100 is a software-defined, battery-powered drone interceptor that's changing the economics and strategy of modern air defense.",
+    "image": "kreuger-100-drone-hunter.png",
+    "category": "Security",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-20T21:31:55.060Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Wearable Tech: Graphene-Based Sensor Monitors Health in Real Time",
     "slug": "graphene-health-monitoring-wearable",
     "description": "A revolutionary graphene-based sensor developed by Cambridge researchers offers real-time, non-invasive health monitoring with medical-grade accuracy.",
