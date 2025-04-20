@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Wearable Tech: Graphene-Based Sensor Monitors Health in Real Time",
+    "slug": "graphene-health-monitoring-wearable",
+    "description": "A revolutionary graphene-based sensor developed by Cambridge researchers offers real-time, non-invasive health monitoring with medical-grade accuracy.",
+    "image": "graphene-health-monitoring-wearable.png",
+    "category": "Lifestyle",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-20T15:06:49.853Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Meet FlexiBot: The AI-Powered Robot That Adapts to Any Task",
     "slug": "flexibot-ai-powered-modular-robotics",
     "description": "Stanford's FlexiBot redefines robotics with autonomous reconfiguration, completing real-world tasks with 95% success and 40% faster adaptation than previous systems.",
