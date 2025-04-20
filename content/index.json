@@ -1,5 +1,18 @@
 [
   {
+    "title": "Meet FlexiBot: The AI-Powered Robot That Adapts to Any Task",
+    "slug": "flexibot-ai-powered-modular-robotics",
+    "description": "Stanford's FlexiBot redefines robotics with autonomous reconfiguration, completing real-world tasks with 95% success and 40% faster adaptation than previous systems.",
+    "image": "flexibot-ai-powered-modular-robotics.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-20T08:45:26.541Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Dot LED Breakthrough Promises 50% More Efficient Displays",
     "slug": "quantum-dot-led-breakthrough-50-percent-efficiency",
     "description": "A new QLED innovation from Cambridge scientists boosts efficiency by 50%, promising brighter, greener screens for smartphones, TVs, and wearables.",
