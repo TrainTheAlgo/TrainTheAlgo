@@ -1,5 +1,18 @@
 [
   {
+    "title": "Soft Robotics Just Got Stronger: 3D-Printed Muscles Mimic Human Power (Study)",
+    "slug": "soft-robotics-3d-printed-muscles",
+    "description": "ETH Zurich's new 3D-printed artificial muscles stretch 300% and lift like human tissue, marking a major leap in soft robotics and prosthetics.",
+    "image": "soft-robotics-3d-printed-muscles.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-21T16:40:41.695Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "EcoNet: The AI Algorithm Cutting Data Center Energy by 30%",
     "slug": "econet-ai-data-center-efficiency",
     "description": "Stanford's EcoNet AI slashes data center energy use by up to 30%, offering a scalable, real-time solution to one of tech's biggest sustainability challenges.",
