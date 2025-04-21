@@ -1,5 +1,18 @@
 [
   {
+    "title": "EcoNet: The AI Algorithm Cutting Data Center Energy by 30%",
+    "slug": "econet-ai-data-center-efficiency",
+    "description": "Stanford's EcoNet AI slashes data center energy use by up to 30%, offering a scalable, real-time solution to one of tech's biggest sustainability challenges.",
+    "image": "econet-ai-data-center-efficiency.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-21T10:17:08.743Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Starship Robots Are Revolutionizing Last-Mile Delivery In U.S. Cities",
     "slug": "starship-robots-last-mile-delivery",
     "description": "Starship Technologies expands its autonomous delivery robots in Los Angeles and Chicago, cutting delivery times by 30% and reshaping urban logistics with DoorDash's multimodal strategy.",
