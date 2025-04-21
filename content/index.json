@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Starship Robots Are Revolutionizing Last-Mile Delivery In U.S. Cities",
+    "slug": "starship-robots-last-mile-delivery",
+    "description": "Starship Technologies expands its autonomous delivery robots in Los Angeles and Chicago, cutting delivery times by 30% and reshaping urban logistics with DoorDash's multimodal strategy.",
+    "image": "starship-robots-last-mile-delivery.png",
+    "category": "Business",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-21T03:54:16.139Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Sweden's Kreuger-100 Drone Hunter Just Rewrote the Rules of War",
     "slug": "kreuger-100-drone-hunter",
     "description": "The Kreuger-100 is a software-defined, battery-powered drone interceptor that's changing the economics and strategy of modern air defense.",
