@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stanford's Neuromorphic Chip Breakthrough: 90% Less Power for AI Processing",
+    "slug": "neuromorphic-chip-breakthrough-ai-efficiency",
+    "description": "Stanford's new NeuroCore chip mimics the brain to deliver AI performance with 90% less power, promising a revolution in edge computing and sustainable AI.",
+    "image": "neuromorphic-chip-breakthrough-ai-efficiency.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-22T05:23:21.638Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Voice-Integrated Drone Tech Could Revolutionize Airspace Safety",
     "slug": "voice-integrated-drone-tech-airspace-safety",
     "description": "AURA Network Systems is testing voice-controlled drones to reduce midair errors and improve communication with air traffic control. Could this reshape the future of urban air mobility?",
