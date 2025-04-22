@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's 1 Gbps Brain Implant: Ethical Concerns Loom Over Major Achievement",
+    "slug": "neuralink-1gbps-brain-implant",
+    "description": "Neuralink's brain-computer interface hits 1 Gbps in human trials, setting a new benchmark for neurotechnology-but not without raising serious ethical and privacy concerns.",
+    "image": "neuralink-1gbps-brain-implant.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-22T11:45:57.254Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stanford's Neuromorphic Chip Breakthrough: 90% Less Power for AI Processing",
     "slug": "neuromorphic-chip-breakthrough-ai-efficiency",
     "description": "Stanford's new NeuroCore chip mimics the brain to deliver AI performance with 90% less power, promising a revolution in edge computing and sustainable AI.",
