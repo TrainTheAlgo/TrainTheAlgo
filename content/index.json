@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Breakthrough: IBM's 1000-Qubit Chip Redefines Computing",
+    "slug": "ibm-1000-qubit-quantum-chip",
+    "description": "IBM's new 1,000-qubit Condor chip marks a major leap in quantum computing, promising breakthroughs in AI, cryptography, and drug discovery-if it can overcome key challenges.",
+    "image": "ibm-1000-qubit-quantum-chip.png",
+    "category": "Physics",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-23T06:57:45.515Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "1 Petabyte in a Sugar Cube: How 5D Holographic Storage is Revolutionizing Data Storage",
     "slug": "1-petabyte-in-a-sugar-cube-5d-holographic-storage",
     "description": "A new breakthrough in 5D holographic storage technology promises to store 1 petabyte of data in a sugar cube-sized crystal, potentially transforming the future of data storage.",
