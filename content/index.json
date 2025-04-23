@@ -1,5 +1,18 @@
 [
   {
+    "title": "QuantumScape's Breakthrough: Solving EV Battery Challenges",
+    "slug": "quantumscape-solid-state-battery-ev-future",
+    "description": "QuantumScape's solid-state battery tech could be the breakthrough electric vehicles need-offering faster charging, longer range, and a safer ride. Here's why it matters now more than ever.",
+    "image": "quantumscape-solid-state-battery-ev-future.png",
+    "category": "Vehicles",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-23T16:32:56.969Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Perovskite Solar Cells Set New Record with 26.1% Efficiency",
     "slug": "perovskite-solar-cells-26-1-efficiency",
     "description": "Cambridge researchers have achieved a record-breaking 26.1% efficiency in perovskite solar cells, marking a major step toward cheaper, more powerful renewable energy.",
