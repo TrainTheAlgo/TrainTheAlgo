@@ -1,5 +1,18 @@
 [
   {
+    "title": "Photonic Chip Breakthrough Promises Faster, Energy-Efficient AI Computing",
+    "slug": "photonic-chip-breakthrough-ai-computing",
+    "description": "A new photonic chip design from the University of Pennsylvania could revolutionize AI hardware with 10x faster processing and 70% lower energy use.",
+    "image": "photonic-chip-breakthrough-ai-computing.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-25T13:02:06.270Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "DNA Computing Breakthrough: 100x Faster Processing Achieved",
     "slug": "dna-computing-breakthrough-100x-faster-processing-achieved",
     "description": "UCSD researchers have achieved a 100x speed increase in DNA-based computing, opening the door to greener, faster, and more powerful data processing solutions.",
