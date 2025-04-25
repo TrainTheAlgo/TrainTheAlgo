@@ -1,5 +1,18 @@
 [
   {
+    "title": "DNA Computing Breakthrough: 100x Faster Processing Achieved",
+    "slug": "dna-computing-breakthrough-100x-faster-processing-achieved",
+    "description": "UCSD researchers have achieved a 100x speed increase in DNA-based computing, opening the door to greener, faster, and more powerful data processing solutions.",
+    "image": "dna-computing-breakthrough.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-25T06:37:17.652Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT Unveils Gel Robots That Heal Themselves in Seconds",
     "slug": "mit-self-healing-gel-robots",
     "description": "MIT's new self-healing gel robots can recover from damage in seconds, promising a future of more durable, adaptable machines in healthcare, manufacturing, and beyond.",
