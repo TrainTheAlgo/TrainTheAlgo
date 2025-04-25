@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Brain-Computer Interface Achieves Real-Time Thought-to-Text Translation",
+    "slug": "neuralink-thought-to-text-2025",
+    "description": "Neuralink's latest breakthrough enables a paralyzed patient to type 15 words per minute using only their thoughts, marking a major leap in brain-computer interface technology.",
+    "image": "neuralink-thought-to-text-2025.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-25T19:24:20.092Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Photonic Chip Breakthrough Promises Faster, Energy-Efficient AI Computing",
     "slug": "photonic-chip-breakthrough-ai-computing",
     "description": "A new photonic chip design from the University of Pennsylvania could revolutionize AI hardware with 10x faster processing and 70% lower energy use.",
