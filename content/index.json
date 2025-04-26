@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionary Neuromorphic Chip Mimics Human Brain for Ultra-Efficient AI",
+    "slug": "neuromorphic-chip-ultra-efficient-ai",
+    "description": "A new brain-inspired chip, NeuroCore, promises to make AI 10x more energy-efficient, potentially transforming the future of sustainable computing.",
+    "image": "neuromorphic-chip-ultra-efficient-ai.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-26T08:16:26.062Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robots Now Move 100x Faster Thanks to Stanford's Revolutionary Material",
     "slug": "soft-robots-100x-faster-stanford-breakthrough",
     "description": "Stanford researchers unveil a new material that makes soft robots 100 times faster and more agile, potentially transforming healthcare, manufacturing, and exploration.",
