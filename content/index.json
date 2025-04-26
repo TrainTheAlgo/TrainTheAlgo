@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Networking Breakthrough: Secure Global Data Transfer Achieved",
+    "slug": "quantum-networking-breakthrough-secure-global-data-transfer-achieved",
+    "description": "University of Chicago researchers achieve stable 100km quantum entanglement with 98% fidelity, marking a major leap toward a secure global quantum internet.",
+    "image": "quantum-networking-breakthrough.png",
+    "category": "Security",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-26T14:43:53.116Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionary Neuromorphic Chip Mimics Human Brain for Ultra-Efficient AI",
     "slug": "neuromorphic-chip-ultra-efficient-ai",
     "description": "A new brain-inspired chip, NeuroCore, promises to make AI 10x more energy-efficient, potentially transforming the future of sustainable computing.",
