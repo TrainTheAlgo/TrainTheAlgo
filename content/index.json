@@ -1,5 +1,18 @@
 [
   {
+    "title": "Wearable Biosensors Breakthrough: Real-Time Health Monitoring Now Possible",
+    "slug": "wearable-biosensors-breakthrough-real-time-health-monitoring",
+    "description": "A new flexible biosensor from UC San Diego promises real-time, multi-metric health monitoring with 95% accuracy, revolutionizing personal healthcare and telemedicine.",
+    "image": "wearable-biosensors-breakthrough.png",
+    "category": "Lifestyle",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-27T09:56:33.777Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Perovskite Solar Cells Breakthrough: Achieving 30% Efficiency",
     "slug": "perovskite-solar-cells-30-percent-efficiency",
     "description": "Cambridge researchers achieve a record 30% efficiency in perovskite solar cells, marking a major leap toward cheaper, more powerful renewable energy solutions.",
