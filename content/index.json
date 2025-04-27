@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Hypersonic Missile Defense Breakthrough: HINT Tested at Mach 6.2",
+    "slug": "ai-powered-hypersonic-missile-defense-breakthrough-hint-tested-at-mach-6-2",
+    "description": "MIT Lincoln Laboratory's HINT system successfully tracks and intercepts hypersonic targets at Mach 6.2, marking a major leap in missile defense technology.",
+    "image": "hypersonic-missile-defense.png",
+    "category": "Security",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-27T22:42:27.243Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Future of Aerial Warfare: How Drone Swarms Are Redefining Combat Strategies",
     "slug": "drone-swarms-redefining-combat-strategies",
     "description": "Drone swarms are reshaping the future of aerial warfare, challenging the dominance of traditional fighter jets with cost-effective, AI-driven tactics.",
