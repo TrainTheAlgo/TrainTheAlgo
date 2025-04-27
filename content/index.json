@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Future of Aerial Warfare: How Drone Swarms Are Redefining Combat Strategies",
+    "slug": "drone-swarms-redefining-combat-strategies",
+    "description": "Drone swarms are reshaping the future of aerial warfare, challenging the dominance of traditional fighter jets with cost-effective, AI-driven tactics.",
+    "image": "drone-swarms-redefining-combat-strategies.png",
+    "category": "Vehicles",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-27T16:18:39.108Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Biosensors Breakthrough: Real-Time Health Monitoring Now Possible",
     "slug": "wearable-biosensors-breakthrough-real-time-health-monitoring",
     "description": "A new flexible biosensor from UC San Diego promises real-time, multi-metric health monitoring with 95% accuracy, revolutionizing personal healthcare and telemedicine.",
