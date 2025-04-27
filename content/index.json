@@ -1,5 +1,18 @@
 [
   {
+    "title": "Perovskite Solar Cells Breakthrough: Achieving 30% Efficiency",
+    "slug": "perovskite-solar-cells-30-percent-efficiency",
+    "description": "Cambridge researchers achieve a record 30% efficiency in perovskite solar cells, marking a major leap toward cheaper, more powerful renewable energy solutions.",
+    "image": "perovskite-solar-cells-30-percent-efficiency.png",
+    "category": "Climate",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-27T03:34:13.435Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Modular Robotics Breakthrough: Real-Time Reconfiguration Revolutionized",
     "slug": "modular-robotics-breakthrough-real-time-reconfiguration",
     "description": "SwarmForm, a new modular robotics system from the University of Tokyo, enables robots to reconfigure in under 10 seconds, transforming disaster response, space exploration, and industrial automation.",
