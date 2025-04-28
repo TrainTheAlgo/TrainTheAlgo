@@ -1,5 +1,18 @@
 [
   {
+    "title": "CRISPR Gene Editing Boosts Crop Resilience by 25%",
+    "slug": "crispr-gene-editing-boosts-crop-resilience",
+    "description": "A new CRISPR breakthrough enhances drought and heat resistance in crops by 25%, offering hope for global food security amid climate change.",
+    "image": "crispr-gene-editing-boosts-crop-resilience.png",
+    "category": "Climate",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-28T17:56:03.637Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How 3D Printing Boosts EV Battery Efficiency by 15%",
     "slug": "3d-printing-ev-battery-efficiency",
     "description": "A groundbreaking 3D printing technique from UC San Diego promises longer range, faster charging, and greater longevity for electric vehicle batteries.",
