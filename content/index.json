@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Rights: A Dangerous Myth or the Future of Technology?",
+    "slug": "ai-rights-dangerous-myth-or-future",
+    "description": "Some claim AI is becoming 'conscious' and deserves rights. But is this science, philosophy-or just marketing? Here's what you need to know.",
+    "image": "ai-rights-dangerous-myth-or-future.png",
+    "category": "AI",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-29T06:47:38.608Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Lab-Grown Teeth Signals Dental Care Revolution",
     "slug": "lab-grown-teeth-dental-care-revolution",
     "description": "Scientists have successfully grown human teeth in a lab, opening the door to a future where tooth loss is treated with real, biologically compatible replacements.",
