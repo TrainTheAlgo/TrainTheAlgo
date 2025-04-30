@@ -1,5 +1,18 @@
 [
   {
+    "title": "ExDECS: The Microwave Weapon Revolutionizing Counter-Drone Defense",
+    "slug": "exdecs-microwave-weapon-counter-drone",
+    "description": "The U.S. Marine Corps is testing ExDECS, a high-power microwave weapon designed to neutralize drone swarms. Here's how it works and why it matters.",
+    "image": "exdecs-microwave-weapon-counter-drone.png",
+    "category": "Security",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-30T21:09:37.622Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "British High-Power Microwave Weapon Neutralizes Drone Swarms: A Game-Changer In Security",
     "slug": "british-microwave-weapon-neutralizes-drone-swarms",
     "description": "The UK's new high-power microwave weapon, RapidDestroyer, successfully disables drone swarms in a major test, offering a low-cost, high-impact solution to modern aerial threats.",
