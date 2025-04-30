@@ -1,5 +1,18 @@
 [
   {
+    "title": "Soft Robotics Breakthrough: Adaptive Grippers That Think Like Humans",
+    "slug": "soft-robotics-adaptive-grippers",
+    "description": "MIT's new soft robotic gripper achieves a 98% success rate in handling delicate and irregular objects, promising to revolutionize precision manufacturing.",
+    "image": "soft-robotics-adaptive-grippers.png",
+    "category": "Business",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-30T01:59:45.236Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Huawei's Ascend 910C: Paving the Way for China's Tech Future",
     "slug": "huawei-ascend-910c-china-tech-future",
     "description": "Huawei's new AI chip, the Ascend 910C, is gaining traction as China accelerates its push for tech independence amid U.S. export restrictions on Nvidia. Here's how it's reshaping the AI landscape.",
