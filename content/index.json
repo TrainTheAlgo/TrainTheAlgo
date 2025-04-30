@@ -1,5 +1,18 @@
 [
   {
+    "title": "Kratos Hypersonic Drone Breakthrough: Affordable Speeds Over Mach 5",
+    "slug": "kratos-hypersonic-drone-breakthrough",
+    "description": "Kratos Defense reveals a low-cost hypersonic drone prototype, promising Mach 5+ speeds and redefining the future of unmanned military systems.",
+    "image": "kratos-hypersonic-drone-breakthrough.png",
+    "category": "Security",
+    "path": "2025/04/",
+    "featured": false,
+    "date": "2025-04-30T08:20:42.466Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robotics Breakthrough: Adaptive Grippers That Think Like Humans",
     "slug": "soft-robotics-adaptive-grippers",
     "description": "MIT's new soft robotic gripper achieves a 98% success rate in handling delicate and irregular objects, promising to revolutionize precision manufacturing.",
