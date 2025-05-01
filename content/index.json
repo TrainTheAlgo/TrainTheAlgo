@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Second Human Implant: A Major Milestone in BCI Development",
+    "slug": "neuralink-second-human-implant-bci",
+    "description": "Neuralink's second successful human brain implant marks a pivotal step in brain-computer interface technology, enabling thought-controlled computing and raising new ethical and technological questions.",
+    "image": "neuralink-second-human-implant-bci.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-01T03:41:09.754Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "ExDECS: The Microwave Weapon Revolutionizing Counter-Drone Defense",
     "slug": "exdecs-microwave-weapon-counter-drone",
     "description": "The U.S. Marine Corps is testing ExDECS, a high-power microwave weapon designed to neutralize drone swarms. Here's how it works and why it matters.",
