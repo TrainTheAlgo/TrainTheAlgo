@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tesla's Q1 2025 Safety Report Showcases Autopilot's Superior Crash Prevention",
+    "slug": "tesla-q1-2025-safety-report-autopilot-crash-prevention",
+    "description": "Tesla's Q1 2025 Safety Report reveals Autopilot-enabled vehicles crash 90% less often than the U.S. average, sparking debate over the future of autonomous driving.",
+    "image": "tesla-q1-2025-safety-report-autopilot-crash-prevention.png",
+    "category": "Vehicles",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-01T23:18:27.423Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Could Hackers Take Over Cities by Hacking Self-Driving Cars?",
     "slug": "could-hackers-take-over-cities-by-hacking-self-driving-cars",
     "description": "As cities embrace autonomous vehicles, a chilling question emerges: could hackers paralyze entire urban areas by targeting self-driving car networks?",
