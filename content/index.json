@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Hackers Take Over Cities by Hacking Self-Driving Cars?",
+    "slug": "could-hackers-take-over-cities-by-hacking-self-driving-cars",
+    "description": "As cities embrace autonomous vehicles, a chilling question emerges: could hackers paralyze entire urban areas by targeting self-driving car networks?",
+    "image": "self-driving-car-hack.png",
+    "category": "Security",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-01T16:43:15.024Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT's AI-Driven Robotic System Enhances Human-Robot Collaboration in Warehouses",
     "slug": "mit-ai-robotic-system-human-robot-collaboration",
     "description": "MIT's new AI-powered robotic system cuts warehouse task time by 20% and improves safety by 15%, redefining how humans and robots work together in dynamic environments.",
