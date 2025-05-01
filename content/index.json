@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT's AI-Driven Robotic System Enhances Human-Robot Collaboration in Warehouses",
+    "slug": "mit-ai-robotic-system-human-robot-collaboration",
+    "description": "MIT's new AI-powered robotic system cuts warehouse task time by 20% and improves safety by 15%, redefining how humans and robots work together in dynamic environments.",
+    "image": "mit-ai-robotic-system-human-robot-collaboration.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-01T10:06:54.516Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Second Human Implant: A Major Milestone in BCI Development",
     "slug": "neuralink-second-human-implant-bci",
     "description": "Neuralink's second successful human brain implant marks a pivotal step in brain-computer interface technology, enabling thought-controlled computing and raising new ethical and technological questions.",
