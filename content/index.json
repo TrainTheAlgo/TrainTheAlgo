@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel's Loihi 3 Chip: A Breakthrough in Energy-Efficient AI",
+    "slug": "intel-loihi-3-chip-breakthrough",
+    "description": "Intel's Loihi 3 chip mimics the human brain to deliver 10x energy efficiency over its predecessor, redefining the future of AI at the edge.",
+    "image": "intel-loihi-3-chip-breakthrough.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-02T05:48:40.696Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tesla's Q1 2025 Safety Report Showcases Autopilot's Superior Crash Prevention",
     "slug": "tesla-q1-2025-safety-report-autopilot-crash-prevention",
     "description": "Tesla's Q1 2025 Safety Report reveals Autopilot-enabled vehicles crash 90% less often than the U.S. average, sparking debate over the future of autonomous driving.",
