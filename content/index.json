@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: Sycamore Processor Solves Error Correction Puzzle Years Ahead of Schedule",
+    "slug": "quantum-leap-sycamore-error-correction",
+    "description": "Google's Sycamore processor just cracked a major quantum computing challenge-error correction-years ahead of expectations, bringing scalable quantum systems closer to reality.",
+    "image": "quantum-leap-sycamore-error-correction.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-02T12:13:21.697Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Intel's Loihi 3 Chip: A Breakthrough in Energy-Efficient AI",
     "slug": "intel-loihi-3-chip-breakthrough",
     "description": "Intel's Loihi 3 chip mimics the human brain to deliver 10x energy efficiency over its predecessor, redefining the future of AI at the edge.",
