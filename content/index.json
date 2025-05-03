@@ -1,5 +1,18 @@
 [
   {
+    "title": "Apple and Anthropic Launch Groundbreaking AI Coding Platform",
+    "slug": "apple-anthropic-ai-coding-platform",
+    "description": "Apple and Anthropic are teaming up to build a next-gen AI-powered coding platform, promising safer, faster, and smarter software development for Apple's ecosystem.",
+    "image": "apple-anthropic-ai-coding-platform.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-03T20:23:59.681Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Robots Heal Themselves: Stanford Discovers Revolutionary Soft Robotics Material",
     "slug": "stanford-self-healing-soft-robotics-material",
     "description": "Stanford researchers unveil BioMimicGel, a self-healing, adaptive material that could redefine the future of soft robotics in medicine, industry, and exploration.",
