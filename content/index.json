@@ -1,5 +1,18 @@
 [
   {
+    "title": "TSMC's Chip Packaging Innovation Boosts AI Performance by 30%",
+    "slug": "tsmc-chip-packaging-ai-performance",
+    "description": "TSMC's new chip packaging tech delivers a 30% performance boost for AI systems, reshaping the future of high-performance computing and semiconductor design.",
+    "image": "tsmc-chip-packaging-ai-performance.png",
+    "category": "Business",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-03T01:10:55.063Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Holographic Breakthrough: Ultra-Realistic 3D Visuals Without Headsets",
     "slug": "holographic-breakthrough-ultra-realistic-3d-visuals-without-headsets",
     "description": "Cambridge scientists unveil a revolutionary holographic display that delivers 8K 3D visuals without headsets, promising to transform gaming, healthcare, and beyond.",
