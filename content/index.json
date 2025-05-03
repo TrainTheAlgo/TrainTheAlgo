@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Chip Design Breakthrough Cuts Time Drastically",
+    "slug": "ai-powered-chip-design-breakthrough",
+    "description": "Princeton engineers unveil an AI system that slashes chip design time from weeks to minutes, potentially transforming the $500B semiconductor industry.",
+    "image": "ai-powered-chip-design-breakthrough.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-03T07:36:00.312Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "TSMC's Chip Packaging Innovation Boosts AI Performance by 30%",
     "slug": "tsmc-chip-packaging-ai-performance",
     "description": "TSMC's new chip packaging tech delivers a 30% performance boost for AI systems, reshaping the future of high-performance computing and semiconductor design.",
