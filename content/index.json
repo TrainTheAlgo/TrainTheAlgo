@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Future of Farming Lies in AI-Powered Robotics",
+    "slug": "ai-powered-farming-robots",
+    "description": "Farm-ng's AI-driven robots are transforming agriculture by tackling labor shortages, reducing environmental impact, and boosting yields through sustainable automation.",
+    "image": "ai-powered-farming-robots.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-04T15:41:42.962Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AlphaFold Breakthrough: Solving 500 Rare Diseases with AI",
     "slug": "alphafold-breakthrough-solving-500-rare-diseases-with-ai",
     "description": "DeepMind's AlphaFold 3 predicts protein structures for over 500 rare diseases, accelerating drug discovery and offering new hope for millions worldwide.",
