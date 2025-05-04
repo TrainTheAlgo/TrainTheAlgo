@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink Achieves Major Breakthrough with First Human Patient",
+    "slug": "neuralink-first-human-patient-breakthrough",
+    "description": "Neuralink's first human patient controls a computer with thought alone, marking a historic leap in brain-computer interface technology and raising profound questions about the future of human-AI interaction.",
+    "image": "neuralink-first-human-patient-breakthrough.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-04T02:52:37.187Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Apple and Anthropic Launch Groundbreaking AI Coding Platform",
     "slug": "apple-anthropic-ai-coding-platform",
     "description": "Apple and Anthropic are teaming up to build a next-gen AI-powered coding platform, promising safer, faster, and smarter software development for Apple's ecosystem.",
