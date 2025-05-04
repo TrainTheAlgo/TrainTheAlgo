@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Beats Radiologists in Cancer Detection: Here's How",
+    "slug": "ai-beats-radiologists-cancer-detection",
+    "description": "Stanford's new AI model, OncoVision, detects cancer with 92% accuracy-outperforming radiologists and reducing false positives by 15%. Here's what it means for the future of healthcare.",
+    "image": "ai-beats-radiologists-cancer-detection.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-04T22:05:55.733Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Future of Farming Lies in AI-Powered Robotics",
     "slug": "ai-powered-farming-robots",
     "description": "Farm-ng's AI-driven robots are transforming agriculture by tackling labor shortages, reducing environmental impact, and boosting yields through sustainable automation.",
