@@ -1,5 +1,18 @@
 [
   {
+    "title": "72-Hour Smartwatch Life: The Breakthrough Battery You've Been Waiting For",
+    "slug": "72-hour-smartwatch-battery-breakthrough",
+    "description": "A new flexible battery from UC San Diego promises to triple smartwatch battery life, offering 72 hours of power on a single charge. Here's how it could change wearable tech forever.",
+    "image": "72-hour-smartwatch-battery-breakthrough.png",
+    "category": "Lifestyle",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-05T04:33:08.188Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI Beats Radiologists in Cancer Detection: Here's How",
     "slug": "ai-beats-radiologists-cancer-detection",
     "description": "Stanford's new AI model, OncoVision, detects cancer with 92% accuracy-outperforming radiologists and reducing false positives by 15%. Here's what it means for the future of healthcare.",
