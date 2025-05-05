@@ -1,5 +1,18 @@
 [
   {
+    "title": "FlexHaptics: The Game-Changer in Wearable Technology for VR and Beyond",
+    "slug": "flexhaptics-wearable-haptics-vr-prosthetics",
+    "description": "A revolutionary skin-like device from UC San Diego delivers 50% better tactile feedback, transforming virtual reality and prosthetic experiences.",
+    "image": "flexhaptics-wearable-haptics-vr-prosthetics.png",
+    "category": "Lifestyle",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-05T17:20:52.273Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Error Correction Just Got 40% Better-Here's How",
     "slug": "quantum-error-correction-40-percent-better",
     "description": "A new technique called Dynamic Parity Encoding reduces quantum computing errors by 40%, marking a major step toward stable, scalable quantum systems.",
