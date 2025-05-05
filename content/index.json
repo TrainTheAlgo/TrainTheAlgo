@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Health: How Google's Search and Pixel Watch 3 Are Changing the Game",
+    "slug": "google-ai-health-search-pixel-watch-3",
+    "description": "Google's latest AI health features in Search and Pixel Watch 3 aim to revolutionize emergency response and access to medical information. Here's what you need to know.",
+    "image": "google-ai-health-search-pixel-watch-3.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-05T23:50:10.099Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "FlexHaptics: The Game-Changer in Wearable Technology for VR and Beyond",
     "slug": "flexhaptics-wearable-haptics-vr-prosthetics",
     "description": "A revolutionary skin-like device from UC San Diego delivers 50% better tactile feedback, transforming virtual reality and prosthetic experiences.",
