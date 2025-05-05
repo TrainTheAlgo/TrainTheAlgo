@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Error Correction Just Got 40% Better-Here's How",
+    "slug": "quantum-error-correction-40-percent-better",
+    "description": "A new technique called Dynamic Parity Encoding reduces quantum computing errors by 40%, marking a major step toward stable, scalable quantum systems.",
+    "image": "quantum-error-correction-40-percent-better.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-05T10:56:07.152Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "72-Hour Smartwatch Life: The Breakthrough Battery You've Been Waiting For",
     "slug": "72-hour-smartwatch-battery-breakthrough",
     "description": "A new flexible battery from UC San Diego promises to triple smartwatch battery life, offering 72 hours of power on a single charge. Here's how it could change wearable tech forever.",
