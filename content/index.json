@@ -1,5 +1,18 @@
 [
   {
+    "title": "LG's Stretchable Display: Redefining Car Dashboards",
+    "slug": "lg-stretchable-display-car-dashboards",
+    "description": "LG Display unveils a 100ppi stretchable screen with shape-shifting buttons, promising a new era of interactive, tactile car interiors.",
+    "image": "lg-stretchable-display-car-dashboards.png",
+    "category": "Business",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-07T08:04:11.403Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How To Create CustomGPTs [2025 Guide]",
     "slug": "how-to-create-customgpts-2025-guide",
     "description": "A complete 2025 guide to building, deploying, and monetizing Custom GPTs-from prompt design to payment integration and advanced API actions.",
