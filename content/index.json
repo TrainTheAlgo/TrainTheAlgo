@@ -1,5 +1,18 @@
 [
   {
+    "title": "Samsung XR Headset Production Begins Ahead Of 2025 Launch",
+    "slug": "samsung-xr-headset-production-2025",
+    "description": "Samsung has begun production of its XR headset, aiming for an August 2025 launch. With a $1,500 price tag, high-res micro-OLED display, and Snapdragon XR2+ Gen 2 chip, it targets premium gamers and rivals Apple's Vision Pro.",
+    "image": "samsung-xr-headset-production-2025.png",
+    "category": "Gaming",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-07T14:28:03.830Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "LG's Stretchable Display: Redefining Car Dashboards",
     "slug": "lg-stretchable-display-car-dashboards",
     "description": "LG Display unveils a 100ppi stretchable screen with shape-shifting buttons, promising a new era of interactive, tactile car interiors.",
