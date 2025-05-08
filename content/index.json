@@ -1,5 +1,18 @@
 [
   {
+    "title": "WhatsApp Introduces AI-Powered Summaries to Streamline Conversations",
+    "slug": "whatsapp-ai-message-summaries",
+    "description": "WhatsApp is rolling out AI-powered message summaries to help users catch up on long chats quickly-without compromising privacy.",
+    "image": "whatsapp-ai-message-summaries.png",
+    "category": "Software",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-08T16:00:59.488Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AlphaFold's Game-Changer: New Hope for Antibiotics Development",
     "slug": "alphafold-antibiotics-discovery",
     "description": "DeepMind's AlphaFold 3 identifies 15 new antibiotic candidates, offering a breakthrough in the fight against antimicrobial resistance using AI-driven protein folding predictions.",
