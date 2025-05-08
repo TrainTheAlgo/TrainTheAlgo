@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google Makes a Bold Move into Nuclear Energy for AI Data Centers",
+    "slug": "google-nuclear-energy-ai-data-centers",
+    "description": "Google partners with Elementl Power to develop nuclear energy sites for powering AI data centers, marking a major shift in sustainable tech infrastructure.",
+    "image": "google-nuclear-energy-ai-data-centers.png",
+    "category": "Business",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-08T22:31:59.523Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "WhatsApp Introduces AI-Powered Summaries to Streamline Conversations",
     "slug": "whatsapp-ai-message-summaries",
     "description": "WhatsApp is rolling out AI-powered message summaries to help users catch up on long chats quickly-without compromising privacy.",
