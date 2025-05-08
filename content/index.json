@@ -1,5 +1,18 @@
 [
   {
+    "title": "AlphaFold's Game-Changer: New Hope for Antibiotics Development",
+    "slug": "alphafold-antibiotics-discovery",
+    "description": "DeepMind's AlphaFold 3 identifies 15 new antibiotic candidates, offering a breakthrough in the fight against antimicrobial resistance using AI-driven protein folding predictions.",
+    "image": "alphafold-antibiotics-discovery.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-08T09:37:46.841Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "$2.5 Billion Tariff Hit Forces Ford to Hike Mustang Mach-E Prices by $2,000",
     "slug": "ford-tariff-hit-mustang-mach-e-price-hike",
     "description": "Ford is raising Mustang Mach-E prices by up to $2,000 after a $2.5 billion tariff blow. Here's how trade policy is reshaping the EV market-and your wallet.",
