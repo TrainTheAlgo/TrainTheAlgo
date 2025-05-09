@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tencent Unveils HunyuanCustom: A Multimodal Open-Source AI Model to Rival Global Leaders",
+    "slug": "tencent-hunyuan-custom-open-source-ai",
+    "description": "Tencent has launched HunyuanCustom, a powerful open-source multimodal AI model designed to compete with OpenAI, Google, and Meta in the global AI race.",
+    "image": "tencent-hunyuan-custom-open-source-ai.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-09T17:57:51.485Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM CEO Warns of AI Funding Cuts Impact on US Tech Leadership",
     "slug": "ibm-ceo-warns-of-ai-funding-cuts-impact-on-us-tech-leadership",
     "description": "IBM CEO Arvind Krishna urges Congress to boost federal AI R&D funding, warning that proposed budget cuts could jeopardize U.S. innovation and global competitiveness.",
