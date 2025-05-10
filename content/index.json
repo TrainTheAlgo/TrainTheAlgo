@@ -1,5 +1,18 @@
 [
   {
+    "title": "Forget Prompting Techniques: How to Make AI Your Thinking Partner",
+    "slug": "forget-prompting-techniques-ai-thinking-partner",
+    "description": "Stop treating AI like a search engine. Learn how to collaborate with it as a thinking partner to unlock deeper insights, better decisions, and smarter outcomes.",
+    "image": "forget-prompting-techniques-ai-thinking-partner.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-10T06:48:15.240Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM's Quantum Leap: How the Condor Chip is Transforming Tech",
     "slug": "ibm-quantum-condor-chip-1000-qubits",
     "description": "IBM unveils Condor, the world's first 1,000-qubit quantum chip for commercial use, marking a major milestone in the race toward practical quantum computing.",
