@@ -1,5 +1,18 @@
 [
   {
+    "title": "IBM's Quantum Leap: How the Condor Chip is Transforming Tech",
+    "slug": "ibm-quantum-condor-chip-1000-qubits",
+    "description": "IBM unveils Condor, the world's first 1,000-qubit quantum chip for commercial use, marking a major milestone in the race toward practical quantum computing.",
+    "image": "ibm-quantum-condor-chip-1000-qubits.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-10T00:26:16.589Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tencent Unveils HunyuanCustom: A Multimodal Open-Source AI Model to Rival Global Leaders",
     "slug": "tencent-hunyuan-custom-open-source-ai",
     "description": "Tencent has launched HunyuanCustom, a powerful open-source multimodal AI model designed to compete with OpenAI, Google, and Meta in the global AI race.",
