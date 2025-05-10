@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink Expands Dual-Chip Brain Implant Trial, Promising Enhanced Control",
+    "slug": "neuralink-dual-chip-brain-implant-trial",
+    "description": "Neuralink's new dual-chip brain implant shows early success in restoring motor control, but raises urgent questions about data privacy and long-term safety.",
+    "image": "neuralink-dual-chip-brain-implant-trial.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-10T19:47:52.499Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server",
     "slug": "duckdb-to-duckhouse",
     "description": "Discover how DuckDB, Iceberg, and Arrow Flight Server combine to create a scalable, cost-effective, and decentralized data platform-DuckHouse.",
