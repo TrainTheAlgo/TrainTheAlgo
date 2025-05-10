@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Software</title>
-    <meta name="description" content="Latest Software News">
+    <title>Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server</title>
+    <meta name="description" content="Discover how DuckDB, Iceberg, and Arrow Flight Server combine to create a scalable, cost-effective, and decentralized data platform-DuckHouse.">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      h2 {
+        color: #3e4756;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: #222;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <style>
@@ -193,64 +207,75 @@
       <div class="relative h-96 overflow-hidden">
         <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          src="/img/backgrounds/software.jpg"
-          alt="Software"
+          src="duckdb-to-duckhouse.png"
+          alt="Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server"
         />
       </div>
-      <div
-        class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center"
-      >
+      <div class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center">
         <h1 class="text-2xl md:text-3xl text-white font-bold">
-          Software
+          Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server
         </h1>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-      <!-- Latest Posts Section -->
-      <section id="latest-posts" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Software News</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Start Post -->
-          <a href="/2025/05/duckdb-to-duckhouse.html" class="block">
-            <div class="relative rounded shadow overflow-hidden h-48 group">
-              <div
-                class="absolute inset-0 bg-cover"
-                style="background-image: url('/2025/05/duckdb-to-duckhouse.png');"
-              ></div>
-              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 group-hover:bg-black transition duration-300"></div>
-              <div class="relative p-4">
-                <h3 class="text-lg font-semibold transition duration-300 text-gray-50 group-hover:text-white">
-                  Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server
-                </h3>
-                <p class="text-sm mt-2  transition duration-300 text-gray-400 group-hover:text-white">
-                  Discover how DuckDB, Iceberg, and Arrow Flight Server combine to create a scalable, cost-effective, and decentralized data platform-DuckHouse.
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- Start Post -->
-          <a href="/2025/05/whatsapp-ai-message-summaries.html" class="block">
-            <div class="relative rounded shadow overflow-hidden h-48 group">
-              <div
-                class="absolute inset-0 bg-cover"
-                style="background-image: url('/2025/05/whatsapp-ai-message-summaries.png');"
-              ></div>
-              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 group-hover:bg-black transition duration-300"></div>
-              <div class="relative p-4">
-                <h3 class="text-lg font-semibold transition duration-300 text-gray-50 group-hover:text-white">
-                  WhatsApp Introduces AI-Powered Summaries to Streamline Conversations
-                </h3>
-                <p class="text-sm mt-2  transition duration-300 text-gray-400 group-hover:text-white">
-                  WhatsApp is rolling out AI-powered message summaries to help users catch up on long chats quickly-without compromising privacy.
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Post -->
-        </div>
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      <div class="mb-8 text-xs text-right text-gray-600">Models: <span class="text-gray-400">research(xAI Grok 3)</span> / <span class="text-gray-400">author(OpenAI ChatGPT 4o)</span> / <span class="text-gray-400">illustrator(OpenAI Dall-E 3)</span></div>
+      <script>
+const article = {
+    title: "Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server",
+    slug: "duckdb-to-duckhouse",
+    description: "Discover how DuckDB, Iceberg, and Arrow Flight Server combine to create a scalable, cost-effective, and decentralized data platform-DuckHouse.",
+    category: "Software",
+    image: "duckdb-to-duckhouse.png",
+    research: "xAI Grok 3",
+    author: "OpenAI ChatGPT 4o",
+    illustrator: "OpenAI Dall-E 3"
+}
+</script>
+<style></style>
+
+<h2>From DuckDB to DuckHouse: A New Era of Lightweight Data Platforms</h2>
+<p>What if you could build a modern data warehouse without the overhead of traditional systems? No sprawling clusters, no vendor lock-in, and no sky-high costs. Just a simple, scalable, and efficient stack built on open standards. That's the promise of DuckHouse-a lightweight data platform powered by DuckDB, Apache Iceberg, and Arrow Flight Server.</p>
+
+<p>DuckDB has already earned a reputation as the SQLite of analytics. It's fast, embeddable, and perfect for local development. But what if we could take it further? What if DuckDB wasn't just a tool for testing or prototyping, but the foundation of a full-fledged data platform?</p>
+
+<h2>Why Rethink the Data Stack?</h2>
+<p>Traditional data warehouses are powerful, but they come with baggage. They're expensive, complex to manage, and often require centralized infrastructure. For many teams, especially smaller ones or those working in decentralized environments, that's overkill.</p>
+
+<p>DuckHouse flips the script. It's a decentralized, cloud-native data platform that combines the simplicity of DuckDB with the scalability of Iceberg and the performance of Arrow Flight. The result is a system that's light on resources but heavy on capability.</p>
+
+<h2>The Architecture: Simple, Yet Scalable</h2>
+<p>At the heart of DuckHouse is a hybrid storage model. Small tables are stored directly in a DuckDB file on S3. Large tables-like event logs or telemetry data-are stored in Apache Iceberg format, also on S3. This gives you the best of both worlds: fast local queries for small datasets and scalable storage for big data.</p>
+
+<p>To manage concurrent writes, which DuckDB doesn't support natively, DuckHouse uses an Arrow Flight server. This server acts as a gateway, queuing write operations and routing them to the appropriate backend-DuckDB or Iceberg-based on the data's size and purpose.</p>
+
+<h2>Arrow Flight: The Secret Sauce</h2>
+<p>Arrow Flight is a high-performance data transport layer built on Apache Arrow. Unlike traditional REST APIs, which require data to be serialized and deserialized multiple times, Arrow Flight keeps data in Arrow format end-to-end. This means faster transfers, lower latency, and less CPU overhead.</p>
+
+<p>In DuckHouse, the Flight server handles all write operations. It supports SQL and Ibis expressions and can interface with multiple backends, including DuckDB and Iceberg. When a write request comes in, the server determines the target backend and writes the data accordingly. If the data goes to Iceberg, a DuckDB view is automatically created to point to the latest snapshot, keeping everything accessible from a single entry point.</p>
+
+<h2>Transforming Data with dbt</h2>
+<p>Once data is ingested, it needs to be transformed. DuckHouse integrates seamlessly with dbt using the <code>dbt-duckdb</code> plugin. This plugin allows dbt to run transformations against an in-memory DuckDB instance, with custom logic to persist models to either DuckDB or Iceberg via the Flight server.</p>
+
+<p>Each dbt model can specify where it should be stored. A model with <code>materialized="external"</code> and <code>target="iceberg"</code> will be written to Iceberg. One with <code>target="duckdb"</code> goes to the DuckDB file. And if no target is specified, the model stays in memory. This flexibility makes it easy to optimize storage and performance based on the use case.</p>
+
+<h2>Reading from DuckHouse</h2>
+<p>Reading data is even simpler. Users just need access to the DuckDB file stored on S3. They can open it in a DuckDB shell, run <code>ATTACH</code>, and immediately query both DuckDB tables and Iceberg views. No need for a central server or complex setup. It's fully decentralized and works out of the box.</p>
+
+<p>For more advanced use cases, users can also connect directly to the Flight server using Xorq, a Python framework for multi-engine computations. This allows for distributed processing and integration with other systems like Snowflake or BigQuery.</p>
+
+<h2>Example Pipeline: From Ingestion to Insight</h2>
+<p>Let's walk through a real-world example. Suppose you're ingesting NYC taxi data. You start by writing the raw data to an Iceberg landing table using a simple Python script. Then, you use dbt to create a staging model that deduplicates the data, also stored in Iceberg. Finally, you compute a metric-say, average trip duration-and store it in DuckDB for fast access.</p>
+
+<p>All of this is orchestrated through dbt and the Flight server. When you're done, you can open the DuckDB file, run a few SQL queries, and get your insights. No clusters, no orchestration tools, no fuss.</p>
+
+<h2>What's Next for DuckHouse?</h2>
+<p>DuckHouse is still a work in progress, but the potential is clear. Future improvements include support for incremental reads and writes, MERGE operations, and better catalog integration for Iceberg. There are also plans to support more backends and enable advanced features like partitioning and clustering in dbt models.</p>
+
+<p>For teams looking to simplify their data stack without sacrificing power, DuckHouse offers a compelling alternative. It's light, fast, and built on open standards. And best of all, it puts control back in the hands of data engineers.</p>
+
+<p>Sometimes, the best way to scale is to start small-and stay smart.</p>
     </main>
 
     <footer class="bg-black text-gray-200 py-12">

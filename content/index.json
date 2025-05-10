@@ -1,5 +1,18 @@
 [
   {
+    "title": "Building a Lightweight Data Stack with DuckDB, Iceberg, and Flight Server",
+    "slug": "duckdb-to-duckhouse",
+    "description": "Discover how DuckDB, Iceberg, and Arrow Flight Server combine to create a scalable, cost-effective, and decentralized data platform-DuckHouse.",
+    "image": "duckdb-to-duckhouse.png",
+    "category": "Software",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-10T13:18:22.860Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Forget Prompting Techniques: How to Make AI Your Thinking Partner",
     "slug": "forget-prompting-techniques-ai-thinking-partner",
     "description": "Stop treating AI like a search engine. Learn how to collaborate with it as a thinking partner to unlock deeper insights, better decisions, and smarter outcomes.",
