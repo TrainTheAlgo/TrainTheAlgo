@@ -1,5 +1,18 @@
 [
   {
+    "title": "FDA Approves Brain Implant: How Precision Neuroscience Is Revolutionizing BCI",
+    "slug": "fda-approves-brain-implant-precision-neuroscience",
+    "description": "Precision Neuroscience's minimally invasive brain implant system has received FDA clearance for human trials, marking a major step forward in brain-computer interface technology.",
+    "image": "fda-approves-brain-implant-precision-neuroscience.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-11T08:35:34.671Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Willow Chip Breakthrough: How Google Just Redefined Error Correction",
     "slug": "willow-chip-breakthrough-google-error-correction",
     "description": "Google's new 105-qubit Willow chip marks a major leap in quantum error correction, bringing us closer to practical, fault-tolerant quantum computing.",
