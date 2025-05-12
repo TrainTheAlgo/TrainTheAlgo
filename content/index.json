@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT Unveils Revolutionary Gel Robot with Self-Repairing Capabilities",
+    "slug": "mit-gel-robot-self-healing",
+    "description": "MIT's new soft robot, made from a self-healing hydrogel and magnetic nanoparticles, could transform minimally invasive medicine and drug delivery.",
+    "image": "mit-gel-robot-self-healing.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-12T03:45:20.738Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: 100-Kilometer Entanglement Breakthrough Achieved",
     "slug": "quantum-leap-100-kilometer-entanglement-breakthrough-achieved",
     "description": "A team of Chinese researchers has shattered the distance record for quantum entanglement, distributing it over 100 kilometers of optical fiber-paving the way for ultra-secure, city-scale quantum networks.",
