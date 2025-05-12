@@ -1,5 +1,18 @@
 [
   {
+    "title": "Apple's AI-Powered Safari: A Game-Changer for the Search Market",
+    "slug": "apple-safari-ai-search-google-challenge",
+    "description": "Apple is integrating AI-powered search options into Safari, offering alternatives to Google and potentially reshaping the $1 trillion search market.",
+    "image": "apple-safari-ai-search-google-challenge.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-12T16:31:30.575Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Ledger Discord Breach: How Phishing Scams Threaten Crypto Users",
     "slug": "ledger-discord-breach-phishing-scam",
     "description": "A compromised Discord account linked to Ledger has exposed crypto users to phishing attacks. Here's what happened, why it matters, and how to protect your assets.",
