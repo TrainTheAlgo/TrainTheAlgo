@@ -1,5 +1,18 @@
 [
   {
+    "title": "Ledger Discord Breach: How Phishing Scams Threaten Crypto Users",
+    "slug": "ledger-discord-breach-phishing-scam",
+    "description": "A compromised Discord account linked to Ledger has exposed crypto users to phishing attacks. Here's what happened, why it matters, and how to protect your assets.",
+    "image": "ledger-discord-breach.png",
+    "category": "Crypto",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-12T10:08:52.773Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT Unveils Revolutionary Gel Robot with Self-Repairing Capabilities",
     "slug": "mit-gel-robot-self-healing",
     "description": "MIT's new soft robot, made from a self-healing hydrogel and magnetic nanoparticles, could transform minimally invasive medicine and drug delivery.",
