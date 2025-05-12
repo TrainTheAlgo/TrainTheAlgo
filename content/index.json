@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Soft Robotics: Stanford's New Inflatable Actuators Enable Lifelike Movement",
+    "slug": "stanford-soft-robotics-inflatable-actuators",
+    "description": "Stanford engineers have developed inflatable actuators that mimic human muscle movement with 95% accuracy, marking a major leap in soft robotics and human-robot interaction.",
+    "image": "stanford-soft-robotics-inflatable-actuators.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-12T22:52:51.266Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Apple's AI-Powered Safari: A Game-Changer for the Search Market",
     "slug": "apple-safari-ai-search-google-challenge",
     "description": "Apple is integrating AI-powered search options into Safari, offering alternatives to Google and potentially reshaping the $1 trillion search market.",
