@@ -1,5 +1,18 @@
 [
   {
+    "title": "ZKsync Hacked: How a Fraudulent Airdrop Scam Fooled the Crypto Community",
+    "slug": "zksync-hacked-airdrop-scam",
+    "description": "ZKsync's official accounts were hacked in a phishing scam that tricked users with a fake $ZK airdrop. Here's what happened, why it matters, and how to protect yourself.",
+    "image": "zksync-hacked-airdrop-scam.png",
+    "category": "Crypto",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-13T17:42:45.591Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "DeepMind's V2A Model: Revolutionizing Content Creation with AI-Generated Audio",
     "slug": "deepmind-v2a-ai-generated-audio",
     "description": "Google DeepMind's new V2A model turns silent videos into immersive soundscapes using AI, transforming how we create and experience multimedia content.",
