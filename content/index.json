@@ -1,5 +1,18 @@
 [
   {
+    "title": "DeepMind's V2A Model: Revolutionizing Content Creation with AI-Generated Audio",
+    "slug": "deepmind-v2a-ai-generated-audio",
+    "description": "Google DeepMind's new V2A model turns silent videos into immersive soundscapes using AI, transforming how we create and experience multimedia content.",
+    "image": "deepmind-v2a-ai-generated-audio.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-13T05:17:19.875Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Soft Robotics: Stanford's New Inflatable Actuators Enable Lifelike Movement",
     "slug": "stanford-soft-robotics-inflatable-actuators",
     "description": "Stanford engineers have developed inflatable actuators that mimic human muscle movement with 95% accuracy, marking a major leap in soft robotics and human-robot interaction.",
