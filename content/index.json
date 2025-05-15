@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will Virtual Reality Make Gaming Indistinguishable From Real Life?",
+    "slug": "virtual-reality-gaming-real-life",
+    "description": "As VR, AI, and haptics evolve, gaming is on the brink of becoming so immersive it may be impossible to tell where the game ends and reality begins.",
+    "image": "virtual-reality-gaming-real-life.png",
+    "category": "Gaming",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-15T13:22:08.086Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM's 1433-Qubit Breakthrough: A Leap in Quantum Computing Power",
     "slug": "ibm-1433-qubit-quantum-chip",
     "description": "IBM's new Osprey-X chip triples its previous qubit count, promising faster simulations and a major step toward practical quantum computing.",
