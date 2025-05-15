@@ -1,5 +1,18 @@
 [
   {
+    "title": "IBM's 1433-Qubit Breakthrough: A Leap in Quantum Computing Power",
+    "slug": "ibm-1433-qubit-quantum-chip",
+    "description": "IBM's new Osprey-X chip triples its previous qubit count, promising faster simulations and a major step toward practical quantum computing.",
+    "image": "ibm-1433-qubit-quantum-chip.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-15T06:51:56.966Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How to Fix 'Something Went Wrong' Error Quickly",
     "slug": "how-to-fix-something-went-wrong-error-quickly",
     "description": "Tired of seeing 'Something went wrong, please refresh to reconnect or try again'? Here's what it really means and how to fix it fast-no tech degree required.",
