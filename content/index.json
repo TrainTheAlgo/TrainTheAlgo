@@ -1,5 +1,18 @@
 [
   {
+    "title": "Affordable Clean Energy Closer as New Polymer Boosts Solar Efficiency",
+    "slug": "affordable-clean-energy-polymer-solar-efficiency",
+    "description": "A breakthrough polymer developed at UC Santa Barbara pushes organic solar cell efficiency to 19.8%, bringing low-cost, flexible solar power closer to reality.",
+    "image": "affordable-clean-energy-polymer-solar-efficiency.png",
+    "category": "Climate",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-16T21:33:49.220Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How AlphaFold is Revolutionizing Rare Disease Treatment",
     "slug": "alphafold-rare-disease-treatment",
     "description": "DeepMind's AlphaFold 3 is transforming drug discovery for rare diseases by solving protein folding puzzles with unprecedented accuracy, offering new hope for millions.",
