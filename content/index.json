@@ -1,5 +1,18 @@
 [
   {
+    "title": "Solid-State Battery Breakthrough: 10-Minute EV Charging Reality",
+    "slug": "solid-state-battery-breakthrough-10-minute-ev-charging",
+    "description": "A new solid-state battery from the University of Tokyo charges in under 10 minutes and boosts EV range by 20%, potentially reshaping the future of electric vehicles.",
+    "image": "solid-state-battery-breakthrough.png",
+    "category": "Vehicles",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-16T08:40:19.607Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "UAE to Get 500k Nvidia Chips - A Strategic Move in the Global AI Race",
     "slug": "uae-nvidia-chip-import-2025",
     "description": "The U.S. has approved the UAE's import of 500,000 Nvidia AI chips annually starting in 2025, a move that could reshape the global AI power balance.",
