@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AlphaFold is Revolutionizing Rare Disease Treatment",
+    "slug": "alphafold-rare-disease-treatment",
+    "description": "DeepMind's AlphaFold 3 is transforming drug discovery for rare diseases by solving protein folding puzzles with unprecedented accuracy, offering new hope for millions.",
+    "image": "alphafold-rare-disease-treatment.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-16T15:11:01.612Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Solid-State Battery Breakthrough: 10-Minute EV Charging Reality",
     "slug": "solid-state-battery-breakthrough-10-minute-ev-charging",
     "description": "A new solid-state battery from the University of Tokyo charges in under 10 minutes and boosts EV range by 20%, potentially reshaping the future of electric vehicles.",
