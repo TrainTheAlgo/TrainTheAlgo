@@ -1,5 +1,18 @@
 [
   {
+    "title": "Are AI Rights Threatening Human Dignity? Exploring the Ethical Dilemma",
+    "slug": "ai-rights-vs-human-dignity",
+    "description": "As AI systems grow more lifelike, a new ethical frontier emerges: should machines have rights? And what does that mean for human dignity?",
+    "image": "ai-rights-vs-human-dignity.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-17T23:17:55.621Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Intel Challenges Nvidia with New AI-Driven Robotics Chip",
     "slug": "intel-challenges-nvidia-ai-robotics-chip",
     "description": "Intel unveils a powerful new AI chip for robotics, aiming to disrupt Nvidia's dominance in edge AI and autonomous systems.",
