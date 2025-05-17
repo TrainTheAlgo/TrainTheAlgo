@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel Challenges Nvidia with New AI-Driven Robotics Chip",
+    "slug": "intel-challenges-nvidia-ai-robotics-chip",
+    "description": "Intel unveils a powerful new AI chip for robotics, aiming to disrupt Nvidia's dominance in edge AI and autonomous systems.",
+    "image": "intel-challenges-nvidia-ai-robotics-chip.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-17T16:53:35.946Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Q-Safe: The Breakthrough in Post-Quantum Encryption You Need to Know About",
     "slug": "q-safe-post-quantum-encryption-breakthrough",
     "description": "Oxford scientists unveil Q-Safe, a quantum-resistant encryption algorithm that could redefine cybersecurity in the age of quantum computing.",
