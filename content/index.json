@@ -1,5 +1,18 @@
 [
   {
+    "title": "Q-Safe: The Breakthrough in Post-Quantum Encryption You Need to Know About",
+    "slug": "q-safe-post-quantum-encryption-breakthrough",
+    "description": "Oxford scientists unveil Q-Safe, a quantum-resistant encryption algorithm that could redefine cybersecurity in the age of quantum computing.",
+    "image": "q-safe-post-quantum-encryption-breakthrough.png",
+    "category": "Security",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-17T10:28:07.135Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Historic Breakthrough: The First Two-Way Brain-Computer Interface in Humans",
     "slug": "neuralink-two-way-bci-human",
     "description": "Neuralink has successfully implanted a two-way brain-computer interface in a human, enabling both thought-controlled actions and sensory feedback. Here's what it means for the future of medicine, AI, and humanity.",
