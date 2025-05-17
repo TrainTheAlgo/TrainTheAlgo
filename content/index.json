@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Historic Breakthrough: The First Two-Way Brain-Computer Interface in Humans",
+    "slug": "neuralink-two-way-bci-human",
+    "description": "Neuralink has successfully implanted a two-way brain-computer interface in a human, enabling both thought-controlled actions and sensory feedback. Here's what it means for the future of medicine, AI, and humanity.",
+    "image": "neuralink-two-way-bci-human.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-17T04:04:50.783Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Affordable Clean Energy Closer as New Polymer Boosts Solar Efficiency",
     "slug": "affordable-clean-energy-polymer-solar-efficiency",
     "description": "A breakthrough polymer developed at UC Santa Barbara pushes organic solar cell efficiency to 19.8%, bringing low-cost, flexible solar power closer to reality.",
