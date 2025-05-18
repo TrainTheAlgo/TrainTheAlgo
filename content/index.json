@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google Unveils 50-Qubit 'Willow' - A Major Milestone in the Quantum Race",
+    "slug": "google-50-qubit-willow-quantum-computing",
+    "description": "Google's new 50-qubit quantum processor, Willow, marks a leap forward in quantum computing with 100 microseconds of coherence time and real-world simulation capabilities.",
+    "image": "google-50-qubit-willow-quantum-computing.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-18T11:59:44.751Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Tech Revolutionized By MIT's New Flexible Battery",
     "slug": "wearable-tech-revolutionized-by-mits-new-flexible-battery",
     "description": "MIT's new flexible battery powers wearables for 72 hours, reshaping the future of smartwatches, fitness trackers, and medical devices with comfort, durability, and sustainability.",
