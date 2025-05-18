@@ -1,5 +1,18 @@
 [
   {
+    "title": "DeepSeek's Janus-Pro-7B: Multimodal AI Breakthrough with Less Power",
+    "slug": "deepseek-janus-pro-7b-multimodal-ai",
+    "description": "DeepSeek unveils Janus-Pro-7B, a 7B-parameter multimodal AI model that rivals larger systems like GPT-4V-using a fraction of the compute. Here's what makes it a potential game-changer.",
+    "image": "deepseek-janus-pro-7b-multimodal-ai.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-18T18:24:27.996Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Google Unveils 50-Qubit 'Willow' - A Major Milestone in the Quantum Race",
     "slug": "google-50-qubit-willow-quantum-computing",
     "description": "Google's new 50-qubit quantum processor, Willow, marks a leap forward in quantum computing with 100 microseconds of coherence time and real-world simulation capabilities.",
