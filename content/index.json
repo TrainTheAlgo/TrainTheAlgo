@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Blindsight Chip: A Visionary Breakthrough in Human Trials",
+    "slug": "neuralink-blindsight-chip-human-trials",
+    "description": "Neuralink's Blindsight chip, designed to restore vision by interfacing directly with the brain, has entered its first human trial, marking a major leap in brain-computer interface technology.",
+    "image": "neuralink-blindsight-chip-human-trials.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-19T20:01:22.524Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Samsung Reveals AI-Powered 6G Prototype With 50x Faster Speeds",
     "slug": "samsung-ai-powered-6g-prototype-mwc-2025",
     "description": "At MWC 2025, Samsung unveiled a 6G prototype powered by AI, boasting 1 Tbps speeds and 20% lower energy use. Here's how it could reshape global connectivity.",
