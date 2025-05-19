@@ -1,5 +1,18 @@
 [
   {
+    "title": "Holograms Without Headsets? Meet the Future of 3D Technology",
+    "slug": "holograms-without-headsets",
+    "description": "A breakthrough from the University of Cambridge could make ultra-realistic 3D holograms a part of everyday life-no headsets required.",
+    "image": "holograms-without-headsets.png",
+    "category": "Reviews",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-19T00:48:16.321Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "DeepSeek's Janus-Pro-7B: Multimodal AI Breakthrough with Less Power",
     "slug": "deepseek-janus-pro-7b-multimodal-ai",
     "description": "DeepSeek unveils Janus-Pro-7B, a 7B-parameter multimodal AI model that rivals larger systems like GPT-4V-using a fraction of the compute. Here's what makes it a potential game-changer.",
