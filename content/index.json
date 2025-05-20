@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionizing Fusion Energy: Chinese Researchers Develop AI-Controlled Tokamak Reactors",
+    "slug": "ai-controlled-tokamak-reactors",
+    "description": "Chinese scientists have developed an AI system that stabilizes plasma in fusion reactors, marking a major step toward practical, clean fusion energy.",
+    "image": "ai-controlled-tokamak-reactors.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-20T02:25:26.423Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Blindsight Chip: A Visionary Breakthrough in Human Trials",
     "slug": "neuralink-blindsight-chip-human-trials",
     "description": "Neuralink's Blindsight chip, designed to restore vision by interfacing directly with the brain, has entered its first human trial, marking a major leap in brain-computer interface technology.",
