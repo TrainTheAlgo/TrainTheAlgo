@@ -1,5 +1,18 @@
 [
   {
+    "title": "Nvidia's RTX Pro Server: A Major Leap in High-Performance Computing",
+    "slug": "nvidia-rtx-pro-server-ai-chip-dominance",
+    "description": "Nvidia's new RTX Pro Server system promises 4x the performance of its H100 chips, aiming to outpace rivals like DeepSeek in the AI infrastructure race.",
+    "image": "nvidia-rtx-pro-server-ai-chip-dominance.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-20T08:45:30.360Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Fusion Energy: Chinese Researchers Develop AI-Controlled Tokamak Reactors",
     "slug": "ai-controlled-tokamak-reactors",
     "description": "Chinese scientists have developed an AI system that stabilizes plasma in fusion reactors, marking a major step toward practical, clean fusion energy.",
