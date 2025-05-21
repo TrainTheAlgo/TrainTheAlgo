@@ -1,5 +1,18 @@
 [
   {
+    "title": "Amazon's Ocelot Quantum Chip: A Breakthrough in Scalable Computing",
+    "slug": "amazons-ocelot-quantum-chip-breakthrough",
+    "description": "Amazon's Ocelot chip introduces noise-biased gates to tackle quantum error correction, marking a major step toward scalable, fault-tolerant quantum computing.",
+    "image": "amazons-ocelot-quantum-chip-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-21T10:27:12.197Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IBM Unveils Breakthrough Scalable Modular Quantum System - Here's What It Means",
     "slug": "ibm-scalable-modular-quantum-system",
     "description": "IBM's new modular quantum architecture, Quantum Connect, links processors to scale up to 1,000 qubits with 30% fewer errors. Here's why it could change everything.",
