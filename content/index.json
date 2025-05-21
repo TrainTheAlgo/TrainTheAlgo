@@ -1,5 +1,18 @@
 [
   {
+    "title": "TikTok Streak Glitch Disrupts User Engagement, Highlights Social Media Reliability Concerns",
+    "slug": "tiktok-streak-glitch-disrupts-user-engagement",
+    "description": "A widespread glitch in TikTok's streak feature has left users frustrated and questioning the reliability of digital connections and social media platforms.",
+    "image": "tiktok-streak-glitch.png",
+    "category": "Software",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-21T16:55:58.277Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Amazon's Ocelot Quantum Chip: A Breakthrough in Scalable Computing",
     "slug": "amazons-ocelot-quantum-chip-breakthrough",
     "description": "Amazon's Ocelot chip introduces noise-biased gates to tackle quantum error correction, marking a major step toward scalable, fault-tolerant quantum computing.",
