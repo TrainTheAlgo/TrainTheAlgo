@@ -1,5 +1,18 @@
 [
   {
+    "title": "Meta's Orion AR Glasses: Pioneering the $300 Billion AR Market",
+    "slug": "meta-orion-ar-glasses",
+    "description": "Meta's Orion AR glasses prototype is a bold leap in wearable tech, blending AI, holographic displays, and sleek design-but can it overcome battery and privacy hurdles to lead the $300B AR race?",
+    "image": "meta-orion-ar-glasses.png",
+    "category": "Lifestyle",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-22T05:40:05.074Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Nvidia Backs PsiQuantum in the Race for Fault-Tolerant Quantum Computers",
     "slug": "nvidia-backs-psiquantum-fault-tolerant-quantum-computers",
     "description": "Nvidia's strategic investment in PsiQuantum signals a bold move to integrate quantum computing into U.S. AI infrastructure, reshaping the future of high-performance computing.",
