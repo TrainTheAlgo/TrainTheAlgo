@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google's Willow Chip: A Major Step Toward Practical Quantum Computing",
+    "slug": "google-willow-quantum-chip-error-correction",
+    "description": "Google's new 105-qubit Willow chip achieves a breakthrough in quantum error correction, marking a critical milestone toward fault-tolerant quantum computing.",
+    "image": "google-willow-quantum-chip-error-correction.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-22T18:28:00.507Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Rigetti Computing Secures $200M To Build Fault-Tolerant Quantum Computers",
     "slug": "rigetti-computing-200m-fault-tolerant-quantum",
     "description": "Rigetti Computing raises $200 million to accelerate development of fault-tolerant quantum systems, signaling growing investor confidence in the future of quantum technology.",
