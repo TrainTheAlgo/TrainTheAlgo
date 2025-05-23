@@ -1,5 +1,18 @@
 [
   {
+    "title": "AMD's Radeon AI Pro R9700 Targets Nvidia's AI Dominance with RDNA 4 Innovation",
+    "slug": "amd-radeon-ai-pro-r9700-vs-nvidia",
+    "description": "AMD's Radeon AI Pro R9700, powered by RDNA 4, takes direct aim at Nvidia's AI GPU dominance. Can it disrupt the market with more memory, better efficiency, and open-source appeal?",
+    "image": "amd-radeon-ai-pro-r9700-vs-nvidia.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-23T07:25:37.120Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Grok 3.5: A Leap Forward in AI Reasoning Capabilities",
     "slug": "grok-3-5-ai-reasoning",
     "description": "xAI's Grok 3.5 sets a new benchmark in AI reasoning, outperforming competitors with a 15% boost in multi-step problem-solving and real-world application accuracy.",
