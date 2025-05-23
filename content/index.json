@@ -1,5 +1,18 @@
 [
   {
+    "title": "Loihi 3: Intel's Breakthrough in Neuromorphic Computing Unveiled",
+    "slug": "loihi-3-intel-neuromorphic-computing",
+    "description": "Intel's Loihi 3 chip mimics the human brain with 1.15 billion neurons, offering 50% faster AI processing and ultra-low power use-redefining edge computing and autonomous systems.",
+    "image": "loihi-3-intel-neuromorphic-computing.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-23T13:48:52.469Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AMD's Radeon AI Pro R9700 Targets Nvidia's AI Dominance with RDNA 4 Innovation",
     "slug": "amd-radeon-ai-pro-r9700-vs-nvidia",
     "description": "AMD's Radeon AI Pro R9700, powered by RDNA 4, takes direct aim at Nvidia's AI GPU dominance. Can it disrupt the market with more memory, better efficiency, and open-source appeal?",
