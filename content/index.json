@@ -1,5 +1,18 @@
 [
   {
+    "title": "Grok 3.5: A Leap Forward in AI Reasoning Capabilities",
+    "slug": "grok-3-5-ai-reasoning",
+    "description": "xAI's Grok 3.5 sets a new benchmark in AI reasoning, outperforming competitors with a 15% boost in multi-step problem-solving and real-world application accuracy.",
+    "image": "grok-3-5-ai-reasoning.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-23T00:57:56.740Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Google's Willow Chip: A Major Step Toward Practical Quantum Computing",
     "slug": "google-willow-quantum-chip-error-correction",
     "description": "Google's new 105-qubit Willow chip achieves a breakthrough in quantum error correction, marking a critical milestone toward fault-tolerant quantum computing.",
