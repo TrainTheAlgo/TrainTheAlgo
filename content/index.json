@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Mind-Controlled Typing: A Historic Breakthrough in Brain-Computer Interfaces",
+    "slug": "neuralink-mind-controlled-typing-breakthrough",
+    "description": "Neuralink's latest demo shows a patient typing with their mind in under 10 seconds, marking a major leap in brain-computer interface technology and the future of communication.",
+    "image": "neuralink-mind-controlled-typing-breakthrough.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-23T20:18:11.966Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Loihi 3: Intel's Breakthrough in Neuromorphic Computing Unveiled",
     "slug": "loihi-3-intel-neuromorphic-computing",
     "description": "Intel's Loihi 3 chip mimics the human brain with 1.15 billion neurons, offering 50% faster AI processing and ultra-low power use-redefining edge computing and autonomous systems.",
