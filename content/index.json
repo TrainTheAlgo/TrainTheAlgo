@@ -1,5 +1,18 @@
 [
   {
+    "title": "Nissan Micra EV Unveiled as Urban Mobility Game-Changer",
+    "slug": "nissan-micra-ev-urban-mobility",
+    "description": "Nissan's all-new Micra EV, launching in 2026, blends sleek design, fast charging, and smart tech to redefine electric city driving in Europe.",
+    "image": "nissan-micra-ev-urban-mobility.png",
+    "category": "Vehicles",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-24T09:14:34.810Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "GitLab's AI Tool Flaw: How It Exposes Millions to Malicious Code",
     "slug": "gitlab-ai-tool-flaw-malicious-code",
     "description": "A critical vulnerability in GitLab's AI developer assistant reveals how safe code can be turned malicious, raising urgent concerns about AI in software development.",
