@@ -1,5 +1,18 @@
 [
   {
+    "title": "GitLab's AI Tool Flaw: How It Exposes Millions to Malicious Code",
+    "slug": "gitlab-ai-tool-flaw-malicious-code",
+    "description": "A critical vulnerability in GitLab's AI developer assistant reveals how safe code can be turned malicious, raising urgent concerns about AI in software development.",
+    "image": "gitlab-ai-tool-flaw-malicious-code.png",
+    "category": "Security",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-24T02:48:08.747Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Mind-Controlled Typing: A Historic Breakthrough in Brain-Computer Interfaces",
     "slug": "neuralink-mind-controlled-typing-breakthrough",
     "description": "Neuralink's latest demo shows a patient typing with their mind in under 10 seconds, marking a major leap in brain-computer interface technology and the future of communication.",
