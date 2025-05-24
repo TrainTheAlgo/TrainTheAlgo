@@ -1,5 +1,18 @@
 [
   {
+    "title": "IonQ and Einride Partner to Revolutionize Autonomous Vehicle Logistics with Quantum Computing",
+    "slug": "ionq-einride-quantum-logistics",
+    "description": "IonQ and Einride are teaming up to use quantum computing to optimize autonomous freight logistics, aiming to cut costs, reduce emissions, and reshape the future of transportation.",
+    "image": "ionq-einride-quantum-logistics.png",
+    "category": "Vehicles",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-24T22:03:34.004Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: IonQ's New Processor Pioneers 40-Qubit Power",
     "slug": "ionq-forte-enterprise-quantum-processor",
     "description": "IonQ's Forte Enterprise processor hits 40 algorithmic qubits, marking a major milestone in quantum computing and bringing enterprise-ready quantum solutions closer to reality.",
