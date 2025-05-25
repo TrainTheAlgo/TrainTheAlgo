@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT Discovers Self-Healing Material That Could Revolutionize Soft Robotics",
+    "slug": "mit-self-healing-soft-robotics",
+    "description": "MIT has unveiled a self-healing material that allows soft robots to repair themselves in seconds, potentially transforming industries from healthcare to manufacturing.",
+    "image": "mit-self-healing-soft-robotics.png",
+    "category": "Lifestyle",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-25T10:53:03.979Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "D-Wave's Advantage2: A Quantum Leap in Computing Power",
     "slug": "d-wave-advantage2-quantum-computing-cloud",
     "description": "D-Wave's new Advantage2 system brings faster, more powerful quantum computing to the cloud, with major performance upgrades and real-world applications.",
