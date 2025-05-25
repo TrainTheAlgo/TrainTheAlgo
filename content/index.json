@@ -1,5 +1,18 @@
 [
   {
+    "title": "D-Wave's Advantage2: A Quantum Leap in Computing Power",
+    "slug": "d-wave-advantage2-quantum-computing-cloud",
+    "description": "D-Wave's new Advantage2 system brings faster, more powerful quantum computing to the cloud, with major performance upgrades and real-world applications.",
+    "image": "d-wave-advantage2-quantum-computing-cloud.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-25T04:29:06.556Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "IonQ and Einride Partner to Revolutionize Autonomous Vehicle Logistics with Quantum Computing",
     "slug": "ionq-einride-quantum-logistics",
     "description": "IonQ and Einride are teaming up to use quantum computing to optimize autonomous freight logistics, aiming to cut costs, reduce emissions, and reshape the future of transportation.",
