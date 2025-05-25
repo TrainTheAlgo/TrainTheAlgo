@@ -1,5 +1,18 @@
 [
   {
+    "title": "Toyota's AI Breakthrough: EVs Now Reach 800 Miles on a Single Charge",
+    "slug": "toyota-ai-ev-battery-breakthrough",
+    "description": "Toyota unveils a revolutionary AI-optimized solid-state battery promising 800-mile range and 15-minute charging, reshaping the future of electric vehicles.",
+    "image": "toyota-ai-ev-battery-breakthrough.png",
+    "category": "Vehicles",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-25T17:20:49.084Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT Discovers Self-Healing Material That Could Revolutionize Soft Robotics",
     "slug": "mit-self-healing-soft-robotics",
     "description": "MIT has unveiled a self-healing material that allows soft robots to repair themselves in seconds, potentially transforming industries from healthcare to manufacturing.",
