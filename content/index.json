@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Neuromorphic Computing: New Chip Mimics Human Brain Synapses",
+    "slug": "neuromorphic-chip-mimics-human-brain-synapses",
+    "description": "Stanford's SynapSim chip mimics human brain synapses, offering 10x more efficient AI processing with 90% less power usage. A major leap in neuromorphic computing.",
+    "image": "neuromorphic-chip-mimics-human-brain-synapses.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-26T12:43:44.777Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: Optical Fiber Reaches 50km Entanglement",
     "slug": "quantum-leap-optical-fiber-50km-entanglement",
     "description": "In a major step toward the quantum internet, researchers have achieved stable quantum entanglement over 50 kilometers of optical fiber, paving the way for ultra-secure communication and scalable quantum networks.",
