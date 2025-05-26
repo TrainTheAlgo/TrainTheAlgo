@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: Optical Fiber Reaches 50km Entanglement",
+    "slug": "quantum-leap-optical-fiber-50km-entanglement",
+    "description": "In a major step toward the quantum internet, researchers have achieved stable quantum entanglement over 50 kilometers of optical fiber, paving the way for ultra-secure communication and scalable quantum networks.",
+    "image": "quantum-leap-optical-fiber-50km-entanglement.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-26T06:13:38.879Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stable Plasma for 10 Minutes: How Helion Energy Leaps Closer to Commercial Fusion",
     "slug": "helion-energy-10-minute-plasma-fusion-breakthrough",
     "description": "Helion Energy achieves a 10-minute stable plasma confinement milestone, marking a major step toward commercial fusion power and a clean energy future.",
