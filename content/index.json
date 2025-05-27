@@ -1,5 +1,31 @@
 [
   {
+    "title": "Lightmatter's Photonic Chip Breakthrough Boosts AI Efficiency",
+    "slug": "lightmatter-photonic-chip-ai-efficiency",
+    "description": "Lightmatter's new photonic chip technology promises to cut AI energy usage by up to 90%, revolutionizing data center efficiency and reshaping the future of AI hardware.",
+    "image": "lightmatter-photonic-chip-ai-efficiency.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-27T07:50:54.085Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
+    "title": "AI-Powered Holographic Display: Google Launches Immersive Gaming Without Headsets",
+    "slug": "google-ai-holographic-gaming-display",
+    "description": "Google's new HoloGame AI system promises immersive, headset-free gaming with real-time holograms, 4K visuals, and adaptive AI gameplay. Is this the future of gaming?",
+    "image": "google-ai-holographic-gaming-display.png",
+    "category": "Gaming",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-27T01:21:55.638Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Neuromorphic Computing: New Chip Mimics Human Brain Synapses",
     "slug": "neuromorphic-chip-mimics-human-brain-synapses",
     "description": "Stanford's SynapSim chip mimics human brain synapses, offering 10x more efficient AI processing with 90% less power usage. A major leap in neuromorphic computing.",
