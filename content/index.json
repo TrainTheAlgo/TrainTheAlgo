@@ -1,5 +1,18 @@
 [
   {
+    "title": "50% Faster: Stanford's Brain-Computer Interface Breakthrough",
+    "slug": "stanford-brain-computer-interface-breakthrough",
+    "description": "Stanford's new neural interface achieves 200 bits per second and 90 words per minute typing, redefining the future of brain-computer communication.",
+    "image": "stanford-brain-computer-interface-breakthrough.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-27T20:22:19.931Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Lightmatter's Photonic Chip Breakthrough Boosts AI Efficiency",
     "slug": "lightmatter-photonic-chip-ai-efficiency",
     "description": "Lightmatter's new photonic chip technology promises to cut AI energy usage by up to 90%, revolutionizing data center efficiency and reshaping the future of AI hardware.",
