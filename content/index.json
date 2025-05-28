@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why DARPA's $45M Investment in Photonic AI Chips Could Revolutionize AI Hardware",
+    "slug": "darpa-photonic-ai-chip-investment",
+    "description": "DARPA's $45M contract with Cerebras and Ranovus could reshape AI hardware by using light instead of electricity to move data-faster, cooler, and more efficiently.",
+    "image": "darpa-photonic-ai-chip-investment.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-28T02:48:06.732Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "50% Faster: Stanford's Brain-Computer Interface Breakthrough",
     "slug": "stanford-brain-computer-interface-breakthrough",
     "description": "Stanford's new neural interface achieves 200 bits per second and 90 words per minute typing, redefining the future of brain-computer communication.",
