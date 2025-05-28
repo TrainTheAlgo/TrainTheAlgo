@@ -1,5 +1,18 @@
 [
   {
+    "title": "Graphene Transistors Breakthrough Promises 100x Faster, 40% More Efficient Electronics",
+    "slug": "graphene-transistors-breakthrough",
+    "description": "A new graphene-based transistor developed at the University of Manchester could revolutionize electronics with speeds 100x faster and 40% less energy use than silicon.",
+    "image": "graphene-transistors-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-28T09:13:11.259Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Why DARPA's $45M Investment in Photonic AI Chips Could Revolutionize AI Hardware",
     "slug": "darpa-photonic-ai-chip-investment",
     "description": "DARPA's $45M contract with Cerebras and Ranovus could reshape AI hardware by using light instead of electricity to move data-faster, cooler, and more efficiently.",
