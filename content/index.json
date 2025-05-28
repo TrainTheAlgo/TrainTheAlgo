@@ -1,5 +1,18 @@
 [
   {
+    "title": "The End of Scalability Issues in Quantum Computing? Q-CTRL's Breakthrough",
+    "slug": "qctrl-scalable-qubit-architecture",
+    "description": "Q-CTRL claims a 10x improvement in qubit coherence and a 30% reduction in error correction overhead. Could this be the breakthrough quantum computing has been waiting for?",
+    "image": "qctrl-scalable-qubit-architecture.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-28T15:42:21.499Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Graphene Transistors Breakthrough Promises 100x Faster, 40% More Efficient Electronics",
     "slug": "graphene-transistors-breakthrough",
     "description": "A new graphene-based transistor developed at the University of Manchester could revolutionize electronics with speeds 100x faster and 40% less energy use than silicon.",
