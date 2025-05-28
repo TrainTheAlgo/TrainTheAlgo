@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Quantum Leap: Understanding the 70% Funding Surge in Q1 2025",
+    "slug": "quantum-investment-surge-q1-2025",
+    "description": "Quantum computing startups captured over 70% of all quantum-related funding in Q1 2025. Here's why investors are betting big on the future of quantum tech.",
+    "image": "quantum-investment-surge-q1-2025.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-28T22:10:17.979Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The End of Scalability Issues in Quantum Computing? Q-CTRL's Breakthrough",
     "slug": "qctrl-scalable-qubit-architecture",
     "description": "Q-CTRL claims a 10x improvement in qubit coherence and a 30% reduction in error correction overhead. Could this be the breakthrough quantum computing has been waiting for?",
