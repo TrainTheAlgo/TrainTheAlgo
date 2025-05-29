@@ -1,5 +1,18 @@
 [
   {
+    "title": "XAI's Grok 3.1: The Multimodal AI Model That's Pushing Boundaries",
+    "slug": "xai-grok-3-1-multimodal-ai-model",
+    "description": "XAI's Grok 3.1 is here, boasting a 15% boost in reasoning and multimodal capabilities. But how does it stack up against GPT-4o and Claude 3.5?",
+    "image": "xai-grok-3-1-multimodal-ai-model.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-29T17:27:17.056Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "QuantumScape's Solid-State Battery Breakthrough: A Game-Changer for EVs",
     "slug": "quantumscape-solid-state-battery-breakthrough",
     "description": "QuantumScape hits a major milestone in solid-state battery production, bringing electric vehicles closer to faster charging, longer range, and safer performance.",
