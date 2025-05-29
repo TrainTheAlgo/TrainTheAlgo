@@ -1,5 +1,18 @@
 [
   {
+    "title": "QuantumScape's Solid-State Battery Breakthrough: A Game-Changer for EVs",
+    "slug": "quantumscape-solid-state-battery-breakthrough",
+    "description": "QuantumScape hits a major milestone in solid-state battery production, bringing electric vehicles closer to faster charging, longer range, and safer performance.",
+    "image": "quantumscape-solid-state-battery-breakthrough.png",
+    "category": "Vehicles",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-29T11:03:01.943Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Brain Implant Breakthrough Allows Paralyzed Patient to Control Prosthetic Arm",
     "slug": "neuralink-brain-implant-prosthetic-arm",
     "description": "Neuralink's latest brain-computer interface enables a paralyzed patient to control a prosthetic arm with 92% accuracy, marking a major leap in assistive technology.",
