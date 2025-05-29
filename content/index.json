@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Brain Implant Breakthrough Allows Paralyzed Patient to Control Prosthetic Arm",
+    "slug": "neuralink-brain-implant-prosthetic-arm",
+    "description": "Neuralink's latest brain-computer interface enables a paralyzed patient to control a prosthetic arm with 92% accuracy, marking a major leap in assistive technology.",
+    "image": "neuralink-brain-implant-prosthetic-arm.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-29T04:36:22.007Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Quantum Leap: Understanding the 70% Funding Surge in Q1 2025",
     "slug": "quantum-investment-surge-q1-2025",
     "description": "Quantum computing startups captured over 70% of all quantum-related funding in Q1 2025. Here's why investors are betting big on the future of quantum tech.",
