@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Test Cuts Prostate Cancer Mortality Risk by 50%",
+    "slug": "ai-test-cuts-prostate-cancer-mortality-risk",
+    "description": "A new AI tool can identify which prostate cancer patients will benefit from abiraterone, potentially halving death risk and transforming treatment precision.",
+    "image": "ai-prostate-cancer-treatment.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-30T12:51:13.463Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Driven 'Smoke' Trailer Ignites Anticipation for Apple's Crime Series Debut",
     "slug": "ai-driven-smoke-trailer-apple-crime-series",
     "description": "Apple TV+ drops an AI-powered trailer for its new crime drama 'Smoke', blending cutting-edge tech with cinematic storytelling to set a new industry standard.",
