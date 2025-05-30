@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionizing Flexible Tech: New Polymer Enables Self-Healing Circuits",
+    "slug": "revolutionizing-flexible-tech-new-polymer-enables-self-healing-circuits",
+    "description": "A new polymer called PolyHealix promises stretchable, self-healing circuits with high conductivity, potentially transforming wearable tech, medical devices, and soft robotics.",
+    "image": "polyhealix-flexible-electronics.png",
+    "category": "Physics",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-30T19:17:28.717Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI Test Cuts Prostate Cancer Mortality Risk by 50%",
     "slug": "ai-test-cuts-prostate-cancer-mortality-risk",
     "description": "A new AI tool can identify which prostate cancer patients will benefit from abiraterone, potentially halving death risk and transforming treatment precision.",
