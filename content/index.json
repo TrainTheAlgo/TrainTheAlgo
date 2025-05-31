@@ -1,5 +1,18 @@
 [
   {
+    "title": "Brain-Computer Interface Breakthrough: Typing 90 Words Per Minute",
+    "slug": "brain-computer-interface-90-wpm",
+    "description": "Stanford researchers have developed a non-invasive brain-computer interface that enables users to type at 90 words per minute using only their thoughts, setting a new record in BCI technology.",
+    "image": "brain-computer-interface-90-wpm.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-31T14:32:49.567Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI Detects Skin Cancer with 92% Accuracy - A Breakthrough in London Hospitals",
     "slug": "ai-detects-skin-cancer-london",
     "description": "A new AI tool deployed in a London hospital detects skin cancer with 92% accuracy in under a minute, revolutionizing early diagnosis and reducing patient wait times by 40%.",
