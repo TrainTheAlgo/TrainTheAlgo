@@ -1,5 +1,18 @@
 [
   {
+    "title": "15% Solar Panel Efficiency Boost with New Nanostructured Coating",
+    "slug": "solar-panel-efficiency-boost-nanostructured-coating",
+    "description": "Stanford researchers unveil a nanostructured coating that boosts solar panel efficiency by 15%, potentially transforming the future of renewable energy.",
+    "image": "solar-panel-efficiency-boost-nanostructured-coating.png",
+    "category": "Climate",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-31T21:02:42.936Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Brain-Computer Interface Breakthrough: Typing 90 Words Per Minute",
     "slug": "brain-computer-interface-90-wpm",
     "description": "Stanford researchers have developed a non-invasive brain-computer interface that enables users to type at 90 words per minute using only their thoughts, setting a new record in BCI technology.",
