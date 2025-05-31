@@ -1,5 +1,18 @@
 [
   {
+    "title": "Smart Fabric Breakthrough: MIT Creates Clothes That Monitor Health in Real-Time",
+    "slug": "smart-fabric-mit-health-monitoring",
+    "description": "MIT has unveiled a revolutionary smart fabric that monitors heart rate, breathing, and temperature in real-time-without electronics. This could change wearable tech forever.",
+    "image": "smart-fabric-mit-health-monitoring.png",
+    "category": "Lifestyle",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-31T01:41:58.730Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Flexible Tech: New Polymer Enables Self-Healing Circuits",
     "slug": "revolutionizing-flexible-tech-new-polymer-enables-self-healing-circuits",
     "description": "A new polymer called PolyHealix promises stretchable, self-healing circuits with high conductivity, potentially transforming wearable tech, medical devices, and soft robotics.",
