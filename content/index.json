@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Detects Skin Cancer with 92% Accuracy - A Breakthrough in London Hospitals",
+    "slug": "ai-detects-skin-cancer-london",
+    "description": "A new AI tool deployed in a London hospital detects skin cancer with 92% accuracy in under a minute, revolutionizing early diagnosis and reducing patient wait times by 40%.",
+    "image": "ai-skin-cancer-detection.png",
+    "category": "AI",
+    "path": "2025/05/",
+    "featured": false,
+    "date": "2025-05-31T08:08:51.706Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Smart Fabric Breakthrough: MIT Creates Clothes That Monitor Health in Real-Time",
     "slug": "smart-fabric-mit-health-monitoring",
     "description": "MIT has unveiled a revolutionary smart fabric that monitors heart rate, breathing, and temperature in real-time-without electronics. This could change wearable tech forever.",
