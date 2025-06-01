@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Gets a Major Upgrade With New Error Correction",
+    "slug": "quantum-computing-error-correction-stabilizer-flow",
+    "description": "UC Berkeley's new 'Stabilizer Flow' algorithm boosts quantum computing reliability by 30%, marking a major step toward fault-tolerant quantum systems.",
+    "image": "quantum-computing-error-correction-stabilizer-flow.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-01T22:53:54.586Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink Expands Clinical Trials, Offering New Hope for Paralysis and ALS Patients",
     "slug": "neuralink-expands-clinical-trials",
     "description": "Neuralink is scaling up its human trials, aiming to restore mobility and communication for patients with paralysis and ALS using its brain-computer interface implant.",
