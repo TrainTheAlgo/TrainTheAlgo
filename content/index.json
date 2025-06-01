@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionizing AI: Loihi 3's Breakthrough in Neuromorphic Computing",
+    "slug": "loihi-3-breakthrough-neuromorphic-computing",
+    "description": "Intel's Loihi 3 chip mimics the brain's efficiency, achieving 0.1 picojoules per synaptic operation and promising a new era of ultra-low-power AI for robotics, edge devices, and beyond.",
+    "image": "loihi-3-breakthrough-neuromorphic-computing.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-01T09:57:15.549Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: Hybrid Qubits Achieve Unprecedented Stability",
     "slug": "quantum-leap-hybrid-qubits-achieve-unprecedented-stability",
     "description": "A new qubit design from the University of Chicago has shattered coherence time records, marking a major step toward practical quantum computing.",
