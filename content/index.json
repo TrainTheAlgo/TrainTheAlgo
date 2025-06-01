@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: Hybrid Qubits Achieve Unprecedented Stability",
+    "slug": "quantum-leap-hybrid-qubits-achieve-unprecedented-stability",
+    "description": "A new qubit design from the University of Chicago has shattered coherence time records, marking a major step toward practical quantum computing.",
+    "image": "quantum-leap-hybrid-qubits.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-01T03:29:03.642Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "15% Solar Panel Efficiency Boost with New Nanostructured Coating",
     "slug": "solar-panel-efficiency-boost-nanostructured-coating",
     "description": "Stanford researchers unveil a nanostructured coating that boosts solar panel efficiency by 15%, potentially transforming the future of renewable energy.",
