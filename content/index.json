@@ -1,5 +1,18 @@
 [
   {
+    "title": "Paradromics Implants First Human BCI, Escalating Race Against Neuralink",
+    "slug": "paradromics-first-human-bci",
+    "description": "Paradromics has implanted its first human brain-computer interface, intensifying the race with Neuralink and redefining the future of neurotechnology.",
+    "image": "paradromics-first-human-bci.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-02T18:17:19.782Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Solar Storms Forced SpaceX to Postpone Their Latest Mission",
     "slug": "spacex-starlink-launch-delayed-solar-storm",
     "description": "SpaceX delayed its Starlink 12-19 launch due to heightened solar activity. Here's why solar storms are becoming a growing concern for satellite missions.",
