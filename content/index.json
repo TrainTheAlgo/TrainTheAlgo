@@ -1,5 +1,18 @@
 [
   {
+    "title": "Wearable Ultrasound Patch Transforms Blood Pressure Monitoring",
+    "slug": "wearable-ultrasound-patch-blood-pressure-monitoring",
+    "description": "A new wearable ultrasound patch offers continuous, non-invasive blood pressure monitoring-potentially changing how we manage hypertension forever.",
+    "image": "wearable-ultrasound-patch.png",
+    "category": "Lifestyle",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-02T05:20:47.461Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Gets a Major Upgrade With New Error Correction",
     "slug": "quantum-computing-error-correction-stabilizer-flow",
     "description": "UC Berkeley's new 'Stabilizer Flow' algorithm boosts quantum computing reliability by 30%, marking a major step toward fault-tolerant quantum systems.",
