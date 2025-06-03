@@ -1,5 +1,18 @@
 [
   {
+    "title": "Say Goodbye to Robot-Sounding Text: How to Humanize Your Writing Instantly",
+    "slug": "humanize-ai-writing",
+    "description": "AI writing still sounds like it was built in a lab. Here's the exact prompt and process to make ChatGPT write like a sharp, witty human-every time.",
+    "image": "humanize-ai-writing.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-03T19:59:41.754Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robots That Heal Themselves In Seconds-China's Cutting-Edge Innovation",
     "slug": "soft-robots-self-healing-china",
     "description": "Chinese researchers have developed a revolutionary self-healing material for soft robots that can stretch 500% and repair itself in seconds, opening new frontiers in robotics durability and adaptability.",
