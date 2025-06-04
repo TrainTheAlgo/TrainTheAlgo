@@ -1,5 +1,18 @@
 [
   {
+    "title": "Nuclear Fusion Breakthrough: Tokamak Energy Achieves 150ms Plasma Confinement Record",
+    "slug": "tokamak-energy-150ms-plasma-confinement",
+    "description": "Tokamak Energy sets a new record in plasma confinement, marking a major step toward clean, limitless fusion energy. Here's what it means and why it matters.",
+    "image": "tokamak-energy-150ms-plasma-confinement.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-04T15:12:30.649Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Drone Swarm Breaks Record with Autonomous Flight",
     "slug": "ai-powered-drone-swarm-breaks-record",
     "description": "A swarm of 100 AI-powered drones just completed a fully autonomous 10km mission, setting a new record and redefining the future of robotics and AI coordination.",
