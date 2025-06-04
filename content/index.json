@@ -1,5 +1,18 @@
 [
   {
+    "title": "Robotic Exoskeleton Breakthrough: Enhancing Human Mobility And Strength",
+    "slug": "robotic-exoskeleton-breakthrough-enhancing-human-mobility-and-strength",
+    "description": "UC Berkeley's FlexAssist exoskeleton boosts human strength by 50% and reduces fatigue by 30%, marking a major leap in wearable robotics for healthcare and labor.",
+    "image": "robotic-exoskeleton-breakthrough.png",
+    "category": "Lifestyle",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-04T02:22:23.953Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Say Goodbye to Robot-Sounding Text: How to Humanize Your Writing Instantly",
     "slug": "humanize-ai-writing",
     "description": "AI writing still sounds like it was built in a lab. Here's the exact prompt and process to make ChatGPT write like a sharp, witty human-every time.",
