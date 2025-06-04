@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google's Quantum Breakthrough: Advanced Qubit Architecture Revealed",
+    "slug": "google-quantum-breakthrough-qubit-architecture",
+    "description": "Google unveils the Willow chip, a major leap in quantum computing with a 30% error reduction and scalable architecture aimed at building 1,000-qubit systems by 2027.",
+    "image": "google-quantum-breakthrough-qubit-architecture.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-04T17:16:26.671Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Nuclear Fusion Breakthrough: Tokamak Energy Achieves 150ms Plasma Confinement Record",
     "slug": "tokamak-energy-150ms-plasma-confinement",
     "description": "Tokamak Energy sets a new record in plasma confinement, marking a major step toward clean, limitless fusion energy. Here's what it means and why it matters.",
