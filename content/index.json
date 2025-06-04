@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Drone Swarm Breaks Record with Autonomous Flight",
+    "slug": "ai-powered-drone-swarm-breaks-record",
+    "description": "A swarm of 100 AI-powered drones just completed a fully autonomous 10km mission, setting a new record and redefining the future of robotics and AI coordination.",
+    "image": "ai-powered-drone-swarm-breaks-record.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-04T08:48:38.235Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Robotic Exoskeleton Breakthrough: Enhancing Human Mobility And Strength",
     "slug": "robotic-exoskeleton-breakthrough-enhancing-human-mobility-and-strength",
     "description": "UC Berkeley's FlexAssist exoskeleton boosts human strength by 50% and reduces fatigue by 30%, marking a major leap in wearable robotics for healthcare and labor.",
