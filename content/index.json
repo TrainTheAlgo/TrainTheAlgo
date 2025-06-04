@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel's EMIB-T: A Major Win for AI and HPC Performance",
+    "slug": "intel-emib-t-chip-packaging-ai-hpc",
+    "description": "Intel's new EMIB-T chip packaging tech promises faster AI performance and more efficient data centers. Here's why it matters for the future of computing.",
+    "image": "intel-emib-t-chip-packaging-ai-hpc.png",
+    "category": "Business",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-04T20:41:55.612Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Google's Quantum Breakthrough: Advanced Qubit Architecture Revealed",
     "slug": "google-quantum-breakthrough-qubit-architecture",
     "description": "Google unveils the Willow chip, a major leap in quantum computing with a 30% error reduction and scalable architecture aimed at building 1,000-qubit systems by 2027.",
