@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI's Energy Crisis Solved? Meet The Photonic Chip Promising 10x Performance",
+    "slug": "photonic-chip-ai-performance",
+    "description": "A new photonic chip from UC San Diego could revolutionize AI processing with 10x faster data transfer and 30% less energy use. Here's how it works-and why it matters.",
+    "image": "photonic-chip-ai-performance.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T00:06:06.558Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Intel's EMIB-T: A Major Win for AI and HPC Performance",
     "slug": "intel-emib-t-chip-packaging-ai-hpc",
     "description": "Intel's new EMIB-T chip packaging tech promises faster AI performance and more efficient data centers. Here's why it matters for the future of computing.",
