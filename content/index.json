@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Photonic Memory Promises Ultra-Fast, Energy-Efficient Data Storage",
+    "slug": "photonic-memory-ultra-fast-energy-efficient",
+    "description": "A new photonic memory developed at UC Berkeley stores data using light, achieving 100x faster speeds and 10x better energy efficiency than NAND flash, with major implications for AI and cloud computing.",
+    "image": "photonic-memory-ultra-fast-energy-efficient.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T17:10:44.284Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Holographic Data Storage Breakthrough: Storing 1 Petabyte in a DVD-sized Drive",
     "slug": "holographic-data-storage-breakthrough",
     "description": "A revolutionary new material enables 1 petabyte of data to be stored in a DVD-sized disc, potentially transforming data centers and AI infrastructure.",
