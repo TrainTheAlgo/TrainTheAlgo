@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Inc. Launches Groundbreaking Photonic Chip Foundry in Arizona",
+    "slug": "qci-photonic-chip-foundry-arizona",
+    "description": "Quantum Computing Inc. opens a cutting-edge photonic chip foundry in Arizona, aiming to revolutionize quantum computing with scalable, light-based TFLN technology.",
+    "image": "qci-photonic-chip-foundry-arizona.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T03:32:27.332Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI's Energy Crisis Solved? Meet The Photonic Chip Promising 10x Performance",
     "slug": "photonic-chip-ai-performance",
     "description": "A new photonic chip from UC San Diego could revolutionize AI processing with 10x faster data transfer and 30% less energy use. Here's how it works-and why it matters.",
