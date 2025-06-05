@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuromorphic Computing Breakthrough Mimics Human Brain Efficiency",
+    "slug": "neuromorphic-computing-breakthrough",
+    "description": "Cambridge's NeuroCore chip mimics the human brain to deliver 100x energy efficiency in AI tasks, offering a sustainable future for artificial intelligence.",
+    "image": "neuromorphic-computing-breakthrough.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T10:18:28.511Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Superconducting Materials Promises Faster, More Efficient Electronics",
     "slug": "superconducting-materials-breakthrough",
     "description": "A new lanthanum-based hydride superconductor operates at -173C, offering a leap toward energy-efficient electronics and lossless power transmission.",
