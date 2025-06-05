@@ -1,5 +1,18 @@
 [
   {
+    "title": "Holographic Data Storage Breakthrough: Storing 1 Petabyte in a DVD-sized Drive",
+    "slug": "holographic-data-storage-breakthrough",
+    "description": "A revolutionary new material enables 1 petabyte of data to be stored in a DVD-sized disc, potentially transforming data centers and AI infrastructure.",
+    "image": "holographic-data-storage-breakthrough.png",
+    "category": "Technology",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T13:43:57.064Z",
+    "research": "University of Shanghai for Science and Technology",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuromorphic Computing Breakthrough Mimics Human Brain Efficiency",
     "slug": "neuromorphic-computing-breakthrough",
     "description": "Cambridge's NeuroCore chip mimics the human brain to deliver 100x energy efficiency in AI tasks, offering a sustainable future for artificial intelligence.",
