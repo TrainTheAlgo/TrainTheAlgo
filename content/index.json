@@ -1,5 +1,18 @@
 [
   {
+    "title": "Error-Resistant Photonic Qubit Breakthrough Unlocks Quantum Future",
+    "slug": "error-resistant-photonic-qubit-breakthrough",
+    "description": "A revolutionary on-chip photonic qubit resists noise and errors, marking a major leap toward scalable, practical quantum computing.",
+    "image": "error-resistant-photonic-qubit-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T20:34:22.240Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Photonic Memory Promises Ultra-Fast, Energy-Efficient Data Storage",
     "slug": "photonic-memory-ultra-fast-energy-efficient",
     "description": "A new photonic memory developed at UC Berkeley stores data using light, achieving 100x faster speeds and 10x better energy efficiency than NAND flash, with major implications for AI and cloud computing.",
