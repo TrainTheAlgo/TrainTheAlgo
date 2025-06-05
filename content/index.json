@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Superconducting Materials Promises Faster, More Efficient Electronics",
+    "slug": "superconducting-materials-breakthrough",
+    "description": "A new lanthanum-based hydride superconductor operates at -173C, offering a leap toward energy-efficient electronics and lossless power transmission.",
+    "image": "superconducting-materials-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-05T06:54:16.968Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Inc. Launches Groundbreaking Photonic Chip Foundry in Arizona",
     "slug": "qci-photonic-chip-foundry-arizona",
     "description": "Quantum Computing Inc. opens a cutting-edge photonic chip foundry in Arizona, aiming to revolutionize quantum computing with scalable, light-based TFLN technology.",
