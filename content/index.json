@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Stanford's Breakthrough Biosensor is Changing Health Monitoring",
+    "slug": "stanford-biosensor-health-monitoring",
+    "description": "Stanford researchers unveil a wearable biosensor that tracks multiple vital signs in real time with clinical-grade accuracy, potentially transforming personal healthcare.",
+    "image": "stanford-biosensor-health-monitoring.png",
+    "category": "Lifestyle",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-06T23:15:28.229Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Cobots Set to Transform American Manufacturing",
     "slug": "ai-powered-cobots-transform-manufacturing",
     "description": "At Automate 2025, Schneider Electric and Techman Robot unveiled AI-driven innovations that promise to reshape manufacturing with smarter, safer, and more efficient automation.",
