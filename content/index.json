@@ -1,5 +1,18 @@
 [
   {
+    "title": "Graphene-Based Transistors Could Revolutionize Ultra-Fast Electronics",
+    "slug": "graphene-based-transistors-ultra-fast-electronics",
+    "description": "A new breakthrough from MIT solves graphene's biggest flaw, unlocking transistors 100x faster than silicon and 30% more efficient-ushering in a new era of ultra-fast, low-power electronics.",
+    "image": "graphene-based-transistors-ultra-fast-electronics.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-06T13:04:24.507Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Dot Breakthrough: Brighter, More Efficient Displays",
     "slug": "quantum-dot-breakthrough-displays",
     "description": "A new discovery from the University of Cambridge boosts quantum dot display efficiency by 30%, promising brighter screens and longer battery life for future devices.",
