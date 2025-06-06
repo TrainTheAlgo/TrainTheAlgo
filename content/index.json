@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Dot Breakthrough: Brighter, More Efficient Displays",
+    "slug": "quantum-dot-breakthrough-displays",
+    "description": "A new discovery from the University of Cambridge boosts quantum dot display efficiency by 30%, promising brighter screens and longer battery life for future devices.",
+    "image": "quantum-dot-breakthrough-displays.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-06T09:39:15.100Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robotics Just Got Smarter: MIT's Breakthrough Could Transform Industries",
     "slug": "soft-robotics-mit-breakthrough",
     "description": "MIT researchers have developed a self-healing, shape-shifting material that could revolutionize robotics, prosthetics, and wearable tech. Here's how it works-and why it matters.",
