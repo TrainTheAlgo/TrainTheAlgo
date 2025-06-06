@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in AI-Powered Battery Recycling Promises Greener Future",
+    "slug": "ai-powered-battery-recycling",
+    "description": "A new AI-driven method developed by University of Birmingham researchers boosts battery recycling efficiency by 30%, recovering up to 90% of critical materials and cutting energy use by 25%.",
+    "image": "ai-powered-battery-recycling.png",
+    "category": "Climate",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-06T16:26:17.019Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Graphene-Based Transistors Could Revolutionize Ultra-Fast Electronics",
     "slug": "graphene-based-transistors-ultra-fast-electronics",
     "description": "A new breakthrough from MIT solves graphene's biggest flaw, unlocking transistors 100x faster than silicon and 30% more efficient-ushering in a new era of ultra-fast, low-power electronics.",
