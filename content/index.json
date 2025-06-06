@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Cobots Set to Transform American Manufacturing",
+    "slug": "ai-powered-cobots-transform-manufacturing",
+    "description": "At Automate 2025, Schneider Electric and Techman Robot unveiled AI-driven innovations that promise to reshape manufacturing with smarter, safer, and more efficient automation.",
+    "image": "ai-powered-cobots-transform-manufacturing.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-06T19:50:14.427Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in AI-Powered Battery Recycling Promises Greener Future",
     "slug": "ai-powered-battery-recycling",
     "description": "A new AI-driven method developed by University of Birmingham researchers boosts battery recycling efficiency by 30%, recovering up to 90% of critical materials and cutting energy use by 25%.",
