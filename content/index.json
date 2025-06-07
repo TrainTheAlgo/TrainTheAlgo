@@ -1,5 +1,18 @@
 [
   {
+    "title": "US-China Trade Talks Signal Potential Thaw in Tech Supply Chain Tensions",
+    "slug": "us-china-trade-talks-tech-supply-chain",
+    "description": "New US-China trade talks could ease tech supply chain tensions, with semiconductors and rare-earth materials at the center of global stakes.",
+    "image": "us-china-trade-talks-tech-supply-chain.png",
+    "category": "Business",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-07T06:10:11.230Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Stanford's Breakthrough Biosensor is Changing Health Monitoring",
     "slug": "stanford-biosensor-health-monitoring",
     "description": "Stanford researchers unveil a wearable biosensor that tracks multiple vital signs in real time with clinical-grade accuracy, potentially transforming personal healthcare.",
