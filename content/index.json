@@ -1,5 +1,18 @@
 [
   {
+    "title": "Holographic Displays Without Glasses - A 3D Revolution",
+    "slug": "holographic-displays-without-glasses",
+    "description": "Cambridge researchers unveil a breakthrough in holographic display tech, delivering ultra-realistic 3D visuals without glasses and 85% light efficiency-poised to transform gaming, healthcare, and VR.",
+    "image": "holographic-displays-without-glasses.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-07T23:13:44.441Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Perovskite Solar Cells Hit New Record: 29.8% Efficiency",
     "slug": "perovskite-solar-cells-29-8-efficiency",
     "description": "Oxford researchers have achieved a record-breaking 29.8% efficiency in perovskite solar cells, marking a major leap toward cheaper, more powerful renewable energy.",
