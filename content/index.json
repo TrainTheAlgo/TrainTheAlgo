@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionizing Data Storage: 1 Terabyte In A Gram Of DNA",
+    "slug": "revolutionizing-data-storage-1-terabyte-in-a-gram-of-dna",
+    "description": "A new breakthrough in DNA data storage achieves record-breaking density, storing 1TB of data in a single gram of synthetic DNA-30% more than ever before.",
+    "image": "dna-data-storage-breakthrough.png",
+    "category": "Software",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-08T19:14:23.664Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Graphene-Based Transistors Achieve 1 Petahertz Speed for AI Computing",
     "slug": "graphene-transistors-ai-computing",
     "description": "A new graphene-based transistor developed at Georgia Tech hits 1 petahertz, promising ultra-fast, energy-efficient AI processing that could reshape the future of computing.",
