@@ -1,5 +1,18 @@
 [
   {
+    "title": "Graphene-Based Transistors Achieve 1 Petahertz Speed for AI Computing",
+    "slug": "graphene-transistors-ai-computing",
+    "description": "A new graphene-based transistor developed at Georgia Tech hits 1 petahertz, promising ultra-fast, energy-efficient AI processing that could reshape the future of computing.",
+    "image": "graphene-transistors-ai-computing.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-08T15:54:03.351Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuromorphic Chip Breaks New Ground in Energy-Efficient AI",
     "slug": "neuromorphic-chip-energy-efficient-ai",
     "description": "UCSD's NeuroCore chip mimics the human brain to deliver 100x energy efficiency over GPUs, marking a major leap in sustainable AI computing.",
