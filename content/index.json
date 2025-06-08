@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: Qubits Unlimited's 100-Qubit Breakthrough",
+    "slug": "quantum-leap-qubits-unlimited-100-qubit-breakthrough",
+    "description": "Qubits Unlimited unveils a 100-qubit processor, marking a major step toward scalable quantum computing and practical quantum advantage.",
+    "image": "quantum-leap-qubits-unlimited-100-qubit-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-08T09:09:34.748Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT's Breakthrough Shape-Shifting Robots Change the Future of Soft Robotics",
     "slug": "mits-breakthrough-shape-shifting-robots",
     "description": "MIT unveils a revolutionary material that allows robots to morph between soft and rigid states in 0.1 seconds, opening new frontiers in surgery, exploration, and adaptive machines.",
