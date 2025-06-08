@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuromorphic Chip Breaks New Ground in Energy-Efficient AI",
+    "slug": "neuromorphic-chip-energy-efficient-ai",
+    "description": "UCSD's NeuroCore chip mimics the human brain to deliver 100x energy efficiency over GPUs, marking a major leap in sustainable AI computing.",
+    "image": "neuromorphic-chip-energy-efficient-ai.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-08T12:30:47.702Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: Qubits Unlimited's 100-Qubit Breakthrough",
     "slug": "quantum-leap-qubits-unlimited-100-qubit-breakthrough",
     "description": "Qubits Unlimited unveils a 100-qubit processor, marking a major step toward scalable quantum computing and practical quantum advantage.",
