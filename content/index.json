@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will Cryptocurrencies Make Traditional Borders Obsolete? A Deep Dive",
+    "slug": "cryptocurrencies-traditional-borders-obsolete",
+    "description": "As digital currencies reshape global finance, are national borders becoming less relevant? Explore how Bitcoin, CBDCs, and stablecoins are challenging the foundations of economic sovereignty.",
+    "image": "cryptocurrencies-traditional-borders-obsolete.png",
+    "category": "Crypto",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-09T12:19:30.047Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: IBM's Scalable Error-Correction Technique",
     "slug": "ibm-quantum-error-correction-breakthrough",
     "description": "IBM unveils a new quantum error-correction method that reduces errors by 30%, marking a major step toward scalable, fault-tolerant quantum computing.",
