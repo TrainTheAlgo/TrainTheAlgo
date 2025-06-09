@@ -1,5 +1,18 @@
 [
   {
+    "title": "Photonic Chip Breakthrough Promises 10x Faster Computing",
+    "slug": "photonic-chip-breakthrough-faster-computing",
+    "description": "A new photonic chip from the University of Bristol could revolutionize computing with 10x faster speeds and 60% less energy use, reshaping AI and data centers.",
+    "image": "photonic-chip-breakthrough-faster-computing.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-09T22:36:27.081Z",
+    "research": "University of Bristol, Nature Photonics",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Bitcoin Vs Quantum Computers: Are We Prepared?",
     "slug": "bitcoin-vs-quantum-computers-are-we-prepared",
     "description": "Quantum computing could one day break Bitcoin's encryption. Experts are divided on how close that day is-and whether the crypto world is ready.",
