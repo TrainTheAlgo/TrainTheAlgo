@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel Loihi 3 Chip: A Game-Changer in Neuromorphic Computing",
+    "slug": "intel-loihi-3-chip-neuromorphic-computing",
+    "description": "Intel's Loihi 3 chip mimics the human brain to deliver 100x energy efficiency for AI tasks, marking a major leap in sustainable, edge-based artificial intelligence.",
+    "image": "intel-loihi-3-chip-neuromorphic-computing.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-09T05:26:06.052Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionary Skin-Like Device Monitors Health in Real Time - Here's How It Works",
     "slug": "skin-like-device-monitors-health",
     "description": "A new flexible biosensor from UC San Diego tracks glucose, blood pressure, and more in real time-without needles or batteries. Here's how it could change healthcare.",
