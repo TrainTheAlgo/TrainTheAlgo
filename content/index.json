@@ -1,5 +1,18 @@
 [
   {
+    "title": "Revolutionary Skin-Like Device Monitors Health in Real Time - Here's How It Works",
+    "slug": "skin-like-device-monitors-health",
+    "description": "A new flexible biosensor from UC San Diego tracks glucose, blood pressure, and more in real time-without needles or batteries. Here's how it could change healthcare.",
+    "image": "skin-like-device-monitors-health.png",
+    "category": "Lifestyle",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-09T02:05:02.520Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stanford's SynapseX Chip: Mimicking the Brain for Next-Generation AI",
     "slug": "stanfords-synapsex-chip-mimicking-the-brain-for-next-generation-ai",
     "description": "Stanford researchers unveil SynapseX, a neuromorphic chip that mimics brain synapses to deliver 1000x more energy-efficient AI processing, redefining the future of edge computing.",
