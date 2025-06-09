@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Breakthrough: IBM's Scalable Error-Correction Technique",
+    "slug": "ibm-quantum-error-correction-breakthrough",
+    "description": "IBM unveils a new quantum error-correction method that reduces errors by 30%, marking a major step toward scalable, fault-tolerant quantum computing.",
+    "image": "ibm-quantum-error-correction-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-09T08:52:34.494Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Intel Loihi 3 Chip: A Game-Changer in Neuromorphic Computing",
     "slug": "intel-loihi-3-chip-neuromorphic-computing",
     "description": "Intel's Loihi 3 chip mimics the human brain to deliver 100x energy efficiency for AI tasks, marking a major leap in sustainable, edge-based artificial intelligence.",
