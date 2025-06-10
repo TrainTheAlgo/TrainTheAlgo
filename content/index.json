@@ -1,5 +1,18 @@
 [
   {
+    "title": "D-Wave's New Hybrid Solver Transforms Real-Time Optimization",
+    "slug": "d-wave-hybrid-solver-real-time-optimization",
+    "description": "D-Wave's latest hybrid quantum solver tackles real-world optimization problems with up to 2 million variables, cutting delivery times and costs for global enterprises.",
+    "image": "d-wave-hybrid-solver.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-10T21:22:35.888Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Nord Quantique's Logical Qubit Breakthrough Reduces Hardware Needs for Quantum Computing",
     "slug": "nord-quantique-logical-qubit-breakthrough",
     "description": "Nord Quantique's new approach to logical qubits could drastically reduce the hardware needed for quantum computing, making scalable systems more practical and efficient.",
