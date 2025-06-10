@@ -1,5 +1,18 @@
 [
   {
+    "title": "Nord Quantique's Logical Qubit Breakthrough Reduces Hardware Needs for Quantum Computing",
+    "slug": "nord-quantique-logical-qubit-breakthrough",
+    "description": "Nord Quantique's new approach to logical qubits could drastically reduce the hardware needed for quantum computing, making scalable systems more practical and efficient.",
+    "image": "nord-quantique-logical-qubit-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-10T17:57:49.898Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Meta's Ray-Ban AI Glasses Hit 2M Sales, Prompting Tech Giants' 2026 Launches",
     "slug": "meta-rayban-ai-glasses-2m-sales-google-apple-2026",
     "description": "Meta's Ray-Ban smart glasses just crossed 2 million sales, sparking a race with Google and Apple to launch their own AI eyewear by 2026. Here's what it means for the future of wearable tech.",
