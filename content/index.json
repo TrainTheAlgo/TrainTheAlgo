@@ -1,5 +1,18 @@
 [
   {
+    "title": "Waymo Launches 500 AI-Powered Robotaxis in San Francisco",
+    "slug": "waymo-launches-500-ai-powered-robotaxis-in-san-francisco",
+    "description": "Waymo adds 500 new AI-powered robotaxis to its San Francisco fleet, pushing its total to over 2,000 vehicles amid safety debates and economic optimism.",
+    "image": "waymo-launches-500-ai-powered-robotaxis-in-san-francisco.png",
+    "category": "Vehicles",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-11T14:31:06.700Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "xAI Grok 3's Real-Time Web Search: A Game-Changer in AI Capabilities",
     "slug": "xai-grok-3-real-time-web-search",
     "description": "xAI's Grok 3 now features real-time web search, transforming how users access up-to-date information and reshaping the AI assistant landscape.",
