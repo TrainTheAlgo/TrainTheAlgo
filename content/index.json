@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's 3rd Patient Controls Robotic Arm with Thought Alone - Here's How!",
+    "slug": "neuralink-third-implant-motor-control-breakthrough",
+    "description": "Neuralink's third brain implant patient has achieved 90% accuracy in controlling a robotic arm using only thought, marking a major leap in brain-computer interface technology.",
+    "image": "neuralink-third-implant.png",
+    "category": "Lifestyle",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-11T00:48:49.293Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "D-Wave's New Hybrid Solver Transforms Real-Time Optimization",
     "slug": "d-wave-hybrid-solver-real-time-optimization",
     "description": "D-Wave's latest hybrid quantum solver tackles real-world optimization problems with up to 2 million variables, cutting delivery times and costs for global enterprises.",
