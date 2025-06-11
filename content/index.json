@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google's Willow Chip Breakthrough: Revolutionizing Quantum Error Correction",
+    "slug": "google-willow-chip-quantum-error-correction",
+    "description": "Google's Willow chip achieves a major milestone in quantum error correction, scaling to 105 qubits with decreasing error rates-bringing practical quantum computing closer to reality.",
+    "image": "google-willow-chip-quantum-error-correction.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-11T04:12:46.939Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's 3rd Patient Controls Robotic Arm with Thought Alone - Here's How!",
     "slug": "neuralink-third-implant-motor-control-breakthrough",
     "description": "Neuralink's third brain implant patient has achieved 90% accuracy in controlling a robotic arm using only thought, marking a major leap in brain-computer interface technology.",
