@@ -1,5 +1,18 @@
 [
   {
+    "title": "Zuchongzhi 3.0: A Game-Changer in Quantum Computing",
+    "slug": "zuchongzhi-3-quantum-computing",
+    "description": "China's Zuchongzhi 3.0 quantum processor completed a task in seconds that would take classical supercomputers 6.4 billion years, redefining the limits of computation.",
+    "image": "zuchongzhi-3-quantum-computing.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-11T07:36:52.991Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Google's Willow Chip Breakthrough: Revolutionizing Quantum Error Correction",
     "slug": "google-willow-chip-quantum-error-correction",
     "description": "Google's Willow chip achieves a major milestone in quantum error correction, scaling to 105 qubits with decreasing error rates-bringing practical quantum computing closer to reality.",
