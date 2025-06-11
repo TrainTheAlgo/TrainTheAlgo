@@ -1,5 +1,18 @@
 [
   {
+    "title": "xAI Grok 3's Real-Time Web Search: A Game-Changer in AI Capabilities",
+    "slug": "xai-grok-3-real-time-web-search",
+    "description": "xAI's Grok 3 now features real-time web search, transforming how users access up-to-date information and reshaping the AI assistant landscape.",
+    "image": "xai-grok-3-real-time-web-search.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-11T11:00:19.874Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Zuchongzhi 3.0: A Game-Changer in Quantum Computing",
     "slug": "zuchongzhi-3-quantum-computing",
     "description": "China's Zuchongzhi 3.0 quantum processor completed a task in seconds that would take classical supercomputers 6.4 billion years, redefining the limits of computation.",
