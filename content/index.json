@@ -1,5 +1,18 @@
 [
   {
+    "title": "How to Design APIs for an AI World ",
+    "slug": "how-to-design-apis-for-an-ai-world",
+    "description": "APIs are no longer just for humans or software. In the AI-first era, they must adapt to serve intelligent, unpredictable agents. Here's how to design APIs that thrive in ambiguity, manage token costs, and support self-healing AI systems.",
+    "image": "how-to-design-apis-for-an-ai-world.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-12T07:28:49.893Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Top AV Innovations Unveiled at InfoComm 2025: What You Need to Know",
     "slug": "top-av-innovations-infocomm-2025",
     "description": "InfoComm 2025 in Orlando reveals the future of AV with AI-powered tools, ultra-bright LED displays, and sustainable digital signage. Here's what stood out.",
