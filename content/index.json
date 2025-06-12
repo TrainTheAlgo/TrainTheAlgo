@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stray Kids' AI-Enhanced OST Elevates Japanese Horror Film",
+    "slug": "stray-kids-ai-enhanced-ost-japanese-horror",
+    "description": "Stray Kids' haunting AI-powered soundtrack 'Parade' redefines horror film scoring in the upcoming Japanese thriller 'Re/Member: The Last Night'.",
+    "image": "stray-kids-ai-ost.png",
+    "category": "AI",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-12T10:54:37.895Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How to Design APIs for an AI World ",
     "slug": "how-to-design-apis-for-an-ai-world",
     "description": "APIs are no longer just for humans or software. In the AI-first era, they must adapt to serve intelligent, unpredictable agents. Here's how to design APIs that thrive in ambiguity, manage token costs, and support self-healing AI systems.",
