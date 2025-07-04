@@ -1,5 +1,31 @@
 [
   {
+    "title": "The Future of AI Just Got Smarter: Meet Intel's Loihi 3 Chip",
+    "slug": "intel-loihi-3-neuromorphic-chip",
+    "description": "Intel's Loihi 3 chip mimics the human brain to deliver faster, more efficient AI. Here's how this neuromorphic breakthrough could reshape the future of computing.",
+    "image": "intel-loihi-3-neuromorphic-chip.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-04T14:45:48.559Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
+    "title": "Stretchable Transistors: The Future of Wearable Tech",
+    "slug": "stretchable-transistors-future-of-wearable-tech",
+    "description": "Stanford's new 200% stretchable transistor could redefine wearable technology, enabling skin-like electronics for health, fitness, and beyond.",
+    "image": "stretchable-transistors-future-of-wearable-tech.png",
+    "category": "Physics",
+    "path": "2025/06/",
+    "featured": false,
+    "date": "2025-06-12T17:44:50.471Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Japan's ispace Unveils Advanced Lunar Lander Design for 2026 Mission",
     "slug": "japans-ispace-unveils-advanced-lunar-lander-design-for-2026-mission",
     "description": "After a failed landing attempt in 2025, Japan's ispace returns with Apex 2.0-an AI-powered lunar lander designed to succeed where its predecessor fell short.",
