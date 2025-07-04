@@ -1,5 +1,18 @@
 [
   {
+    "title": "Code Over Law: The Rise of Algorithmic Justice",
+    "slug": "code-over-law-algorithmic-justice",
+    "description": "As AI and blockchain reshape legal systems, are we heading toward a world where software enforces the rules? Explore the technologies driving algorithmic governance and the challenges ahead.",
+    "image": "code-over-law-algorithmic-justice.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-04T18:16:38.264Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Future of AI Just Got Smarter: Meet Intel's Loihi 3 Chip",
     "slug": "intel-loihi-3-neuromorphic-chip",
     "description": "Intel's Loihi 3 chip mimics the human brain to deliver faster, more efficient AI. Here's how this neuromorphic breakthrough could reshape the future of computing.",
