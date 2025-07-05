@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why 'Something Went Wrong' Happens & How to Fix It Now",
+    "slug": "why-something-went-wrong-happens-and-how-to-fix-it-now",
+    "description": "Tired of seeing 'Something went wrong, please refresh to reconnect or try again'? Here's why it happens and how to fix it fast-no tech degree required.",
+    "image": "why-something-went-wrong-happens-and-how-to-fix-it-now.png",
+    "category": "Software",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-05T07:40:56.401Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How IBM's 1,000-Qubit Breakthrough Could Change Quantum Computing Forever",
     "slug": "ibm-1000-qubit-quantum-computing-breakthrough",
     "description": "IBM's new 1,000-qubit Condor processor marks a major leap in quantum computing, promising faster simulations, lower error rates, and a step closer to real-world applications.",
