@@ -17,6 +17,7 @@ const models = {};
 models.chatGPT = async (prompt) => {
   const payload = {
     model: 'o3',
+    reasoning: {"effort": "low", summary: "none"},
     messages: prompt,
     stream: false,
     temperature: 0
