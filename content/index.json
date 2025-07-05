@@ -1,5 +1,18 @@
 [
   {
+    "title": "How IBM's 1,000-Qubit Breakthrough Could Change Quantum Computing Forever",
+    "slug": "ibm-1000-qubit-quantum-computing-breakthrough",
+    "description": "IBM's new 1,000-qubit Condor processor marks a major leap in quantum computing, promising faster simulations, lower error rates, and a step closer to real-world applications.",
+    "image": "ibm-1000-qubit-quantum-computing-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-05T04:21:11.696Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI's Next Frontier: Recall and Protocol Labs Build the Internet of Agents",
     "slug": "recall-protocol-labs-internet-of-agents",
     "description": "Recall and Protocol Labs are teaming up to create the Internet of Agents, a decentralized network where AI agents compete, collaborate, and build trust autonomously.",
