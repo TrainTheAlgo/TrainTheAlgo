@@ -16,14 +16,14 @@ const models = {};
 
 models.chatGPT = async (prompt) => {
   const payload = {
-    model: 'o3-latest',
+    model: 'o3',
     reasoning: {
-      "effort": "low", 
-      summary: "none"
+      effort: "low", 
+      summary: "none",
     },
     messages: prompt,
     stream: false,
-    temperature: 1
+    temperature: 1,
   };
   const response = await axios.post('https://api.openai.com/v1/chat/completions', payload, {
     headers: {
