@@ -16,7 +16,7 @@ const models = {};
 
 models.chatGPT = async (prompt) => {
   const payload = {
-    model: 'chatgpt-4o-latest',
+    model: 'o3',
     messages: prompt,
     stream: false,
     temperature: 0
