@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Networking Milestone: First Entangled Photon Exchange Over Public Internet",
+    "slug": "quantum-networking-milestone-entangled-photon-exchange-public-internet",
+    "description": "For the first time, entangled photons have been transmitted over a public internet fiber network, marking a major leap toward practical quantum networking and ultra-secure communication.",
+    "image": "quantum-networking-milestone.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-06T17:58:04.197Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Soft Robotics Breakthrough: MIT Creates Lifelike Gel Actuators",
     "slug": "mit-gel-actuators-soft-robotics-breakthrough",
     "description": "MIT's new gel-based actuators mimic human muscle with lifelike movement, low power, and high speed-poised to transform robotics, prosthetics, and wearable tech.",
