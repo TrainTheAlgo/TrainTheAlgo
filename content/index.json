@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT's Self-Organizing Microbots: A Breakthrough in Swarm Robotics for Medicine",
+    "slug": "mit-self-organizing-microbots-breakthrough-swarm-robotics-medicine",
+    "description": "MIT unveils self-organizing microbots that could revolutionize targeted drug delivery and minimally invasive surgery, marking a new era in swarm robotics for medical applications.",
+    "image": "mit-microbots-swarm-robotics.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-07T10:59:43.599Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Loihi 3 Chip: The Breakthrough in Neuromorphic Computing",
     "slug": "loihi-3-chip-breakthrough-neuromorphic-computing",
     "description": "Intel's Loihi 3 chip promises a leap in energy-efficient AI, with 40% lower latency and on-chip learning. Is this the future of edge AI, or just another niche experiment?",
