@@ -1,5 +1,18 @@
 [
   {
+    "title": "Loihi 3 Chip: The Breakthrough in Neuromorphic Computing",
+    "slug": "loihi-3-chip-breakthrough-neuromorphic-computing",
+    "description": "Intel's Loihi 3 chip promises a leap in energy-efficient AI, with 40% lower latency and on-chip learning. Is this the future of edge AI, or just another niche experiment?",
+    "image": "loihi-3-chip-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-07T07:34:02.748Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Holographic Display Breakthrough: How It Transforms AR & VR",
     "slug": "holographic-display-breakthrough-ar-vr",
     "description": "A new holographic display from the University of Tokyo delivers ultra-realistic 3D visuals-no glasses required. Discover how this breakthrough could reshape gaming, medicine, and immersive tech.",
