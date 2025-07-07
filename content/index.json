@@ -1,5 +1,18 @@
 [
   {
+    "title": "Modular Exoskeleton Breakthrough Boosts Human Mobility by 30%",
+    "slug": "modular-exoskeleton-breakthrough-boosts-human-mobility",
+    "description": "Stanford's new AI-powered modular exoskeleton promises to enhance mobility, cut costs, and adapt to users' needs-potentially transforming rehabilitation, industry, and daily life.",
+    "image": "modular-exoskeleton-breakthrough.png",
+    "category": "Lifestyle",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-07T14:22:08.496Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT's Self-Organizing Microbots: A Breakthrough in Swarm Robotics for Medicine",
     "slug": "mit-self-organizing-microbots-breakthrough-swarm-robotics-medicine",
     "description": "MIT unveils self-organizing microbots that could revolutionize targeted drug delivery and minimally invasive surgery, marking a new era in swarm robotics for medical applications.",
