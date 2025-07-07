@@ -1,5 +1,18 @@
 [
   {
+    "title": "Non-Invasive BCI Breakthrough: Real-Time Emotion Detection Achieved",
+    "slug": "non-invasive-bci-emotion-detection",
+    "description": "A new non-invasive brain-computer interface from UC San Diego detects human emotions in real time with 92% accuracy, opening doors for mental health, gaming, and AI interaction-while raising ethical questions.",
+    "image": "non-invasive-bci-emotion-detection.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-07T00:48:24.467Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Blackdot's AI-Powered Tattoo Robot Achieves Precision Breakthrough",
     "slug": "blackdot-ai-tattoo-robot-precision-breakthrough",
     "description": "Blackdot's AI tattoo robot is shaking up the industry with sub-millimeter precision, AR previews, and 95% client satisfaction-raising questions about the future of artistry and automation.",
