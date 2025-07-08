@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is Consciousness A Fundamental Property Of The Universe? Exploring Theories",
+    "slug": "is-consciousness-a-fundamental-property-of-the-universe",
+    "description": "Could consciousness be as fundamental as gravity or electromagnetism? Explore the latest theories, from panpsychism to quantum physics, and discover why this question is reshaping science and philosophy.",
+    "image": "consciousness-universe.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-08T10:34:44.914Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink Achieves 1.2 Gbps Brain Implant Speed Breakthrough",
     "slug": "neuralink-1-2-gbps-brain-implant-speed-breakthrough",
     "description": "Neuralink's wireless brain implant sets a new record with 1.2 Gbps data transfer, promising faster, safer, and more intuitive brain-computer interaction. Explore the technology, implications, and what's next.",
