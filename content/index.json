@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Tactile Sensors Achieve 98% Accuracy - A Breakthrough in Robotic Dexterity",
+    "slug": "ai-powered-tactile-sensors-robotic-dexterity-breakthrough",
+    "description": "UC San Diego's TactileNet sensor system delivers 98% touch accuracy, enabling robots to handle delicate tasks with human-like dexterity. Discover how this AI breakthrough could transform manufacturing, healthcare, and beyond.",
+    "image": "ai-powered-tactile-sensors-robotic-dexterity-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-08T20:26:23.075Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Dot LED Breakthrough Boosts Display Efficiency by 25%",
     "slug": "quantum-dot-led-breakthrough-boosts-display-efficiency",
     "description": "A new fabrication technique from Cambridge researchers has increased QLED efficiency by 25%, promising brighter, more energy-efficient screens for phones, TVs, and AR devices.",
