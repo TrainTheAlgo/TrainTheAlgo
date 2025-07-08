@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink Achieves 1.2 Gbps Brain Implant Speed Breakthrough",
+    "slug": "neuralink-1-2-gbps-brain-implant-speed-breakthrough",
+    "description": "Neuralink's wireless brain implant sets a new record with 1.2 Gbps data transfer, promising faster, safer, and more intuitive brain-computer interaction. Explore the technology, implications, and what's next.",
+    "image": "neuralink-1-2-gbps-brain-implant-speed-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-08T04:00:35.600Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Ransomware Attack Hits Ingram Micro, Disrupting Global Tech Supply Chain",
     "slug": "ransomware-attack-hits-ingram-micro-disrupting-global-tech-supply-chain",
     "description": "A ransomware attack on Ingram Micro has halted global operations, exposing critical vulnerabilities in tech supply chains and raising urgent questions about cybersecurity resilience.",
