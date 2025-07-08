@@ -1,5 +1,18 @@
 [
   {
+    "title": "Ransomware Attack Hits Ingram Micro, Disrupting Global Tech Supply Chain",
+    "slug": "ransomware-attack-hits-ingram-micro-disrupting-global-tech-supply-chain",
+    "description": "A ransomware attack on Ingram Micro has halted global operations, exposing critical vulnerabilities in tech supply chains and raising urgent questions about cybersecurity resilience.",
+    "image": "ingram-micro-ransomware-attack.png",
+    "category": "Security",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-08T00:35:48.486Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Solid-State Battery Breakthrough Promises 40% Longer EV Range",
     "slug": "solid-state-battery-breakthrough-ev-range",
     "description": "A new solid-state battery from the University of Tokyo could extend EV range by 40%, boost safety, and last over a decade-potentially reshaping the electric vehicle market.",
