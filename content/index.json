@@ -1,5 +1,18 @@
 [
   {
+    "title": "Holographic Storage Breakthrough Promises 100x Capacity Increase",
+    "slug": "holographic-storage-breakthrough-100x-capacity",
+    "description": "A new holographic data storage system from UC Riverside promises to store 1 petabyte in a crystal the size of a DVD, offering 100x the capacity of current hard drives and potentially transforming the future of data storage.",
+    "image": "holographic-storage-breakthrough.png",
+    "category": "Software",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-08T23:47:39.950Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Tactile Sensors Achieve 98% Accuracy - A Breakthrough in Robotic Dexterity",
     "slug": "ai-powered-tactile-sensors-robotic-dexterity-breakthrough",
     "description": "UC San Diego's TactileNet sensor system delivers 98% touch accuracy, enabling robots to handle delicate tasks with human-like dexterity. Discover how this AI breakthrough could transform manufacturing, healthcare, and beyond.",
