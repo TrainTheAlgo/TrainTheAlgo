@@ -1,5 +1,18 @@
 [
   {
+    "title": "Photonic Chips Achieve 50% Faster Data Processing Milestone",
+    "slug": "photonic-chips-50-percent-faster-data-processing",
+    "description": "A new photonic chip design from UC San Diego promises 50% faster data processing and 30% lower energy use, setting a new speed record and reshaping the future of computing.",
+    "image": "photonic-chips-50-percent-faster-data-processing.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-09T20:00:42.011Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Modular Robotics Breakthrough: How FlexiBot Transforms Real-World Tasks",
     "slug": "modular-robotics-breakthrough-flexibot",
     "description": "MIT's FlexiBot ushers in a new era of modular robotics, enabling rapid reconfiguration for real-world tasks and promising to reshape industries from disaster response to space exploration.",
