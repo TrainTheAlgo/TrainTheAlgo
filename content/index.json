@@ -1,5 +1,18 @@
 [
   {
+    "title": "Solid-State Battery Breakthrough Promises 50% Longer EV Range",
+    "slug": "solid-state-battery-breakthrough-50-percent-longer-ev-range",
+    "description": "A new solid-state battery from UC San Diego could extend electric vehicle range by 50%, offering faster charging, improved safety, and a path to mass adoption. Here's what you need to know.",
+    "image": "solid-state-battery-breakthrough.png",
+    "category": "Vehicles",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-09T23:27:50.111Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Photonic Chips Achieve 50% Faster Data Processing Milestone",
     "slug": "photonic-chips-50-percent-faster-data-processing",
     "description": "A new photonic chip design from UC San Diego promises 50% faster data processing and 30% lower energy use, setting a new speed record and reshaping the future of computing.",
