@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuromorphic Computing Breakthrough: 10x Energy Efficiency in AI",
+    "slug": "neuromorphic-computing-10x-energy-efficiency-ai",
+    "description": "A new neuromorphic chip from Cambridge, NeuroCore-1, delivers a tenfold boost in AI energy efficiency, promising to reshape edge computing and sustainable AI.",
+    "image": "neuromorphic-computing-10x-energy-efficiency-ai.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-09T06:47:49.339Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Is Geoengineering the Climate Feasible in 100 Years?",
     "slug": "geoengineering-climate-feasible-100-years",
     "description": "Geoengineering could reshape our climate future, but is it truly possible by 2100? Explore the science, risks, and realities behind this bold approach to combating global warming.",
