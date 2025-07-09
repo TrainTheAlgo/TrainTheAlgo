@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is Geoengineering the Climate Feasible in 100 Years?",
+    "slug": "geoengineering-climate-feasible-100-years",
+    "description": "Geoengineering could reshape our climate future, but is it truly possible by 2100? Explore the science, risks, and realities behind this bold approach to combating global warming.",
+    "image": "geoengineering-climate-feasible-100-years.png",
+    "category": "Climate",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-09T03:24:53.336Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Holographic Storage Breakthrough Promises 100x Capacity Increase",
     "slug": "holographic-storage-breakthrough-100x-capacity",
     "description": "A new holographic data storage system from UC Riverside promises to store 1 petabyte in a crystal the size of a DVD, offering 100x the capacity of current hard drives and potentially transforming the future of data storage.",
