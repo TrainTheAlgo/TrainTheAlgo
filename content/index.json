@@ -1,5 +1,18 @@
 [
   {
+    "title": "Modular Robotics Breakthrough: How FlexiBot Transforms Real-World Tasks",
+    "slug": "modular-robotics-breakthrough-flexibot",
+    "description": "MIT's FlexiBot ushers in a new era of modular robotics, enabling rapid reconfiguration for real-world tasks and promising to reshape industries from disaster response to space exploration.",
+    "image": "flexibot-modular-robotics.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-09T10:08:52.681Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuromorphic Computing Breakthrough: 10x Energy Efficiency in AI",
     "slug": "neuromorphic-computing-10x-energy-efficiency-ai",
     "description": "A new neuromorphic chip from Cambridge, NeuroCore-1, delivers a tenfold boost in AI energy efficiency, promising to reshape edge computing and sustainable AI.",
