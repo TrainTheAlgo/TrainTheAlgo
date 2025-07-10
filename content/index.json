@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breaking Barriers: The 30% Leap in Machine Translation Accuracy",
+    "slug": "30-percent-leap-machine-translation-accuracy",
+    "description": "A new AI algorithm, LinguaNet, from the University of Cambridge, boosts real-time language translation accuracy by 30%, setting a new standard for global communication and low-resource language support.",
+    "image": "linguanet-translation-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-10T13:02:02.497Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Wearable Health Tech: Smart Contact Lenses Monitor Glucose Levels in Real Time",
     "slug": "breakthrough-wearable-health-tech-smart-contact-lenses-glucose",
     "description": "A new generation of smart contact lenses promises real-time, non-invasive glucose monitoring for diabetics, potentially replacing finger pricks and transforming daily disease management.",
