@@ -1,5 +1,18 @@
 [
   {
+    "title": "OptiFlow: The Breakthrough Making AI Faster Than Ever",
+    "slug": "optiflow-ai-breakthrough",
+    "description": "Stanford's OptiFlow algorithm delivers a 20% speed boost for large language models, promising faster, more efficient AI without sacrificing quality.",
+    "image": "optiflow-ai-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-10T19:48:41.810Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "40% Efficiency Boost: New Exoskeleton Breakthrough Enhances Mobility",
     "slug": "exoskeleton-breakthrough-40-percent-efficiency-boost",
     "description": "A revolutionary AI-powered exoskeleton, FlexiMove, delivers a 40% efficiency boost in mobility, promising new independence for millions with physical disabilities.",
