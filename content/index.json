@@ -1,5 +1,18 @@
 [
   {
+    "title": "How to Prompt ChatGPT with Context Engineering: The 4W Method",
+    "slug": "how-to-prompt-chatgpt-with-context-engineering",
+    "description": "Unlock the full power of ChatGPT by mastering context engineering. Learn the 4W method to craft prompts that deliver precise, actionable, and tailored AI outputs every time.",
+    "image": "how-to-prompt-chatgpt-with-context-engineering.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-10T23:12:48.152Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "OptiFlow: The Breakthrough Making AI Faster Than Ever",
     "slug": "optiflow-ai-breakthrough",
     "description": "Stanford's OptiFlow algorithm delivers a 20% speed boost for large language models, promising faster, more efficient AI without sacrificing quality.",
