@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Wearable Health Tech: Smart Contact Lenses Monitor Glucose Levels in Real Time",
+    "slug": "breakthrough-wearable-health-tech-smart-contact-lenses-glucose",
+    "description": "A new generation of smart contact lenses promises real-time, non-invasive glucose monitoring for diabetics, potentially replacing finger pricks and transforming daily disease management.",
+    "image": "smart-contact-lenses-glucose.png",
+    "category": "Lifestyle",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-10T09:38:34.135Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Thought-Controlled Prosthetics Breakthrough: Non-Invasive Brain-Computer Interface Achieves 95% Success",
     "slug": "thought-controlled-prosthetics-breakthrough-non-invasive-bci-95-percent-success",
     "description": "NeuroTech's NeuralSync achieves a 95% success rate in real-time prosthetic control using a non-invasive brain-computer interface, marking a new era for accessible, AI-powered assistive technology.",
