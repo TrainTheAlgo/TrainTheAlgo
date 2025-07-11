@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap Forward: New Algorithm Boosts Quantum Computing Speed by 25%",
+    "slug": "quantum-leap-forward-new-algorithm-boosts-quantum-computing-speed-by-25",
+    "description": "A groundbreaking algorithm from Oxford promises a 25% speed boost for quantum computers, reshaping the race for quantum advantage and opening new doors for cryptography, AI, and beyond.",
+    "image": "quantum-leap-forward.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-11T23:09:36.470Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Invisible Cage: AI's Role in Modern Oppression",
     "slug": "the-invisible-cage-ai-modern-oppression",
     "description": "AI is quietly building a digital prison around us, shaping our freedoms and choices in ways most never notice. Discover how invisible algorithms are redefining control-and what you can do to resist.",
