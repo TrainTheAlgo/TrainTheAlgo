@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Invisible Cage: AI's Role in Modern Oppression",
+    "slug": "the-invisible-cage-ai-modern-oppression",
+    "description": "AI is quietly building a digital prison around us, shaping our freedoms and choices in ways most never notice. Discover how invisible algorithms are redefining control-and what you can do to resist.",
+    "image": "the-invisible-cage-ai-modern-oppression.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-11T16:14:14.387Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Emerson, AI, and The Force: Rethinking Self-Reliance in the Age of Intelligent Machines",
     "slug": "emerson-ai-and-the-force",
     "description": "How can AI in education foster true self-reliance instead of dependency? Drawing on Emerson, Star Wars, and real-world examples, we explore the paradoxes and possibilities of learning with AI.",
