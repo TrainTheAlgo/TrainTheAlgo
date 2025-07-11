@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why Soft Robots Have Finally Broken Their Fragility Curse",
+    "slug": "soft-robots-break-fragility-curse",
+    "description": "MIT's FlexiDur material promises to make soft robots tougher, smarter, and ready for extreme environments-reshaping the future of robotics.",
+    "image": "soft-robots-flexidur.png",
+    "category": "Business",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-11T09:24:19.073Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "HoloVision: The Key to Ultra-Realistic 3D Visuals Without Headsets",
     "slug": "holovision-ultra-realistic-3d-displays",
     "description": "Cambridge researchers unveil HoloVision, a breakthrough holographic display delivering lifelike 3D visuals-no headsets required. Discover how this innovation could reshape gaming, medicine, and virtual reality.",
