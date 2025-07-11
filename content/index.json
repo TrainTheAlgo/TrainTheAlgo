@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuromorphic Chips Revolutionize Energy Efficiency in AI Systems",
+    "slug": "neuromorphic-chips-revolutionize-energy-efficiency-ai",
+    "description": "A new neuromorphic chip from UC San Diego delivers a 20% energy efficiency boost for AI processing, promising a leap forward for edge devices and sustainable AI.",
+    "image": "neuromorphic-chips-energy-efficiency.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-11T02:35:16.513Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How to Prompt ChatGPT with Context Engineering: The 4W Method",
     "slug": "how-to-prompt-chatgpt-with-context-engineering",
     "description": "Unlock the full power of ChatGPT by mastering context engineering. Learn the 4W method to craft prompts that deliver precise, actionable, and tailored AI outputs every time.",
