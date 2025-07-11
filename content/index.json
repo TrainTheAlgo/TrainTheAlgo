@@ -1,5 +1,18 @@
 [
   {
+    "title": "Emerson, AI, and The Force: Rethinking Self-Reliance in the Age of Intelligent Machines",
+    "slug": "emerson-ai-and-the-force",
+    "description": "How can AI in education foster true self-reliance instead of dependency? Drawing on Emerson, Star Wars, and real-world examples, we explore the paradoxes and possibilities of learning with AI.",
+    "image": "emerson-ai-and-the-force.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-11T12:53:20.441Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Why Soft Robots Have Finally Broken Their Fragility Curse",
     "slug": "soft-robots-break-fragility-curse",
     "description": "MIT's FlexiDur material promises to make soft robots tougher, smarter, and ready for extreme environments-reshaping the future of robotics.",
