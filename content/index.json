@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Future of Tech: Stretchable, Self-Healing Circuits Revealed",
+    "slug": "future-of-tech-stretchable-self-healing-circuits",
+    "description": "Stanford's new PolyFlexHeal polymer brings stretchable, self-healing circuits to life, promising a revolution in wearables, medical devices, and soft robotics.",
+    "image": "future-of-tech-stretchable-self-healing-circuits.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-12T12:53:27.838Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Arizona Pneumonic Plague Death: How Biosecurity Tech Failed",
     "slug": "arizona-pneumonic-plague-biosecurity-tech-failure",
     "description": "A rare pneumonic plague death in Arizona exposes critical gaps in U.S. biosecurity technology, raising urgent questions about detection, response, and rural healthcare readiness.",
