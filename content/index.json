@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will Space Colonization Ensure Human Survival? A Critical Look",
+    "slug": "will-space-colonization-ensure-human-survival",
+    "description": "Is space colonization humanity's ultimate insurance policy, or just a distant dream? Explore the real risks, rewards, and realities of building a future beyond Earth.",
+    "image": "space-colonization-human-survival.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-12T16:27:26.262Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Future of Tech: Stretchable, Self-Healing Circuits Revealed",
     "slug": "future-of-tech-stretchable-self-healing-circuits",
     "description": "Stanford's new PolyFlexHeal polymer brings stretchable, self-healing circuits to life, promising a revolution in wearables, medical devices, and soft robotics.",
