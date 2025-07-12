@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Swarm Robotics: MIT's Mini-Drones Achieve Autonomous Coordination in Complex Environments",
+    "slug": "mit-mini-drones-swarm-robotics-breakthrough",
+    "description": "MIT's SwarmSync algorithm lets mini-drones autonomously coordinate in complex environments, marking a leap for AI-powered swarm robotics and real-world applications like search-and-rescue.",
+    "image": "mit-mini-drones-swarm-robotics-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-12T05:58:33.315Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Brain Implant: Memory Boost for Humans?",
     "slug": "neuralink-brain-implant-memory-boost",
     "description": "Neuralink has implanted its first brain chip in a human to enhance memory, sparking hope, debate, and questions about the future of human cognition and AI integration.",
