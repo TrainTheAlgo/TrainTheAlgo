@@ -1,5 +1,18 @@
 [
   {
+    "title": "Arizona Pneumonic Plague Death: How Biosecurity Tech Failed",
+    "slug": "arizona-pneumonic-plague-biosecurity-tech-failure",
+    "description": "A rare pneumonic plague death in Arizona exposes critical gaps in U.S. biosecurity technology, raising urgent questions about detection, response, and rural healthcare readiness.",
+    "image": "arizona-pneumonic-plague-biosecurity-tech-failure.png",
+    "category": "Security",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-12T09:23:49.600Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Swarm Robotics: MIT's Mini-Drones Achieve Autonomous Coordination in Complex Environments",
     "slug": "mit-mini-drones-swarm-robotics-breakthrough",
     "description": "MIT's SwarmSync algorithm lets mini-drones autonomously coordinate in complex environments, marking a leap for AI-powered swarm robotics and real-world applications like search-and-rescue.",
