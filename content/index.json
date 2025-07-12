@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Non-Invasive Brain-Computer Interfaces: Real-Time Neural Mapping Achieved",
+    "slug": "breakthrough-non-invasive-bci-real-time-neural-mapping",
+    "description": "NeuroSync, a new non-invasive BCI device from UC San Diego, achieves real-time neural mapping with 90% accuracy, promising to transform accessibility, healthcare, and human-computer interaction.",
+    "image": "neurosync-bci-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-12T19:48:59.644Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Will Space Colonization Ensure Human Survival? A Critical Look",
     "slug": "will-space-colonization-ensure-human-survival",
     "description": "Is space colonization humanity's ultimate insurance policy, or just a distant dream? Explore the real risks, rewards, and realities of building a future beyond Earth.",
