@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Brain Implant: Human Controls Robotic Arm",
+    "slug": "neuralink-brain-implant-human-controls-robotic-arm",
+    "description": "Neuralink achieves a world-first: a human controlling a robotic arm with a brain implant, opening new frontiers for assistive technology and raising profound ethical questions.",
+    "image": "neuralink-brain-implant-robotic-arm.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-13T22:34:06.708Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Perovskite Solar Cells Achieve 30% Efficiency in Major Breakthrough",
     "slug": "perovskite-solar-cells-30-percent-efficiency-breakthrough",
     "description": "A new Oxford-led innovation pushes perovskite solar cell efficiency to 30%, promising cheaper, more flexible, and more accessible clean energy. What does this mean for the future of renewables?",
