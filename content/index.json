@@ -1,5 +1,18 @@
 [
   {
+    "title": "Holographic Storage Breakthrough Promises Petabyte-Scale Data Solutions",
+    "slug": "holographic-storage-breakthrough-petabyte-scale-data-solutions",
+    "description": "Stanford's new holographic storage system can hold a petabyte of data in a cubic centimeter, promising to transform data centers, AI, and cloud computing with unprecedented density and speed.",
+    "image": "holographic-storage-breakthrough.png",
+    "category": "Software",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-13T06:00:06.632Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "GPUHammer: The New Frontier in AI Infrastructure Vulnerabilities",
     "slug": "gpuhammer-nvidia-gpu-vulnerabilities",
     "description": "A newly discovered GPUHammer attack exposes critical vulnerabilities in NVIDIA GPUs, threatening the security and reliability of AI infrastructure worldwide.",
