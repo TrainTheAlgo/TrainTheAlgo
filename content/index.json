@@ -1,5 +1,18 @@
 [
   {
+    "title": "GPUHammer: The New Frontier in AI Infrastructure Vulnerabilities",
+    "slug": "gpuhammer-nvidia-gpu-vulnerabilities",
+    "description": "A newly discovered GPUHammer attack exposes critical vulnerabilities in NVIDIA GPUs, threatening the security and reliability of AI infrastructure worldwide.",
+    "image": "gpuhammer-nvidia-gpu-vulnerabilities.png",
+    "category": "Security",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-13T02:35:55.780Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Driven Battery Recycling Breaks New Ground with 90% Recovery",
     "slug": "ai-driven-battery-recycling-90-percent-recovery",
     "description": "Stanford researchers unveil an AI-powered battery recycling process that recovers up to 90% of critical materials, promising a sustainable future for electric vehicles and a major leap toward a circular economy.",
