@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Leap: IBM Unveils 1,000-Qubit Processor with Enhanced Error Correction",
+    "slug": "ibm-quantum-computing-1000-qubit-condor",
+    "description": "IBM's new 1,000-qubit Condor processor, featuring advanced error correction, marks a major milestone in quantum computing and promises to accelerate breakthroughs in science and industry.",
+    "image": "ibm-quantum-condor-processor.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-13T12:46:33.361Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Modular Robotics: Reconfigurable Bots Achieve Real-Time Adaptation",
     "slug": "breakthrough-modular-robotics-reconfigurable-bots-real-time-adaptation",
     "description": "Stanford's AdaptiBots set a new standard in modular robotics, achieving real-time adaptation with 40% faster reconfiguration and 92% accuracy. Discover how these AI-driven robots are reshaping automation, disaster response, and more.",
