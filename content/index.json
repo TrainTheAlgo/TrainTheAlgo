@@ -1,5 +1,18 @@
 [
   {
+    "title": "Perovskite Solar Cells Achieve 30% Efficiency in Major Breakthrough",
+    "slug": "perovskite-solar-cells-30-percent-efficiency-breakthrough",
+    "description": "A new Oxford-led innovation pushes perovskite solar cell efficiency to 30%, promising cheaper, more flexible, and more accessible clean energy. What does this mean for the future of renewables?",
+    "image": "perovskite-solar-cells-30-percent-efficiency-breakthrough.png",
+    "category": "Climate",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-13T19:11:59.645Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Leap: IBM Unveils 1,000-Qubit Processor with Enhanced Error Correction",
     "slug": "ibm-quantum-computing-1000-qubit-condor",
     "description": "IBM's new 1,000-qubit Condor processor, featuring advanced error correction, marks a major milestone in quantum computing and promises to accelerate breakthroughs in science and industry.",
