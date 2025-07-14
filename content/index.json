@@ -1,5 +1,18 @@
 [
   {
+    "title": "38 Tbps: How China's New Chip Could Revolutionize Data Transmission",
+    "slug": "38-tbps-china-photonics-chip",
+    "description": "Chinese researchers have unveiled a silicon photonic multiplexer chip capable of 38 Tbps data speeds, promising to transform AI, cloud computing, and the future of high-speed data transmission.",
+    "image": "38-tbps-china-photonics-chip.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-14T05:23:34.192Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stanford Scientists Solve Health Monitoring with Nanomaterial Patch",
     "slug": "stanford-nanomaterial-wearable-biosensor",
     "description": "Stanford's new wearable biosensor patch uses nanomaterials and AI to deliver real-time, medical-grade health insights-potentially transforming chronic disease management and everyday wellness.",
