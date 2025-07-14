@@ -1,5 +1,18 @@
 [
   {
+    "title": "How MIT's AI-Powered Exoskeleton is Revolutionizing Strength and Mobility",
+    "slug": "mit-ai-powered-exoskeleton-strength-mobility",
+    "description": "MIT's new AI-powered exoskeleton, AImpact, promises to boost human strength by 20% and reduce physical strain by 40%, offering hope for millions with mobility challenges.",
+    "image": "mit-ai-exoskeleton.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-14T08:47:43.083Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "38 Tbps: How China's New Chip Could Revolutionize Data Transmission",
     "slug": "38-tbps-china-photonics-chip",
     "description": "Chinese researchers have unveiled a silicon photonic multiplexer chip capable of 38 Tbps data speeds, promising to transform AI, cloud computing, and the future of high-speed data transmission.",
