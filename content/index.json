@@ -1,5 +1,18 @@
 [
   {
+    "title": "Wearable Holographic Displays: The Immersive AR Experience We've All Been Waiting For",
+    "slug": "wearable-holographic-displays-immersive-ar-experience",
+    "description": "At the 2025 Global Tech Summit, LuminaryLabs unveiled the HoloLens Nano, a lightweight AR glasses prototype projecting 3D holograms in 4K. Discover how this breakthrough could redefine digital interaction.",
+    "image": "wearable-holographic-displays.png",
+    "category": "Conferences",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-14T18:40:42.270Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing AI: The SynapSense Chip Mimics Human Brain Synapses",
     "slug": "synapsense-chip-mimics-human-brain-synapses",
     "description": "A new neuromorphic chip, SynapSense, achieves a tenfold leap in AI efficiency by emulating human brain synapses, promising faster, greener, and smarter artificial intelligence.",
