@@ -1,5 +1,18 @@
 [
   {
+    "title": "Guide to Effective Use of Language Models: OpenAI Model Differentiation 101",
+    "slug": "openai-model-differentiation-101",
+    "description": "Confused by ChatGPT's model menu? This guide demystifies OpenAI's language models, showing you when to use each, how to prompt effectively, and how to avoid common pitfalls like hallucinations and sycophancy.",
+    "image": "openai-model-differentiation-101.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-14T22:14:48.070Z",
+    "research": "xAI Grok 3",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Holographic Displays: The Immersive AR Experience We've All Been Waiting For",
     "slug": "wearable-holographic-displays-immersive-ar-experience",
     "description": "At the 2025 Global Tech Summit, LuminaryLabs unveiled the HoloLens Nano, a lightweight AR glasses prototype projecting 3D holograms in 4K. Discover how this breakthrough could redefine digital interaction.",
