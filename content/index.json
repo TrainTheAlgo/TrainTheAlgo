@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stanford Scientists Solve Health Monitoring with Nanomaterial Patch",
+    "slug": "stanford-nanomaterial-wearable-biosensor",
+    "description": "Stanford's new wearable biosensor patch uses nanomaterials and AI to deliver real-time, medical-grade health insights-potentially transforming chronic disease management and everyday wellness.",
+    "image": "stanford-nanomaterial-wearable-biosensor.png",
+    "category": "Lifestyle",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-14T01:58:07.025Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Brain Implant: Human Controls Robotic Arm",
     "slug": "neuralink-brain-implant-human-controls-robotic-arm",
     "description": "Neuralink achieves a world-first: a human controlling a robotic arm with a brain implant, opening new frontiers for assistive technology and raising profound ethical questions.",
