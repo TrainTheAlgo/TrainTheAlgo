@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Brain Implant Achieves Memory Enhancement Milestone in Human Trial",
+    "slug": "neuralink-memory-enhancement-human-trial",
+    "description": "Neuralink's brain-chip interface has achieved a 27% memory improvement in its first successful human trial, marking a pivotal step in AI-driven cognitive enhancement and raising new ethical questions.",
+    "image": "neuralink-memory-enhancement-human-trial.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-15T21:44:05.888Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Grok AI's Controversial Path to $200M Pentagon Contract",
     "slug": "grok-ai-controversial-pentagon-contract",
     "description": "Elon Musk's xAI secures a $200M Pentagon contract for Grok AI, igniting debate over ethics, bias, and the future of artificial intelligence in defense.",
