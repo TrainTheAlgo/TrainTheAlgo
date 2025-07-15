@@ -1,5 +1,18 @@
 [
   {
+    "title": "Grok AI's Controversial Path to $200M Pentagon Contract",
+    "slug": "grok-ai-controversial-pentagon-contract",
+    "description": "Elon Musk's xAI secures a $200M Pentagon contract for Grok AI, igniting debate over ethics, bias, and the future of artificial intelligence in defense.",
+    "image": "grok-ai-pentagon-contract.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-15T15:17:41.867Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: New Algorithm Cuts Error Rates by 40%",
     "slug": "quantum-computing-breakthrough-new-algorithm-cuts-error-rates",
     "description": "A new error-correcting algorithm from the University of Tokyo slashes quantum computing error rates by 40%, marking a pivotal advance toward reliable, large-scale quantum systems.",
