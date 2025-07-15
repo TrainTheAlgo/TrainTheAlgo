@@ -1,5 +1,18 @@
 [
   {
+    "title": "Bioengineered Yeast Breakthrough: 30% More Ethanol from Agricultural Waste",
+    "slug": "bioengineered-yeast-breakthrough-30-percent-more-ethanol",
+    "description": "UC Berkeley scientists have engineered a yeast strain that boosts ethanol yields by 30% from agricultural waste, marking a major leap for sustainable biofuel production and climate goals.",
+    "image": "bioengineered-yeast-breakthrough.png",
+    "category": "Climate",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-15T01:42:07.765Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Guide to Effective Use of Language Models: OpenAI Model Differentiation 101",
     "slug": "openai-model-differentiation-101",
     "description": "Confused by ChatGPT's model menu? This guide demystifies OpenAI's language models, showing you when to use each, how to prompt effectively, and how to avoid common pitfalls like hallucinations and sycophancy.",
