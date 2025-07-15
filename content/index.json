@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Breakthrough: New Algorithm Cuts Error Rates by 40%",
+    "slug": "quantum-computing-breakthrough-new-algorithm-cuts-error-rates",
+    "description": "A new error-correcting algorithm from the University of Tokyo slashes quantum computing error rates by 40%, marking a pivotal advance toward reliable, large-scale quantum systems.",
+    "image": "quantum-computing-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-15T11:51:23.942Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Google's Landmark Fusion Deal for Sustainable AI Data Centers",
     "slug": "google-fusion-ai-data-centers",
     "description": "Google partners with Commonwealth Fusion Systems to power its AI data centers with nuclear fusion, aiming for carbon-free, reliable energy and setting a new standard for sustainable tech infrastructure.",
