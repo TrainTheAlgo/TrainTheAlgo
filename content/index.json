@@ -1,5 +1,18 @@
 [
   {
+    "title": "How a New Chip Mimics the Brain to Achieve 90% Energy Savings",
+    "slug": "chip-mimics-brain-90-percent-energy-savings",
+    "description": "MIT's SynapseNet chip marks a leap in neuromorphic computing, mimicking human brain synapses to deliver AI performance with 90% less energy use than traditional processors.",
+    "image": "synapsenet-chip-mit.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-16T07:59:57.427Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Game-Changer: New Soft Robotics Material Revolutionizes Speed and Flexibility",
     "slug": "soft-robotics-material-revolution",
     "description": "MIT's new polymer-carbon nanotube composite boosts soft robot speed by 50%, unlocking new potential in healthcare, manufacturing, and exploration.",
