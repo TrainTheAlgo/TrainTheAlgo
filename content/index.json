@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google's Willow Chip: A Giant Leap in Quantum Computing",
+    "slug": "googles-willow-chip-giant-leap-quantum-computing",
+    "description": "Google's Willow quantum chip slashes error rates, marking a pivotal advance in quantum computing and sparking debate about the future of technology.",
+    "image": "googles-willow-chip-giant-leap-quantum-computing.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-16T15:12:44.275Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "The Future of Physics: What Breakthroughs Await Us in the Next Decade?",
     "slug": "future-of-physics-breakthroughs-next-decade",
     "description": "Explore the most anticipated physics breakthroughs of the next decade, from quantum computing to dark matter detection, and discover how they could reshape our understanding of the universe.",
