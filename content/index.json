@@ -1,5 +1,18 @@
 [
   {
+    "title": "Self-Driving Cars: The End or Evolution of Car Insurance?",
+    "slug": "self-driving-cars-end-or-evolution-car-insurance",
+    "description": "Will self-driving cars make car insurance obsolete? Discover how autonomous vehicles are transforming risk, liability, and the future of auto insurance.",
+    "image": "self-driving-cars-insurance.png",
+    "category": "Vehicles",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-16T01:14:06.278Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Brain Implant Achieves Memory Enhancement Milestone in Human Trial",
     "slug": "neuralink-memory-enhancement-human-trial",
     "description": "Neuralink's brain-chip interface has achieved a 27% memory improvement in its first successful human trial, marking a pivotal step in AI-driven cognitive enhancement and raising new ethical questions.",
