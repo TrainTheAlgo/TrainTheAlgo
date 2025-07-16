@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Future of Physics: What Breakthroughs Await Us in the Next Decade?",
+    "slug": "future-of-physics-breakthroughs-next-decade",
+    "description": "Explore the most anticipated physics breakthroughs of the next decade, from quantum computing to dark matter detection, and discover how they could reshape our understanding of the universe.",
+    "image": "future-of-physics-breakthroughs-next-decade.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-16T11:48:04.648Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How a New Chip Mimics the Brain to Achieve 90% Energy Savings",
     "slug": "chip-mimics-brain-90-percent-energy-savings",
     "description": "MIT's SynapseNet chip marks a leap in neuromorphic computing, mimicking human brain synapses to deliver AI performance with 90% less energy use than traditional processors.",
