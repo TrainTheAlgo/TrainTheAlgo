@@ -1,5 +1,18 @@
 [
   {
+    "title": "Prosthetic Leap: Material Innovation Brings Human-Like Dexterity",
+    "slug": "prosthetic-leap-material-innovation-human-like-dexterity",
+    "description": "A new soft robotics material from UCSD boosts prosthetic limb dexterity by 40%, offering faster, more natural movement and improved comfort for amputees. Discover how this breakthrough could redefine assistive technology.",
+    "image": "prosthetic-leap-material-innovation-human-like-dexterity.png",
+    "category": "Lifestyle",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-17T15:07:32.564Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Triton-X Breakthrough: New Underwater Robot Maps Ocean Floor with Unprecedented Detail",
     "slug": "triton-x-breakthrough-underwater-robot-maps-ocean-floor",
     "description": "Meet Triton-X, the AI-powered submersible that's redefining ocean mapping with 5-centimeter resolution and real-time adaptive exploration. Discover how this breakthrough is changing marine science.",
