@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Surgical Robot: The Future of Neurosurgery is Here",
+    "slug": "neuralink-surgical-robot-future-neurosurgery",
+    "description": "Neuralink's FDA-approved surgical robot can insert neural threads into the brain in just 1.5 seconds, marking a new era for precision brain surgery and brain-computer interfaces.",
+    "image": "neuralink-surgical-robot.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-17T04:53:45.546Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Stanford's Neuromorphic Chip Boosts AI Efficiency by 50%",
     "slug": "stanford-neuromorphic-chip-boosts-ai-efficiency",
     "description": "Stanford's NeuroCore chip, unveiled in July 2025, mimics the brain to deliver a 50% boost in AI efficiency, promising faster, greener, and more accessible artificial intelligence.",
