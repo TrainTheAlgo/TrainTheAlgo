@@ -1,5 +1,18 @@
 [
   {
+    "title": "Stanford's Neuromorphic Chip Boosts AI Efficiency by 50%",
+    "slug": "stanford-neuromorphic-chip-boosts-ai-efficiency",
+    "description": "Stanford's NeuroCore chip, unveiled in July 2025, mimics the brain to deliver a 50% boost in AI efficiency, promising faster, greener, and more accessible artificial intelligence.",
+    "image": "stanford-neuromorphic-chip.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-17T01:28:07.543Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Wearable Tech Breakthrough: Flexible Display Lasts Over 100k Bends",
     "slug": "wearable-tech-breakthrough-flexible-display-lasts-100k-bends",
     "description": "Stanford researchers unveil a flexible OLED display that survives over 100,000 bends, promising brighter, longer-lasting smartwatches and foldables. Discover how this innovation could reshape wearable tech.",
