@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breaking Barriers: Achieving 8K Holograms in Real Time",
+    "slug": "8k-holographic-displays-real-time",
+    "description": "Cambridge scientists unveil a real-time 8K holographic display, promising a revolution in VR, gaming, and medical imaging. Discover how this breakthrough could reshape visual technology.",
+    "image": "8k-holographic-displays-real-time.png",
+    "category": "Software",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-17T08:19:15.545Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Surgical Robot: The Future of Neurosurgery is Here",
     "slug": "neuralink-surgical-robot-future-neurosurgery",
     "description": "Neuralink's FDA-approved surgical robot can insert neural threads into the brain in just 1.5 seconds, marking a new era for precision brain surgery and brain-computer interfaces.",
