@@ -1,5 +1,18 @@
 [
   {
+    "title": "Non-Invasive Brain-Computer Interface Translates Thoughts in Real Time",
+    "slug": "non-invasive-brain-computer-interface-translates-thoughts-in-real-time",
+    "description": "UC San Diego's NeuroLink-V BCI achieves 92% accuracy in real-time thought-to-text translation, marking a major leap for non-invasive brain-computer interfaces and accessible communication.",
+    "image": "neuroLink-v-bci-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-17T22:02:24.826Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Can Neuromorphic Computing Unlock Human Consciousness?",
     "slug": "neuromorphic-computing-human-consciousness",
     "description": "Neuromorphic computing mimics the brain's architecture, but can it truly reveal the mysteries of human consciousness? Explore the breakthroughs, challenges, and future of brain-inspired AI.",
