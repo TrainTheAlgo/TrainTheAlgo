@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Powered Model Detects Neurodegenerative Diseases Early",
+    "slug": "ai-powered-model-detects-neurodegenerative-diseases-early",
+    "description": "A new AI model from Cornell University predicts neurodegenerative diseases like Alzheimer's and Parkinson's years before symptoms, using MRI brain scans and deep learning for over 85% accuracy.",
+    "image": "ai-powered-model-detects-neurodegenerative-diseases-early.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-18T18:30:32.350Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Self-Driving Labs Accelerate Material Discovery with AI-Driven Automation",
     "slug": "self-driving-labs-accelerate-material-discovery-ai",
     "description": "AI-powered self-driving labs are revolutionizing material discovery, collecting data ten times faster and slashing research timelines by up to 50%. Explore how automation is reshaping science.",
