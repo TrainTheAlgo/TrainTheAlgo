@@ -1,5 +1,18 @@
 [
   {
+    "title": "Self-Driving Labs Accelerate Material Discovery with AI-Driven Automation",
+    "slug": "self-driving-labs-accelerate-material-discovery-ai",
+    "description": "AI-powered self-driving labs are revolutionizing material discovery, collecting data ten times faster and slashing research timelines by up to 50%. Explore how automation is reshaping science.",
+    "image": "self-driving-labs-ai-materials.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-18T15:06:53.451Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Revolutionizing Diagnostics: AI-Powered Nanothermometer Maps 3D Temperatures in Living Tissue",
     "slug": "ai-powered-nanothermometer-3d-temperature-mapping",
     "description": "A groundbreaking AI-driven nanothermometer now enables real-time, non-invasive 3D temperature mapping inside living tissue, promising safer, more accurate diagnostics and transforming the future of medicine.",
