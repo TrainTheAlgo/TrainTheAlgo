@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Dot Breakthrough Boosts Wearable Tech Efficiency by 30%",
+    "slug": "quantum-dot-breakthrough-boosts-wearable-tech-efficiency",
+    "description": "A new quantum dot display from Cambridge University promises 30% more energy efficiency for wearables, potentially transforming battery life in smartwatches and fitness trackers.",
+    "image": "quantum-dot-wearable-tech.png",
+    "category": "Lifestyle",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-18T01:24:21.656Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Non-Invasive Brain-Computer Interface Translates Thoughts in Real Time",
     "slug": "non-invasive-brain-computer-interface-translates-thoughts-in-real-time",
     "description": "UC San Diego's NeuroLink-V BCI achieves 92% accuracy in real-time thought-to-text translation, marking a major leap for non-invasive brain-computer interfaces and accessible communication.",
