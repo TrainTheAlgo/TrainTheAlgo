@@ -1,5 +1,18 @@
 [
   {
+    "title": "How DNA Nanostructures Are Revolutionizing Optical Encryption",
+    "slug": "dna-nanostructures-optical-encryption",
+    "description": "DNA nanostructures are unlocking tunable optical interference, paving the way for advanced, tamper-proof encryption and next-generation photonic security.",
+    "image": "dna-nanostructures-optical-encryption.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-18T21:59:33.417Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Model Detects Neurodegenerative Diseases Early",
     "slug": "ai-powered-model-detects-neurodegenerative-diseases-early",
     "description": "A new AI model from Cornell University predicts neurodegenerative diseases like Alzheimer's and Parkinson's years before symptoms, using MRI brain scans and deep learning for over 85% accuracy.",
