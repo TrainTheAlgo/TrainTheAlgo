@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Driven Drones Achieve Historic Milestone In Search And Rescue Missions",
+    "slug": "ai-driven-drones-achieve-historic-milestone-in-search-and-rescue-missions",
+    "description": "ETH Zurich's AI-powered drone swarm autonomously locates missing persons in minutes, marking a new era for search-and-rescue and disaster response. Here's how this breakthrough works-and what it means for the future.",
+    "image": "ai-powered-drone-swarm-search-rescue.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-18T04:46:04.526Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Dot Breakthrough Boosts Wearable Tech Efficiency by 30%",
     "slug": "quantum-dot-breakthrough-boosts-wearable-tech-efficiency",
     "description": "A new quantum dot display from Cambridge University promises 30% more energy efficiency for wearables, potentially transforming battery life in smartwatches and fitness trackers.",
