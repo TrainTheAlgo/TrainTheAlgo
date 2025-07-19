@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Breakthrough: Modular Architecture for Scalable Systems",
+    "slug": "quantum-computing-breakthrough-modular-architecture-scalable-systems",
+    "description": "Delft University's latest quantum modularization breakthrough could make scalable, customizable quantum computers a reality-reshaping industries from cryptography to drug discovery.",
+    "image": "quantum-modular-architecture.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-19T08:16:41.357Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Driven Breakthrough in Quantum Cryptography Enhances Security by 40%",
     "slug": "ai-driven-breakthrough-quantum-cryptography-security",
     "description": "MIT's QuantumSecureAI algorithm uses deep learning to cut quantum cryptography error rates by 40% and boost key distribution speeds, setting a new standard for secure data transmission.",
