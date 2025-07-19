@@ -1,5 +1,18 @@
 [
   {
+    "title": "Neuralink's Historic Breakthrough: First Successful Bidirectional Brain-Computer Interface in Humans",
+    "slug": "neuralink-bidirectional-brain-computer-interface-human-trials",
+    "description": "Neuralink achieves a world-first: a human trial participant controls a computer and receives sensory feedback using a 4,000-electrode brain implant, setting a new standard for brain-computer interfaces.",
+    "image": "neuralink-bidirectional-bci.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-19T18:32:09.555Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Neuromorphic Computing Enhances AI Efficiency",
     "slug": "breakthrough-neuromorphic-computing-ai-efficiency",
     "description": "A new brain-inspired chip, NeuroCore, slashes AI power use by 50%, promising smarter, greener devices and a leap forward in sustainable computing.",
