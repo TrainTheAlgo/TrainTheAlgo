@@ -1,5 +1,18 @@
 [
   {
+    "title": "Optical Computing Breakthrough: The Future of Sustainable AI",
+    "slug": "optical-computing-breakthrough-sustainable-ai",
+    "description": "MIT's new optical chip promises to slash AI's energy use, offering a glimpse into a future where powerful AI doesn't come at the planet's expense.",
+    "image": "optical-computing-breakthrough-sustainable-ai.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-19T11:41:38.401Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Computing Breakthrough: Modular Architecture for Scalable Systems",
     "slug": "quantum-computing-breakthrough-modular-architecture-scalable-systems",
     "description": "Delft University's latest quantum modularization breakthrough could make scalable, customizable quantum computers a reality-reshaping industries from cryptography to drug discovery.",
