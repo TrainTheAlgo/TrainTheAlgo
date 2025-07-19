@@ -1,5 +1,18 @@
 [
   {
+    "title": "Terraforming a Planet: The Next 100 Years",
+    "slug": "terraforming-planet-next-100-years",
+    "description": "How long will it really take to make Mars or Venus habitable? Explore the science, challenges, and timelines behind humanity's boldest planetary ambition.",
+    "image": "terraforming-planet-next-100-years.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-19T22:08:53.567Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink's Historic Breakthrough: First Successful Bidirectional Brain-Computer Interface in Humans",
     "slug": "neuralink-bidirectional-brain-computer-interface-human-trials",
     "description": "Neuralink achieves a world-first: a human trial participant controls a computer and receives sensory feedback using a 4,000-electrode brain implant, setting a new standard for brain-computer interfaces.",
