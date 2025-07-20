@@ -1,5 +1,18 @@
 [
   {
+    "title": "Room-Temperature Superconductivity: The Energy Game Changer",
+    "slug": "room-temperature-superconductivity-energy-game-changer",
+    "description": "A new room-temperature superconductor could revolutionize energy transmission, promising lossless grids and a leap in efficiency. Here's what you need to know about this breakthrough.",
+    "image": "room-temperature-superconductivity.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-20T15:23:32.480Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Graphene Breakthrough: 6-Minute Charging Times And A Brighter Future For EVs",
     "slug": "graphene-breakthrough-6-minute-charging-evs",
     "description": "A new graphene-based battery from the University of Manchester promises to slash EV charging times by 60%, offering faster, safer, and longer-lasting power for electric vehicles.",
