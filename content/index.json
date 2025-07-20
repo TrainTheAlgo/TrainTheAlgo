@@ -1,5 +1,18 @@
 [
   {
+    "title": "Unveiling the Future: Quantum Sensing's Leap in Magnetic Field Precision",
+    "slug": "quantum-sensing-nanoscale-magnetic-field-detection",
+    "description": "A new 2D quantum sensor detects magnetic fields at the nanoscale with unprecedented precision, promising breakthroughs in electronics, medical imaging, and fundamental physics.",
+    "image": "quantum-sensing-nanoscale-magnetic-field-detection.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-20T22:19:35.643Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How a Tiny Atomic Clock Could Reveal the Secrets of Dark Matter",
     "slug": "thorium-229-nuclear-clock-dark-matter-breakthrough",
     "description": "A new thorium-229 nuclear clock promises to detect dark matter with unprecedented precision, opening a fresh chapter in the search for the universe's missing mass.",
