@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Long Will It Take To Terraform A Planet?",
+    "slug": "how-long-will-it-take-to-terraform-a-planet",
+    "description": "Terraforming Mars is a dream for many, but how close are we really? Explore the science, challenges, and timelines behind making another world habitable for humans.",
+    "image": "terraforming-mars-timeline.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-21T15:21:44.439Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "New Eye-Safe Laser Breakthrough Enhances Sensor Technology",
     "slug": "new-eye-safe-laser-breakthrough-enhances-sensor-technology",
     "description": "A revolutionary eye-safe laser from the University of Illinois promises safer, more efficient sensors for autonomous vehicles, defense, and beyond. Discover how this innovation could reshape the future of light-based technology.",
