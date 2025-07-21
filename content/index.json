@@ -1,5 +1,18 @@
 [
   {
+    "title": "Planet Formation Around Distant Star Observed for First Time",
+    "slug": "planet-formation-distant-star-first-time",
+    "description": "Astronomers have, for the first time, directly observed planets forming around a distant star, using JWST and ALMA. This breakthrough challenges old theories and opens new frontiers in our search for habitable worlds.",
+    "image": "planet-formation-distant-star.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-21T18:52:15.521Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How Long Will It Take To Terraform A Planet?",
     "slug": "how-long-will-it-take-to-terraform-a-planet",
     "description": "Terraforming Mars is a dream for many, but how close are we really? Explore the science, challenges, and timelines behind making another world habitable for humans.",
