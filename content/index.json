@@ -1,5 +1,18 @@
 [
   {
+    "title": "Planet Formation Captured Around Newborn Star for First Time",
+    "slug": "planet-formation-captured-around-newborn-star",
+    "description": "Astronomers have, for the first time, directly observed the earliest stages of planet formation around a newborn star, revealing how planetary systems like our own begin.",
+    "image": "planet-formation-captured-around-newborn-star.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-23T08:46:10.696Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Breakthrough in Self-Healing Robotic Actuators Promises Smarter, Safer Machines",
     "slug": "breakthrough-self-healing-robotic-actuators",
     "description": "A new generation of self-healing robotic actuators can repair themselves in minutes, promising safer, more reliable robots for industries from healthcare to manufacturing.",
