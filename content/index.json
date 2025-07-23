@@ -1,5 +1,18 @@
 [
   {
+    "title": "Synthetic Lichen: Building Mars Colonies from Local Soil",
+    "slug": "synthetic-lichen-building-mars-colonies-from-local-soil",
+    "description": "A new synthetic lichen system developed by ETH Zurich can grow durable building materials from Martian soil, promising a revolution in sustainable space construction and a dramatic reduction in launch costs.",
+    "image": "synthetic-lichen-mars.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-23T19:01:38.130Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Can OpenAI's New Browser Actually Topple Google Chrome?",
     "slug": "openai-browser-vs-chrome",
     "description": "OpenAI's AI-powered browser promises smarter search, instant answers, and privacy-first design. Could it finally challenge Chrome's reign? Here's what you need to know.",
