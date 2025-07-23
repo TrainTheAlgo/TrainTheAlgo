@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can OpenAI's New Browser Actually Topple Google Chrome?",
+    "slug": "openai-browser-vs-chrome",
+    "description": "OpenAI's AI-powered browser promises smarter search, instant answers, and privacy-first design. Could it finally challenge Chrome's reign? Here's what you need to know.",
+    "image": "openai-browser-vs-chrome.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-23T15:36:44.176Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Bacteria Create Supermaterial 40% Stronger Than Steel, Here's How",
     "slug": "bacteria-supermaterial-stronger-than-steel",
     "description": "Scientists have engineered bacteria to produce a supermaterial with strength and toughness surpassing metals-ushering in a new era of eco-friendly, high-performance materials for aerospace, medicine, and beyond.",
