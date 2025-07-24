@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Creates Art Beyond Human Understanding",
+    "slug": "how-ai-creates-art-beyond-human-understanding",
+    "description": "Explore how artificial intelligence is redefining creativity, generating art and ideas that challenge human imagination and push the boundaries of what we can comprehend.",
+    "image": "ai-creates-art-beyond-human-understanding.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-24T22:22:44.235Z",
+    "research": "Deepseek R1",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tiny Dinosaur Bone Rewrites the Origin of Bird Flight",
     "slug": "tiny-dinosaur-bone-rewrites-origin-bird-flight",
     "description": "A tiny wrist bone in dinosaur fossils is forcing scientists to rethink when and how birds first took flight, revealing a surprising twist in the story of avian evolution.",
