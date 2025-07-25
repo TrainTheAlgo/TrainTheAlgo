@@ -1,5 +1,18 @@
 [
   {
+    "title": "How MIT's Light-Powered Chip Just Redefined AI Processing",
+    "slug": "mit-light-powered-ai-chip",
+    "description": "MIT's new AI chip, powered entirely by light, promises to slash energy use by 90% and deliver 100x faster computations, potentially transforming data centers and the future of artificial intelligence.",
+    "image": "mit-light-powered-ai-chip.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-25T08:37:59.491Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: Aalto University Sets New Standard for Transmon Qubit Coherence Time",
     "slug": "aalto-university-transmon-qubit-coherence-record",
     "description": "Aalto University physicists have doubled the coherence time of a transmon qubit to a record-breaking millisecond, marking a pivotal advance for quantum computing stability and scalability.",
