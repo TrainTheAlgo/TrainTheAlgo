@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Brain-Inspired Tech That's Redefining Energy-Efficient AI",
+    "slug": "brain-inspired-tech-energy-efficient-ai",
+    "description": "A new neuromorphic chip from UC San Diego slashes AI energy use by 100x, promising a future where powerful AI runs on a fraction of today's power. Here's why this matters for everyone.",
+    "image": "brain-inspired-tech-energy-efficient-ai.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-25T22:29:23.343Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Can AI Become Conscious? Exploring Software Sentience",
     "slug": "can-ai-become-conscious-exploring-software-sentience",
     "description": "Could software ever develop true consciousness through repeated iterations? We explore the science, speculation, and ethical dilemmas behind the quest for sentient AI.",
