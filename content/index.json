@@ -1,5 +1,18 @@
 [
   {
+    "title": "Room-Temperature Superconductor Breakthrough: Energy Game-Changer",
+    "slug": "room-temperature-superconductor-breakthrough-energy-game-changer",
+    "description": "A new material achieves stable superconductivity at room temperature and near-ambient pressure, promising to revolutionize energy transmission and quantum computing.",
+    "image": "room-temperature-superconductor-breakthrough.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-25T12:09:27.075Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "How MIT's Light-Powered Chip Just Redefined AI Processing",
     "slug": "mit-light-powered-ai-chip",
     "description": "MIT's new AI chip, powered entirely by light, promises to slash energy use by 90% and deliver 100x faster computations, potentially transforming data centers and the future of artificial intelligence.",
