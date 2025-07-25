@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: Aalto University Sets New Standard for Transmon Qubit Coherence Time",
+    "slug": "aalto-university-transmon-qubit-coherence-record",
+    "description": "Aalto University physicists have doubled the coherence time of a transmon qubit to a record-breaking millisecond, marking a pivotal advance for quantum computing stability and scalability.",
+    "image": "aalto-university-transmon-qubit-coherence-record.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-25T05:16:06.371Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Insect Cyborgs Achieve Breakthrough in Autonomous Navigation",
     "slug": "ai-powered-insect-cyborgs-autonomous-navigation-breakthrough",
     "description": "A new AI-driven system lets cockroaches navigate complex environments autonomously using UV light, sparking both excitement and ethical debate in the world of bio-robotics.",
