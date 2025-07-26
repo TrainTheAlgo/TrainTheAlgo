@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Voice Assistants Are Revolutionizing Healthcare Operations",
+    "slug": "ai-voice-assistants-healthcare-operations",
+    "description": "AI-powered voice assistants like SoundHound are cutting administrative workload by up to 30% in hospitals, transforming patient care and addressing staff burnout while tackling data privacy concerns.",
+    "image": "ai-voice-assistants-healthcare.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-26T08:51:00.061Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AppleCare One: Multi-Device Coverage Made Simple",
     "slug": "applecare-one-multi-device-coverage",
     "description": "AppleCare One redefines device protection with a single plan for multiple Apple products, offering theft, loss, and accidental damage coverage-streamlining support for the Apple ecosystem.",
