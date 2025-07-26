@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Leap: QEM+ Algorithm Overcomes Scaling Challenges",
+    "slug": "quantum-leap-qem-plus-algorithm-overcomes-scaling-challenges",
+    "description": "A new algorithm from the University of Oxford, QEM+, reduces quantum computing errors by 35%, marking a major step toward scalable, real-world quantum applications.",
+    "image": "quantum-leap-qem-plus.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-26T19:06:40.833Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Advanced Robotic Skin Matches Human Touch Sensitivity: A Major Breakthrough",
     "slug": "advanced-robotic-skin-matches-human-touch-sensitivity",
     "description": "A new AI-powered robotic skin from the University of Tokyo mimics human touch, detecting heat, pain, and pressure with 95% accuracy-poised to transform healthcare, prosthetics, and robotics.",
