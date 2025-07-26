@@ -1,5 +1,18 @@
 [
   {
+    "title": "Advanced Robotic Skin Matches Human Touch Sensitivity: A Major Breakthrough",
+    "slug": "advanced-robotic-skin-matches-human-touch-sensitivity",
+    "description": "A new AI-powered robotic skin from the University of Tokyo mimics human touch, detecting heat, pain, and pressure with 95% accuracy-poised to transform healthcare, prosthetics, and robotics.",
+    "image": "robotic-skin-human-touch.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-26T15:41:17.275Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Neuralink Breakthrough: Real-Time Thought-to-Text Translation Achieved",
     "slug": "neuralink-thought-to-text-breakthrough",
     "description": "Neuralink's brain-computer interface achieves a new milestone: translating thoughts into text in real time, offering hope for those with severe motor impairments and raising profound questions about the future of human-computer interaction.",
