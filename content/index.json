@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tesla Cybertruck Gets Top Safety Rating",
+    "slug": "tesla-cybertruck-top-safety-rating",
+    "description": "Tesla's Cybertruck just earned a five-star safety rating from the NHTSA, setting a new standard for electric pickup trucks. Here's what makes it a leader in crash protection.",
+    "image": "tesla-cybertruck-top-safety-rating.png",
+    "category": "Vehicles",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-26T22:30:40.113Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Quantum Leap: QEM+ Algorithm Overcomes Scaling Challenges",
     "slug": "quantum-leap-qem-plus-algorithm-overcomes-scaling-challenges",
     "description": "A new algorithm from the University of Oxford, QEM+, reduces quantum computing errors by 35%, marking a major step toward scalable, real-world quantum applications.",
