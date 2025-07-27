@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI-Driven Battery Recycling Breakthrough: 95% Material Recovery",
+    "slug": "ai-driven-battery-recycling-breakthrough-95-material-recovery",
+    "description": "A new AI-powered process from UC San Diego promises to recover 95% of critical materials from lithium-ion batteries, slashing waste and emissions. Here's how it could reshape the future of sustainable energy.",
+    "image": "ai-battery-recycling-breakthrough.png",
+    "category": "Climate",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-27T18:58:46.372Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "New Photonic Chip Breakthrough Revolutionizes Secure Data Transmission",
     "slug": "photonic-chip-breakthrough-secure-data-transmission",
     "description": "A silicon-based photonic chip from the University of Bristol achieves record-breaking quantum key distribution speeds, promising unhackable data transmission and a new era in cybersecurity.",
