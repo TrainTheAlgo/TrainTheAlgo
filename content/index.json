@@ -1,5 +1,18 @@
 [
   {
+    "title": "Breakthrough in Quantum Computing: New Error-Correction Method Boosts Qubit Stability",
+    "slug": "breakthrough-quantum-computing-error-correction-qubit-stability",
+    "description": "A new error-correction technique, Dynamic Noise Suppression, extends qubit coherence by 40%, marking a major leap toward practical quantum computers and scalable quantum systems.",
+    "image": "quantum-computing-error-correction.png",
+    "category": "Physics",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-27T01:53:43.502Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Tesla Cybertruck Gets Top Safety Rating",
     "slug": "tesla-cybertruck-top-safety-rating",
     "description": "Tesla's Cybertruck just earned a five-star safety rating from the NHTSA, setting a new standard for electric pickup trucks. Here's what makes it a leader in crash protection.",
