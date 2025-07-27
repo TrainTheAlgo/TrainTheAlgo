@@ -1,5 +1,18 @@
 [
   {
+    "title": "New Photonic Chip Breakthrough Revolutionizes Secure Data Transmission",
+    "slug": "photonic-chip-breakthrough-secure-data-transmission",
+    "description": "A silicon-based photonic chip from the University of Bristol achieves record-breaking quantum key distribution speeds, promising unhackable data transmission and a new era in cybersecurity.",
+    "image": "photonic-chip-breakthrough.png",
+    "category": "Security",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-27T15:37:00.321Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "AI-Powered Cancer Breakthrough: Precision Immunotherapy",
     "slug": "ai-powered-cancer-breakthrough-precision-immunotherapy",
     "description": "A revolutionary AI system now designs protein 'keys' to train immune cells, boosting the precision and effectiveness of cancer immunotherapy while reducing side effects.",
