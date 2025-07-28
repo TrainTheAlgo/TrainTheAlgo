@@ -1,5 +1,18 @@
 [
   {
+    "title": "NASA's TRACERS Mission: Unveiling Earth's Magnetic Shield Secrets",
+    "slug": "nasa-tracers-mission-unveiling-earths-magnetic-shield-secrets",
+    "description": "NASA's TRACERS satellites have launched to study Earth's magnetic shield, aiming to revolutionize our understanding of space weather and protect vital technology from solar storms.",
+    "image": "nasa-tracers-mission.png",
+    "category": "Space",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-28T05:23:25.667Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Copper-Based SMA: The Future of Spacecraft Components at -200C",
     "slug": "copper-based-sma-future-spacecraft-components",
     "description": "A new copper-based shape-memory alloy that works at -200C could revolutionize spacecraft design, making missions to the coldest parts of our solar system more reliable and cost-effective.",
