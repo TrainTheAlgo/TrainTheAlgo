@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Self-Powered Cleaning Boosts Solar Efficiency by 30%",
+    "slug": "self-powered-solar-panel-cleaning-boosts-efficiency",
+    "description": "A new self-powered, electrostatic cleaning technology promises to boost solar panel efficiency by up to 30%, cut billions in costs, and accelerate the global shift to renewable energy.",
+    "image": "self-powered-solar-panel-cleaning.png",
+    "category": "Climate",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-28T08:46:22.900Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "NASA's TRACERS Mission: Unveiling Earth's Magnetic Shield Secrets",
     "slug": "nasa-tracers-mission-unveiling-earths-magnetic-shield-secrets",
     "description": "NASA's TRACERS satellites have launched to study Earth's magnetic shield, aiming to revolutionize our understanding of space weather and protect vital technology from solar storms.",
