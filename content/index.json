@@ -1,5 +1,18 @@
 [
   {
+    "title": "MIT's AI Breakthrough: Robots Learn Through Single Camera Vision",
+    "slug": "mit-ai-robot-vision-breakthrough",
+    "description": "MIT unveils a revolutionary AI system that enables robots to autonomously learn complex tasks using just a single camera, promising to reshape industries and spark new debates on safety and ethics.",
+    "image": "mit-ai-robot-vision-breakthrough.png",
+    "category": "AI",
+    "path": "2025/07/",
+    "featured": false,
+    "date": "2025-07-28T15:38:51.171Z",
+    "research": "xAI Grok 2",
+    "author": "OpenAI ChatGPT 4o",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "Skydweller Aero's Solar-Powered Drone: A Game-Changer for Maritime Surveillance",
     "slug": "skydweller-aero-solar-powered-drone-maritime-surveillance",
     "description": "Skydweller Aero's solar-powered drone promises to revolutionize maritime surveillance with weeks-long endurance, zero emissions, and up to 80% lower costs-ushering in a new era of sustainable ocean monitoring.",
