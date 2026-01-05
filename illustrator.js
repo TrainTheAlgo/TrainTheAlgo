@@ -11,9 +11,9 @@ illustrator.illustrate = async (article, fileLocation) => {
     //const articleText = article.replace(/<[^>]*>/g, '');
     const designerPrompt = structuredClone(prompts.illustrate);
     designerPrompt[1].content = designerPrompt[1].content.replace('$article', article);
-    const imagePrompt = await models.deepseek(designerPrompt);
+    const imagePrompt = await models.local(designerPrompt);
     console.log(imagePrompt)
-    const imageResponse = await models.dallE(imagePrompt);
+    const imageResponse = await models.imageGen(imagePrompt);
     //console.log('xAI API responded with:', imageResponse);
     if (imageResponse && imageResponse.data[0].url) {
       const imageUrl = imageResponse.data[0].url;

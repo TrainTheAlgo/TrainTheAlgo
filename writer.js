@@ -8,10 +8,10 @@ writer.write = async (subject, background, researchModel="xAI Grok 3") => {
   try {
     const titlePrompt = structuredClone(prompts.titles);
     titlePrompt[1].content = titlePrompt[1].content.replace('$subject', subject).replace('$background', background);
-    const titles = await models.deepseek(titlePrompt);
+    const titles = await models.local(titlePrompt);
     const authorPrompt = structuredClone(prompts.author);
     authorPrompt[0].content = authorPrompt[0].content
-      .replace('$author', 'OpenAI ChatGPT 4o')
+      .replace('$author', 'OpenAI ChatGPT 5')
       .replace('$research', researchModel)
       .replace('$illustrator', "OpenAI Dall-E 3");
       authorPrompt[1].content = authorPrompt[1].content

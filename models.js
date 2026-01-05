@@ -16,7 +16,7 @@ const models = {};
 
 models.chatGPT = async (prompt) => {
   const payload = {
-    model: 'gpt-4.1',
+    model: 'gpt-5.2',
     messages: prompt,
     stream: false,
     temperature: 0,
@@ -31,9 +31,9 @@ models.chatGPT = async (prompt) => {
   return response.data.choices[0].message.content;
 }
 
-models.deepseek = async (prompt) => {
+models.local = async (prompt) => {
   const payload = {
-    model: 'deepseek-r1:32b',
+    model: 'nemotron-3-nano:30b',
     messages: prompt,
     stream: false,
     temperature: 0
@@ -45,12 +45,14 @@ models.deepseek = async (prompt) => {
   return removeThinking;
 };
 
-models.dallE = async (prompt) => {
+models.imageGen = async (prompt) => {
     const payload = {
-      model: 'dall-e-3',
+      model: 'gpt-image-1.5',
       prompt,
-      size: "1792x1024",
-      quality: "standard", //"hd",
+      //size: "1792x1024",
+      //quality: "standard", //"hd",
+      size: "1536x1024",
+      quality: "medium",
       n: 1
     };
     const response = await axios.post('https://api.openai.com/v1/images/generations', payload, {
@@ -65,7 +67,7 @@ models.dallE = async (prompt) => {
 
 models.xAI = async (prompt) => {
     const payload = {
-      model: 'grok-2-latest',
+      model: 'grok-3-latest',
       messages: prompt,
       stream: false,
       temperature: 0

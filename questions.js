@@ -142,7 +142,7 @@ questions.answer = async (question=false) => {
     const researchPrompt = structuredClone(prompts.researchAssistant);
     researchPrompt[1].content = researchPrompt[1].content.replace('$question', question);
     console.log('Question:', question);
-    const answer = await models.deepseek(researchPrompt);
+    const answer = await models.local(researchPrompt);
     console.log('Answer:', answer);
     return ({ question, answer });
 }
