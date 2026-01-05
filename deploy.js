@@ -1,80 +1,74 @@
-const git = require('isomorphic-git');
-const http = require('isomorphic-git/http/node');
 const fs = require('fs');
+const { execFile } = require('child_process');
+const os = require('os');
 const path = require('path');
 const process = require('process');
+const { promisify } = require('util');
 require('dotenv').config();
 
 const deploy = {};
+const execFileAsync = promisify(execFile);
+let askPassPath = null;
+
+const ensureAskPass = () => {
+  if (askPassPath || !process.env.GIT_OAUTH) {
+    return askPassPath;
+  }
+  askPassPath = path.join(os.tmpdir(), `git-askpass-${process.pid}.sh`);
+  const script = [
+    '#!/bin/sh',
+    'case "$1" in',
+    '*Username*) echo "x-access-token" ;;',
+    '*Password*) echo "$GIT_OAUTH" ;;',
+    '*) echo "$GIT_OAUTH" ;;',
+    'esac',
+    '',
+  ].join('\n');
+  fs.writeFileSync(askPassPath, script, { mode: 0o700 });
+  return askPassPath;
+};
+
+const getGitEnv = () => {
+  const env = { ...process.env };
+  const askPass = ensureAskPass();
+  if (askPass) {
+    env.GIT_ASKPASS = askPass;
+    env.GIT_TERMINAL_PROMPT = '0';
+  }
+  return env;
+};
+
+const execGit = async (args) => {
+  await execFileAsync('git', args, {
+    cwd: process.cwd(),
+    env: getGitEnv(),
+    maxBuffer: 1024 * 1024 * 10,
+  });
+};
 
 deploy.pullChanges = async () => {
   console.log('Pulling changes from remote...');
-  await git.pull({
-    fs,
-    http,
-    dir: process.cwd(),
-    ref: 'main',
-    remote: 'origin',
-    url: 'https://github.com/TrainTheAlgo/TrainTheAlgo.git',
-    singleBranch: true,
-    fastForwardOnly: true, // Only update if a fast-forward is possible.
-    author: {
-      name: 'Anon',
-      email: 'anon@example.com',
-    },
-    onAuth: () => ({
-      username: 'x-access-token',
-      password: process.env.GIT_OAUTH,
-    }),
-  });
+  await execGit(['pull', 'origin', 'main', '--ff-only']);
   console.log('Git pull successful');
 };
 
 deploy.stageChanges = async () => {
-  const statusMatrix = await git.statusMatrix({ fs, dir: process.cwd() });
-  for (const [filepath, head, workdir, stage] of statusMatrix) {
-    // If workdir and stage differ, we have a change
-    if (workdir !== stage) {
-      const absolutePath = path.join(process.cwd(), filepath);
-      console.log(`Staging ${filepath}`);
-      // Check if file exists
-      if (fs.existsSync(absolutePath)) {
-        await git.add({ fs, dir: process.cwd(), filepath });
-      } else {
-        await git.remove({ fs, dir: process.cwd(), filepath });
-      }
-    }
-  }
+  await execGit(['add', '-A']);
 };
 
 deploy.commitChanges = async () => {
   const commitMessage = process.argv[2] || 'Automated commit';
-  const sha = await git.commit({
-    fs,
-    dir: process.cwd(),
-    message: commitMessage,
-    author: {
-      name: 'Anon',
-      email: 'anon@example.com',
-    },
-  });
-  console.log('Commit successful, SHA:', sha);
+  try {
+    await execGit(['diff', '--cached', '--quiet']);
+    console.log('No staged changes to commit.');
+  } catch (error) {
+    await execGit(['commit', '-m', commitMessage]);
+    console.log('Commit successful.');
+  }
 };
 
 deploy.pushChanges = async () => {
-  await git.push({
-    fs,
-    http,
-    dir: process.cwd(),
-    remote: 'origin',
-    url: 'https://github.com/TrainTheAlgo/TrainTheAlgo.git',
-    ref: 'main',
-    force: true,
-    onAuth: () => ({
-      username: 'x-access-token',
-      password: process.env.GIT_OAUTH,
-    }),
-  });
+  await execGit(['push', 'origin', 'main', '--force']);
   console.log('Push successful');
 };
 
