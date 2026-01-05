@@ -41,8 +41,16 @@ models.local = async (prompt) => {
   const response = await axios.post(`${process.env.OLLAMA}/api/chat`, payload, {
     headers: { 'Content-Type': 'application/json' }
   });
-  const removeThinking = response.data.message.content.split('</think>')[1].trim()+"\n";
-  return removeThinking;
+  const content = (response && response.data && response.data.message && response.data.message.content) || '';
+  const thinkTag = '</think>';
+  let output = content;
+  const thinkIndex = content.indexOf(thinkTag);
+  if (thinkIndex !== -1) {
+    output = content.slice(thinkIndex + thinkTag.length);
+  }
+  output = output.trim();
+  if (!output) output = content.trim();
+  return output ? `${output}\n` : '';
 };
 
 models.imageGen = async (prompt) => {
@@ -65,14 +73,29 @@ models.imageGen = async (prompt) => {
     return response.data;
   }
 
-models.xAI = async (prompt) => {
+models.xAI = async (prompt, options = {}) => {
+    const model = options.model || process.env.XAI_MODEL || 'grok-4-1-fast-reasoning';
+    const searchParameters = options.searchParameters || {
+      mode: 'auto',
+      sources: [
+        { type: 'web' },
+        { type: 'x' }
+      ]
+    };
     const payload = {
-      model: 'grok-3-latest',
+      model,
       messages: prompt,
       stream: false,
-      temperature: 0
+      temperature: 0,
+      search_parameters: searchParameters
     };
-  
+    if (options.include && Array.isArray(options.include)) {
+      payload.include = options.include;
+    }
+    if (Number.isInteger(options.maxTurns)) {
+      payload.max_turns = options.maxTurns;
+    }
+
     const response = await axios.post(
       'https://api.x.ai/v1/chat/completions',
       payload,

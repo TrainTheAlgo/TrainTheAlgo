@@ -1,5 +1,44 @@
 [
   {
+    "title": "Meet Samsung's 130Inch Micro RGB TV at CES 2026: The $200K Bet on Living Room Cinema",
+    "slug": "samsung-130-inch-micro-rgb-tv-ces-2026",
+    "description": "Samsung's 130-inch Micro RGB TV debuted at CES 2026 with self-emissive pixels, huge brightness, and AI-driven picture tuning. Here's what Micro RGB is, why it matters, and who this $150K-$200K screen is really for.",
+    "image": "samsung-130-inch-micro-rgb-tv-ces-2026.png",
+    "category": "Reviews",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-05T16:14:34.850Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
+    "title": "OpenAI's o3' Leak: The Self-Improving Reasoning Model That Could Change AI Economics Overnight",
+    "slug": "openai-o3-leak-self-improving-reasoning-model",
+    "description": "Leaked claims about OpenAI's o3' point to a model that can iteratively improve its own reasoning at inference time. Here's what that would mean for benchmarks, costs, safety, and the AI arms race if it's real.",
+    "image": "openai-o3-leak-self-improving-reasoning-model.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-05T15:47:12.149Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
+    "title": "Waymo Hits 50 Million Autonomous Miles, Expands to Austin and Atlanta",
+    "slug": "waymo-hits-50-million-autonomous-miles-expands-to-austin-and-atlanta",
+    "description": "Waymo says it has passed 50 million fully driverless miles and is preparing launches in Austin and Atlanta. Here's what the milestone really signals for safety, regulation, and the robotaxi business in 2025.",
+    "image": "waymo-hits-50-million-autonomous-miles-expands-to-austin-and-atlanta.png",
+    "category": "Vehicles",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-05T15:37:23.766Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT 5",
+    "illustrator": "OpenAI Dall-E 3"
+  },
+  {
     "title": "MIT's AI Breakthrough: Robots Learn Through Single Camera Vision",
     "slug": "mit-ai-robot-vision-breakthrough",
     "description": "MIT unveils a revolutionary AI system that enables robots to autonomously learn complex tasks using just a single camera, promising to reshape industries and spark new debates on safety and ethics.",

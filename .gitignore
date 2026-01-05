@@ -3,3 +3,5 @@ node_modules/
 design/
 *.xcf
 .cookies.json
+content/coookies.json
+

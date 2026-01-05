@@ -13,27 +13,32 @@ const newsletters = require('./newsletters.js');
 
 const coverNews = async () => {
   const story = await news.find();    
-  const metadata = await writer.write(story.title, story.background, "xAI Grok 2");
+  const metadata = await writer.write(story.title, story.background, "xAI Grok 4.1-fast");
+  if (!metadata) return;
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 };
 
 const bigQuestions = async () => {
   const qa = await questions.answer();
-  const metadata = await writer.write(qa.question, qa.answer, "Deepseek R1");
+  const metadata = await writer.write(qa.question, qa.answer, "Ollama Local Model");
+  if (!metadata) return;
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 }
 
 const trendingNewsletters = async () => {
   const tb = await newsletters.latest();
   const metadata = await writer.write(tb.title, tb.background);
+  if (!metadata) return;
   await illustrator.illustrate(`${metadata.title}\n${metadata.description}`, `./content/${metadata.path}${metadata.image}`);
 }
 
 const browse = async () => {
   puppeteer.use(StealthPlugin());
+  let executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+  if (process.platform === 'linux') executablePath = '/usr/bin/google-chrome-stable';
   const browser = await puppeteer.launch({
     headless: false,
-    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    executablePath,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',

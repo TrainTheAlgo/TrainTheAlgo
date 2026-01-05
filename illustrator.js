@@ -15,8 +15,9 @@ illustrator.illustrate = async (article, fileLocation) => {
     console.log(imagePrompt)
     const imageResponse = await models.imageGen(imagePrompt);
     //console.log('xAI API responded with:', imageResponse);
-    if (imageResponse && imageResponse.data[0].url) {
-      const imageUrl = imageResponse.data[0].url;
+    const firstImage = imageResponse && imageResponse.data && imageResponse.data[0];
+    if (firstImage && firstImage.url) {
+      const imageUrl = firstImage.url;
       //console.log('Image generated at:', imageUrl);
       const response = await axios({
         url: imageUrl,
@@ -30,9 +31,15 @@ illustrator.illustrate = async (article, fileLocation) => {
         writer.on('error', reject);
       });
       console.log(`Image saved to ${fileLocation}`);
-    } else {
-      console.log('No image URL found in the API response.');
+      return;
     }
+    if (firstImage && firstImage.b64_json) {
+      const buffer = Buffer.from(firstImage.b64_json, 'base64');
+      fs.writeFileSync(fileLocation, buffer);
+      console.log(`Image saved to ${fileLocation}`);
+      return;
+    }
+    console.log('No image URL or base64 image found in the API response.');
   } catch (err) {
     console.error('Error in illustrator.illustrate:', err);
   }

@@ -216,7 +216,7 @@ prompts.illustrate = [
     {
       role: 'system',
       content: `You are a prompt engineer and digital artist.
-I need you to create a Dall-E prompt for a beautiful illustrations for a online publication.
+I need you to create a text to image generation prompt for a beautiful illustrations for a online publication.
 The image prompts should describe an image which will be used as a background for the article provided title and description.
 Avoid potentially copyrighted logos in the image
 The images should be designed in a 3d render style similar to unreal engine, blender or unity.
