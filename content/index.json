@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel Unveils Panther Lake at CES 2026: The First Consumer Chip on Intel 18A",
+    "slug": "intel-unveils-panther-lake-first-consumer-chip-on-intel-18a-ces-2026",
+    "description": "Intel's Panther Lake debuts at CES 2026 as the first consumer processor built on Intel 18A. Early CES chatter points to big CPU and GPU gains and a sharper focus on on-device AI, but key specs and verified benchmarks are still pending.",
+    "image": "intel-unveils-panther-lake-first-consumer-chip-on-intel-18a-ces-2026.png",
+    "category": "Conferences",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-05T19:51:42.422Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Autonomy Steals Spotlight: Sony Honda's Afeela EV Hits PreProduction at CES 2026",
     "slug": "ai-autonomy-steals-spotlight-sony-honda-afeela-ev-hits-pre-production-at-ces-2026",
     "description": "At CES 2026, Sony Honda Mobility says its Afeela EV has entered preproduction, signaling a shift from EV hype to software-defined cars, AI driver assistance, and the compute stack that will decide who wins the next decade of mobility.",
