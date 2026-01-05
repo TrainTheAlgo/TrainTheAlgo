@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const models = require('./models.js');
 const prompts = require('./prompts.js');
 
@@ -40,13 +41,14 @@ writer.write = async (subject, background, researchModel="xAI Grok") => {
     const now = new Date();
     const year = now.getFullYear().toString();
     const month = (now.getMonth() + 1).toString().padStart(2, '0');
-    const outputDir = `content/${year}/${month}/`;
+    const contentRoot = path.join(__dirname, 'content');
+    const outputDir = path.join(contentRoot, year, month);
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-    const outputFile = `${outputDir}${slug}.html`;
+    const outputFile = path.join(outputDir, `${slug}.html`);
     fs.writeFileSync(outputFile, htmlContent, 'utf8');
     console.log(`Article generated and saved to ${outputFile}`);
 
-    const indexPath = './content/index.json';
+    const indexPath = path.join(contentRoot, 'index.json');
     let indexData = [];
     try {
       const data = fs.readFileSync(indexPath, 'utf8');
