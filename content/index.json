@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: NVIDIA Unveils Vera Rubin to Power Physical AI Beyond the Cloud",
+    "slug": "ces-2026-nvidia-vera-rubin-physical-ai-beyond-the-cloud",
+    "description": "NVIDIA's Vera Rubin compute platform, teased as CES 2026 spotlights ",
+    "image": "ces-2026-nvidia-vera-rubin-physical-ai-beyond-the-cloud.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-06T02:01:40.276Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Qualcomm Unveils Snapdragon X2 Plus and Dragonwing IQ10 at CES 2026, Targeting AI PCs and Humanoid Robots",
     "slug": "qualcomm-snapdragon-x2-plus-dragonwing-iq10-ces-2026-ai-pcs-humanoid-robots",
     "description": "At CES 2026, Qualcomm introduced Snapdragon X2 Plus for mainstream AI PCs and Dragonwing IQ10 for humanoid robots, signaling a push into on-device AI across laptops, vehicles, and industrial edge systems.",
