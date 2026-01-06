@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026 Showcases Physical AI & Schaeffler's Humanoid Actuator",
+    "slug": "ces-2026-showcases-physical-ai-and-schaefflers-humanoid-actuator",
+    "description": "CES 2026 is turning ",
+    "image": "ces-2026-showcases-physical-ai-and-schaefflers-humanoid-actuator.png",
+    "category": "Conferences",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-06T08:13:39.374Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Server Demand Fuels a $20B Manufacturing Surge as Industry Pivots to Infrastructure",
     "slug": "ai-server-demand-fuels-20b-manufacturing-surge-industry-pivots-to-infrastructure",
     "description": "AI is moving from model hype to infrastructure reality. AI server demand is reshaping factories, supply chains, and power strategy in 2026, with manufacturers racing to build compute at scale amid chip, energy, and funding constraints.",
