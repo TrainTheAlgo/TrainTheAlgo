@@ -1,5 +1,18 @@
 [
   {
+    "title": "AMD Unveils Helios at CES 2026: The AI Data Center Rack Built to Scale",
+    "slug": "amd-unveils-helios-ces-2026-ai-data-center-rack-built-to-scale",
+    "description": "AMD's Helios AI data center rack debuted at CES 2026, promising a tighter, more efficient way to scale AI training and inference with integrated accelerators, CPUs, and networking. Here's what matters, what's missing, and what to watch next.",
+    "image": "amd-unveils-helios-ces-2026-ai-data-center-rack-built-to-scale.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-06T11:18:50.780Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026 Showcases Physical AI & Schaeffler's Humanoid Actuator",
     "slug": "ces-2026-showcases-physical-ai-and-schaefflers-humanoid-actuator",
     "description": "CES 2026 is turning ",
