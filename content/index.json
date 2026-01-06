@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Samsung Display's Crease-Free Foldable OLED and the Hidden Camera That Could Redefine Phones",
+    "slug": "ces-2026-samsung-display-crease-free-foldable-oled-hidden-camera",
+    "description": "At CES 2026, Samsung Display demoed a crease-free foldable OLED with an under-display ",
+    "image": "ces-2026-samsung-display-crease-free-foldable-oled-hidden-camera.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-06T15:25:57.285Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Memory Crunch: Samsung and SK Hynix Eye a 70% Server DRAM Price Hike in Q1 2026",
     "slug": "ai-memory-crunch-samsung-sk-hynix-70-server-dram-price-hike-q1-2026",
     "description": "Reports from CES 2026 suggest Samsung and SK Hynix may push server DRAM prices up to 70% in Q1 2026, as AI data center demand collides with tight HBM and DRAM supply across the memory supply chain.",
