@@ -1,5 +1,18 @@
 [
   {
+    "title": "Qualcomm Announces Agentic AI Partnership with Google at CES 2026",
+    "slug": "qualcomm-agentic-ai-partnership-google-ces-2026",
+    "description": "At CES 2026, Qualcomm and Google unveiled a plan to bring agentic AI into next-gen vehicles via Snapdragon Digital Chassis, enabling proactive in-car assistants, edge inference, and smarter safety and maintenance features.",
+    "image": "qualcomm-agentic-ai-partnership-google-ces-2026.png",
+    "category": "Vehicles",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-06T18:32:09.352Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Samsung Display's Crease-Free Foldable OLED and the Hidden Camera That Could Redefine Phones",
     "slug": "ces-2026-samsung-display-crease-free-foldable-oled-hidden-camera",
     "description": "At CES 2026, Samsung Display demoed a crease-free foldable OLED with an under-display ",
