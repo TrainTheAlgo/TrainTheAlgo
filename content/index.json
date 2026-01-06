@@ -1,5 +1,18 @@
 [
   {
+    "title": "AMD Unveils High-Performance AI Chip and AI-Enhanced PC Processors at CES 2026: What's Real, What's Missing, and What to Watch Next",
+    "slug": "amd-unveils-high-performance-ai-chip-and-ai-enhanced-pc-processors-at-ces-2026",
+    "description": "AMD is being widely reported as unveiling a high-performance AI chip and new AI-enhanced PC processors at CES 2026. Here's what we can verify, what remains unconfirmed, and how to judge the real impact on AI workloads and everyday PCs.",
+    "image": "amd-unveils-high-performance-ai-chip-and-ai-enhanced-pc-processors-at-ces-2026.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-06T21:37:06.207Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Qualcomm Announces Agentic AI Partnership with Google at CES 2026",
     "slug": "qualcomm-agentic-ai-partnership-google-ces-2026",
     "description": "At CES 2026, Qualcomm and Google unveiled a plan to bring agentic AI into next-gen vehicles via Snapdragon Digital Chassis, enabling proactive in-car assistants, edge inference, and smarter safety and maintenance features.",
