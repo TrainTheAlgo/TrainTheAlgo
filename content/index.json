@@ -1,5 +1,18 @@
 [
   {
+    "title": "Intel Unveils Panther Lake at CES 2026, Betting Big on 18A for Edge AI",
+    "slug": "intel-panther-lake-ces-2026-18a-edge-ai",
+    "description": "At CES 2026, Intel introduced Panther Lake, its first 18A-built Core Ultra Series 3 chip. With RibbonFET and PowerVia, Intel is chasing better efficiency and faster on-device AI for laptops, edge devices, and beyond.",
+    "image": "intel-panther-lake-ces-2026-18a-edge-ai.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T03:48:31.203Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026's Factory Humanoids: What Boston Dynamics and DeepMind Really Showed, and What Comes Next",
     "slug": "ces-2026-factory-humanoids-boston-dynamics-deepmind",
     "description": "At CES 2026, Boston Dynamics and DeepMind demoed humanoid robots built for factory work, not stunts. Here's what the showcase signals about physical AI, deployment timelines, costs, safety, and who benefits first.",
