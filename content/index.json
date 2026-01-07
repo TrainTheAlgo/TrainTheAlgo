@@ -1,5 +1,18 @@
 [
   {
+    "title": "Privacy as a Human Right or a Relic? What the Digital Age Is Really Deciding",
+    "slug": "privacy-as-a-human-right-or-a-relic-what-the-digital-age-is-really-deciding",
+    "description": "Is privacy dying, or being reborn as a core right for the AI era? A clear look at surveillance, GDPR and CCPA, encryption, data sovereignty, and what real control could look like next.",
+    "image": "privacy-as-a-human-right-or-a-relic-what-the-digital-age-is-really-deciding.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T16:11:54.866Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: NVIDIA Unveils Alpamayo, the Open-Source Reasoning AI Aiming to Run Self-Driving Cars End to End",
     "slug": "ces-2026-nvidia-unveils-alpamayo-open-source-reasoning-ai-autonomous-vehicles",
     "description": "At CES 2026, NVIDIA introduced Alpamayo, an open-source reasoning model designed to turn raw camera and sensor input into driving actions on the vehicle. Here's what's known, what's missing, and what it could change for autonomy.",
