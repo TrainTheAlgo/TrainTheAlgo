@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: NVIDIA Unveils Alpamayo, the Open-Source Reasoning AI Aiming to Run Self-Driving Cars End to End",
+    "slug": "ces-2026-nvidia-unveils-alpamayo-open-source-reasoning-ai-autonomous-vehicles",
+    "description": "At CES 2026, NVIDIA introduced Alpamayo, an open-source reasoning model designed to turn raw camera and sensor input into driving actions on the vehicle. Here's what's known, what's missing, and what it could change for autonomy.",
+    "image": "ces-2026-nvidia-alpamayo.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T13:04:10.733Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Nvidia Announces Vera Rubin in Full Production at CES 2026, Promising 5x AI Compute and Cheaper Inference",
     "slug": "nvidia-vera-rubin-full-production-ces-2026-5x-ai-compute-cheaper-inference",
     "description": "At CES 2026, Nvidia says its Vera Rubin AI platform is in full production, targeting up to 5x compute gains and dramatically lower inference costs. Here's what Rubin changes, who benefits, and what to watch next.",
