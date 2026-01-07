@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: NVIDIA's BlueField-4 Targets the AI Storage Bottleneck as Siemens Deal Pushes an Industrial AI OS",
+    "slug": "ces-2026-nvidia-bluefield-4-ai-storage-siemens-industrial-ai-os",
+    "description": "At CES 2026, NVIDIA introduced BlueField-4 to speed up AI storage and data pipelines, and teamed with Siemens on an Industrial AI Operating System that links digital twins to real factory automation in real time.",
+    "image": "ces-2026-nvidia-bluefield-4-ai-storage-siemens-industrial-ai-os.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T22:22:55.871Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Motorola Unveils Book-Style Razr Fold, Intensifying the Foldable Wars",
     "slug": "ces-2026-motorola-unveils-book-style-razr-fold-intensifying-the-foldable-wars",
     "description": "Motorola's book-style Razr Fold debuts at CES 2026, aiming at Samsung and Google with a productivity-first design, 120Hz displays, tougher hinge engineering, and on-device AI features that push foldables beyond novelty.",
