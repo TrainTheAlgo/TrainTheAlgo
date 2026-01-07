@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Meta Pushes Ray-Ban Smart Glasses With EMG Handwriting And A Teleprompter In Early Access",
+    "slug": "ces-2026-meta-ray-ban-smart-glasses-emg-handwriting-teleprompter-early-access",
+    "description": "At CES 2026, Meta expands Ray-Ban smart glasses with early access EMG ",
+    "image": "ces-2026-meta-ray-ban-smart-glasses-emg-handwriting-teleprompter-early-access.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T06:53:41.088Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Intel Unveils Panther Lake at CES 2026, Betting Big on 18A for Edge AI",
     "slug": "intel-panther-lake-ces-2026-18a-edge-ai",
     "description": "At CES 2026, Intel introduced Panther Lake, its first 18A-built Core Ultra Series 3 chip. With RibbonFET and PowerVia, Intel is chasing better efficiency and faster on-device AI for laptops, edge devices, and beyond.",
