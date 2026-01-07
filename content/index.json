@@ -1,5 +1,18 @@
 [
   {
+    "title": "Nvidia Announces Vera Rubin in Full Production at CES 2026, Promising 5x AI Compute and Cheaper Inference",
+    "slug": "nvidia-vera-rubin-full-production-ces-2026-5x-ai-compute-cheaper-inference",
+    "description": "At CES 2026, Nvidia says its Vera Rubin AI platform is in full production, targeting up to 5x compute gains and dramatically lower inference costs. Here's what Rubin changes, who benefits, and what to watch next.",
+    "image": "nvidia-vera-rubin-full-production-ces-2026-5x-ai-compute-cheaper-inference.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T09:59:16.995Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Meta Pushes Ray-Ban Smart Glasses With EMG Handwriting And A Teleprompter In Early Access",
     "slug": "ces-2026-meta-ray-ban-smart-glasses-emg-handwriting-teleprompter-early-access",
     "description": "At CES 2026, Meta expands Ray-Ban smart glasses with early access EMG ",
