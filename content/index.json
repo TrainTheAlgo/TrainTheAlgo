@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026's Factory Humanoids: What Boston Dynamics and DeepMind Really Showed, and What Comes Next",
+    "slug": "ces-2026-factory-humanoids-boston-dynamics-deepmind",
+    "description": "At CES 2026, Boston Dynamics and DeepMind demoed humanoid robots built for factory work, not stunts. Here's what the showcase signals about physical AI, deployment timelines, costs, safety, and who benefits first.",
+    "image": "ces-2026-factory-humanoids-boston-dynamics-deepmind.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-07T00:42:34.111Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AMD Unveils High-Performance AI Chip and AI-Enhanced PC Processors at CES 2026: What's Real, What's Missing, and What to Watch Next",
     "slug": "amd-unveils-high-performance-ai-chip-and-ai-enhanced-pc-processors-at-ces-2026",
     "description": "AMD is being widely reported as unveiling a high-performance AI chip and new AI-enhanced PC processors at CES 2026. Here's what we can verify, what remains unconfirmed, and how to judge the real impact on AI workloads and everyday PCs.",
