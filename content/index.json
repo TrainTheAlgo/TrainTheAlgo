@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Razer Unveils AI-Powered Gaming Oddities Stealing the Spotlight",
+    "slug": "ces-2026-razer-unveils-ai-powered-gaming-oddities-stealing-the-spotlight",
+    "description": "At CES 2026, Razer cut through the AI chip noise with quirky, AI-infused gaming ",
+    "image": "ces-2026-razer-ai-powered-gaming-oddities.png",
+    "category": "Gaming",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-08T10:51:42.262Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: AMD Unveils New Ryzen AI Processors and the Helios AI Data Center Rack",
     "slug": "ces-2026-amd-ryzen-ai-processors-helios-ai-data-center-rack",
     "description": "At CES 2026, AMD CEO Lisa Su returned to the keynote stage to push harder into AI PCs and data centers, unveiling new Ryzen AI processors and the Helios AI rack designed to scale training and inference with a full-stack AMD approach.",
