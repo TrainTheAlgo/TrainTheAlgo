@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Boston Dynamics' Atlas Heads to Hyundai Factories, and the Humanoid Era Gets Real",
+    "slug": "ces-2026-boston-dynamics-atlas-heads-to-hyundai-factories",
+    "description": "CES 2026 puts ",
+    "image": "ces-2026-boston-dynamics-atlas-heads-to-hyundai-factories.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-08T23:12:52.572Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "US Army Pioneers GPS-Free AI Robot Swarms in a New Defense Breakthrough",
     "slug": "us-army-pioneers-gps-free-ai-robot-swarms-defense-breakthrough",
     "description": "GPS jamming is now routine in modern conflict. The US Army is pushing GPS-free AI robot swarms that can navigate, coordinate, and adapt in denied environments, reshaping how units scout, resupply, and survive electronic warfare.",
