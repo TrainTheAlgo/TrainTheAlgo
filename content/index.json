@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: AMD Unveils New Ryzen AI Processors and the Helios AI Data Center Rack",
+    "slug": "ces-2026-amd-ryzen-ai-processors-helios-ai-data-center-rack",
+    "description": "At CES 2026, AMD CEO Lisa Su returned to the keynote stage to push harder into AI PCs and data centers, unveiling new Ryzen AI processors and the Helios AI rack designed to scale training and inference with a full-stack AMD approach.",
+    "image": "ces-2026-amd-ryzen-ai-processors-helios-ai-data-center-rack.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-08T07:45:07.376Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: NVIDIA Spotlights GR00T Robots and Neural Rendering for RTX in Physical AI Push",
     "slug": "ces-2026-nvidia-groot-robots-neural-rendering-rtx-physical-ai",
     "description": "At CES 2026, NVIDIA put ",
