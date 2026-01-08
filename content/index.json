@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Roborock Saros Z70 Introduces VacuumArm Hybrid Tech",
+    "slug": "ces-2026-roborock-saros-z70-vacuum-arm-hybrid-tech",
+    "description": "Roborock's Saros Z70 stole attention at CES 2026 by pairing a robot vacuum with a mechanical arm, hinting at a shift from ",
+    "image": "ces-2026-roborock-saros-z70-vacuum-arm-hybrid-tech.png",
+    "category": "Conferences",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-08T01:29:28.060Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: NVIDIA's BlueField-4 Targets the AI Storage Bottleneck as Siemens Deal Pushes an Industrial AI OS",
     "slug": "ces-2026-nvidia-bluefield-4-ai-storage-siemens-industrial-ai-os",
     "description": "At CES 2026, NVIDIA introduced BlueField-4 to speed up AI storage and data pipelines, and teamed with Siemens on an Industrial AI Operating System that links digital twins to real factory automation in real time.",
