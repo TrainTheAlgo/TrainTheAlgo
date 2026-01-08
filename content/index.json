@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: NVIDIA Spotlights GR00T Robots and Neural Rendering for RTX in Physical AI Push",
+    "slug": "ces-2026-nvidia-groot-robots-neural-rendering-rtx-physical-ai",
+    "description": "At CES 2026, NVIDIA put ",
+    "image": "ces-2026-nvidia-groot-robots-neural-rendering-rtx-physical-ai.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-08T04:37:14.143Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Roborock Saros Z70 Introduces VacuumArm Hybrid Tech",
     "slug": "ces-2026-roborock-saros-z70-vacuum-arm-hybrid-tech",
     "description": "Roborock's Saros Z70 stole attention at CES 2026 by pairing a robot vacuum with a mechanical arm, hinting at a shift from ",
