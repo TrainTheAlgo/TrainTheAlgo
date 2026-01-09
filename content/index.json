@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: NVIDIA Debuts Alpamayo Open-Source AI Models for Autonomous Vehicles",
+    "slug": "ces-2026-nvidia-debuts-alpamayo-open-source-ai-models-for-autonomous-vehicles",
+    "description": "NVIDIA used CES 2026 to introduce Alpamayo, an open-source AI model suite for autonomous vehicles, framed as ",
+    "image": "ces-2026-nvidia-debuts-alpamayo-open-source-ai-models-for-autonomous-vehicles.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-09T11:34:58.863Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: NVIDIA Unveils Vera Rubin Architecture to Make Physical AI Inference Cheap Enough for the Real World",
     "slug": "ces-2026-nvidia-vera-rubin-architecture-physical-ai-inference",
     "description": "At CES 2026, NVIDIA introduced its Vera Rubin platform, aiming to slash AI inference costs and latency for robotics, autonomous systems, and edge deployments. Here's what's known, what's still unclear, and why bandwidth is the new battleground.",
