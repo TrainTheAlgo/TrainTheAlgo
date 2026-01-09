@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Intel Unveils Panther Lake Handheld Gaming Platform, Taking Aim at Steam Deck",
+    "slug": "ces-2026-intel-panther-lake-handheld-gaming-platform",
+    "description": "Intel enters handheld gaming at CES 2026 with a dedicated Panther Lake platform promising up to 50% faster CPU performance and 180 TOPS AI acceleration, plus Arc graphics, WiFi 7 and an optimized lowpower software stack.",
+    "image": "ces-2026-intel-panther-lake-handheld-gaming-platform.png",
+    "category": "Gaming",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-09T05:23:46.569Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Intel Teases Panther Lake Gaming Chip, Eyes a Handheld PC Revolution",
     "slug": "ces-2026-intel-teases-panther-lake-gaming-chip-eyes-handheld-pc-revolution",
     "description": "Intel used CES 2026 to tease a Panther Lake gaming chip aimed at high frame rates in handheld PCs. Here's what's known, what's speculation, and what it could mean for SteamOS-style devices, Windows handhelds, and the AMD-NVIDIA race.",
