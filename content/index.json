@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: AMD Unveils Helios AI Data Center Rack to Advance Enterprise AI Infrastructure",
+    "slug": "ces-2026-amd-unveils-helios-ai-data-center-rack-enterprise-ai-infrastructure",
+    "description": "AMD used CES 2026 to introduce Helios, a rack-scale AI data center platform aimed at making large-scale training and inference more efficient for enterprises. Here's what it is, why it matters, and what to watch next.",
+    "image": "ces-2026-amd-unveils-helios-ai-data-center-rack-enterprise-ai-infrastructure.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-09T20:56:01.957Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026 Humanoid Robot Race: LG Electronics and AMD Make Their Moves",
     "slug": "ces-2026-humanoid-robot-race-lg-electronics-amd-make-their-moves",
     "description": "CES 2026 is turning ",
