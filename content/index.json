@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why NVIDIA Skipped New GPUs at CES 2026 and Put Robotics in the Spotlight",
+    "slug": "nvidia-ces-2026-skipped-new-gpus-robotics-chatgpt-moment",
+    "description": "At CES 2026, NVIDIA CEO Jensen Huang skipped new gaming GPU reveals and called it the ",
+    "image": "nvidia-ces-2026-skipped-new-gpus-robotics-chatgpt-moment.png",
+    "category": "Conferences",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-10T03:01:50.366Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: AMD Unveils Helios AI Data Center Rack to Advance Enterprise AI Infrastructure",
     "slug": "ces-2026-amd-unveils-helios-ai-data-center-rack-enterprise-ai-infrastructure",
     "description": "AMD used CES 2026 to introduce Helios, a rack-scale AI data center platform aimed at making large-scale training and inference more efficient for enterprises. Here's what it is, why it matters, and what to watch next.",
