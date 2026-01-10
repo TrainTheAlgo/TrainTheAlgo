@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Qualcomm Unveils Snapdragon X2 Plus and a 100+ TOPS NPU for the AI PC Era",
+    "slug": "ces-2026-qualcomm-snapdragon-x2-plus-100-tops-npu-ai-pc",
+    "description": "At CES 2026, Qualcomm signaled a major AI PC push with Snapdragon X2 Plus and a next-gen NPU rumored to top 100 TOPS, aiming to outpace Intel and AMD on on-device AI, battery life, and Copilot+ experiences.",
+    "image": "ces-2026-qualcomm-snapdragon-x2-plus-100-tops-npu-ai-pc.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-10T09:07:14.579Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why NVIDIA Skipped New GPUs at CES 2026 and Put Robotics in the Spotlight",
     "slug": "nvidia-ces-2026-skipped-new-gpus-robotics-chatgpt-moment",
     "description": "At CES 2026, NVIDIA CEO Jensen Huang skipped new gaming GPU reveals and called it the ",
