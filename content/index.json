@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: Razer Debuts Project Motoko AI Headset and Project AVA Companion in Push for AI-Driven Gaming",
+    "slug": "ces-2026-razer-project-motoko-ai-headset-project-ava-companion",
+    "description": "Razer's CES 2026 teasers point to a new AI-first gaming stack: Project Motoko, an on-device AI headset concept, and Project AVA, a companion assistant aimed at smarter play, clearer comms, and more adaptive experiences.",
+    "image": "ces-2026-razer-project-motoko-ai-headset-project-ava-companion.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-10T12:13:32.650Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Qualcomm Unveils Snapdragon X2 Plus and a 100+ TOPS NPU for the AI PC Era",
     "slug": "ces-2026-qualcomm-snapdragon-x2-plus-100-tops-npu-ai-pc",
     "description": "At CES 2026, Qualcomm signaled a major AI PC push with Snapdragon X2 Plus and a next-gen NPU rumored to top 100 TOPS, aiming to outpace Intel and AMD on on-device AI, battery life, and Copilot+ experiences.",
