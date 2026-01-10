@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Sora 2.0 Redefines Video Creation in Under Ten Seconds",
+    "slug": "openai-sora-2-0-real-time-video-editing",
+    "description": "OpenAI's Sora 2.0 pushes text-to-video into a new phase: real-time edits, stronger scene consistency, and tighter safety controls. Here's what's new, what it changes for creators, and what to watch next.",
+    "image": "openai-sora-2-0-real-time-video-editing.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-10T18:25:37.763Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: NVIDIA Spotlights Project GR00T for Humanoid Robots Amid the Physical AI Surge",
     "slug": "ces-2026-nvidia-project-gr00t-humanoid-robots-physical-ai",
     "description": "At CES 2026, NVIDIA put Project GR00T in the spotlight, pitching foundation models for humanoid robots as the next wave of ",
