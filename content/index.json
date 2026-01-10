@@ -1,5 +1,18 @@
 [
   {
+    "title": "CES 2026: NVIDIA Spotlights Project GR00T for Humanoid Robots Amid the Physical AI Surge",
+    "slug": "ces-2026-nvidia-project-gr00t-humanoid-robots-physical-ai",
+    "description": "At CES 2026, NVIDIA put Project GR00T in the spotlight, pitching foundation models for humanoid robots as the next wave of ",
+    "image": "ces-2026-nvidia-project-gr00t-humanoid-robots-physical-ai.png",
+    "category": "Conferences",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-10T15:20:34.751Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "CES 2026: Razer Debuts Project Motoko AI Headset and Project AVA Companion in Push for AI-Driven Gaming",
     "slug": "ces-2026-razer-project-motoko-ai-headset-project-ava-companion",
     "description": "Razer's CES 2026 teasers point to a new AI-first gaming stack: Project Motoko, an on-device AI headset concept, and Project AVA, a companion assistant aimed at smarter play, clearer comms, and more adaptive experiences.",
