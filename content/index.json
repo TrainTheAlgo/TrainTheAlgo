@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Quiet Week After CES 2026: No Breaking Tech News Today, and Why That Matters",
+    "slug": "the-quiet-week-after-ces-2026-no-breaking-tech-news-today",
+    "description": "After CES 2026's flood of AI chips, robotics and PC hardware reveals, the past 24 hours have produced no major new announcements. Here's what the post-CES quiet period signals, what to watch next, and how to separate signal from noise.",
+    "image": "the-quiet-week-after-ces-2026-no-breaking-tech-news-today.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-11T09:52:06.051Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Windows 11 Tests Copilot Inside File Explorer, With an Uninstall Option That Changes IT Control",
     "slug": "windows-11-copilot-file-explorer-uninstall-option-it-control",
     "description": "Microsoft is reportedly testing deep Copilot integration inside Windows 11 File Explorer, while giving IT admins an uninstall or disable option. Here's what it means for productivity, privacy, compliance, and desktop control.",
