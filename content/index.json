@@ -1,5 +1,18 @@
 [
   {
+    "title": "Post-Quantum Cryptography Goes Mainstream in 2026: The Security Upgrade You Can't Postpone",
+    "slug": "post-quantum-cryptography-goes-mainstream-in-2026",
+    "description": "Post-quantum cryptography is moving from pilots to production in 2026 as ",
+    "image": "post-quantum-cryptography-goes-mainstream-in-2026.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-12T01:17:13.340Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "US Signals Relaxation of AI Chip Export Controls to China Amid the H200 Pivot",
     "slug": "us-signals-relaxation-ai-chip-export-controls-china-amid-h200-pivot",
     "description": "Washington appears to be softening AI chip export controls as NVIDIA's H200 becomes the new focal point. What the ",
