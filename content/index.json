@@ -1,5 +1,18 @@
 [
   {
+    "title": "Shadow AI Lockdowns, Autonomous RedTeaming, and PalmVein Access: Enterprise Security in 2026",
+    "slug": "shadow-ai-lockdowns-autonomous-red-teaming-palm-vein-access-enterprise-security-2026",
+    "description": "In 2026, enterprise security is being reshaped by autonomous AI redteaming, crackdowns on shadow AI, and contactless biometrics like palmvein and presence sensing. Here's what's real, what's hype, and how to prepare.",
+    "image": "shadow-ai-lockdowns-autonomous-red-teaming-palm-vein-access-enterprise-security-2026.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-12T04:21:49.913Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Post-Quantum Cryptography Goes Mainstream in 2026: The Security Upgrade You Can't Postpone",
     "slug": "post-quantum-cryptography-goes-mainstream-in-2026",
     "description": "Post-quantum cryptography is moving from pilots to production in 2026 as ",
