@@ -1,5 +1,18 @@
 [
   {
+    "title": "The $3 Trillion AI Data Center Buildout Meets Its Hardest Limit: Power",
+    "slug": "3-trillion-ai-data-center-buildout-power-shortages",
+    "description": "AI data centers are on track for a $3T buildout, but electricity is the real bottleneck. Inside the power crunch, grid constraints, policy fights, and the technologies-from gas to nuclear SMRs-being pitched to keep AI scaling.",
+    "image": "3-trillion-ai-data-center-buildout-power-shortages.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-12T19:45:19.792Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Google Unveils Universal Commerce Protocol: The Quiet Standard That Could Make Online Shopping Feel Instant",
     "slug": "google-unveils-universal-commerce-protocol",
     "description": "Google's Universal Commerce Protocol (UCP) aims to standardise how retailers, payments and AI agents talk to each other-promising faster checkout, smarter recommendations and fewer abandoned carts, while raising new privacy and trust questions.",
