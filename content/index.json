@@ -1,5 +1,18 @@
 [
   {
+    "title": "Indonesia and Malaysia Block xAI's Grok Over Deepfake Risks as AI Rules Tighten Across Southeast Asia",
+    "slug": "indonesia-malaysia-block-xai-grok-deepfake-risks-ai-rules-tighten-southeast-asia",
+    "description": "Indonesia and Malaysia reportedly blocked xAI's Grok on deepfake and misinformation concerns, signalling a tougher 2026 stance on generative AI, platform accountability, and personal data protection across the region.",
+    "image": "indonesia-malaysia-block-xai-grok-deepfake-risks-ai-rules-tighten-southeast-asia.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-12T22:50:30.635Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The $3 Trillion AI Data Center Buildout Meets Its Hardest Limit: Power",
     "slug": "3-trillion-ai-data-center-buildout-power-shortages",
     "description": "AI data centers are on track for a $3T buildout, but electricity is the real bottleneck. Inside the power crunch, grid constraints, policy fights, and the technologies-from gas to nuclear SMRs-being pitched to keep AI scaling.",
