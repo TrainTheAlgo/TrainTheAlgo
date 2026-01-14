@@ -1,5 +1,18 @@
 [
   {
+    "title": "Five Forces Shaping the Future of Global Capitalism",
+    "slug": "five-forces-shaping-the-future-of-global-capitalism",
+    "description": "Capitalism is not ending, it is mutating. From AI-driven labor shocks to climate limits and new tax rules, here are the five forces most likely to reshape markets, profits, and everyday life over the next few decades.",
+    "image": "five-forces-shaping-the-future-of-global-capitalism.png",
+    "category": "Business",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-14T12:00:41.029Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Quantum Computing Leaps Forward: QuEra's Error-Correction Advance and Room-Temp Diamond Qubits as 2026 Milestones",
     "slug": "quantum-computing-leaps-forward-quera-error-correction-room-temp-diamond-qubits-2026",
     "description": "Two 2026 quantum milestones are gaining attention: QuEra's reported error-correction method that could cut logical-qubit overhead, and room-temperature diamond NV qubits that may shrink cost and complexity by avoiding cryogenics.",
