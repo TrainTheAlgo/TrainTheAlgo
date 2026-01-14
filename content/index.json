@@ -1,5 +1,18 @@
 [
   {
+    "title": "Anthropic Unveils Claude Cowork, an AI Agent Poised to Automate File Management and Coding",
+    "slug": "anthropic-unveils-claude-cowork-ai-agent-automate-file-management-coding",
+    "description": "Anthropic's rumored Claude Cowork aims to automate file operations and coding workflows end to end. Here's what's known so far, what to verify, and how teams can prepare for agentic automation without breaking security.",
+    "image": "anthropic-unveils-claude-cowork-ai-agent-automate-file-management-coding.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-14T02:40:31.399Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Post-Quantum Cryptography Accelerates Mainstream Adoption Amid Rising Quantum Threats",
     "slug": "post-quantum-cryptography-accelerates-mainstream-adoption-amid-rising-quantum-threats",
     "description": "Post-quantum cryptography is moving from theory to production as ",
