@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Uncle Larry Doctrine: Palantir's New Rival",
+    "slug": "the-uncle-larry-doctrine-palantirs-new-rival",
+    "description": "Tony Blair's institute says it's building AI tools to rival Palantir. Look closer and a sharper story emerges: Larry Ellison's infrastructure-first strategy, Gulf access, and a partnership that may turn Palantir's edge into Oracle's leverage.",
+    "image": "the-uncle-larry-doctrine-palantirs-new-rival.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-14T21:12:33.318Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "BNB Chain Fermi Hard Fork Goes Live January 14, Ushering Key Upgrades for Scalability and Security",
     "slug": "bnb-chain-fermi-hard-fork-january-14-scalability-security-upgrades",
     "description": "BNB Chain's Fermi hard fork went live on January 14, 2026, targeting higher throughput, stronger security, and smoother DeFi performance. Here's what changed, why it matters, and what users and builders should check next.",
