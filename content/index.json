@@ -1,5 +1,18 @@
 [
   {
+    "title": "Quantum Computing Leaps Forward: QuEra's Error-Correction Advance and Room-Temp Diamond Qubits as 2026 Milestones",
+    "slug": "quantum-computing-leaps-forward-quera-error-correction-room-temp-diamond-qubits-2026",
+    "description": "Two 2026 quantum milestones are gaining attention: QuEra's reported error-correction method that could cut logical-qubit overhead, and room-temperature diamond NV qubits that may shrink cost and complexity by avoiding cryogenics.",
+    "image": "quantum-computing-leaps-forward-quera-error-correction-room-temp-diamond-qubits-2026.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-14T08:52:37.881Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Google Open-Sources MedGemma 1.5: The Open-Weight Bet That Could Reshape Medical AI",
     "slug": "google-open-sources-medgemma-1-5-open-weight-medical-ai",
     "description": "Google's reported MedGemma 1.5 open-source release signals a shift toward accessible, privacy-preserving medical AI. Here's what it is, what it enables, and the real-world guardrails teams need before using it in healthcare.",
