@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google Open-Sources MedGemma 1.5: The Open-Weight Bet That Could Reshape Medical AI",
+    "slug": "google-open-sources-medgemma-1-5-open-weight-medical-ai",
+    "description": "Google's reported MedGemma 1.5 open-source release signals a shift toward accessible, privacy-preserving medical AI. Here's what it is, what it enables, and the real-world guardrails teams need before using it in healthcare.",
+    "image": "google-open-sources-medgemma-1-5-open-weight-medical-ai.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-14T05:46:15.183Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Anthropic Unveils Claude Cowork, an AI Agent Poised to Automate File Management and Coding",
     "slug": "anthropic-unveils-claude-cowork-ai-agent-automate-file-management-coding",
     "description": "Anthropic's rumored Claude Cowork aims to automate file operations and coding workflows end to end. Here's what's known so far, what to verify, and how teams can prepare for agentic automation without breaking security.",
