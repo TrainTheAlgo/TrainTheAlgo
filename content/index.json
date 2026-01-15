@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will We See Evidence for Dark Matter and Dark Energy in the Next Decade?",
+    "slug": "evidence-dark-matter-dark-energy-next-decade",
+    "description": "A clear-eyed look at what 2026-2036 could realistically deliver on dark matter and dark energy, from Euclid and Rubin to next-gen detectors, and what would count as real evidence rather than noise.",
+    "image": "evidence-dark-matter-dark-energy-next-decade.png",
+    "category": "Physics",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-15T09:38:20.588Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Aerolloy Secures Blue Origin Contract: India's Space Materials Leap",
     "slug": "aerolloy-secures-blue-origin-contract-indias-space-materials-leap",
     "description": "Indian aerospace materials firm Aerolloy has landed a development and supply order from Jeff Bezos' Blue Origin, signaling a shift in global rocket supply chains and a new opening for India in high-performance space alloys.",
