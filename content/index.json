@@ -1,5 +1,18 @@
 [
   {
+    "title": "NVIDIA, Eli Lilly Ink $1B AI Drug Discovery Partnership: What's Real, What's Hype, and What Changes Next",
+    "slug": "nvidia-eli-lilly-1b-ai-drug-discovery-partnership",
+    "description": "Reports on X claim NVIDIA and Eli Lilly are committing $1B to an AI drug discovery lab. Here's what's known, what's unverified, and how GPU-scale biology could reshape pharma R&D timelines, costs, and competition.",
+    "image": "nvidia-eli-lilly-1b-ai-drug-discovery-partnership.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-15T00:18:02.358Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The Uncle Larry Doctrine: Palantir's New Rival",
     "slug": "the-uncle-larry-doctrine-palantirs-new-rival",
     "description": "Tony Blair's institute says it's building AI tools to rival Palantir. Look closer and a sharper story emerges: Larry Ellison's infrastructure-first strategy, Gulf access, and a partnership that may turn Palantir's edge into Oracle's leverage.",
