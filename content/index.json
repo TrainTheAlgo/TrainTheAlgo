@@ -1,5 +1,18 @@
 [
   {
+    "title": "Microsoft Patches 100+ Windows 11 Flaws in KB5074109, Including an Actively Exploited Vulnerability",
+    "slug": "microsoft-windows-11-kb5074109-100-vulnerabilities-actively-exploited",
+    "description": "Windows 11 update KB5074109 rolls out with fixes for 100+ security vulnerabilities, including at least one actively exploited flaw, plus improvements for Azure Virtual Desktop stability and gaming performance.",
+    "image": "microsoft-windows-11-kb5074109-100-vulnerabilities-actively-exploited.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-16T13:21:08.063Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "World-First EV Batteries Deliver 600km Range in 10-Minute Charge",
     "slug": "world-first-ev-batteries-deliver-600km-range-in-10-minute-charge",
     "description": "A new ",
