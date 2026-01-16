@@ -1,5 +1,18 @@
 [
   {
+    "title": "Unlocking 2026: Cloud Computing & AI Forecasts From The Cloud Pod",
+    "slug": "unlocking-2026-cloud-computing-ai-forecasts-from-the-cloud-pod",
+    "description": "The Cloud Pod's episode 336 revisits 2025 predictions and tees up 2026 ",
+    "image": "unlocking-2026-cloud-computing-ai-forecasts-from-the-cloud-pod.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-16T19:33:11.845Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "OpenAI's ChatGPT Translator: What's Real, What's Rumour, and What It Means for RealTime Translation in 2026",
     "slug": "openai-chatgpt-translator-whats-real-whats-rumour-2026",
     "description": "OpenAI is reportedly rolling out a dedicated ChatGPT translator. Here's what we can responsibly say so far, how it could work, where it may beat traditional apps, and the privacy and accuracy questions users should ask.",
