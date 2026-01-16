@@ -1,5 +1,18 @@
 [
   {
+    "title": "World-First EV Batteries Deliver 600km Range in 10-Minute Charge",
+    "slug": "world-first-ev-batteries-deliver-600km-range-in-10-minute-charge",
+    "description": "A new ",
+    "image": "world-first-ev-batteries-deliver-600km-range-in-10-minute-charge.png",
+    "category": "Vehicles",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-16T10:15:21.759Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "WhisperPair Vulnerability Exposes Hundreds of Millions of Wireless Audio Devices",
     "slug": "whisperpair-vulnerability-exposes-hundreds-of-millions-of-wireless-audio-devices",
     "description": "A newly disclosed Bluetooth pairing flaw dubbed WhisperPair could enable nearby attackers to eavesdrop, track, or tamper with wireless earbuds, headphones, and speakers. What's known, what's not, and what to do right now.",
