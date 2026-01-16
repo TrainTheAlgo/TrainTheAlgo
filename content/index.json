@@ -1,5 +1,18 @@
 [
   {
+    "title": "WhisperPair Vulnerability Exposes Hundreds of Millions of Wireless Audio Devices",
+    "slug": "whisperpair-vulnerability-exposes-hundreds-of-millions-of-wireless-audio-devices",
+    "description": "A newly disclosed Bluetooth pairing flaw dubbed WhisperPair could enable nearby attackers to eavesdrop, track, or tamper with wireless earbuds, headphones, and speakers. What's known, what's not, and what to do right now.",
+    "image": "whisperpair-vulnerability-exposes-hundreds-of-millions-of-wireless-audio-devices.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-16T07:10:22.674Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Google Gemini App Unveils ",
     "slug": "google-gemini-app-unveils-personal-intelligence-amid-surging-ai-competition",
     "description": "Reports on X suggest Google's Gemini app is testing a ",
