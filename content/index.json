@@ -1,5 +1,18 @@
 [
   {
+    "title": "RCS Messaging Gets EndtoEnd Encryption Across Android and iPhone - Jan 2026 Update",
+    "slug": "rcs-messaging-gets-end-to-end-encryption-across-android-and-iphone-jan-2026-update",
+    "description": "RCS is poised to add end-to-end encryption for Android-iPhone chats, closing a major privacy gap left by SMS and early cross-platform RCS. Here's what's changing, what stays exposed, and what to watch in 2026.",
+    "image": "rcs-messaging-gets-end-to-end-encryption-across-android-and-iphone-jan-2026-update.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-17T04:49:09.472Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Traffic Signals Boost Urban Mobility by 30% in Smart City Pilots",
     "slug": "ai-traffic-signals-boost-urban-mobility-by-30-in-smart-city-pilots",
     "description": "AI-powered traffic signals are moving from theory to street, promising up to 30% congestion reduction by optimizing lights in real time. Here's how they work, what they change for cities, and the risks leaders must manage.",
