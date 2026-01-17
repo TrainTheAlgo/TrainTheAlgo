@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Traffic Signals Boost Urban Mobility by 30% in Smart City Pilots",
+    "slug": "ai-traffic-signals-boost-urban-mobility-by-30-in-smart-city-pilots",
+    "description": "AI-powered traffic signals are moving from theory to street, promising up to 30% congestion reduction by optimizing lights in real time. Here's how they work, what they change for cities, and the risks leaders must manage.",
+    "image": "ai-traffic-signals-boost-urban-mobility-by-30-in-smart-city-pilots.png",
+    "category": "Vehicles",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-17T01:44:11.066Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Guardex AI Launches AttentionMonitoring Model for Classrooms: Promise, Proof, and the Privacy Line",
     "slug": "guardex-ai-attention-monitoring-model-classrooms",
     "description": "Guardex AI is reportedly building a real-time classroom attention monitor. Here's what's known, what's missing, how it could help teachers, and the privacy and policy questions schools must answer before switching it on.",
