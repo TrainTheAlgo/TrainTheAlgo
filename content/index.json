@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Quiet Day in Emerging Tech: What ",
+    "slug": "the-quiet-day-in-emerging-tech-what-no-breaking-news-really-signals-in-2026",
+    "description": "No major emerging tech breaking news in the last 24 hours. Here's why that matters, what it usually means behind the scenes, and how investors and builders can use the quiet to spot the next wave early.",
+    "image": "the-quiet-day-in-emerging-tech-what-no-breaking-news-really-signals-in-2026.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-17T07:54:21.383Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "RCS Messaging Gets EndtoEnd Encryption Across Android and iPhone - Jan 2026 Update",
     "slug": "rcs-messaging-gets-end-to-end-encryption-across-android-and-iphone-jan-2026-update",
     "description": "RCS is poised to add end-to-end encryption for Android-iPhone chats, closing a major privacy gap left by SMS and early cross-platform RCS. Here's what's changing, what stays exposed, and what to watch in 2026.",
