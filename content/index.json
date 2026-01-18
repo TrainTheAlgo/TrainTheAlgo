@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Hidden Data Divide: How Messy Information and Compute Scarcity Are Shaping AI's Inequality Era",
+    "slug": "the-hidden-data-divide-messy-information-compute-scarcity-ai-inequality-era",
+    "description": "AI is spreading fast, but benefits are not. Messy enterprise data, scarce compute, and sovereign AI spending are creating a new power gap between firms and nations. Here's what's real, what's hype, and what to do next.",
+    "image": "the-hidden-data-divide-messy-information-compute-scarcity-ai-inequality-era.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-18T15:04:33.503Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How AI's Insatiable Power Demand Is Reshaping US Energy Policy",
     "slug": "how-ais-insatiable-power-demand-is-reshaping-us-energy-policy",
     "description": "AI data centers are colliding with grid reality. Reports of US emergency moves to keep coal and nuclear online spotlight a new truth: the AI race is now an energy race, with costs, climate goals, and reliability on the line.",
