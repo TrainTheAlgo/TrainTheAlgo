@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Compute Scarcity Is Shaping the Future of AI Inequality",
+    "slug": "how-compute-scarcity-is-shaping-the-future-of-ai-inequality",
+    "description": "As AI races ahead, compute and data access are becoming the new gatekeepers. Reports of Anthropic warning about inequality, enterprise data bottlenecks, and ad-funded AI hint at a future where who gets intelligence depends on who can pay.",
+    "image": "how-compute-scarcity-is-shaping-the-future-of-ai-inequality.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-18T02:43:05.420Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "SpaceX Starship Completes First In-Orbit Propellant Transfer, Paving the Way for Mars Missions",
     "slug": "spacex-starship-completes-first-in-orbit-propellant-transfer-paving-the-way-for-mars-missions",
     "description": "SpaceX says Starship has completed its first in-orbit propellant transfer, a make-or-break capability for Mars missions. Here's what was tested, what it proves, what still isn't solved, and what happens next.",
