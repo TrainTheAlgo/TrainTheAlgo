@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI's Insatiable Power Demand Is Reshaping US Energy Policy",
+    "slug": "how-ais-insatiable-power-demand-is-reshaping-us-energy-policy",
+    "description": "AI data centers are colliding with grid reality. Reports of US emergency moves to keep coal and nuclear online spotlight a new truth: the AI race is now an energy race, with costs, climate goals, and reliability on the line.",
+    "image": "how-ais-insatiable-power-demand-is-reshaping-us-energy-policy.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-18T11:59:23.304Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Skild AI lands $1.4B amid NVIDIA's robotics ChatGPT moment",
     "slug": "skild-ai-lands-1-4b-amid-nvidias-robotics-chatgpt-moment",
     "description": "Skild AI's reported $1.4B raise spotlights a new race: foundation models for robots. With NVIDIA calling a robotics ",
