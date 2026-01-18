@@ -1,5 +1,18 @@
 [
   {
+    "title": "California Investigates xAI as AI Personal Assistants Enter Their Regulatory Era",
+    "slug": "california-investigates-xai-ai-personal-assistants-regulatory-era",
+    "description": "California's reported probe into xAI lands as AI assistants become more agentic and more personal. What's really being regulated, why compute scarcity matters, and how Google's ",
+    "image": "california-investigates-xai-ai-personal-assistants-regulatory-era.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-18T18:09:28.138Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The Hidden Data Divide: How Messy Information and Compute Scarcity Are Shaping AI's Inequality Era",
     "slug": "the-hidden-data-divide-messy-information-compute-scarcity-ai-inequality-era",
     "description": "AI is spreading fast, but benefits are not. Messy enterprise data, scarce compute, and sovereign AI spending are creating a new power gap between firms and nations. Here's what's real, what's hype, and what to do next.",
