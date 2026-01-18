@@ -1,5 +1,18 @@
 [
   {
+    "title": "Tesla Rolls Out New Full SelfDriving Update for Urban Streets",
+    "slug": "tesla-rolls-out-new-full-self-driving-update-for-urban-streets",
+    "description": "Tesla is pushing a new Full SelfDriving update aimed at tougher city driving. Here's what's reportedly changing in intersections, traffic flow, and obstacle handling, what's confirmed versus community chatter, and why it matters for robotaxis.",
+    "image": "tesla-rolls-out-new-full-self-driving-update-for-urban-streets.png",
+    "category": "Vehicles",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-18T21:14:41.930Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "California Investigates xAI as AI Personal Assistants Enter Their Regulatory Era",
     "slug": "california-investigates-xai-ai-personal-assistants-regulatory-era",
     "description": "California's reported probe into xAI lands as AI assistants become more agentic and more personal. What's really being regulated, why compute scarcity matters, and how Google's ",
