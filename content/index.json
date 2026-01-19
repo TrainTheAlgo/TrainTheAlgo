@@ -1,5 +1,18 @@
 [
   {
+    "title": "China Blocks Nvidia H200 AI Chip Imports Despite US Approval, Escalating Tech Trade Tensions",
+    "slug": "china-blocks-nvidia-h200-ai-chip-imports-despite-us-approval-escalating-tech-trade-tensions",
+    "description": "China is reportedly blocking Nvidia H200 AI GPU imports even when US export licenses are granted, tightening the tech trade standoff and reshaping AI hardware supply chains, data center plans, and the race for domestic chips.",
+    "image": "china-blocks-nvidia-h200-ai-chip-imports-despite-us-approval-escalating-tech-trade-tensions.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-19T06:30:30.864Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AMD Shifts to RX 9070 XT as DRAM Shortages Drive GPU Prices Up",
     "slug": "amd-shifts-to-rx-9070-xt-as-dram-shortages-drive-gpu-prices-up",
     "description": "Reports on X claim AMD is prioritising an RX 9070 XT variant to navigate DRAM and HBM shortages that are pushing GPU prices higher. Here's what's known, what's unverified, and what it could mean for gamers and buyers.",
