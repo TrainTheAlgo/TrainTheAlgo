@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Cannot Be Your Friend: The Comforting Illusion, the Commercial Incentive, and the Human Cost",
+    "slug": "ai-cannot-be-your-friend",
+    "description": "AI can sound caring, but it cannot care. Friendship requires an independent inner life, the ability to refuse, and a shared stake in outcomes. Here's why synthetic companionship is a category error, and how to use AI without letting it replace people.",
+    "image": "ai-cannot-be-your-friend.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-19T12:40:06.112Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Google Adds AI to Gmail: Benefits, Risks & User Choice",
     "slug": "google-adds-ai-to-gmail-benefits-risks-user-choice",
     "description": "Google is rolling out AI-enhanced Gmail features like photo scanning and personalized recommendations. Here's what's changing, what data may be processed, the privacy trade-offs, and the practical steps users can take to stay in control.",
