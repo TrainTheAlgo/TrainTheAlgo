@@ -1,5 +1,18 @@
 [
   {
+    "title": "Microsoft Rolls Out Emergency Patch for Windows 11 Shutdown Failures: What Happened, Who's Affected, and How to Fix It",
+    "slug": "microsoft-emergency-patch-windows-11-shutdown-failures",
+    "description": "After January Patch Tuesday, some Windows 11 PCs stopped shutting down properly. Microsoft has now issued an emergency update to restore normal shutdown behavior without undoing the security fixes. Here's how to install it safely.",
+    "image": "microsoft-emergency-patch-windows-11-shutdown-failures.png",
+    "category": "Software",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-19T18:52:48.673Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Robot Pioneers Capture Hurricane Data From Storm's Core, Launching Autonomous Climate Science",
     "slug": "robot-pioneers-capture-hurricane-data-from-storms-core-launching-autonomous-climate-science",
     "description": "A viral claim says a robot gathered real-time measurements from inside a hurricane's core. Here's what's plausible, what's unproven, and how autonomous robots could reshape hurricane forecasting and climate science.",
