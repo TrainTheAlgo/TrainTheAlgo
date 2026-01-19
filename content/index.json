@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google Adds AI to Gmail: Benefits, Risks & User Choice",
+    "slug": "google-adds-ai-to-gmail-benefits-risks-user-choice",
+    "description": "Google is rolling out AI-enhanced Gmail features like photo scanning and personalized recommendations. Here's what's changing, what data may be processed, the privacy trade-offs, and the practical steps users can take to stay in control.",
+    "image": "google-adds-ai-to-gmail-benefits-risks-user-choice.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-19T09:35:50.383Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "China Blocks Nvidia H200 AI Chip Imports Despite US Approval, Escalating Tech Trade Tensions",
     "slug": "china-blocks-nvidia-h200-ai-chip-imports-despite-us-approval-escalating-tech-trade-tensions",
     "description": "China is reportedly blocking Nvidia H200 AI GPU imports even when US export licenses are granted, tightening the tech trade standoff and reshaping AI hardware supply chains, data center plans, and the race for domestic chips.",
