@@ -1,5 +1,18 @@
 [
   {
+    "title": "Sequoia's Rumored $350B Anthropic Bet: What It Says About AI Money, Moats, and the Next Funding Cycle",
+    "slug": "sequoias-rumored-350b-anthropic-bet-ai-money-moats-next-funding-cycle",
+    "description": "Reports circulating on X claim Sequoia may back Anthropic at a $350B valuation. Here's what's verifiable, what's speculation, and what the rumor reveals about AI economics, compute constraints, and the new rules of venture investing.",
+    "image": "sequoias-rumored-350b-anthropic-bet-ai-money-moats-next-funding-cycle.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-20T04:10:48.828Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Malicious Chrome Extensions Hijack Enterprise HR Platforms in Credential-Theft Campaign",
     "slug": "malicious-chrome-extensions-hijack-enterprise-hr-platforms-credential-theft-campaign",
     "description": "A new credential-theft campaign uses malicious Chrome extensions to hijack sessions on enterprise HR platforms, risking payroll and employee data. Here's how it works, what to look for, and how to defend your organization now.",
