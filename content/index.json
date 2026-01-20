@@ -1,5 +1,18 @@
 [
   {
+    "title": "NVIDIA's Arm-Based N1/N1X Laptop Chips Target a Q2 2026 Debut and a Direct Shot at x86",
+    "slug": "nvidia-arm-n1-n1x-laptop-chips-q2-2026-x86",
+    "description": "NVIDIA is reportedly preparing Arm-based N1/N1X laptop chips for Q2 2026. If the performance-per-watt and on-device AI claims hold up, Windows on Arm could move from niche to mainstream and pressure Intel and AMD's x86 grip.",
+    "image": "nvidia-arm-n1-n1x-laptop-chips-q2-2026-x86.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-20T13:28:32.059Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "NVIDIA Cosmos Launches: RealWorld Robot Deployment Claims a Major SimtoReal Breakthrough",
     "slug": "nvidia-cosmos-launches-real-world-robot-deployment-claims-sim-to-real-breakthrough",
     "description": "Posts on X claim NVIDIA's Cosmos has moved from demos to real deployments in factories and on city streets, hinting at a step-change in sim-to-real robotics. Here's what's known, what's not, and what to watch next.",
