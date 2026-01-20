@@ -1,5 +1,18 @@
 [
   {
+    "title": "Malicious Chrome Extensions Hijack Enterprise HR Platforms in Credential-Theft Campaign",
+    "slug": "malicious-chrome-extensions-hijack-enterprise-hr-platforms-credential-theft-campaign",
+    "description": "A new credential-theft campaign uses malicious Chrome extensions to hijack sessions on enterprise HR platforms, risking payroll and employee data. Here's how it works, what to look for, and how to defend your organization now.",
+    "image": "malicious-chrome-extensions-hijack-enterprise-hr-platforms-credential-theft-campaign.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-20T01:05:19.758Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could Machine Learning Discover Fundamental Flaws in Human Reasoning?",
     "slug": "could-machine-learning-discover-fundamental-flaws-in-human-reasoning",
     "description": "Machine learning is getting good at spotting contradictions, fallacies, and bias patterns in text and decisions. But can it reveal deeper, universal flaws in how humans reason, or will it mostly mirror our own blind spots back at us?",
