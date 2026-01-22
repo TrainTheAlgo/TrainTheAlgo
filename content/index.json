@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why Samsung's 2nm HBM Push Could Redefine the AI Hardware Supply Chain",
+    "slug": "why-samsungs-2nm-hbm-push-could-redefine-the-ai-hardware-supply-chain",
+    "description": "Samsung is reportedly pushing custom HBM toward 2nm as China accelerates domestic HBM3. Here's what that could mean for AI GPUs, power limits, pricing, and a supply chain that is splitting into parallel tracks.",
+    "image": "why-samsungs-2nm-hbm-push-could-redefine-the-ai-hardware-supply-chain.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-22T18:04:26.684Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Upscale AI Raises $200M to Challenge Nvidia in Rack-Scale Networking Amid the Global Chip Race",
     "slug": "upscale-ai-raises-200m-challenge-nvidia-rack-scale-networking-global-chip-race",
     "description": "Reports on X say Upscale AI raised $200M to take on Nvidia in rack-scale networking, a key bottleneck in AI data centers. Here's what rack-scale networking is, why it matters, and what to watch next in the chip race.",
