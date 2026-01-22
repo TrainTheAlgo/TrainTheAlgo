@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can We Create a Fully SelfSustaining Mars Habitat?",
+    "slug": "fully-self-sustaining-mars-habitat",
+    "description": "A truly self-sustaining Mars habitat means no regular resupply from Earth. Here's what the latest research says about air, water, food, power, radiation shielding, and the hard integration problem that decides whether it's possible.",
+    "image": "fully-self-sustaining-mars-habitat.png",
+    "category": "Space",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-22T21:13:38.569Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why Samsung's 2nm HBM Push Could Redefine the AI Hardware Supply Chain",
     "slug": "why-samsungs-2nm-hbm-push-could-redefine-the-ai-hardware-supply-chain",
     "description": "Samsung is reportedly pushing custom HBM toward 2nm as China accelerates domestic HBM3. Here's what that could mean for AI GPUs, power limits, pricing, and a supply chain that is splitting into parallel tracks.",
