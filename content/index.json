@@ -1,5 +1,18 @@
 [
   {
+    "title": "HP Spectre x360 Refresh: What's New for 2026 (and Why It Matters)",
+    "slug": "hp-spectre-x360-refresh-whats-new-for-2026-and-why-it-matters",
+    "description": "HP's refreshed Spectre x360, updated ENVY laptops, and a new all-in-one desktop aim to win the 2026 upgrade cycle with smarter AI features, better portability, and creator-friendly screens. Here's what to watch before you buy.",
+    "image": "hp-spectre-x360-refresh-whats-new-for-2026-and-why-it-matters.png",
+    "category": "Business",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-22T11:53:22.196Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Anthropic Unveils Claude Cowork: AI Coding Tool Targets Non-Developers as Agentic AI Hits a Tipping Point",
     "slug": "anthropic-unveils-claude-cowork-ai-coding-tool-targets-non-developers-agentic-ai-tipping-point",
     "description": "Anthropic's Claude Cowork aims to let non-developers build real software with agentic AI that plans, debugs, and iterates. Here's what's known, what's not, and how to use it safely in business workflows.",
