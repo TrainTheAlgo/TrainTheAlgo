@@ -1,5 +1,18 @@
 [
   {
+    "title": "Limited Breaking News in Emerging Tech: No New Stories Beyond Known Coverage in the Last 24 Hours",
+    "slug": "limited-breaking-news-emerging-tech-no-new-stories-last-24-hours",
+    "description": "A clear-eyed look at why emerging tech has produced little verifiable breaking news in the last 24 hours, what's still moving beneath the surface, and how to separate signal from noise.",
+    "image": "limited-breaking-news-emerging-tech-no-new-stories-last-24-hours.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-23T15:46:46.799Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The Rise of Agentic AI: What Meta's New Lab Models Could Mean for Robotics in 2026",
     "slug": "the-rise-of-agentic-ai-what-metas-new-lab-models-could-mean-for-robotics-in-2026",
     "description": "Meta is rumored to have released the first AI models from a new dedicated lab as CES 2026 spotlights real-world robotics. Here's what to watch, what to verify, and how agentic AI could reshape consumer tech this year.",
