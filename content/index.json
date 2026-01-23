@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Hardware: China Accelerates Domestic HBM3 Development as Global Memory Supply Tightens",
+    "slug": "ai-hardware-china-accelerates-domestic-hbm3-development-global-memory-supply-tightens",
+    "description": "China is pushing to build homegrown HBM3, the high-bandwidth memory that powers modern AI accelerators, as global supply tightens under AI demand and geopolitics. Here's what's real, what's rumored, and what changes if China succeeds.",
+    "image": "ai-hardware-china-accelerates-domestic-hbm3-development-global-memory-supply-tightens.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-23T00:18:52.878Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Can We Create a Fully SelfSustaining Mars Habitat?",
     "slug": "fully-self-sustaining-mars-habitat",
     "description": "A truly self-sustaining Mars habitat means no regular resupply from Earth. Here's what the latest research says about air, water, food, power, radiation shielding, and the hard integration problem that decides whether it's possible.",
