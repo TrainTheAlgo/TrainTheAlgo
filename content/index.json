@@ -1,5 +1,18 @@
 [
   {
+    "title": "Google Photos Launches AIPowered ",
+    "slug": "google-photos-me-meme-generator",
+    "description": "Google Photos' new AI feature, Me Meme, turns your own snapshots into shareable meme formats in seconds. Here's how it works, what it means for consumer AI, and the privacy and misuse questions it raises.",
+    "image": "google-photos-me-meme-generator.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-24T00:58:39.352Z",
+    "research": "xAI Grok 4.1-fast",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "5 Ways Davos 2026 Is Redefining Global AI Power Dynamics",
     "slug": "davos-2026-redefining-global-ai-power-dynamics",
     "description": "At Davos 2026, leaders framed AI as a geopolitical power shift on par with energy and defense. Here are five ways the adoption boom, export controls, and worker trust debates are reshaping the world order.",
