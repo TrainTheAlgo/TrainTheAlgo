@@ -1,5 +1,18 @@
 [
   {
+    "title": "Import AI 441: My Agents Are Working. Are Yours?",
+    "slug": "import-ai-441-my-agents-are-working-are-yours",
+    "description": "AI agents are quietly turning knowledge work into a 24/7 pipeline. From research swarms to centaur mathematics and poisoned data, Import AI 441 maps the new rules of productivity, security, and institutional control.",
+    "image": "import-ai-441-my-agents-are-working-are-yours.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-25T22:04:19.876Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Google Photos Launches AIPowered ",
     "slug": "google-photos-me-meme-generator",
     "description": "Google Photos' new AI feature, Me Meme, turns your own snapshots into shareable meme formats in seconds. Here's how it works, what it means for consumer AI, and the privacy and misuse questions it raises.",
