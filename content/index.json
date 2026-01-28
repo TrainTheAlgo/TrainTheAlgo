@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is National Citizenship Obsolete in a Fully Digital Economy?",
+    "slug": "is-national-citizenship-obsolete-in-a-fully-digital-economy",
+    "description": "As work, money, and identity move online, citizenship faces a stress test. Digital IDs, remote work, DAOs, and cross-border taxation are reshaping rights and duties, but the state still controls the levers that matter most.",
+    "image": "is-national-citizenship-obsolete-in-a-fully-digital-economy.png",
+    "category": "Business",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-28T13:12:01.884Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Import AI 441: My Agents Are Working. Are Yours?",
     "slug": "import-ai-441-my-agents-are-working-are-yours",
     "description": "AI agents are quietly turning knowledge work into a 24/7 pipeline. From research swarms to centaur mathematics and poisoned data, Import AI 441 maps the new rules of productivity, security, and institutional control.",
