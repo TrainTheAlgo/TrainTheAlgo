@@ -1,0 +1,111 @@
+<script>
+const article = {
+    title: "Moltbot Daily Marketing Brief: The 5-Minute AI Assistant That Actually Ships Work",
+    slug: "moltbot-daily-marketing-brief-5-minute-ai-assistant",
+    description: "Moltbot (formerly Clawdbot) is an open-source, self-hosted AI assistant you control from Telegram. Here's how to use it to build a simple daily marketing brief that scans X, Reddit, and Hacker News and delivers the signal, not the noise.",
+    category: "AI",
+    image: "moltbot-daily-marketing-brief-5-minute-ai-assistant.png",
+    research: "xAI Grok",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style></style>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-8">The internet's newest AI obsession isn't a chatbot. It's a worker.</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">If you've been watching the Clawdbot, now Moltbot, chatter explode across X, GitHub, and tech media, you've probably seen the same claim repeated with suspicious confidence: "This is the greatest application of AI ever." That's a big statement in a year where everything is "revolutionary." But Moltbot is worth your attention for a simpler reason. It's one of the clearest examples yet of AI moving from talking to doing, and it does it in a way that fits into a normal day.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">This piece cuts through the hype and shows one practical build that almost any marketer, founder, or creator can copy. A simple daily marketing brief that scans X, Reddit, and Hacker News, then sends the best links and angles to your phone on a schedule. No dashboards. No tab juggling. Just a briefing that arrives when you want it.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">Clawdbot vs Moltbot: why the name changed overnight</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">The two names are not competing products. They're the same project, mid-molt.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The assistant originally shipped as Clawdbot, with a space lobster mascot named Clawd. Then the creator received a polite nudge from Anthropic because "Clawd" sounded a little too close to "Claude." The community did what the internet does best. It turned a legal footnote into lore.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Lobsters outgrow their shells and shed them. They molt. Clawd became Molty, and Clawdbot became Moltbot. If you see older tutorials, repos, or screenshots using the old name, you're not missing anything. You're just reading history in real time.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">What Moltbot is, in plain English</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">Most AI tools live in a browser and wait for you to ask questions. Moltbot is different because it's designed to live where work happens and to act like a capable assistant, not a search box.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">It's open-source and self-hosted, meaning you run it on a machine you control, either on your own computer or on a private server. You talk to it through messaging apps such as Telegram, and it can be given "skills" that let it use tools like a browser, notes apps, and other services. The result is an assistant you can text while you're away from your desk, and it can still do desk work.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The phrase you'll see repeated is "infinite memory." In practice, that means it can retain context about your preferences, your ongoing projects, and the way you like information formatted, so you spend less time re-explaining yourself. The more important point is permission. A self-hosted assistant can be configured to open pages, collect links, format a report, and deliver it, without you babysitting a chat window.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">Why marketers care: it turns "keeping up" into a scheduled system</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">Marketing is a game of timing. The best ideas often show up as weak signals first. A founder's offhand complaint. A new product launch buried in a thread. A pattern of questions in a subreddit that hasn't hit mainstream content yet.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The problem is that "staying on top of it" usually means doomscrolling. You open X for research and leave 40 minutes later with nothing but vibes. You check Reddit for customer language and end up reading arguments. You skim Hacker News and forget to save the one link that mattered.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">A daily marketing brief flips that dynamic. You decide the sources, the filters, the format, and the delivery time. Then you let the assistant do the scanning and summarizing, so your attention is spent on decisions, not discovery.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">What people are building with Moltbot beyond marketing</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">The reason Moltbot spread so fast is not because it writes better copy than other models. It's because it's a flexible automation layer that can be driven from a chat interface.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">In the community, you'll see everything from "second brain" workflows that turn messy voice notes into structured project pages, to personal admin tasks like monitoring prices and alerting you when a target hits. Some users treat it like a lightweight operations assistant. Others treat it like a personal analyst that never forgets what you care about.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The common thread is simple. It's not AI as a destination. It's AI as a control system for the tools you already use.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">The simplest high-leverage build: a daily marketing brief to Telegram</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">If you want a first project that feels immediately useful, build a daily brief. It's contained, it's repeatable, and it teaches you the core loop of how Moltbot works: connect a few skills, write a clear instruction, schedule it, then iterate on the output.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The goal is not to create a 20-page report. The goal is to get a short list of high-signal items you can act on that day. Think launches, strong opinions, emerging pain points, and competitor moves.</p>
+
+<h2 class="text-xl font-semibold tracking-tight mt-8">Step 1: host Moltbot somewhere you control</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">Because Moltbot is self-hosted, you need it running on a machine that stays on. Many people use a small VPS so it's always available, and so the assistant can run scheduled jobs even when your laptop is closed.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Expect to configure a few environment variables during setup, typically including API keys for the model provider you want to use. This is the part that scares non-technical users, but it's usually a copy and paste exercise. If you can set up a newsletter tool or a Stripe webhook, you can handle this.</p>
+
+<h2 class="text-xl font-semibold tracking-tight mt-8">Step 2: connect Telegram so the assistant lives in your pocket</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">Moltbot becomes much more compelling when it's controlled through a messaging app. Telegram is a popular choice because it's fast, reliable, and bot-friendly.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The basic flow is to create a Telegram bot via BotFather, copy the token, and give it to Moltbot so it can authenticate. Once connected, you can message your assistant like a contact. That's the moment it stops feeling like "software you installed" and starts feeling like "someone on your team."</p>
+
+<h2 class="text-xl font-semibold tracking-tight mt-8">Step 3: add the two skills that make the brief work</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">A daily brief needs two capabilities. It needs to browse the web and it needs to query X in a structured way. In many Moltbot setups, that means enabling a browser skill such as Brave Search for web discovery, and an X connector such as Bird for pulling posts based on filters.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">If you only do one thing right here, do this. Keep the first version narrow. One topic. One subreddit. One time window. You can always expand later, but a tight brief is what you'll actually read.</p>
+
+<h2 class="text-xl font-semibold tracking-tight mt-8">Step 4: write the prompt like you're delegating to a sharp intern</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">The best prompts for agents are not poetic. They are operational. They specify sources, filters, output format, and what to ignore.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Here is a starter prompt you can paste into Moltbot and customize. It's intentionally simple, because the first win is consistency, not complexity.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800 font-mono bg-slate-50 border border-slate-200 rounded-lg p-4">
+Create a daily marketing brief that runs every morning at 8:00am in my timezone and sends it to me on Telegram.<br><br>
+Sources and filters:<br>
+1) X/Twitter: search for posts about [TOPIC] with at least 100 likes from the last 24 hours. Prioritize launches, new builds, strong opinions, and practical tactics. Include links.<br>
+2) Reddit: pull today's top posts from r/[SUBREDDIT]. Extract recurring pain points, questions, and phrases people use. Include links.<br>
+3) Hacker News: find recent discussions related to [TOPIC]. Prioritize new tools, technical shifts, and contrarian takes. Include links.<br><br>
+Output format:<br>
+Start with a 2 sentence "what matters today" overview.<br>
+Then list 5 to 10 items max, each with a one sentence takeaway and a link.<br>
+End with 3 content ideas I could write today based on the brief.
+</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Replace the topic and subreddit with something you actually ship work around. If you're a consultant, it might be "B2B lead generation" and a niche industry subreddit. If you're a creator, it might be "email marketing" and r/copywriting. If you're building in AI, keep it specific, like "AI agents for customer support," not just "AI."</p>
+
+<h2 class="text-xl font-semibold tracking-tight mt-8">Step 5: schedule it, then iterate like a product</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">Moltbot includes scheduling, which is the quiet feature that makes the whole thing stick. A brief that you have to request manually will eventually be forgotten. A brief that arrives at 8:00am becomes part of your routine.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Your first output will be wrong in a predictable way. It will be too long, too generic, or too "corporate." That's not failure. That's calibration. Tighten the filters. Raise the like threshold. Tell it to avoid recycled threads. Ask for fewer items and stronger takeaways. After two or three iterations, you'll get something that feels like it was written for you, because it was.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">How to keep the brief high-signal instead of high-noise</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">The easiest way to ruin a daily brief is to treat it like a news digest. News is abundant. Signal is scarce. Your job is to force scarcity into the system.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Start by limiting the number of items. Ten is plenty. Then bias toward posts with proof of work. Demos, screenshots, code, pricing pages, teardown threads, and real metrics beat hot takes. Finally, ask for angles, not summaries. A good brief doesn't just tell you what happened. It tells you what to do with it.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">One useful trick is to have Moltbot extract "customer language" from Reddit and turn it into headline drafts. Another is to have it flag competitor mentions and categorize them as positioning, pricing, distribution, or product changes. These are small additions that turn a reading habit into a marketing advantage.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">Security and trust: the part you should not hand-wave</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">Self-hosted does not automatically mean safe. It means you are responsible.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">If you give an agent access to a browser, files, and accounts, treat it like a junior employee with admin permissions. Use separate accounts where possible. Limit what skills can do. Avoid connecting anything sensitive until you've watched it behave reliably. And remember that API keys are keys. Store them carefully and rotate them if you suspect exposure.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">The upside is that you can choose your own trade-offs. Some people want maximum capability. Others want a read-only analyst that never touches files. Moltbot can be either, but you have to decide which you're building.</p>
+
+<h2 class="text-2xl font-semibold tracking-tight mt-10">Is Moltbot worth it for a "simple daily marketing brief"?</h2>
+<p class="mt-4 text-base leading-7 text-slate-800">If you like tinkering, it's one of the fastest ways to understand where personal AI is heading. Not in theory, but in muscle memory. You'll learn what agents are good at, where they hallucinate, and how much leverage you get from a well-designed prompt plus a schedule.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">If you want something that works perfectly out of the box, you may want to wait. The installation is getting easier, but the real work is deciding what you want the assistant to do, and being specific enough that it can do it reliably.</p>
+
+<p class="mt-4 text-base leading-7 text-slate-800">Either way, the most interesting part of Moltbot isn't the lobster mascot or the viral tweets. It's the quiet shift in expectation it creates once you've had a useful brief land on your phone every morning without you asking for it, because after that, you start wondering what else in your workday should be a message you receive instead of a task you remember.</p>

@@ -1,5 +1,18 @@
 [
   {
+    "title": "Moltbot Daily Marketing Brief: The 5-Minute AI Assistant That Actually Ships Work",
+    "slug": "moltbot-daily-marketing-brief-5-minute-ai-assistant",
+    "description": "Moltbot (formerly Clawdbot) is an open-source, self-hosted AI assistant you control from Telegram. Here's how to use it to build a simple daily marketing brief that scans X, Reddit, and Hacker News and delivers the signal, not the noise.",
+    "image": "moltbot-daily-marketing-brief-5-minute-ai-assistant.png",
+    "category": "AI",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-29T18:53:07.664Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Is National Citizenship Obsolete in a Fully Digital Economy?",
     "slug": "is-national-citizenship-obsolete-in-a-fully-digital-economy",
     "description": "As work, money, and identity move online, citizenship faces a stress test. Digital IDs, remote work, DAOs, and cross-border taxation are reshaping rights and duties, but the state still controls the levers that matter most.",
