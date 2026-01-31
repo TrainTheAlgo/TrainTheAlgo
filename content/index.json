@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is Privacy Obsolete in a World of Constant Surveillance Capitalism?",
+    "slug": "is-privacy-obsolete-in-a-world-of-constant-surveillance-capitalism",
+    "description": "Surveillance capitalism turns everyday clicks, locations, and purchases into predictions. Here's what's really being collected, why consent banners don't fix it, what laws can and can't do, and practical steps to reduce tracking now.",
+    "image": "is-privacy-obsolete-in-a-world-of-constant-surveillance-capitalism.png",
+    "category": "Security",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-31T10:08:03.144Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Are We Reaching the Ultimate Human Speed Ceiling?",
     "slug": "are-we-reaching-the-ultimate-human-speed-ceiling",
     "description": "Elite sprint and marathon times are still improving, but the curve is flattening. Here's what biology, physics, technology and regulation say about whether humans are nearing a true speed limit.",
