@@ -1,5 +1,18 @@
 [
   {
+    "title": "Are We Reaching the Ultimate Human Speed Ceiling?",
+    "slug": "are-we-reaching-the-ultimate-human-speed-ceiling",
+    "description": "Elite sprint and marathon times are still improving, but the curve is flattening. Here's what biology, physics, technology and regulation say about whether humans are nearing a true speed limit.",
+    "image": "are-we-reaching-the-ultimate-human-speed-ceiling.png",
+    "category": "Sport",
+    "path": "2026/01/",
+    "featured": false,
+    "date": "2026-01-31T07:00:44.607Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Moltbot Daily Marketing Brief: The 5-Minute AI Assistant That Actually Ships Work",
     "slug": "moltbot-daily-marketing-brief-5-minute-ai-assistant",
     "description": "Moltbot (formerly Clawdbot) is an open-source, self-hosted AI assistant you control from Telegram. Here's how to use it to build a simple daily marketing brief that scans X, Reddit, and Hacker News and delivers the signal, not the noise.",
