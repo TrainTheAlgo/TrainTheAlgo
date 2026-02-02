@@ -1,5 +1,18 @@
 [
   {
+    "title": "When Will Games Be Indistinguishable From Reality? A Timeline, the Tech, and the Hard Truth",
+    "slug": "when-will-games-be-indistinguishable-from-reality",
+    "description": "Photorealistic graphics are already here in moments. The real question is when games will feel real in motion, in physics, and in human interaction. A clear timeline of what's close, what's hard, and what will take decades.",
+    "image": "when-will-games-be-indistinguishable-from-reality.png",
+    "category": "Gaming",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-02T22:25:04.568Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Speed Limits vs. Autonomy: Can AVs Eliminate the Need for Caps?",
     "slug": "speed-limits-vs-autonomy-can-avs-eliminate-the-need-for-caps",
     "description": "Autonomous vehicles react faster than humans, but higher speeds still multiply crash energy. Here's what the data, physics, and policy shifts suggest about raising-or replacing-speed limits in an AV future.",
