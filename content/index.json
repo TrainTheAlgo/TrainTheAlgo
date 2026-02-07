@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is the Singularity Here? A 2024 Reality Check on AI, Space, and the Exponential Future",
+    "slug": "is-the-singularity-here-2024-reality-check",
+    "description": "Ray Kurzweil says the Singularity is nearer. AI feels like it arrived overnight, rockets are rewriting access to space, and biology is accelerating. But is this the Singularity, or the noisy runway before takeoff?",
+    "image": "is-the-singularity-here-2024-reality-check.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-07T10:39:23.105Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "If Bitcoin Succeeds, What Happens to Governments and Their Power?",
     "slug": "if-bitcoin-succeeds-what-happens-to-governments-and-their-power",
     "description": "If Bitcoin becomes a dominant store of value or money, governments don't disappear, but their strongest levers change. Here's how taxation, central banking, sanctions, and public services could evolve in a Bitcoin-success world.",
