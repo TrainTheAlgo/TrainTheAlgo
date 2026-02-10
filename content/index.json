@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Brain-Computer Interfaces Create Permanent Unlimited Memory?",
+    "slug": "could-brain-computer-interfaces-create-permanent-unlimited-memory",
+    "description": "BCIs can already read and write small amounts of neural information. But turning that into permanent, unlimited human memory runs into hard limits: bandwidth, meaning, brain plasticity, and the messy problem of writing memories back safely.",
+    "image": "could-brain-computer-interfaces-create-permanent-unlimited-memory.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-10T10:59:33.346Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How Limitless Clean Energy Is Redrawing Global Power Maps",
     "slug": "how-limitless-clean-energy-is-redrawing-global-power-maps",
     "description": "If energy becomes abundant, cheap, and clean, power shifts from oil fields to factories, grids, minerals, and standards. Here's how fusion, space solar, advanced PV, and green hydrogen could reorder alliances, trade, and security.",
