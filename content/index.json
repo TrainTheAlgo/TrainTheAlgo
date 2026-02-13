@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Government: Cure for Corruption or New Tyranny?",
+    "slug": "ai-government-cure-for-corruption-or-new-tyranny",
+    "description": "A global AI government could standardise decisions, log every action, and shrink bribery. It could also centralise power, expand surveillance, and hard-code bias. Here's what the evidence suggests and what safeguards matter most.",
+    "image": "ai-government-cure-for-corruption-or-new-tyranny.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-13T09:24:09.061Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Is Transforming Sports Teams And Creating New Competitive Advantages",
     "slug": "ai-transforming-sports-teams-competitive-advantages",
     "description": "AI is quietly rewriting how teams scout, train, prevent injuries, and make in-game decisions. Here's where the real edge comes from, why early adopters win twice, and what athletes should demand from the tech stack around them.",
