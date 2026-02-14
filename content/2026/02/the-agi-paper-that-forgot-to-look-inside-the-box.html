@@ -1,0 +1,154 @@
+<script>
+const article = {
+    title: "The AGI Paper That Forgot to Look Inside the Box",
+    slug: "the-agi-paper-that-forgot-to-look-inside-the-box",
+    description: "A high-profile claim that "AGI is already here" leans heavily on behavior. But a classic objection says behavior can be faked. Mechanistic interpretability offers a way to look inside the box and change what counts as evidence.",
+    category: "AI",
+    image: "the-agi-paper-that-forgot-to-look-inside-the-box.png",
+    research: "xAI Grok",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style>
+  .prose p { @apply text-slate-800 leading-relaxed; }
+  .prose h2 { @apply text-slate-900 mt-10 mb-3 text-2xl font-semibold; }
+  .prose h3 { @apply text-slate-900 mt-6 mb-2 text-xl font-semibold; }
+  .prose .callout { @apply bg-slate-50 border border-slate-200 rounded-xl p-5 my-6; }
+  .prose .quote { @apply border-l-4 border-slate-300 pl-4 italic text-slate-700; }
+</style>
+
+<div class="prose max-w-3xl mx-auto">
+  <h2>When "AGI is here" becomes a test of what you count as evidence</h2>
+  <p>
+    If someone tells you "AGI is already here," the most important question is not whether today's models can pass another exam. It is whether we are measuring intelligence in a way that could be fooled by a very large, very polished trick. The uncomfortable possibility is that we might be arguing about the scoreboard while ignoring the engine.
+  </p>
+  <p>
+    A recent Nature essay by four UC San Diego professors made the case that human level general intelligence has effectively arrived, and that many popular requirements for AGI are misguided. The paper usefully clears away some bad definitions. It also, in a crucial place, steps around the hardest objection it cites. That step matters because it changes the entire logic of the claim.
+  </p>
+
+  <h2>What the Nature argument gets right about AGI definitions</h2>
+  <p>
+    The essay pushes back on a familiar pattern in AI debates: moving the goalposts until "AGI" means perfection, omniscience, or a mind that looks and feels exactly like ours. The authors argue that none of those are necessary. Humans are not perfect. Humans are not universal experts. Humans are not superintelligent. And if we met an intelligent alien, it would not be made of neurons.
+  </p>
+  <p>
+    That framing is healthy. It forces a more realistic question. If we strip away impossible standards, what remains that would still separate a genuinely general intelligence from a system that is merely impressive?
+  </p>
+
+  <h2>The ten objections, and the four that feel most persuasive at first glance</h2>
+  <p>
+    The Nature essay addresses a set of common objections to large language models having general intelligence. Several rebuttals land well, at least initially.
+  </p>
+  <p>
+    First is agency. The authors note that a system can be intelligent even if it only responds to queries. Fiction is full of "oracles" that do not act, yet are clearly portrayed as minds. In the real world, a brilliant consultant who only answers questions is still intelligent.
+  </p>
+  <p>
+    Second is embodiment. The paper argues that insisting on a body is an anthropocentric bias. A brain in a vat, a disembodied alien cloud, or a human with severe motor limitations could still be intelligent. Intelligence and motor control can be separable.
+  </p>
+  <p>
+    Third is the "only words" critique. Modern frontier systems are multimodal, and language itself is a powerful compression format for knowledge about the world. If a model can use that compressed knowledge to plan, design, and reason across domains, then "it's just text" starts to sound like a category error.
+  </p>
+  <p>
+    Fourth is world models. The authors use a broad definition: a world model is the ability to predict what would happen if circumstances differed. Under that definition, a model that can reliably distinguish "glass dropped on a pillow" from "glass dropped on tile" is doing something that looks like counterfactual prediction, not mere parroting.
+  </p>
+  <p>
+    Taken together, these rebuttals create momentum. They invite a simple conclusion: if the objections keep falling, then the remaining gap to AGI is mostly rhetorical.
+  </p>
+
+  <h2>The missing move: selection pressure is not the mechanism</h2>
+  <p>
+    There is a subtle but important point that often gets lost in public arguments about language models. Training objective is not the same thing as the internal method a system discovers to succeed at that objective.
+  </p>
+  <p>
+    Evolution selected for eyes because seeing helped organisms survive. That selection pressure does not tell you whether the eye will be compound, camera like, or something stranger. In the same way, "predict the next token" does not uniquely determine what kind of internal machinery will emerge. It could be shallow pattern completion. It could be something closer to structured inference. The objective alone does not settle it.
+  </p>
+  <p>
+    This is where the debate should become empirical. Not just "what can it do," but "what did it build inside itself to do it."
+  </p>
+
+  <h2>Ned Block's trap: a perfect talker that is obviously not intelligent</h2>
+  <p>
+    In 1981, philosopher Ned Block offered a thought experiment that still haunts any purely behavioral test. Imagine a lookup table so large it contains the correct response to every possible conversational input. It would pass the Turing test flawlessly. Its behavior would be indistinguishable from a person's.
+  </p>
+  <p>
+    Yet it would not be intelligent in any meaningful sense. It would not generalize. It would not abstract. It would not understand. It would retrieve.
+  </p>
+  <p class="quote">
+    The point is not that such a table is practical. The point is that behavior alone cannot be sufficient evidence, because you can construct a system that has the behavior without the thing you are trying to measure.
+  </p>
+  <p>
+    The Nature essay cites Block, but then continues as if the objection has been neutralized by piling up more behavioral wins. That is the core problem. Block's argument is designed to show that no amount of behavioral evidence, by itself, crosses the line. If the line exists, it is partly about internal process.
+  </p>
+
+  <h2>The "cascade" problem: stacking achievements without a theory of mind</h2>
+  <p>
+    The paper organizes evidence into a cascade, moving from Turing test level performance to expert level and then to superhuman level. The implication is that as models climb the cascade, the probability that they are generally intelligent rises until it becomes overwhelming.
+  </p>
+  <p>
+    The cascade sounds rigorous because it resembles how we talk about human skill. But it quietly assumes that tasks that are hard for humans require deep intelligence in machines. That assumption is shaky.
+  </p>
+  <p>
+    Chess is hard for humans, yet a chess engine can dominate without anything like human understanding. Many standardized exams are difficult for people, yet can be vulnerable to training data overlap, test format regularities, and surface cues. Meanwhile, a toddler can walk into a room, pick up a new object, and learn how it works through interaction. That is easy for humans and still brutally hard for machines.
+  </p>
+  <p>
+    "Expert" and "superhuman" describe human effort. They do not automatically describe cognitive depth. Without a theory of what general intelligence requires internally, a cascade can become a tidy way to rank benchmarks rather than a way to identify minds.
+  </p>
+
+  <h2>Why mechanistic interpretability changes the AGI argument</h2>
+  <p>
+    Mechanistic interpretability is the attempt to reverse engineer what neural networks are doing, in terms of internal features, circuits, and computations. It is not mind reading. It is closer to debugging, except the program was learned rather than written.
+  </p>
+  <p>
+    This matters because it offers a second evidential channel that is not behavioral. It lets us ask whether a model is doing something more like generalization and composition, or something more like retrieval and interpolation.
+  </p>
+  <p>
+    When researchers find features that activate for coherent concepts across diverse contexts, that is evidence of internal organization that cannot be reduced to "it got the answer right." When they map circuits that implement multi step operations, or track how information is routed and transformed across layers, they are addressing Block's challenge directly. They are looking for the difference between a system that merely outputs and a system that computes.
+  </p>
+
+  <h2>A concrete example: hallucinations are not a philosophical gotcha, they are a mechanistic question</h2>
+  <p>
+    The Nature essay argues that hallucinations should not disqualify language models from general intelligence because humans also confabulate. We have false memories. We fall for illusions. We rationalize.
+  </p>
+  <p>
+    The comparison is tempting, but it is not yet earned. Human confabulation is tied to specific memory systems, social pressures, and perceptual constraints. Model hallucination is tied to a different set of mechanisms, including how probability mass is distributed during generation, how uncertainty is expressed or suppressed, and how the model handles missing information under an instruction to be helpful.
+  </p>
+  <p>
+    It is possible that the mechanisms will end up looking analogous at some abstract level. It is also possible they will not. The point is that this is exactly the kind of dispute that interpretability can clarify. If you never look inside the box, you are left arguing by metaphor.
+  </p>
+
+  <h2>The hard problem of consciousness, and the mistake of "solipsistic collapse"</h2>
+  <p>
+    Even if interpretability became perfect, it would not solve the hard problem of consciousness. A complete circuit level description is still a third person description. Thomas Nagel's famous point about bats remains: you can know everything objective about a system and still not know what it is like to be that system.
+  </p>
+  <p>
+    But there is a second mistake that often follows from this. If you cannot prove other minds exist with deductive certainty, you might start treating all claims about minds as equally uncertain. That move feels philosophically pure. It is also practically useless.
+  </p>
+  <p>
+    Call it solipsistic collapse. It is the slide from "we cannot be perfectly certain" to "we cannot discriminate at all." It is like saying that because measurement is never exact, you cannot tell a meter from a kilometer.
+  </p>
+  <p>
+    In real life, we assign confidence based on converging evidence. With humans, we have shared biology, development, lesion studies, neuroimaging, and rich behavioral interaction. With today's models, we have behavior and, increasingly, interpretability. That is not nothing, but it is not the same pile of evidence. The gap is not a rounding error.
+  </p>
+
+  <h2>What would better evidence for general intelligence look like?</h2>
+  <p>
+    If the goal is to cut through noise, the most useful shift is to stop treating AGI as a binary that appears when enough benchmarks are cleared. A more scientific posture is to look for independent lines of evidence that point to the same underlying capacity.
+  </p>
+  <p>
+    Some signals are not required, but they change priors. A biological substrate is not necessary for intelligence, yet it carries enormous weight because we know it produces minds. Other signals are architectural and operational. Does the system have persistent memory that updates over time? Does it learn online from new experience rather than only from pretraining and fine tuning? Does it have recurrence or other mechanisms for sustained internal state? Can it build and use counterfactual world models in genuinely novel situations? Can it initiate action toward goals rather than only respond?
+  </p>
+  <p>
+    None of these alone is a magic stamp. But together they form a more honest "cascade," one that is not just a ranking of human difficulty, but a set of clues about what kind of machine you are dealing with.
+  </p>
+
+  <h2>So what did the "AGI is already here" paper forget?</h2>
+  <p>
+    It forgot that the strongest objection to behavioral tests is not that models fail them. It is that models can pass them for the wrong reasons. Block's lookup table is a warning label on every argument that tries to prove a mind by stacking outputs.
+  </p>
+  <p>
+    The way forward is not to sneer at benchmarks, and not to worship them either. It is to pair behavior with internal evidence, to treat mechanistic interpretability as a first class tool in the AGI debate, and to admit that "what it does" and "how it does it" are different questions that can have different answers.
+  </p>
+  <p>
+    If we are going to declare that a new kind of mind has arrived, the least we can do is open the box and check whether there is a mind shaped mechanism inside, or just an astonishingly good mirror.
+  </p>
+</div>

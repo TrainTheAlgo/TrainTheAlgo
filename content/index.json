@@ -1,5 +1,18 @@
 [
   {
+    "title": "The AGI Paper That Forgot to Look Inside the Box",
+    "slug": "the-agi-paper-that-forgot-to-look-inside-the-box",
+    "description": "A high-profile claim that ",
+    "image": "the-agi-paper-that-forgot-to-look-inside-the-box.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-14T12:30:47.640Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Government: Cure for Corruption or New Tyranny?",
     "slug": "ai-government-cure-for-corruption-or-new-tyranny",
     "description": "A global AI government could standardise decisions, log every action, and shrink bribery. It could also centralise power, expand surveillance, and hard-code bias. Here's what the evidence suggests and what safeguards matter most.",
