@@ -1,5 +1,18 @@
 [
   {
+    "title": "Giving AI Agents Purchasing Power: Inside Coinbase's Agentic Wallets and the Rise of Machine Money",
+    "slug": "giving-ai-agents-purchasing-power",
+    "description": "Coinbase's Agentic Wallets aim to let AI agents spend, earn, and trade autonomously using the x402 protocol, with guardrails like caps and limits. Here's what changes when software can pay for itself.",
+    "image": "giving-ai-agents-purchasing-power.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-15T21:36:08.430Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The AGI Paper That Forgot to Look Inside the Box",
     "slug": "the-agi-paper-that-forgot-to-look-inside-the-box",
     "description": "A high-profile claim that ",
