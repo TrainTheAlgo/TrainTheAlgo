@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Discovers New Scientific Concepts: A Practical Process, Not Magic",
+    "slug": "how-ai-discovers-new-scientific-concepts",
+    "description": "What would it actually look like for AI to discover a new scientific concept? A clear, end-to-end framework from data and representations to hypotheses, experiments, and human vetting, with real examples and the hard limits.",
+    "image": "how-ai-discovers-new-scientific-concepts.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-19T21:45:03.268Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Giving AI Agents Purchasing Power: Inside Coinbase's Agentic Wallets and the Rise of Machine Money",
     "slug": "giving-ai-agents-purchasing-power",
     "description": "Coinbase's Agentic Wallets aim to let AI agents spend, earn, and trade autonomously using the x402 protocol, with guardrails like caps and limits. Here's what changes when software can pay for itself.",
