@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will Climate Change Force a Restructuring of Capitalism Itself?",
+    "slug": "will-climate-change-force-a-restructuring-of-capitalism-itself",
+    "description": "Climate change is turning ",
+    "image": "will-climate-change-force-a-restructuring-of-capitalism-itself.png",
+    "category": "Climate",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-20T04:00:10.594Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How AI Discovers New Scientific Concepts: A Practical Process, Not Magic",
     "slug": "how-ai-discovers-new-scientific-concepts",
     "description": "What would it actually look like for AI to discover a new scientific concept? A clear, end-to-end framework from data and representations to hypotheses, experiments, and human vetting, with real examples and the hard limits.",
