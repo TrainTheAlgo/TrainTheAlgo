@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Singularity Is Happening Faster Than You Think",
+    "slug": "ai-singularity-is-happening-faster-than-you-think",
+    "description": "A clear-eyed look at why AI progress feels sudden, why most people are seeing the weakest models, and what concrete signals to watch if you want to know when ",
+    "image": "ai-singularity-is-happening-faster-than-you-think.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-23T04:13:47.520Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Has Anyone Seen Milo? The Super Bowl Dog That Normalised Doorbell Camera Surveillance",
     "slug": "has-anyone-seen-milo-doorbell-camera-surveillance",
     "description": "A fictional lost yellow lab in a Super Bowl ad made millions cheer for an AI-powered neighborhood search. The real story is how Ring, Nest, Flock and others turned front doors into a quiet surveillance network, and why it's so hard to question.",
