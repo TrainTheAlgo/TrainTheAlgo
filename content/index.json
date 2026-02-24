@@ -1,5 +1,18 @@
 [
   {
+    "title": "Meta's Multi-Billion, Multi-Year Nvidia Partnership: The Real Story Behind the GPU Deal",
+    "slug": "metas-multi-billion-multi-year-nvidia-partnership",
+    "description": "Meta and Nvidia just signed a long-term infrastructure partnership spanning millions of Blackwell GPUs, future Rubin systems, and Spectrum-X networking. Here's what it changes for AI costs, power, and the hyperscaler arms race.",
+    "image": "metas-multi-billion-multi-year-nvidia-partnership.png",
+    "category": "AI",
+    "path": "2026/02/",
+    "featured": false,
+    "date": "2026-02-24T22:18:37.255Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Singularity Is Happening Faster Than You Think",
     "slug": "ai-singularity-is-happening-faster-than-you-think",
     "description": "A clear-eyed look at why AI progress feels sudden, why most people are seeing the weakest models, and what concrete signals to watch if you want to know when ",
