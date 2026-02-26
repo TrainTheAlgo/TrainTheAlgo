@@ -1,0 +1,191 @@
+<script>
+const article = {
+    title: "Developers Are Not Being Replaced by AI-New High-Value Roles Emerge",
+    slug: "developers-not-being-replaced-by-ai-new-high-value-roles-emerge",
+    description: "AI is automating routine coding, but it is not ending software careers. Here are the roles that fit a developer's skill set best, why they matter, and how to pivot without starting over.",
+    category: "AI",
+    image: "developers-not-being-replaced-by-ai-new-high-value-roles-emerge.png",
+    research: "Ollama Local Model",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style>
+  .prose p { @apply text-slate-800 leading-relaxed; }
+  .prose h2 { @apply text-slate-900 font-semibold text-2xl mt-10 mb-3; }
+  .prose h3 { @apply text-slate-900 font-semibold text-xl mt-7 mb-2; }
+  .prose strong { @apply text-slate-900; }
+  .prose a { @apply text-blue-700 underline decoration-blue-300 underline-offset-2; }
+  .callout { @apply bg-slate-50 border border-slate-200 rounded-xl p-5 my-6; }
+  .quote { @apply bg-white border-l-4 border-slate-900/80 pl-4 py-2 my-6; }
+  .tag { @apply inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700 mr-2 mb-2; }
+</style>
+
+<div class="prose max-w-none">
+  <p class="text-lg">
+    If AI can write code in seconds, why would anyone still hire developers? The uncomfortable truth is that some of the work many developers were paid to do is being automated. The more useful truth is that software careers are not disappearing, they are moving up the stack. The winners will be the people who can turn AI output into reliable systems, safe products, and business results.
+  </p>
+
+  <p>
+    Tools like GitHub Copilot, Amazon CodeWhisperer and Tabnine are already good at boilerplate, common patterns, and "fill in the blank" programming. That changes the economics of routine tasks, especially the kind that used to be a rite of passage for junior engineers. But it does not remove the need for judgment, trade-offs, accountability, and context. Those are the parts of software that break companies when they go wrong.
+  </p>
+
+  <p>
+    The question is not whether developers will be replaced. The question is which roles best match a developer's core strengths when code generation becomes cheap, and which skills turn "I can build it" into "I can own it."
+  </p>
+
+  <h2>What AI is actually taking, and what it cannot</h2>
+  <p>
+    AI is best at producing plausible code quickly. It is also increasingly good at translating between languages, generating tests that mirror existing patterns, and drafting documentation. In many teams, that means fewer hours spent on scaffolding, repetitive CRUD endpoints, and mechanical refactors.
+  </p>
+
+  <p>
+    What AI still struggles with is the work that makes software valuable in the real world. It does not reliably understand your business constraints, your risk tolerance, your legacy systems, your customers' edge cases, or the political reality of shipping changes across teams. It can suggest an architecture, but it cannot be accountable for the long-term cost of that architecture. It can propose a fix, but it cannot sit in an incident call at 3 a.m. and decide whether to roll back, degrade gracefully, or accept partial failure.
+  </p>
+
+  <div class="callout">
+    <p class="m-0">
+      The durable advantage for developers is not typing speed. It is the ability to reason about systems, verify correctness, manage risk, and translate messy human goals into precise technical decisions.
+    </p>
+  </div>
+
+  <h2>The new center of gravity: from authoring code to owning outcomes</h2>
+  <p>
+    In the AI-assisted workflow, code becomes a draft. The job shifts toward specifying what should be built, validating what was produced, and integrating it into a system that must be secure, observable, compliant, and maintainable.
+  </p>
+
+  <p>
+    That is why the best "next roles" for developers are not a retreat from engineering. They are roles where engineering judgment is the product.
+  </p>
+
+  <h2>Roles that fit a developer's skill set, and why they are hard to automate</h2>
+
+  <h3>Software architect and solution designer</h3>
+  <p>
+    Architecture is where small decisions become long-term costs. Developers who have lived through scaling pain, dependency hell, and "quick fixes" that turned into permanent liabilities are uniquely qualified to design systems that survive contact with reality.
+  </p>
+
+  <p>
+    AI can generate diagrams and recommend patterns, but it cannot reliably weigh trade-offs across latency, cost, team skills, compliance, and time-to-market. A strong architect makes constraints explicit, chooses what to standardize, and decides what to leave flexible.
+  </p>
+
+  <p>
+    The day-to-day looks like defining service boundaries, choosing data stores, setting API standards, reviewing designs, and mentoring teams so the architecture is not just a document but a shared way of building.
+  </p>
+
+  <h3>Product engineer with domain depth</h3>
+  <p>
+    The safest place to be in an AI world is close to the customer and close to the money. Product engineers combine technical execution with deep understanding of a domain such as payments, logistics, healthcare workflows, or developer tooling. They do not just implement tickets. They shape what gets built and why.
+  </p>
+
+  <p>
+    AI can help you build a feature. It cannot decide which feature is worth building, how to measure success, or how to handle the edge cases that matter to real users. Domain expertise turns a developer into someone who can spot bad requirements early, ask the questions that prevent rework, and ship changes that actually move metrics.
+  </p>
+
+  <div class="quote">
+    <p class="m-0">
+      When code is abundant, insight becomes scarce. Domain insight is one of the hardest things to automate.
+    </p>
+  </div>
+
+  <h3>Quality engineering and test automation leadership</h3>
+  <p>
+    As AI increases the volume of code changes, the bottleneck shifts to verification. Teams that generate more code faster will also generate more ways to fail. That makes quality engineering more valuable, not less.
+  </p>
+
+  <p>
+    AI can write tests, but it often writes the wrong tests. It tends to mirror implementation details, miss business rules, and produce brittle suites that pass while the product is broken. A strong quality lead designs a test strategy that balances unit, integration, end-to-end, and exploratory testing. They decide what must be deterministic, what can be sampled, and what should be monitored in production instead of tested pre-release.
+  </p>
+
+  <p>
+    This role suits developers who enjoy thinking in invariants, building harnesses, and turning "it seems fine" into measurable confidence.
+  </p>
+
+  <h3>DevOps and site reliability engineering</h3>
+  <p>
+    Reliability is not a code generation problem. It is a systems problem. SRE and DevOps roles reward developers who understand failure modes, automation, and operational discipline.
+  </p>
+
+  <p>
+    AI can suggest Kubernetes manifests or Terraform modules, but it cannot own the consequences of a misconfigured network policy or a noisy alerting system. SRE work is about building safe deployment pipelines, designing observability, running incident response, and reducing toil without creating new risk.
+  </p>
+
+  <p>
+    If you like debugging under pressure, making systems measurable, and turning chaos into runbooks, this is one of the most future-proof paths.
+  </p>
+
+  <h3>Application security and secure software engineering</h3>
+  <p>
+    AI-generated code increases the attack surface if teams accept output without scrutiny. That makes security engineering a natural destination for developers who can read code, model threats, and think adversarially.
+  </p>
+
+  <p>
+    Security is full of context. The same vulnerability can be trivial in one system and catastrophic in another. AppSec engineers embed secure defaults into frameworks, build guardrails into CI, run code reviews with a security lens, and help teams fix issues without slowing delivery to a crawl.
+  </p>
+
+  <p>
+    This role also benefits from a mindset shift. Instead of asking "does it work," you ask "how could it be abused," and "what is the blast radius if it fails."
+  </p>
+
+  <h3>Data engineering and MLOps</h3>
+  <p>
+    Many companies are discovering that models are the easy part. The hard part is data quality, lineage, governance, and production operations. Data engineering and MLOps reward developers who can build pipelines that are observable, reproducible, and cost-aware.
+  </p>
+
+  <p>
+    AI can help draft ETL code, but it cannot guarantee that the data is correct, that the pipeline is compliant, or that the model will behave when the world changes. MLOps specialists manage model versioning, monitor drift, design evaluation, and build rollback strategies. It is software engineering with higher stakes and messier inputs.
+  </p>
+
+  <h3>Developer experience and internal platform engineering</h3>
+  <p>
+    As teams adopt more AI tools, the toolchain itself becomes a product. Developer experience roles focus on making engineers faster without making systems riskier. That means standardizing templates, improving CI speed, building golden paths, and reducing cognitive load.
+  </p>
+
+  <p>
+    This is a strong fit for developers who enjoy systems thinking and empathy. You are building for developers as users, and the payoff is compounding productivity across the organization.
+  </p>
+
+  <h3>AI integration engineer and "LLM application" engineer</h3>
+  <p>
+    There is a growing gap between "we tried a chatbot" and "we shipped an AI feature that is safe and useful." AI integration engineers bridge that gap. They design how an application calls models, how data is retrieved, how latency is controlled, and how failures are handled.
+  </p>
+
+  <p>
+    The work is less about inventing new models and more about engineering: prompt and response evaluation, retrieval pipelines, caching, rate limits, privacy controls, and fallbacks when the model is wrong. In practice, this role looks like building a system that assumes the AI will sometimes hallucinate and still keeps users safe.
+  </p>
+
+  <h2>A practical way to choose your next role: follow your "developer superpower"</h2>
+  <p>
+    Most developers already have a bias toward certain kinds of problems. AI does not erase those preferences, it amplifies them. If you pick a role that matches your natural strengths, the transition feels like a promotion rather than a reinvention.
+  </p>
+
+  <p>
+    If your superpower is seeing the whole system, architecture and platform engineering will feel natural. If you love proving things, quality engineering and security will reward you. If you thrive in production, SRE is a direct path. If you are curious about how businesses work, product engineering with domain depth is the fastest way to become indispensable.
+  </p>
+
+  <h2>How to pivot without "starting over"</h2>
+  <p>
+    The biggest career mistake in an AI shift is assuming you need a brand-new identity. In reality, most pivots are a reweighting of what you already do. You keep your engineering foundation and add a second pillar.
+  </p>
+
+  <p>
+    Start by making your current work legible. If you are already doing architecture, write design docs and lead reviews. If you are already doing reliability work, own an on-call improvement and measure the impact. If you are already doing security fixes, formalize threat modeling and add guardrails to CI. Hiring managers trust demonstrated behavior more than certificates.
+  </p>
+
+  <p>
+    Then learn the tools that make you credible in the new lane. For SRE that might be Terraform, Kubernetes, and observability stacks. For AppSec it might be secure SDLC practices, SAST and DAST workflows, and common vulnerability classes. For AI integration it might be evaluation harnesses, retrieval patterns, and privacy-by-design.
+  </p>
+
+  <h2>What to tell yourself if you feel the ground moving</h2>
+  <p>
+    It is rational to feel uneasy when a tool can produce in minutes what used to take you hours. But the value of software has never been the code alone. The value is the promise that the code will behave, that it will be safe, that it will scale, and that it will serve a real need.
+  </p>
+
+  <p>
+    AI is making it cheaper to create software. That usually increases demand for people who can make software trustworthy. The developers who thrive will be the ones who treat AI as a power tool, not a replacement, and who choose roles where responsibility, not keystrokes, is the real job.
+  </p>
+
+  <p>
+    In a world where anyone can generate code, the most valuable engineers will be the ones who can look at that code and calmly decide what should happen next.
+  </p>
+</div>
