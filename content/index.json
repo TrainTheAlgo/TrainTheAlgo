@@ -1,5 +1,18 @@
 [
   {
+    "title": "There Is No Safe Time To Take Your Eye Off The Ball",
+    "slug": "there-is-no-safe-time-to-take-your-eye-off-the-ball",
+    "description": "A quiet shift is reshaping digital surveillance: not just what you watch, but how your attention is measured, inferred, and monetised. Here's what's real, what's hype, and what to do next.",
+    "image": "there-is-no-safe-time-to-take-your-eye-off-the-ball.png",
+    "category": "Security",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-05T03:13:52.219Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
     "slug": "perplexity-computer-what-i-built-in-one-night-review-examples-and-how-it-compares-to-openclaw-and-claude",
     "description": "A hands-on Perplexity Computer review after one late-night sprint: two micro-apps, four research packets, and one automation. How the multi-model ",
