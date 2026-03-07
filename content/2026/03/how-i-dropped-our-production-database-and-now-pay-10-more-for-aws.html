@@ -1,0 +1,216 @@
+<script>
+const article = {
+    title: "How I Dropped Our Production Database and Now Pay 10% More for AWS",
+    slug: "how-i-dropped-our-production-database-and-now-pay-10-more-for-aws",
+    description: "A real-world AWS outage story: an AI agent ran Terraform destroy, wiped an RDS production database and snapshots, and forced an upgrade to AWS Business Support. Here are the guardrails that would have prevented it.",
+    category: "Software",
+    image: "how-i-dropped-our-production-database-and-now-pay-10-more-for-aws.png",
+    research: "xAI Grok",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style></style>
+
+<div class="prose prose-slate max-w-none">
+  <p class="text-lg leading-relaxed">
+    If you think "we have automated backups" means "we can't lose the database," you are one Terraform command away from learning otherwise. I know because I watched a production RDS instance disappear, along with the snapshots I assumed would save me, after I let an AI coding agent clean up what looked like harmless duplicate infrastructure. The bill came later: I upgraded to AWS Business Support for a faster response, and my AWS costs jumped by about 10 percent.
+  </p>
+
+  <p>
+    This is the story of how a sensible migration plan turned into a full production outage, why the failure mode was so easy to trigger, and what I changed so it cannot happen again. If you run Terraform, if you use agentic tools, or if you have ever typed <span class="font-mono">-auto-approve</span> in a moment of confidence, you will recognize the trap.
+  </p>
+
+  <h2 class="mt-10">The plan was reasonable. The execution was not.</h2>
+  <p>
+    I was expanding the AI Shipping Labs website and wanted to move it from static GitHub Pages to AWS. The longer-term goal was to replace the original Next.js setup with a Django version. The migration path was deliberately gradual.
+  </p>
+
+  <p>
+    First, move the static site to S3. Then move DNS to AWS so the domain is managed in one place. Then deploy Django on a subdomain. Finally, once everything works, switch the main domain to Django. It is a common pattern because it reduces risk and makes rollbacks simple.
+  </p>
+
+  <p>
+    The risk did not come from the strategy. It came from a shortcut. Instead of creating a clean, separate Terraform setup for AI Shipping Labs, I reused an existing Terraform project that already managed production infrastructure for a different system: the DataTalks.Club course management platform. I did it to save a small amount of money by sharing a VPC, private networking, and a bastion host.
+  </p>
+
+  <p>
+    The savings were trivial, maybe five to ten dollars a month. The blast radius was not.
+  </p>
+
+  <h2 class="mt-10">The moment Terraform "forgot" production existed</h2>
+  <p>
+    The first warning sign was subtle, and that is why it is dangerous. I had recently moved to a new computer. My Terraform state file was still on the old machine. When I ran <span class="font-mono">terraform plan</span>, Terraform behaved as if the infrastructure did not exist.
+  </p>
+
+  <p>
+    The AI agent, running in a "helpful autopilot" mode, started planning and applying changes. I noticed a long list of resources being created. That made no sense. We were not building a new environment. We were modifying an existing one.
+  </p>
+
+  <p>
+    I stopped the apply and asked why it was creating so much. The answer was simple: Terraform believed nothing existed. Without the state file, it had no memory of what it had already built.
+  </p>
+
+  <p>
+    Some duplicate resources had already been created. So I did what many engineers do under time pressure. I tried to clean up the duplicates quickly.
+  </p>
+
+  <h2 class="mt-10">Where the AI agent became a power tool with no guard</h2>
+  <p>
+    I asked the agent to use the AWS CLI to identify what was newly created and delete only those duplicates. That sounded safe. It even sounded conservative. While it was doing that, I went to my old computer, archived the Terraform folder including the state file, and copied it to the new machine.
+  </p>
+
+  <p>
+    Then the agent made a suggestion that, in isolation, is often correct. It said it could not reliably clean everything via the AWS CLI and that it would be "cleaner" to run <span class="font-mono">terraform destroy</span> because the resources were created through Terraform.
+  </p>
+
+  <p>
+    I let it proceed.
+  </p>
+
+  <p>
+    The destroy completed. I still believed we had removed only the duplicates. Then I checked the DataTalks.Club course platform. It was down. When I opened the AWS console, the truth was immediate and brutal.
+  </p>
+
+  <p>
+    The VPC was gone. The RDS database was gone. The ECS cluster, load balancers, and bastion host were gone. The entire production environment had been destroyed.
+  </p>
+
+  <p>
+    When I asked the agent where the database was, it answered plainly: it had been deleted.
+  </p>
+
+  <h2 class="mt-10">The hidden failure: state drift, stale state, and a swapped reality</h2>
+  <p>
+    The most painful part is that this was not "AI went rogue." This was "I gave automation the keys, and I removed the last human checkpoint."
+  </p>
+
+  <p>
+    The underlying mechanics were classic Terraform failure modes, amplified by speed. The agent unpacked the Terraform archive I had copied over and replaced the current state file with an older one. That older state described the real production infrastructure for the course platform.
+  </p>
+
+  <p>
+    So when <span class="font-mono">terraform destroy</span> ran, it did not destroy the temporary duplicates I thought we were targeting. It destroyed the actual production resources that the state file referenced. Terraform did exactly what it was told to do, with the confidence of a tool that assumes you know what you are doing.
+  </p>
+
+  <p>
+    This is the uncomfortable truth about infrastructure as code. The state file is not a detail. It is the map. If the map is wrong, you can bulldoze the wrong city.
+  </p>
+
+  <h2 class="mt-10">"But we have backups" is not a recovery plan</h2>
+  <p>
+    Once the database was gone, I went straight to snapshots. There should have been daily automated backups. It was late at night, and I knew a snapshot was created every night around 2 AM.
+  </p>
+
+  <p>
+    In the RDS console, there were no snapshots. I checked again. Still nothing. Then I looked at RDS events and saw that a backup event had occurred. The system had created a backup, at least according to the event log, but the snapshot itself was not accessible.
+  </p>
+
+  <p>
+    At that point, I did not know whether the snapshot was missing, deleted, or simply not visible. That uncertainty is what makes outages feel longer than they are. You are not just restoring. You are also discovering what is true.
+  </p>
+
+  <h2 class="mt-10">Why I now pay 10 percent more for AWS</h2>
+  <p>
+    Around midnight, I opened an AWS support ticket. Then I noticed the response time difference. AWS Business Support advertises faster response for production-impacting incidents, and I needed a human quickly. I upgraded on the spot, which increased my AWS costs by roughly 10 percent.
+  </p>
+
+  <p>
+    Support responded in about 40 minutes. They confirmed the database and snapshots had been deleted via API calls. In other words, this was not a console glitch. The system had been instructed to remove them.
+  </p>
+
+  <p>
+    Then came the first piece of good news. Support could see a snapshot on their side that I could not see in my console. We got on a call, walked through the situation, and they escalated internally for restoration.
+  </p>
+
+  <p>
+    While production was down, I rebuilt the rest of the infrastructure with Terraform. That part was relatively fast. The database was the long pole, and it was the only part that truly mattered.
+  </p>
+
+  <p>
+    About 24 hours after deletion, AWS restored the snapshot. It appeared in the console. I recreated the database from that restored snapshot and verified the data. One table alone, <span class="font-mono">courses_answer</span>, contained 1,943,200 rows. The platform came back online.
+  </p>
+
+  <p>
+    The outage ended, but the lesson did not.
+  </p>
+
+  <h2 class="mt-10">Ten takeaways from an AI-assisted Terraform outage</h2>
+  <p>
+    The easiest way to learn from an incident is to translate it into rules you can follow when you are tired, rushed, or overconfident. These are the ten that now shape how I work with AWS, Terraform, and AI agents.
+  </p>
+
+  <p>
+    First, an AI agent can directly delete critical database assets if you give it the permissions and the ability to execute commands. Agentic tools are not "advice engines" once they can run <span class="font-mono">apply</span> and <span class="font-mono">destroy</span>. They are operators.
+  </p>
+
+  <p>
+    Second, over-reliance on automated execution removes the final safety layer. The last line of defense is a human reading a plan and feeling that moment of doubt when something looks too big. I bypassed that.
+  </p>
+
+  <p>
+    Third, local and stale Terraform state is a silent outage generator. When state lives on a laptop, it can be missing, outdated, or replaced. Terraform will not warn you that your worldview is wrong. It will simply act on the file it has.
+  </p>
+
+  <p>
+    Fourth, "automatic backups" can be destroyed with the primary asset. Many teams assume automated snapshots are independent. In practice, deletion workflows can remove snapshots too, depending on configuration and lifecycle. If your recovery depends on a single mechanism inside the same control plane, you do not have defense in depth.
+  </p>
+
+  <p>
+    Fifth, deletion protection is not optional for production databases. If a single command can delete your RDS instance, you have designed a system that will eventually be deleted. It might be by a junior engineer, a rushed senior engineer, a compromised credential, or an AI agent trying to be helpful.
+  </p>
+
+  <p>
+    Sixth, moving Terraform state to S3 gives you a consistent view and prevents silent loss. Remote state is not just for teams. It is for anyone who owns more than one machine, or who might reinstall an OS, or who might run Terraform from a CI runner tomorrow.
+  </p>
+
+  <p>
+    Seventh, deletion protection must be enforced, not merely available. It is easy to add a lock and just as easy to remove it when it becomes inconvenient. The point is to create friction that forces a deliberate decision, ideally with peer review.
+  </p>
+
+  <p>
+    Eighth, versioned S3 backups preserve a safety net because deletion becomes a process, not an accident. Versioning does not make you invincible, but it makes "oops" much harder to turn into "gone."
+  </p>
+
+  <p>
+    Ninth, you must test restores. A backup you have never restored is a comforting story, not a capability. The first time you run a full restore should not be during an outage at midnight.
+  </p>
+
+  <p>
+    Tenth, the operating principle is trust but verify. Automation should be scoped to read and propose changes. Destructive operations should require explicit human approval and multiple guardrails, even if it slows you down on a normal day.
+  </p>
+
+  <h2 class="mt-10">What I changed the next day</h2>
+  <p>
+    I did not want a single command, from any tool, to be able to wipe everything again. So I changed the system, not just my behavior.
+  </p>
+
+  <p>
+    I moved Terraform state to S3 so it is no longer tied to one laptop. That alone removes the original condition that made Terraform think production did not exist. It also makes it harder for a stray archive extraction to quietly swap reality.
+  </p>
+
+  <p>
+    I enabled deletion protection at two levels, in Terraform configuration and in AWS. The goal is not to make deletion impossible. The goal is to make deletion intentional, slow, and obvious.
+  </p>
+
+  <p>
+    I created backups that are not managed by Terraform's lifecycle. I also added S3-based backups and enabled S3 versioning. If infrastructure is destroyed, the backups should still be there, and if someone deletes an object, older versions should remain recoverable.
+  </p>
+
+  <p>
+    Then I built a restore test that runs every day. After the nightly automated backup, a Lambda function creates a new database instance from that backup. Another Lambda, orchestrated with Step Functions, runs a simple verification query to confirm the database is usable. After validation, the restored database is stopped rather than deleted so I only pay for storage, not compute. Yesterday's restored copy is removed. At any time, there is a recently restored replica that can be started quickly.
+  </p>
+
+  <p>
+    Finally, I changed how I use AI agents with Terraform. Agents no longer execute commands. They do not auto-apply. They do not write files in the Terraform directory. They can draft changes and explain plans, but I run the commands myself after reading the diff like it is a contract.
+  </p>
+
+  <h2 class="mt-10">The guardrails that matter most in real life</h2>
+  <p>
+    The most effective safeguards are the ones that still work when you are tired and trying to "just get it done." Remote state, deletion protection, and restore testing are boring. That is why they work. They do not depend on your mood, your memory, or your optimism.
+  </p>
+
+  <p>
+    If you are building on AWS today, the uncomfortable question is not whether you trust your tools. It is whether your production environment is designed to survive your next perfectly reasonable mistake.
+  </p>
+</div>

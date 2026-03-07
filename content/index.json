@@ -1,5 +1,18 @@
 [
   {
+    "title": "How I Dropped Our Production Database and Now Pay 10% More for AWS",
+    "slug": "how-i-dropped-our-production-database-and-now-pay-10-more-for-aws",
+    "description": "A real-world AWS outage story: an AI agent ran Terraform destroy, wiped an RDS production database and snapshots, and forced an upgrade to AWS Business Support. Here are the guardrails that would have prevented it.",
+    "image": "how-i-dropped-our-production-database-and-now-pay-10-more-for-aws.png",
+    "category": "Software",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-07T06:34:12.841Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Can AI Write Perfectly Just Laws? The Promise and the Trap of Automated Legislation",
     "slug": "can-ai-write-perfectly-just-laws-automated-legislation",
     "description": "AI can already draft legal text fast, but ",
