@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can AI Write Perfectly Just Laws? The Promise and the Trap of Automated Legislation",
+    "slug": "can-ai-write-perfectly-just-laws-automated-legislation",
+    "description": "AI can already draft legal text fast, but ",
+    "image": "can-ai-write-perfectly-just-laws-automated-legislation.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-07T03:28:19.520Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The Paper Test and the Brain: Why ",
     "slug": "paper-test-brain-why-agi-impossible-claim-real-debate",
     "description": "The Paper Test argues that if a computer's state can be written on paper, then flipping pages can't create a mind, so neither can silicon. It's a provocative challenge, but the real fault line is not paper versus electricity. It's what we mean by mind.",
