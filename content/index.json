@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will Interstellar Travel Ever Be Possible?",
+    "slug": "will-interstellar-travel-ever-be-possible",
+    "description": "Interstellar travel is not forbidden by physics, but distance, energy, and survival make it brutally hard. Here's what today's best ideas can and cannot do, and what would need to change to reach another star.",
+    "image": "will-interstellar-travel-ever-be-possible.png",
+    "category": "Space",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-08T06:41:12.451Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How I Dropped Our Production Database and Now Pay 10% More for AWS",
     "slug": "how-i-dropped-our-production-database-and-now-pay-10-more-for-aws",
     "description": "A real-world AWS outage story: an AI agent ran Terraform destroy, wiped an RDS production database and snapshots, and forced an upgrade to AWS Business Support. Here are the guardrails that would have prevented it.",
