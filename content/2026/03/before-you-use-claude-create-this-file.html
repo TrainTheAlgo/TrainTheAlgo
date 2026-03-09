@@ -1,0 +1,90 @@
+<script>
+const article = {
+    title: "Before You Use Claude, Create This File: The One Markdown Doc That Makes Cowork Feel Like It "Knows You"",
+    slug: "before-you-use-claude-create-this-file",
+    description: "Stop re-explaining your business, voice, and standards to Claude. Create one markdown context file, drop it into a Cowork folder, and get consistent outputs with your rules, examples, and hard noes baked in.",
+    category: "AI",
+    image: "before-you-use-claude-create-this-file.png",
+    research: "xAI Grok",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style></style>
+
+<h2>The fastest way to make Claude feel consistent is not a better prompt</h2>
+<p>If you use Claude for real work, you have probably developed a small ritual. You open a chat and spend the first few minutes reintroducing yourself. You explain the client, the project, the tone, the format, the "please don't do that thing you always do." Then you finally ask the question you came for.</p>
+<p>Now imagine never doing that again. Not because Claude magically remembers, but because you gave it a single file that acts like a permanent, searchable profile. In Claude's Cowork feature, that file can sit in a folder and quietly shape every answer you get in that workspace.</p>
+
+<h2>The file: a plain markdown "context profile" that Claude can read before it writes</h2>
+<p>The idea is almost boring, which is why it works. You create a simple <span class="font-mono">.md</span> or <span class="font-mono">.txt</span> file that contains your working rules. Not vibes. Not adjectives. Rules, examples, and explicit boundaries.</p>
+<p>When that file lives inside a folder that Cowork can access, Claude can consult it whenever you work in that folder. The result is less "prompt engineering" and more "operating system." You are not trying to steer the model every time. You are setting defaults once.</p>
+<p>This is especially useful for people who bounce between modes. One hour you are writing a newsletter. Next you are replying to a client. Then you are summarizing research. Each mode has different standards, and the cost of reloading that context adds up fast.</p>
+
+<h2>Why Cowork changes the game compared to normal chat</h2>
+<p>In a regular chat, you can paste a context document at the top. It works, but it is fragile. You forget to paste it. You paste an old version. You start a new thread and lose the setup. The "memory" is really just you doing admin work.</p>
+<p>Cowork is different because it is folder based. Put the context file in the folder, give Cowork access, and the workspace becomes the container for your rules. Open the folder and you are back inside the same expectations.</p>
+<p>That is the whole trick. You are moving context from the chat window into the filesystem, where it can be reused, versioned, and shared like any other asset.</p>
+
+<h2>The real secret: your best context is mostly what you reject</h2>
+<p>Most people describe their preferences like a dating profile. "Friendly, concise, professional." A model cannot reliably apply that because those words mean everything and nothing. You get generic output that could belong to anyone.</p>
+<p>What actually creates a recognizable voice and a dependable assistant is rejection. The phrases you never use. The claims you refuse to make. The formatting you consider sloppy. The shortcuts you do not tolerate.</p>
+<p>"Never say as per our discussion' in client updates" is actionable. "Never use the word significant' unless confidence is above 95 percent" is enforceable. "Always include a one sentence next step" is testable. Claude can follow testable rules.</p>
+
+<h2>The three-step workflow that makes this stick</h2>
+<p>First, generate the context file using an interview. Instead of staring at a blank document, you ask Claude to interrogate you. One question at a time. When you answer vaguely, it pushes for examples. This is where the useful details come from, because you are forced to show receipts.</p>
+<p>Second, save the result as a markdown file with a name that matches the job. Keep it short and obvious. Something like <span class="font-mono">voice_profile.md</span>, <span class="font-mono">client_rules.md</span>, or <span class="font-mono">analysis_standards.md</span>. Put it in the folder where you will actually do that work.</p>
+<p>Third, use Cowork in that folder and explicitly tell Claude to read the file first the first time you run the workflow. After that, the folder becomes your default context. You stop paying the "re-explain tax" on every new task.</p>
+
+<h2>Five context files that cover most professional use cases</h2>
+<p>You can build one mega file, but most people get better results with smaller profiles tied to specific folders. A writing folder gets a voice profile. A client folder gets delivery standards. A research folder gets analytical rules. The model becomes more consistent because the context is narrower and less contradictory.</p>
+
+<h2>Template 1: Voice profile, for writing that sounds like you on a normal day</h2>
+<p>Use this when you want Claude to draft newsletters, blog posts, LinkedIn updates, or internal memos in a voice that is recognizably yours, not "polished AI." The key is to include banned phrases and a few real paragraphs you have written, including one you are not proud of. That contrast teaches the model what "off" looks like.</p>
+<p>Start with a prompt like this in Cowork and answer every question it asks.</p>
+<p class="font-mono text-sm bg-gray-50 p-4 rounded">
+You are going to help me capture my writing voice in a .md file for Claude Cowork.<br><br>
+Ask me questions one at a time. Push back on vague answers and ask for specific examples.<br>
+Ask 40-50 questions total. When we're done, compile everything into a .md file with clear section headers.<br><br>
+Cover: what I write, who I write for, examples of my best writing, examples of my lazy writing, phrases I use, phrases I hate, topics I return to, positions I refuse to take, formatting instincts, writers I admire and what I'd steal, feedback I get and ignore.
+</p>
+
+<h2>Template 2: Business context, for owners and consultants who need an "always-on brief"</h2>
+<p>This file is your standing business brief. What you sell, who you serve, how you describe it in your own words, how you make decisions, and what you never want suggested. It is the difference between "help me write a proposal" and "help me write a proposal that matches how we actually sell."</p>
+<p class="font-mono text-sm bg-gray-50 p-4 rounded">
+You are going to help me create a business context .md file for Claude Cowork.<br><br>
+Ask me 40-50 questions one at a time. Push back on vague answers and ask for real examples.<br>
+When we're done, compile everything into a .md file with clear section headers and include examples alongside rules.<br><br>
+Cover: what we do, who we serve, team structure, recurring challenges, communication style, financial tracking, non-negotiables, and what a great output looks like with a specific example.
+</p>
+
+<h2>Template 3: Client and project rules, for deliverables that stop drifting</h2>
+<p>If you do client work, inconsistency is expensive. One week you send a crisp update. Next week you send a rambling one. One deliverable has a risk section. The next forgets it. A client context file turns "how I work" into a checklist Claude can follow.</p>
+<p>It should include your definition of done, your formatting standards, and the phrases you never use with clients. It should also include how you handle scope creep and awkward conversations, because that is where assistants tend to hallucinate confidence.</p>
+
+<h2>Template 4: Creator identity, for scripts and ideas that fit your channel instead of the algorithm</h2>
+<p>Creators often say they want to be authentic, then wonder why AI outputs feel fake. A creator context file forces specificity. What you refuse to do even if it would perform. What your audience actually responds to. What you sound like on camera versus off camera. What constraints you have in production.</p>
+<p>Once that is written down, Claude stops pitching ideas that violate your brand, and repurposing becomes less lossy because the "why it worked" is captured as rules.</p>
+
+<h2>Template 5: Analyst standards, for research that is rigorous in your terms</h2>
+<p>Analytical work breaks when language gets soft. "Significant." "Likely." "Strong evidence." Those words can be useful, but only if you define what they mean in your practice. An analyst context file sets thresholds, preferred structure, and the phrases that signal lazy thinking.</p>
+<p>It also helps you enforce a consistent output format. For example, an executive summary under 150 words, followed by a confidence table, followed by assumptions and caveats. Claude is good at following structure when the structure is explicit.</p>
+
+<h2>A practical walkthrough: build a file in 20 minutes that saves hours later</h2>
+<p>Pick one folder you use constantly. A writing folder is a good start because the feedback loop is immediate. In Cowork, run the interview prompt for a voice profile. When it asks for examples, paste a real paragraph from something you published and a paragraph you would never publish again. Then give it a short list of banned words and banned openings.</p>
+<p>When the interview is done, save the compiled output as <span class="font-mono">voice_profile.md</span> in that folder. Keep it readable. Use clear headers. Include a section called "Hard noes" and another called "Examples." Those two sections do most of the work.</p>
+<p>Now ask Claude for a draft in that folder and explicitly instruct it to read the file first. You are not trying to be clever. You are trying to be unambiguous. "Read voice_profile.md first, then draft the opening."</p>
+<p>If the output still feels generic, do not rewrite the prompt. Update the file. Add one more banned phrase. Add one more example. Add one more rule about paragraph length or how you use headers. Over time, the file becomes a living style guide that Claude can actually execute.</p>
+
+<h2>What to put in the file so it actually works</h2>
+<p>The highest leverage sections are surprisingly concrete. A list of phrases you never use. A list of claims you will not make without evidence. A preferred structure for common tasks like client updates, meeting agendas, and research summaries. A few "gold standard" examples and a few "never again" examples.</p>
+<p>It also helps to include a small "when uncertain" policy. For instance, "If you are missing key details, ask up to three clarifying questions before drafting." That single rule prevents a lot of confident nonsense.</p>
+
+<h2>How teams use this without turning it into bureaucracy</h2>
+<p>Once you have one good context file, it becomes shareable. A team can keep a folder with a house style profile, a client communication policy, and a deliverable template. New hires stop learning by osmosis and start learning by reference.</p>
+<p>If you already use version control, treat these files like code. Update them when standards change. Commit the change with a message that explains why. The file becomes institutional memory that the assistant can read instantly.</p>
+
+<h2>The quiet payoff: you stop prompting and start operating</h2>
+<p>Most AI advice focuses on the moment of asking. Better prompts, better tricks, better incantations. A context file flips the model. You do the thinking once, in a format the assistant can reliably follow, and you get your time back every time you open the folder.</p>
+<p>After a week, the surprising part is not that Claude writes faster. It is that you stop negotiating with it, because you finally gave it something it can obey: your standards, written down like they matter.</p>
+<p>And if you ever want to know whether your "voice" is real, try writing a list of what you refuse to sound like, then watch how quickly the rest of your style snaps into focus.</p>

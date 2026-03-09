@@ -1,5 +1,18 @@
 [
   {
+    "title": "Before You Use Claude, Create This File: The One Markdown Doc That Makes Cowork Feel Like It ",
+    "slug": "before-you-use-claude-create-this-file",
+    "description": "Stop re-explaining your business, voice, and standards to Claude. Create one markdown context file, drop it into a Cowork folder, and get consistent outputs with your rules, examples, and hard noes baked in.",
+    "image": "before-you-use-claude-create-this-file.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-09T22:01:33.353Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "iPhone Missing? Make It Report Back With Location and Photos in Seconds",
     "slug": "iphone-missing-make-it-report-back-location-photos-seconds",
     "description": "Build a safe iPhone Shortcuts system that replies to a trusted code phrase with its location and photos, then locks down and sounds an alarm. Designed for evidence and recovery, not confrontation.",
