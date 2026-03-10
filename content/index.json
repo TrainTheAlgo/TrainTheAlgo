@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Tutors Are Redefining Education: The First Signs of Adoption You Can't Ignore",
+    "slug": "ai-tutors-redefining-education-first-signs-of-adoption",
+    "description": "AI tutors are moving from novelty to infrastructure. Here's how they will disrupt schools, what changes first, and the early adoption signals to watch in classrooms, budgets, policy, and student behavior.",
+    "image": "ai-tutors-redefining-education-first-signs-of-adoption.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-10T19:10:49.724Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Before You Use Claude, Create This File: The One Markdown Doc That Makes Cowork Feel Like It ",
     "slug": "before-you-use-claude-create-this-file",
     "description": "Stop re-explaining your business, voice, and standards to Claude. Create one markdown context file, drop it into a Cowork folder, and get consistent outputs with your rules, examples, and hard noes baked in.",
