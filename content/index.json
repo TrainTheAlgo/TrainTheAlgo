@@ -1,5 +1,18 @@
 [
   {
+    "title": "Would a Global AI Government End Corruption or Invent a New Tyranny?",
+    "slug": "would-a-global-ai-government-end-corruption-or-invent-a-new-tyranny",
+    "description": "A global AI government sounds like the ultimate anti-corruption machine. But the same tools that remove bribery and favoritism can also remove accountability, privacy, and the right to appeal. Here's what would decide the outcome.",
+    "image": "would-a-global-ai-government-end-corruption-or-invent-a-new-tyranny.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-10T22:18:13.235Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Tutors Are Redefining Education: The First Signs of Adoption You Can't Ignore",
     "slug": "ai-tutors-redefining-education-first-signs-of-adoption",
     "description": "AI tutors are moving from novelty to infrastructure. Here's how they will disrupt schools, what changes first, and the early adoption signals to watch in classrooms, budgets, policy, and student behavior.",
