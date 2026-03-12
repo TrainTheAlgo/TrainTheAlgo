@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will AI Dominate Trading and Investing, or Will Humans Keep an Edge?",
+    "slug": "will-ai-dominate-trading-and-investing-or-will-humans-keep-an-edge",
+    "description": "AI already runs much of modern markets, from execution to research. But trading is not just pattern-matching. Here's where machines win, where humans still matter, and what the next decade likely looks like for investors.",
+    "image": "will-ai-dominate-trading-and-investing-or-will-humans-keep-an-edge.png",
+    "category": "Markets",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-12T22:32:44.685Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Automate iPhone Theft Recovery with Custom Shortcuts",
     "slug": "automate-iphone-theft-recovery-with-custom-shortcuts",
     "description": "Teach your iPhone to report its location and snap photos when it goes missing, using Apple Shortcuts and safe triggers. A practical build designed for evidence, not confrontation, plus the settings that matter most.",
