@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is the Global Financial System Designed to Keep the Rich Permanently Powerful?",
+    "slug": "is-the-global-financial-system-designed-to-keep-the-rich-permanently-powerful",
+    "description": "From central bank rescues to tax codes and offshore profit shifting, the modern financial system often amplifies wealth at the top. Here's what is structural, what is accidental, and what could realistically change.",
+    "image": "is-the-global-financial-system-designed-to-keep-the-rich-permanently-powerful.png",
+    "category": "Markets",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-13T16:45:16.199Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Will AI Dominate Trading and Investing, or Will Humans Keep an Edge?",
     "slug": "will-ai-dominate-trading-and-investing-or-will-humans-keep-an-edge",
     "description": "AI already runs much of modern markets, from execution to research. But trading is not just pattern-matching. Here's where machines win, where humans still matter, and what the next decade likely looks like for investors.",
