@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Space</title>
-    <meta name="description" content="Latest Space News">
+    <title>From Data to Discovery: What It Would Look Like for AI to Find a New Scientific Concept</title>
+    <meta name="description" content="A practical, step-by-step look at how AI could move from messy data to a genuinely new scientific concept, including anomaly finding, symbolic law discovery, causal tests, and the lab validation loop that turns patterns into theory.">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      h2 {
+        color: #3e4756;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: #222;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <style>
@@ -193,28 +207,191 @@
       <div class="relative h-96 overflow-hidden">
         <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          src="/img/backgrounds/space.jpg"
-          alt="Space"
+          src="from-data-to-discovery-what-it-would-look-like-for-ai-to-find-a-new-scientific-concept.png"
+          alt="From Data to Discovery: What It Would Look Like for AI to Find a New Scientific Concept"
         />
       </div>
-      <div
-        class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center"
-      >
+      <div class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center">
         <h1 class="text-2xl md:text-3xl text-white font-bold">
-          Space
+          From Data to Discovery: What It Would Look Like for AI to Find a New Scientific Concept
         </h1>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-      <!-- Latest Posts Section -->
-      <section id="latest-posts" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Space News</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- End Post -->
-        </div>
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      <div class="mb-8 text-xs text-right text-gray-600">Models: <span class="text-gray-400">research(Ollama Local Model)</span> / <span class="text-gray-400">author(OpenAI ChatGPT)</span> / <span class="text-gray-400">illustrator(OpenAI ImageGen)</span></div>
+      <script>
+const article = {
+    title: "From Data to Discovery: What It Would Look Like for AI to Find a New Scientific Concept",
+    slug: "from-data-to-discovery-what-it-would-look-like-for-ai-to-find-a-new-scientific-concept",
+    description: "A practical, step-by-step look at how AI could move from messy data to a genuinely new scientific concept, including anomaly finding, symbolic law discovery, causal tests, and the lab validation loop that turns patterns into theory.",
+    category: "AI",
+    image: "from-data-to-discovery-what-it-would-look-like-for-ai-to-find-a-new-scientific-concept.png",
+    research: "Ollama Local Model",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style></style>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-8">The uncomfortable question: can AI "discover" anything, or does it only remix?</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+If an AI system announced tomorrow that it had found a new scientific concept, most researchers would ask the same thing: where is the idea, exactly, and how do we know it is real? Not a better curve fit. Not a clever compression of known facts. A concept in the scientific sense is a new handle on nature, something that changes what you measure, what you predict, and what you think is possible.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The path from data to concept is not mystical. It is a disciplined pipeline that starts with messy observations and ends with a claim that survives hostile testing. AI can help at every step, but the key is understanding what "help" looks like when the goal is not a model that predicts, but a model that explains.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">What counts as a "new concept" in science?</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+A new concept is not just a new number or a new dataset. It is usually one of three things.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+First, a new variable that makes the world simpler. Temperature and entropy are classic examples. They compress many microscopic details into a quantity that predicts macroscopic behavior.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Second, a new relationship that holds across situations, often expressed as a law, scaling rule, or conservation principle. The relationship is the concept because it tells you what cannot happen, not just what often happens.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Third, a new mechanism, meaning a causal story that survives intervention. It is not enough to say "A correlates with B." A mechanism says what to change, what will move, and what will not.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+So the real question becomes practical: what would an AI system have to do, step by step, to produce one of those outcomes and convince skeptical humans?
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 1: Build a "world model" from raw scientific reality, not just a training set</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Scientific data is not like internet text. It is sparse, expensive, and full of hidden assumptions. Instruments drift. Labs have quirks. Negative results vanish. Even the units can be wrong.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+An AI system aimed at concept discovery would start by assembling a dataset that includes not only outcomes, but context. That means metadata about instruments, calibration, sample preparation, environmental conditions, and uncertainty estimates. In many fields, the uncertainty is the signal because it tells you where theory is failing or where measurement is lying.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Then comes normalization, but not the generic kind. In science, you often want to preserve invariances. A molecule rotated in space is still the same molecule. A physical law should not change because you chose a different coordinate system. This is why modern scientific ML leans on architectures that bake in symmetries, such as equivariant networks for 3D structures and graph neural networks for relational systems.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The output of this stage is not "clean data." It is a structured representation of the domain that makes it possible for the model to learn what should stay the same when the surface details change.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 2: Learn representations that can express the unknown, not just predict the known</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Most successful AI in science so far has been trained on tasks we already understand how to label. Predict the folded structure. Predict the next token. Predict the property. That is powerful, but it quietly limits what the system can imagine.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+For concept discovery, the system needs self-supervised learning that forces it to model the structure of the data itself. In practice, that can mean learning to reconstruct masked parts of a measurement, predict missing modalities, or compress observations into latent variables that preserve what matters for downstream behavior.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+This is where "representation learning" stops being a buzzword and becomes the engine of discovery. If the latent space is good, it will cluster phenomena that share a hidden cause, even if humans have never named that cause. If it is bad, the system will group things by superficial similarity and call it insight.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+A useful mental model is this: the AI is trying to invent the right coordinate system for the domain. Many scientific breakthroughs are exactly that, a change of coordinates that makes the equations simple.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 3: Find the cracks where current theory leaks</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+New concepts often begin as embarrassment. An experiment that "should" work does not. A scaling law breaks at the edge of a regime. A class of materials behaves like it missed the memo.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+AI can industrialize this stage by running anomaly detection in representation space. Instead of looking for outliers in raw measurements, it looks for points that are hard to explain under the learned world model. These are cases with high reconstruction error, unstable predictions, or inconsistent embeddings across modalities.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The important detail is that anomalies are not automatically discoveries. Many are just bad data. The system needs a triage layer that separates "instrument weirdness" from "physics weirdness." That triage can use provenance signals, replicate consistency, and cross-lab comparisons. It can also use simulation checks when simulators exist, asking whether the anomaly is outside the envelope of known mechanisms.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+At the end of this step, the AI has something precious: a map of where our current conceptual toolkit is weakest, and a ranked list of places where new concepts are most likely to pay rent.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 4: Turn patterns into candidate concepts using symbolic search, not just neural guesses</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Neural networks are excellent at prediction, but scientific concepts need to be portable. They must survive outside the training distribution and be usable by humans, simulators, and other theories. That is why the next stage often looks less like deep learning and more like automated theorizing.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Symbolic regression and program synthesis are the workhorses here. Instead of outputting a black-box function, the system searches for compact expressions that fit the data while respecting constraints. Those constraints can include dimensional consistency, known symmetries, conservation laws, monotonicity, and sparsity. The constraints are not a limitation. They are the guardrails that keep the search from producing nonsense that merely interpolates.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+A realistic pipeline is hybrid. A neural model proposes useful intermediate variables or embeddings. A symbolic engine then tries to express the behavior in terms of those variables with simple equations. If it succeeds, you get something that looks like a law. If it fails, that failure is informative too, because it suggests the concept may not be expressible in the chosen language and you need a richer hypothesis class.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+This is also where language models can contribute, but in a narrow, disciplined way. They can propose mechanistic narratives, suggest analogies to known domains, and generate candidate forms for equations or causal graphs. The system should treat these as drafts, not answers, and immediately route them into formal checking.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 5: Demand causality, not correlation, by designing interventions</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+A concept becomes scientific when it makes risky predictions under intervention. This is where many AI-for-science stories quietly skip the hard part. Predicting held-out data is not the same as explaining what will happen when you change the world.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+An AI discovery system would therefore include an explicit causal testing loop. It would translate candidate concepts into experimental interventions. If the concept claims a hidden variable controls an outcome, the system must propose how to manipulate that variable, or at least a proxy that isolates it.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+This is where Bayesian optimization and active learning become central. The system chooses the next experiment not because it is likely to "work," but because it maximizes expected information gain. In other words, it picks experiments that are most likely to falsify the candidate concept quickly, or sharply distinguish it from competing explanations.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+In a lab setting, this can look like a closed loop. The AI proposes conditions, a robotic platform runs them, results flow back, and the posterior belief over hypotheses updates. In fields without fast experiments, the loop can run through high-fidelity simulation, but the system must track the simulator's validity range to avoid mistaking simulation artifacts for new physics.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 6: Stress-test the concept until it either breaks or becomes useful</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Even if a candidate survives initial tests, it is not yet a concept the community can use. It needs robustness checks that mirror how scientists actually attack new ideas.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+One check is transportability. Does the relationship hold across instruments, labs, and regimes, or is it a local trick? Another is identifiability. Are there multiple different concepts that explain the same data equally well? If so, the system must propose discriminating experiments rather than declaring victory.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Then comes parsimony with teeth. A concept that requires dozens of free parameters is usually not a concept, it is a spreadsheet. The AI should be penalized for complexity in a way that reflects scientific taste, such as minimum description length or Bayesian model evidence, while still allowing complexity when the world demands it.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Finally, the concept must connect to existing knowledge. Not by forcing it to fit old theory, but by showing how it reduces to known results in known limits. This "limit behavior" is one of the most convincing forms of scientific compatibility.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">Step 7: Package the discovery so humans can adopt it</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+A new concept that cannot be communicated is functionally nonexistent. The AI system would need to output more than an equation. It would need a usable object: definitions, units, boundary conditions, and a recipe for measurement.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+In practice, that means generating a "concept card" that includes what the variable is, how to estimate it from data, what it predicts, where it fails, and which experiments most cleanly demonstrate it. It also means producing code and reference implementations, because modern science spreads through reproducible pipelines as much as through papers.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+This is also where peer review becomes part of the system design. If the AI cannot expose its assumptions, uncertainty, and provenance, it will not be trusted. The goal is not to make the AI sound confident. The goal is to make it easy for a skeptical expert to try to break the claim.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">A concrete example, without the hype: how a "new descriptor" could be born in materials science</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Imagine a field chasing better catalysts. Researchers have descriptors, simple numbers that correlate with performance, but they keep failing when the chemistry changes. The AI ingests reaction outcomes, surface characterizations, microscopy images, and simulation outputs. It learns a representation that respects symmetry and chemistry constraints.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Anomaly detection flags a family of catalysts that perform well despite "bad" traditional descriptors. The system searches for a new latent variable that separates these cases from the rest. Symbolic regression then finds that performance is best explained by a compact expression involving a geometric feature of the active site and a measure of electronic flexibility under operating conditions.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+Now the hard part. The AI proposes interventions that should change the new variable while leaving confounders stable, such as controlled doping, strain engineering, or surface reconstruction under specific potentials. Bayesian optimization selects the smallest set of experiments that can falsify the claim. If the results match, the "descriptor" becomes a concept because it is measurable, predictive, and manipulable. It tells engineers what knob to turn.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+If the results do not match, the system does not quietly move on. It updates the hypothesis space, records the failure mode, and learns where its own conceptual language was too simple.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">What has to go right, and what usually goes wrong</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The biggest technical risk is mistaking dataset structure for nature's structure. If a model learns lab-specific quirks, it can "discover" a concept that vanishes the moment another group tries it. This is why provenance, replication, and cross-domain validation are not administrative details. They are part of the epistemology.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The second risk is confusing compression with explanation. A model can compress observations into a latent variable that predicts well, yet has no stable meaning under intervention. That variable is not a concept. It is a convenience.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The third risk is over-trusting fluent narratives. Language models can produce beautiful mechanistic stories that feel like understanding. In a discovery pipeline, narrative must be downstream of tests, not upstream of belief.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+And then there is the human risk. If the system is treated as an oracle, it will be used badly. If it is treated as a colleague that must show its work, it can raise the floor of scientific reasoning by making hypothesis generation and falsification faster, cheaper, and more systematic.
+</p>
+
+<h2 class="text-2xl font-semibold tracking-tight text-slate-900 mt-10">The real blueprint: discovery is a loop, not a moment</h2>
+<p class="text-slate-700 mt-4 leading-relaxed">
+The popular image of AI discovery is a single dramatic output, a new equation appearing on a screen. The more realistic picture is quieter and more powerful. It is a loop that keeps tightening: learn a world model, find where it fails, propose candidate concepts, design interventions, update beliefs, and repeat.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+When that loop is working, the AI is not replacing scientists. It is doing what science has always needed more of: relentless curiosity paired with ruthless testing, at a scale that human attention alone cannot sustain.
+</p>
+<p class="text-slate-700 mt-4 leading-relaxed">
+If AI ever "discovers" a new scientific concept in a way that changes textbooks, it will not be because it had a spark of inspiration. It will be because it learned how to ask better questions than we do, and then forced itself to earn every answer.</p>
     </main>
 
     <footer class="bg-black text-gray-200 py-12">

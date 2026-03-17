@@ -1,5 +1,18 @@
 [
   {
+    "title": "From Data to Discovery: What It Would Look Like for AI to Find a New Scientific Concept",
+    "slug": "from-data-to-discovery-what-it-would-look-like-for-ai-to-find-a-new-scientific-concept",
+    "description": "A practical, step-by-step look at how AI could move from messy data to a genuinely new scientific concept, including anomaly finding, symbolic law discovery, causal tests, and the lab validation loop that turns patterns into theory.",
+    "image": "from-data-to-discovery-what-it-would-look-like-for-ai-to-find-a-new-scientific-concept.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-17T07:58:23.553Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Palantir + Ondas + World View",
     "slug": "palantir-ondas-world-view-tri-alliance-launch-live",
     "description": "PalantirOndas  World View ",
