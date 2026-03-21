@@ -1,5 +1,18 @@
 [
   {
+    "title": "Space 2055: What Will the Space Industry Look Like in 30 Years?",
+    "slug": "space-2055-what-will-the-space-industry-look-like-in-30-years",
+    "description": "Three plausible futures for the space industry by 2055, shaped by launch costs, orbital debris, and geopolitics. From a security-first, collision-prone orbit to a thriving cislunar economy, here's what changes the game and what could break it.",
+    "image": "space-2055-what-will-the-space-industry-look-like-in-30-years.png",
+    "category": "Space",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-21T10:23:13.932Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "From Data to Discovery: What It Would Look Like for AI to Find a New Scientific Concept",
     "slug": "from-data-to-discovery-what-it-would-look-like-for-ai-to-find-a-new-scientific-concept",
     "description": "A practical, step-by-step look at how AI could move from messy data to a genuinely new scientific concept, including anomaly finding, symbolic law discovery, causal tests, and the lab validation loop that turns patterns into theory.",
