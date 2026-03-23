@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is the IDE Dead? Agent Orchestration Is Rewriting the Programming Workflow",
+    "slug": "is-the-ide-dead-agent-orchestration-programming-workflow",
+    "description": "The IDE isn't disappearing, but it's no longer the center of gravity. As coding agents plan, edit, test, and open PRs, developers are shifting from line-by-line editing to orchestrating parallel workstreams and reviewing diffs with stronger governance.",
+    "image": "is-the-ide-dead-agent-orchestration-programming-workflow.png",
+    "category": "Software",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-23T07:29:56.378Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Space 2055: What Will the Space Industry Look Like in 30 Years?",
     "slug": "space-2055-what-will-the-space-industry-look-like-in-30-years",
     "description": "Three plausible futures for the space industry by 2055, shaped by launch costs, orbital debris, and geopolitics. From a security-first, collision-prone orbit to a thriving cislunar economy, here's what changes the game and what could break it.",
