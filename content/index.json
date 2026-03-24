@@ -1,5 +1,18 @@
 [
   {
+    "title": "From Data to Victory: How Early Adopters Are Winning with AI in Sport",
+    "slug": "from-data-to-victory-how-early-adopters-are-winning-with-ai-in-sport",
+    "description": "AI is reshaping sport through injury prediction, real-time tactics, smarter scouting, and personalized training. Here's how early adopters turn data into wins, healthier athletes, and new revenue-plus the infrastructure and guardrails to do it right.",
+    "image": "from-data-to-victory-how-early-adopters-are-winning-with-ai-in-sport.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-24T19:36:59.510Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Is the IDE Dead? Agent Orchestration Is Rewriting the Programming Workflow",
     "slug": "is-the-ide-dead-agent-orchestration-programming-workflow",
     "description": "The IDE isn't disappearing, but it's no longer the center of gravity. As coding agents plan, edit, test, and open PRs, developers are shifting from line-by-line editing to orchestrating parallel workstreams and reviewing diffs with stronger governance.",
