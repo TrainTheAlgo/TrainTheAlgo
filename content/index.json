@@ -1,5 +1,18 @@
 [
   {
+    "title": "Will Software Ever Perfectly Mimic Human DecisionMaking, Including Biases and Errors?",
+    "slug": "will-software-ever-perfectly-mimic-human-decision-making-including-biases-and-errors",
+    "description": "AI can already imitate many human choices and even our predictable mistakes. But ",
+    "image": "will-software-ever-perfectly-mimic-human-decision-making-including-biases-and-errors.png",
+    "category": "AI",
+    "path": "2026/03/",
+    "featured": false,
+    "date": "2026-03-28T22:45:06.116Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "From Data to Victory: How Early Adopters Are Winning with AI in Sport",
     "slug": "from-data-to-victory-how-early-adopters-are-winning-with-ai-in-sport",
     "description": "AI is reshaping sport through injury prediction, real-time tactics, smarter scouting, and personalized training. Here's how early adopters turn data into wins, healthier athletes, and new revenue-plus the infrastructure and guardrails to do it right.",
