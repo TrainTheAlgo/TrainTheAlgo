@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why LLMs Ruin Everything: The Book Culture Crash You Can Already See",
+    "slug": "why-llms-ruin-everything-book-culture",
+    "description": "LLMs don't just threaten writers' jobs. They corrode trust in reviews, scholarship, and the status of books themselves, turning ",
+    "image": "why-llms-ruin-everything-book-culture.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-01T10:59:33.268Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could Iterative AI Develop Consciousness? What Repeated Loops Can and Can't Create",
     "slug": "could-iterative-ai-develop-consciousness",
     "description": "Iteration powers modern AI, from training loops to self-reflection prompts. But can repeated cycles produce consciousness, or only better simulations of it? A clear look at the science, the gaps, and what to watch next.",
