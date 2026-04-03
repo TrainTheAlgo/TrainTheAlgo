@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI #162: Visions of Mythos and the Week the Leaks Got Loud",
+    "slug": "ai-162-visions-of-mythos",
+    "description": "Anthropic's leaked Mythos' model hints at a step change in cyber capability, just as supply chain attacks and source leaks pile up. Here's what matters, what's noise, and what to do next.",
+    "image": "ai-162-visions-of-mythos.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-03T14:21:51.834Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Can Neuromorphic Computing Unlock the Secrets of Human Consciousness?",
     "slug": "can-neuromorphic-computing-unlock-the-secrets-of-human-consciousness",
     "description": "Neuromorphic chips mimic spiking brains with ultra-low power. But can brain-like hardware actually help explain consciousness, or just simulate parts of it? What today's best systems reveal, and what they still can't touch.",
