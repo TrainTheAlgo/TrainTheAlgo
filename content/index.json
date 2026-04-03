@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can Neuromorphic Computing Unlock the Secrets of Human Consciousness?",
+    "slug": "can-neuromorphic-computing-unlock-the-secrets-of-human-consciousness",
+    "description": "Neuromorphic chips mimic spiking brains with ultra-low power. But can brain-like hardware actually help explain consciousness, or just simulate parts of it? What today's best systems reveal, and what they still can't touch.",
+    "image": "can-neuromorphic-computing-unlock-the-secrets-of-human-consciousness.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-03T02:15:04.836Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Dominates Execution, Not Strategic Thinking: Who Really Wins in Markets?",
     "slug": "ai-dominates-execution-not-strategic-thinking-who-really-wins-in-markets",
     "description": "AI already runs much of modern trading, but investing is more than speed and pattern spotting. Here's where algorithms win, where humans still matter, and why the future belongs to hybrid teams that can explain decisions under pressure.",
