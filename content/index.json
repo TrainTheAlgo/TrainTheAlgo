@@ -1,5 +1,18 @@
 [
   {
+    "title": "Don't Shame AI Users. Listen to Them.",
+    "slug": "dont-shame-ai-users-listen-to-them",
+    "description": "Moral panic and purity politics around ChatGPT and Gemini are pushing people into camps. A harm-reduction approach listens first, targets systemic harms, and builds practical guardrails for education, accessibility, and the climate.",
+    "image": "dont-shame-ai-users-listen-to-them.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-08T02:10:13.611Z",
+    "research": "xAI Grok",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "OpenAI GPTImage2 Leaks on Arena: The ",
     "slug": "openai-gpt-image-2-leaks-on-arena-tape-codenames-text-rendering",
     "description": "A new OpenAI image model appears to be hiding on Arena under three ",
