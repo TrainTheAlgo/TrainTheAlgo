@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is The Pursuit Of Passive Income The Modern Version Of Financial Freedom?",
+    "slug": "is-the-pursuit-of-passive-income-the-modern-version-of-financial-freedom",
+    "description": "Passive income is sold as the shortcut to financial freedom. But what's genuinely passive, what's just automated work, and how do digital platforms, ETFs, property, and crypto really change the path to time autonomy?",
+    "image": "is-the-pursuit-of-passive-income-the-modern-version-of-financial-freedom.png",
+    "category": "Business",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-08T23:17:02.071Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Don't Shame AI Users. Listen to Them.",
     "slug": "dont-shame-ai-users-listen-to-them",
     "description": "Moral panic and purity politics around ChatGPT and Gemini are pushing people into camps. A harm-reduction approach listens first, targets systemic harms, and builds practical guardrails for education, accessibility, and the climate.",
