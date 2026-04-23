@@ -1,5 +1,18 @@
 [
   {
+    "title": "When Games Can Perfectly Simulate Human Relationships",
+    "slug": "when-games-can-perfectly-simulate-human-relationships",
+    "description": "As AI-driven NPCs gain memory, emotion and persuasion, games start to feel like real social worlds. Here's what changes for storytelling, psychology, ethics, privacy and business when relationships become the gameplay.",
+    "image": "when-games-can-perfectly-simulate-human-relationships.png",
+    "category": "Gaming",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-23T12:02:15.689Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Platforms, Cloud and Chips: Where the Next Trillion-Dollar Company Is Most Likely to Come From",
     "slug": "ai-platforms-cloud-chips-next-trillion-dollar-company",
     "description": "The next $1T company is unlikely to be a consumer brand. It will probably be an AI platform, hyperscale cloud provider, or chip leader that turns compute into recurring revenue, high margins, and durable market power.",
