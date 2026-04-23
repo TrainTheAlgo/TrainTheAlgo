@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Loneliness Become a Global Pandemic as Technology Isolates Us?",
+    "slug": "could-loneliness-become-a-global-pandemic-as-technology-isolates-us",
+    "description": "Loneliness is rising across age groups, and screens may be part of the problem. Here's what the data says, why digital life can deepen isolation, and what actually helps without ditching technology.",
+    "image": "could-loneliness-become-a-global-pandemic-as-technology-isolates-us.png",
+    "category": "Lifestyle",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-23T21:09:18.821Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "When Games Can Perfectly Simulate Human Relationships",
     "slug": "when-games-can-perfectly-simulate-human-relationships",
     "description": "As AI-driven NPCs gain memory, emotion and persuasion, games start to feel like real social worlds. Here's what changes for storytelling, psychology, ethics, privacy and business when relationships become the gameplay.",
