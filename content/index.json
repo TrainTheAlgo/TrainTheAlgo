@@ -1,5 +1,18 @@
 [
   {
+    "title": "AI Surveillance Data: Can Human Behavior Be Predicted?",
+    "slug": "ai-surveillance-data-can-human-behavior-be-predicted",
+    "description": "AI can forecast what people are likely to do next using surveillance and digital trace data, but prediction is probabilistic, fragile under shocks, and risky when used for policing, credit, or access decisions.",
+    "image": "ai-surveillance-data-can-human-behavior-be-predicted.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-25T06:24:10.189Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Are We Electing Stars Instead of Statesmen? The Rise of Celebrity Politics",
     "slug": "are-we-electing-stars-instead-of-statesmen-the-rise-of-celebrity-politics",
     "description": "Celebrity politics is no longer a sideshow. From social media followings to reality-TV fame, modern elections increasingly reward attention over expertise. Here's what's driving it, what the data suggests, and what it means for democracy.",
