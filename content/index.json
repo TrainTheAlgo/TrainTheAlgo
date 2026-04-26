@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could AI Invent a Coding Language Humans Can't Read, Yet LLMs Love?",
+    "slug": "could-ai-invent-a-coding-language-humans-cant-read-yet-llms-love",
+    "description": "LLMs already invent shorthands. The next step could be private, unreadable programming languages optimized for tokens, latency, and model internals. Here's what research suggests, what's feasible, and what it would mean for software.",
+    "image": "could-ai-invent-a-coding-language-humans-cant-read-yet-llms-love.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-26T15:33:43.955Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "AI Surveillance Data: Can Human Behavior Be Predicted?",
     "slug": "ai-surveillance-data-can-human-behavior-be-predicted",
     "description": "AI can forecast what people are likely to do next using surveillance and digital trace data, but prediction is probabilistic, fragile under shocks, and risky when used for policing, credit, or access decisions.",
