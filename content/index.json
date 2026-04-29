@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why an AIOnly Coding Language Could Outperform Traditional Code",
+    "slug": "why-an-ai-only-coding-language-could-outperform-traditional-code",
+    "description": "Could AI invent a programming language humans can't read, yet runs faster and costs fewer tokens for LLMs? We unpack what ",
+    "image": "why-an-ai-only-coding-language-could-outperform-traditional-code.png",
+    "category": "AI",
+    "path": "2026/04/",
+    "featured": false,
+    "date": "2026-04-29T06:44:11.324Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could AI Invent a Coding Language Humans Can't Read, Yet LLMs Love?",
     "slug": "could-ai-invent-a-coding-language-humans-cant-read-yet-llms-love",
     "description": "LLMs already invent shorthands. The next step could be private, unreadable programming languages optimized for tokens, latency, and model internals. Here's what research suggests, what's feasible, and what it would mean for software.",
