@@ -1,5 +1,18 @@
 [
   {
+    "title": "Autonomous Taxis vs Public Transport: The AfterEffects Cities Can't Ignore",
+    "slug": "autonomous-taxis-vs-public-transport-after-effects",
+    "description": "Robotaxis are starting to pull riders from buses, reshape first-and-last-mile travel, and pressure transit budgets. Here's what the evidence says, what cities can do, and what public transport could become next.",
+    "image": "autonomous-taxis-vs-public-transport-after-effects.png",
+    "category": "Vehicles",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-09T08:17:17.223Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Will AI Replace Entire Sectors by 2045? The Industries Most Likely to Disappear",
     "slug": "will-ai-replace-entire-sectors-by-2045-industries-most-likely-to-disappear",
     "description": "AI won't just change jobs. In a few sectors it may erase the industry model entirely. Here's where full automation is most plausible by 2045, what would replace it, and the signals to watch.",
