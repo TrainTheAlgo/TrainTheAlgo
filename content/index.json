@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Dark Matter Discoveries Rewrite the Laws of Physics?",
+    "slug": "could-dark-matter-discoveries-rewrite-the-laws-of-physics",
+    "description": "Dark matter shapes galaxies and the cosmic web, yet we still don't know what it is. If it's finally detected, the result could extend the Standard Model, reveal new forces, and even pressure-test gravity itself.",
+    "image": "could-dark-matter-discoveries-rewrite-the-laws-of-physics.png",
+    "category": "Physics",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-11T23:32:42.567Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How Space Colonization Will Redefine Human Social Structures",
     "slug": "how-space-colonization-will-redefine-human-social-structures",
     "description": "Off-world settlements will force new rules for work, family, identity, and governance. Here's how Moon and Mars colonies could reshape human hierarchy, rights, and community under extreme scarcity and radical interdependence.",
