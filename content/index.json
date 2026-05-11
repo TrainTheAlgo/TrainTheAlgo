@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Space Colonization Will Redefine Human Social Structures",
+    "slug": "how-space-colonization-will-redefine-human-social-structures",
+    "description": "Off-world settlements will force new rules for work, family, identity, and governance. Here's how Moon and Mars colonies could reshape human hierarchy, rights, and community under extreme scarcity and radical interdependence.",
+    "image": "how-space-colonization-will-redefine-human-social-structures.png",
+    "category": "Space",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-11T11:25:11.714Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Autonomous Taxis vs Public Transport: The AfterEffects Cities Can't Ignore",
     "slug": "autonomous-taxis-vs-public-transport-after-effects",
     "description": "Robotaxis are starting to pull riders from buses, reshape first-and-last-mile travel, and pressure transit budgets. Here's what the evidence says, what cities can do, and what public transport could become next.",
