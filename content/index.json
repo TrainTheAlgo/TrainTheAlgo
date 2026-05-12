@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Future of Privacy: Relic of the Past or the Human Right That Shapes Everything Next?",
+    "slug": "future-of-privacy-relic-or-human-right",
+    "description": "Privacy isn't just about secrets. It shapes freedom of speech, fair markets, and safe communities. Here's what history, today's laws, and emerging tech reveal about whether privacy is fading or becoming the defining right of the digital future.",
+    "image": "future-of-privacy-relic-or-human-right.png",
+    "category": "Security",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-12T02:40:21.247Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could Dark Matter Discoveries Rewrite the Laws of Physics?",
     "slug": "could-dark-matter-discoveries-rewrite-the-laws-of-physics",
     "description": "Dark matter shapes galaxies and the cosmic web, yet we still don't know what it is. If it's finally detected, the result could extend the Standard Model, reveal new forces, and even pressure-test gravity itself.",
