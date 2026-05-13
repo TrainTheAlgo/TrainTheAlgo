@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Close Are We to a World Where Code Is Law?",
+    "slug": "how-close-are-we-to-a-world-where-code-is-law",
+    "description": "Software already decides who gets paid, who gets blocked, and what gets enforced. Here's how close we are to ",
+    "image": "how-close-are-we-to-a-world-where-code-is-law.png",
+    "category": "AI",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-13T20:56:01.137Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How AI Could Spark Physics Revolutions No Human Understands",
     "slug": "how-ai-could-spark-physics-revolutions-no-human-understands",
     "description": "AI is already rediscovering known equations from data. The harder question is whether it can find new laws that predict reality perfectly yet remain opaque to human intuition, notation, and even proof.",
