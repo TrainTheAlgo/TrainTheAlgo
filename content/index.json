@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Human Data Ceiling: Could Training on Us Cap Artificial Superintelligence?",
+    "slug": "the-human-data-ceiling-could-training-on-us-cap-artificial-superintelligence",
+    "description": "If future AI is trained mostly on human text and behavior, does it inherit our limits as well as our knowledge? A clear look at data ceilings, scaling plateaus, synthetic data, and what it would take for AI to reliably outgrow its human training set.",
+    "image": "the-human-data-ceiling-could-training-on-us-cap-artificial-superintelligence.png",
+    "category": "AI",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-23T20:44:15.880Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How Autonomous Taxis Will Reshape Urban Public Transit",
     "slug": "how-autonomous-taxis-will-reshape-urban-public-transit",
     "description": "Autonomous taxis are moving from pilot to everyday service. Here's how they will change public transport: routes, fares, equity, congestion, and what cities can do now to make driverless mobility a net win.",
