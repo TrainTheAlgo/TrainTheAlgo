@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Autonomous Taxis Will Reshape Urban Public Transit",
+    "slug": "how-autonomous-taxis-will-reshape-urban-public-transit",
+    "description": "Autonomous taxis are moving from pilot to everyday service. Here's how they will change public transport: routes, fares, equity, congestion, and what cities can do now to make driverless mobility a net win.",
+    "image": "how-autonomous-taxis-will-reshape-urban-public-transit.png",
+    "category": "Vehicles",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-23T05:37:53.766Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could Advanced Prosthetics Eventually Make Natural Human Bodies Unnecessary?",
     "slug": "could-advanced-prosthetics-eventually-make-natural-human-bodies-unnecessary",
     "description": "Advanced prosthetics are getting smarter, stronger and more lifelike. But could they ever replace the entire human body, not just limbs? Here's what today's science can do, what's missing, and what would need to change.",
