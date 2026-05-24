@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could AI Create New Forms of Mathematics Beyond Human Understanding?",
+    "slug": "could-ai-create-new-forms-of-mathematics-beyond-human-understanding",
+    "description": "AI is starting to generate proofs, conjectures and structures that are formally correct yet hard to explain. Here's what ",
+    "image": "could-ai-create-new-forms-of-mathematics-beyond-human-understanding.png",
+    "category": "AI",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-24T14:52:28.656Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The Human Data Ceiling: Could Training on Us Cap Artificial Superintelligence?",
     "slug": "the-human-data-ceiling-could-training-on-us-cap-artificial-superintelligence",
     "description": "If future AI is trained mostly on human text and behavior, does it inherit our limits as well as our knowledge? A clear look at data ceilings, scaling plateaus, synthetic data, and what it would take for AI to reliably outgrow its human training set.",
