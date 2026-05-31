@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Autonomous Taxis Will Reshape Public Transit",
+    "slug": "how-autonomous-taxis-will-reshape-public-transit",
+    "description": "Autonomous taxis are moving from pilot to public streets. Here's how driverless ride-hailing could change bus and rail ridership, budgets, street design, and equity-and what transit agencies can do next.",
+    "image": "how-autonomous-taxis-will-reshape-public-transit.png",
+    "category": "AI",
+    "path": "2026/05/",
+    "featured": false,
+    "date": "2026-05-31T08:30:52.630Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why Humans Will Still Find Purpose in an AIDriven Economy",
     "slug": "why-humans-will-still-find-purpose-in-an-ai-driven-economy",
     "description": "If AI can do most jobs better, what's left for humans? Purpose doesn't disappear with automation. It shifts. Here's how to build meaning, agency, and impact in an AI-driven economy without tying your identity to a job title.",
