@@ -1,5 +1,18 @@
 [
   {
+    "title": "Corporations vs Nations: Who Owns Space Now?",
+    "slug": "corporations-vs-nations-who-owns-space-now",
+    "description": "As private launch and satellite giants reshape orbit, the real question is not who gets there first, but who sets the rules. Space law, lunar ",
+    "image": "corporations-vs-nations-who-owns-space-now.png",
+    "category": "Space",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-03T20:38:40.222Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How Autonomous Taxis Will Reshape Public Transit",
     "slug": "how-autonomous-taxis-will-reshape-public-transit",
     "description": "Autonomous taxis are moving from pilot to public streets. Here's how driverless ride-hailing could change bus and rail ridership, budgets, street design, and equity-and what transit agencies can do next.",
