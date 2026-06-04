@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is the Metaverse Poised to Become Indistinguishable From Reality?",
+    "slug": "is-the-metaverse-poised-to-become-indistinguishable-from-reality",
+    "description": "Could the metaverse ever feel so real you can't tell it apart from physical life? A clear look at the tech, the human senses, and the hard limits that still separate immersive worlds from reality.",
+    "image": "is-the-metaverse-poised-to-become-indistinguishable-from-reality.png",
+    "category": "AI",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-04T20:54:05.641Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could Iterative Software Development Create Consciousness, or Just Better Imitations?",
     "slug": "could-iterative-software-development-create-consciousness",
     "description": "Repeated training loops can make software look startlingly human. But does iteration ever cross the line into subjective experience, or does it only optimize behavior? A clear-eyed guide to what science can and cannot claim.",
