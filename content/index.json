@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Iterative Software Development Create Consciousness, or Just Better Imitations?",
+    "slug": "could-iterative-software-development-create-consciousness",
+    "description": "Repeated training loops can make software look startlingly human. But does iteration ever cross the line into subjective experience, or does it only optimize behavior? A clear-eyed guide to what science can and cannot claim.",
+    "image": "could-iterative-software-development-create-consciousness.png",
+    "category": "AI",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-04T08:47:05.708Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Corporations vs Nations: Who Owns Space Now?",
     "slug": "corporations-vs-nations-who-owns-space-now",
     "description": "As private launch and satellite giants reshape orbit, the real question is not who gets there first, but who sets the rules. Space law, lunar ",
