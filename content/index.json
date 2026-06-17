@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Far Away Are the Limits of Human Scientific Understanding?",
+    "slug": "how-far-away-are-the-limits-of-human-scientific-understanding",
+    "description": "Science keeps expanding, yet some frontiers may be baked into reality: cosmic horizons, quantum limits, energy ceilings, computation, and even human cognition. Here's where the edge really is, and why it keeps moving.",
+    "image": "how-far-away-are-the-limits-of-human-scientific-understanding.png",
+    "category": "Physics",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-17T10:40:08.838Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "The Hidden Gap: AI Capabilities vs Control",
     "slug": "the-hidden-gap-ai-capabilities-vs-control",
     "description": "Evidence is mounting that AI risk is being priced, governed, and engineered as if it were a normal software problem. It may not be. Here's what the data, incidents, incentives, and expert forecasts suggest about underestimated existential risk.",
