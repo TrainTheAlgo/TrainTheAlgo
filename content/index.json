@@ -1,5 +1,18 @@
 [
   {
+    "title": "When AI Predicts Every Win: What Perfect Sports Forecasting Would Break, Fix, and Replace",
+    "slug": "when-ai-predicts-every-win-perfect-sports-forecasting",
+    "description": "If AI could predict sports outcomes perfectly, betting markets, league revenues, athlete contracts, and even the meaning of ",
+    "image": "when-ai-predicts-every-win-perfect-sports-forecasting.png",
+    "category": "AI",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-23T08:08:13.091Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How Far Away Are the Limits of Human Scientific Understanding?",
     "slug": "how-far-away-are-the-limits-of-human-scientific-understanding",
     "description": "Science keeps expanding, yet some frontiers may be baked into reality: cosmic horizons, quantum limits, energy ceilings, computation, and even human cognition. Here's where the edge really is, and why it keeps moving.",
