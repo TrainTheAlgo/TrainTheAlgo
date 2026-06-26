@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why Don't We Use Blockchains for Transparent Voting?",
+    "slug": "why-dont-we-use-blockchains-for-transparent-voting",
+    "description": "Blockchains promise immutable, transparent elections. In practice, voting needs privacy, coercion resistance, and reliable authentication at national scale. Those requirements collide with blockchain design, creating risks that paper audits still handle better.",
+    "image": "why-dont-we-use-blockchains-for-transparent-voting.png",
+    "category": "Security",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-26T20:24:03.979Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Can Gravity Be Controlled? Evidence Review & Experimental Limits (2025)",
     "slug": "can-gravity-be-controlled-evidence-review-experimental-limits-2025",
     "description": "Is gravity control real science or science fiction? A 2025 evidence review of gravitational shielding claims, rotating superconductors, frame-dragging tests, analogue gravity, and why reproducible gravity manipulation remains out of reach.",
