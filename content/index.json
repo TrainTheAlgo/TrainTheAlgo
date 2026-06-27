@@ -1,5 +1,18 @@
 [
   {
+    "title": "Global AI Government: Can It End Corruption Without Tyranny?",
+    "slug": "global-ai-government-end-corruption-without-tyranny",
+    "description": "A global AI government could make bribery harder by automating decisions and auditing every transaction. But the same machinery can centralize power, expand surveillance, and turn policy into unappealable code. The outcome depends on design, not hype.",
+    "image": "global-ai-government-end-corruption-without-tyranny.png",
+    "category": "AI",
+    "path": "2026/06/",
+    "featured": false,
+    "date": "2026-06-27T20:32:00.501Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why Don't We Use Blockchains for Transparent Voting?",
     "slug": "why-dont-we-use-blockchains-for-transparent-voting",
     "description": "Blockchains promise immutable, transparent elections. In practice, voting needs privacy, coercion resistance, and reliable authentication at national scale. Those requirements collide with blockchain design, creating risks that paper audits still handle better.",
