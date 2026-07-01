@@ -1,5 +1,18 @@
 [
   {
+    "title": "Biological Limits of Human Speed: Are We Hitting a Ceiling?",
+    "slug": "biological-limits-of-human-speed-are-we-hitting-a-ceiling",
+    "description": "Sprint times have improved for a century, but the gains are slowing. We unpack the real biological limits on speed, what technology can still change, and whether athletes will keep getting faster without rewriting the rules of sport.",
+    "image": "biological-limits-of-human-speed-are-we-hitting-a-ceiling.png",
+    "category": "Sport",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-01T08:54:40.035Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How Perfect Relationship Simulation Reshapes Gaming Immersion and Monetization in 2025",
     "slug": "perfect-relationship-simulation-gaming-immersion-monetization-2025",
     "description": "As AI NPCs gain memory, emotion and persuasive dialogue, games start simulating relationships that feel real. Here's what changes for immersion, mental health, privacy and monetization when companionship becomes a core game mechanic.",
