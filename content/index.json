@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Is Rewriting Sports Strategy for Early Adopters",
+    "slug": "how-ai-is-rewriting-sports-strategy-for-early-adopters",
+    "description": "AI is moving from dashboards to decisions. Here's how early-adopter teams use machine learning for performance gains, injury prevention, smarter scouting, and new fan revenue, and why late adopters may struggle to catch up.",
+    "image": "how-ai-is-rewriting-sports-strategy-for-early-adopters.png",
+    "category": "Sport",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-02T12:02:49.451Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Biological Limits of Human Speed: Are We Hitting a Ceiling?",
     "slug": "biological-limits-of-human-speed-are-we-hitting-a-ceiling",
     "description": "Sprint times have improved for a century, but the gains are slowing. We unpack the real biological limits on speed, what technology can still change, and whether athletes will keep getting faster without rewriting the rules of sport.",
