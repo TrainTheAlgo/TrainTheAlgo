@@ -1,5 +1,18 @@
 [
   {
+    "title": "What Happens When Virtual Reality Feels More Fulfilling Than Physical Reality?",
+    "slug": "what-happens-when-virtual-reality-feels-more-fulfilling-than-physical-reality",
+    "description": "As VR becomes more vivid, social and AI-personalized, it can outcompete everyday life for meaning and motivation. Here's what changes in the brain, relationships, work and identity, and how to stay grounded.",
+    "image": "what-happens-when-virtual-reality-feels-more-fulfilling-than-physical-reality.png",
+    "category": "AI",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-03T15:12:10.352Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "How AI Is Rewriting Sports Strategy for Early Adopters",
     "slug": "how-ai-is-rewriting-sports-strategy-for-early-adopters",
     "description": "AI is moving from dashboards to decisions. Here's how early-adopter teams use machine learning for performance gains, injury prevention, smarter scouting, and new fan revenue, and why late adopters may struggle to catch up.",
