@@ -1,5 +1,18 @@
 [
   {
+    "title": "Could Dreams Be Glimpses Into a Parallel Universe? What Science Actually Says",
+    "slug": "could-dreams-be-glimpses-into-a-parallel-universe-what-science-actually-says",
+    "description": "Dreams can feel like visits to other worlds, but do they contain evidence of parallel universes? A clear look at REM sleep, memory, prediction, and what multiverse physics does and does not claim.",
+    "image": "could-dreams-be-glimpses-into-a-parallel-universe-what-science-actually-says.png",
+    "category": "Physics",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-09T21:27:35.071Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Can an Algorithm Create a Truly Fair Legal System?",
     "slug": "can-an-algorithm-create-a-truly-fair-legal-system",
     "description": "AI can already draft clauses, spot conflicts, and simplify statutes. But ",
