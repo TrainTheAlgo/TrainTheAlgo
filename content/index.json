@@ -1,5 +1,18 @@
 [
   {
+    "title": "Is Geoengineering Climate Change Possible Within a Century?",
+    "slug": "is-geoengineering-climate-change-possible-within-a-century",
+    "description": "Geoengineering could cool the planet fast or remove CO slowly. Here's what Solar Radiation Management and Carbon Dioxide Removal can realistically achieve by 2125, and what could stop them.",
+    "image": "is-geoengineering-climate-change-possible-within-a-century.png",
+    "category": "Climate",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-18T21:44:43.223Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Seven Hours a Day: How Extended Screen Time and Social Media Will Shape the Next Generation",
     "slug": "seven-hours-a-day-extended-screen-time-social-media-next-generation",
     "description": "Teens now spend hours a day on screens. The long-term impact will reach attention, sleep, identity, education, politics, and inequality. Here's what the evidence suggests, what's still unclear, and what to do next.",
