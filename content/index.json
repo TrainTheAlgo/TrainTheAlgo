@@ -1,5 +1,18 @@
 [
   {
+    "title": "Legacy Automakers vs Tech Giants: Who Will Really Win Full Autonomy?",
+    "slug": "legacy-automakers-vs-tech-giants-who-will-really-win-full-autonomy",
+    "description": "Are GM, Ford and Volkswagen doomed to lose self-driving to Waymo, Apple and Amazon? The real battle is data, safety proof, cloud scale, manufacturing and business models, and the winners may not be who you think.",
+    "image": "legacy-automakers-vs-tech-giants-who-will-really-win-full-autonomy.png",
+    "category": "Vehicles",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-23T01:11:16.109Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why passive income is redefining financial freedom in 2025",
     "slug": "why-passive-income-is-redefining-financial-freedom-in-2025",
     "description": "Passive income is sold as the shortcut to financial freedom. In reality it is a tool, not a destination. Here is what counts as truly passive, what it costs to build, and how to use it without falling for the hype.",
