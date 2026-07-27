@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sport</title>
-    <meta name="description" content="Latest Sport News">
+    <title>Why Blockchain Voting Still Fails: Technical Limits Explained</title>
+    <meta name="description" content="Blockchains promise transparent elections, but real voting needs privacy, coercion resistance, and reliable identity at national scale. Here's why public ledgers struggle, what pilots taught us, and what cryptography may change next.">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      h2 {
+        color: #3e4756;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: #222;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <style>
@@ -193,46 +207,163 @@
       <div class="relative h-96 overflow-hidden">
         <img
           class="absolute top-0 left-0 w-full h-full object-cover"
-          src="/img/backgrounds/sport.jpg"
-          alt="Sport"
+          src="why-blockchain-voting-still-fails-technical-limits-explained.png"
+          alt="Why Blockchain Voting Still Fails: Technical Limits Explained"
         />
       </div>
-      <div
-        class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center"
-      >
+      <div class="absolute inset-0 bg-black opacity-70 flex flex-col items-center text-center justify-center">
         <h1 class="text-2xl md:text-3xl text-white font-bold">
-          Sport
+          Why Blockchain Voting Still Fails: Technical Limits Explained
         </h1>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto p-4 my-8">
-      <!-- Latest Posts Section -->
-      <section id="latest-posts" class="my-8">
-        <h2 class="text-3xl font-bold border-b pb-2 mb-4">Latest Sport News</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- Start Post -->
-          <a href="/2026/07/how-early-adopter-teams-are-using-ai-to-win-championships.html" class="block">
-            <div class="relative rounded shadow overflow-hidden h-48 group">
-              <div
-                class="absolute inset-0 bg-cover"
-                style="background-image: url('/2026/07/how-early-adopter-teams-are-using-ai-to-win-championships.png');"
-              ></div>
-              <div class="absolute inset-0 bg-black cursor-pointer opacity-70 group-hover:opacity-30 group-hover:bg-black transition duration-300"></div>
-              <div class="relative p-4">
-                <h3 class="text-lg font-semibold transition duration-300 text-gray-50 group-hover:text-white">
-                  How EarlyAdopter Teams Are Using AI to Win Championships
-                </h3>
-                <p class="text-sm mt-2  transition duration-300 text-gray-400 group-hover:text-white">
-                  AI is reshaping sport from injury prevention to scouting, tactics, fan revenue and stadium operations. Here's how early adopters turn data into wins, reduce strains, cut costs and build a durable competitive edge without breaking trust or privacy laws.
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Post -->
-        </div>
-      </section>
+    <main class="max-w-xl mx-auto p-4 my-8">
+      <div class="mb-8 text-xs text-right text-gray-600">Models: <span class="text-gray-400">research(Ollama Local Model)</span> / <span class="text-gray-400">author(OpenAI ChatGPT)</span> / <span class="text-gray-400">illustrator(OpenAI ImageGen)</span></div>
+      <script>
+const article = {
+    title: "Why Blockchain Voting Still Fails: Technical Limits Explained",
+    slug: "why-blockchain-voting-still-fails-technical-limits-explained",
+    description: "Blockchains promise transparent elections, but real voting needs privacy, coercion resistance, and reliable identity at national scale. Here's why public ledgers struggle, what pilots taught us, and what cryptography may change next.",
+    category: "Security",
+    image: "why-blockchain-voting-still-fails-technical-limits-explained.png",
+    research: "Ollama Local Model",
+    author: "OpenAI ChatGPT",
+    illustrator: "OpenAI ImageGen"
+}
+</script>
+<style>
+  .prose p { margin-top: 1rem; }
+  .prose h2 { margin-top: 2.25rem; }
+  .prose h3 { margin-top: 1.5rem; }
+</style>
+
+<div class="mx-auto max-w-3xl px-6 py-10">
+  <article class="prose prose-slate max-w-none">
+    <h2>Blockchains sound perfect for elections. That's the trap.</h2>
+    <p>
+      If you can track a package from warehouse to doorstep, why can't you track a vote from ballot to final tally? Blockchains sell exactly that promise: an immutable public record that anyone can audit. In a world where trust in institutions is fragile, "transparent voting on a blockchain" feels like the obvious upgrade.
+    </p>
+    <p>
+      The problem is that elections are not a supply chain. The thing you most want to verify, that your vote was counted, is also the thing you must not be able to prove to anyone else. That single tension, verifiability without receipts, is where most blockchain voting ideas quietly break.
+    </p>
+
+    <h2>What people mean when they say "blockchain voting"</h2>
+    <p>
+      Most proposals follow the same storyline. Each voter casts a ballot that becomes a transaction. The ledger is shared across many computers, so no single administrator can secretly rewrite history. Anyone can recount the votes by reading the chain. If something looks off, the public can audit it.
+    </p>
+    <p>
+      That story borrows the strongest marketing points of public blockchains: decentralization, tamper resistance, and transparency. But elections have requirements that money transfers do not. Voting needs privacy, coercion resistance, eligibility checks, accessibility, and a recovery plan for mistakes, all while operating under strict laws and tight timelines.
+    </p>
+
+    <h2>The first hard truth: transparency and secret ballots pull in opposite directions</h2>
+    <p>
+      A transparent ledger is great for auditing totals. It is terrible for protecting voter privacy unless you add heavy cryptography. Even if names are not on-chain, transaction patterns can leak identity. Timing, network metadata, wallet reuse, and correlations with known activity can be enough to deanonymize people, especially in small communities or low-turnout contests.
+    </p>
+    <p>
+      This is not a theoretical worry. Public blockchains are designed to make activity observable. That is how they deter fraud. Elections are designed to make individual choices unobservable. That is how they deter intimidation.
+    </p>
+
+    <h2>Receipt-free voting is not a "nice to have". It's the point.</h2>
+    <p>
+      A secure election must resist coercion. That means a voter should not be able to prove how they voted, even if they want to. Otherwise, vote buying becomes enforceable. So does pressure from employers, family members, or local power brokers.
+    </p>
+    <p>
+      Blockchains naturally create receipts. A transaction hash, a signature, a confirmation time, or even a screenshot of a wallet interface can become evidence. Designers try to patch this with cryptographic tricks, but the moment a voter can reliably demonstrate "this on-chain record corresponds to my choice," the system invites coercion at scale.
+    </p>
+    <p>
+      Paper voting handles this elegantly. You can watch your ballot go into the box, but you cannot later prove which bubble you filled in. That is not a bug. It is a defense mechanism.
+    </p>
+
+    <h2>Scalability is not just speed. It's predictability under stress.</h2>
+    <p>
+      National elections create bursts of activity. Millions of people vote in the same windows, often after work, often near deadlines. A voting system must handle peak load without queueing, fee spikes, or uncertain confirmation times.
+    </p>
+    <p>
+      Most public blockchains were not built for that. They trade throughput for decentralization and security. Even when raw transactions per second improve, elections still face a different constraint: you cannot tell citizens to "try again later" because the network is congested, or because fees rose, or because validators are reorganizing blocks.
+    </p>
+    <p>
+      And if you move data off-chain to reduce load, you reintroduce trust in the off-chain storage and the software that interprets it. The blockchain becomes a thin notarization layer, not the election itself.
+    </p>
+
+    <h2>Identity is the quiet monster under the bed</h2>
+    <p>
+      Elections require one-person-one-vote, but also require that ballots cannot be linked back to people. That means you need strong eligibility checks up front, followed by strong anonymity afterward.
+    </p>
+    <p>
+      Blockchains do not solve identity. They solve agreement among computers. If you attach voting rights to wallets, you still need a way to issue wallets to eligible voters, prevent duplicates, handle lost credentials, and stop theft. Every one of those steps becomes a high-stakes target.
+    </p>
+    <p>
+      Key management is especially unforgiving. If a voter loses a private key, do you allow recovery? If you allow recovery, who controls it? If you do not allow recovery, you have effectively introduced disenfranchisement by password reset failure. That is not an acceptable trade in public elections.
+    </p>
+
+    <h2>"Decentralized" governance collides with election law</h2>
+    <p>
+      Elections are not only technical systems. They are legal processes with chain-of-custody rules, certification procedures, recount standards, and dispute resolution mechanisms. When something goes wrong, there must be a clear authority empowered to act.
+    </p>
+    <p>
+      Public blockchains are intentionally hard to change. That is their selling point. But election administration sometimes needs controlled change. Courts can order remedies. Officials can extend hours in emergencies. Ballots can be challenged. A system that cannot adapt to lawful intervention is not automatically more trustworthy. It can be less governable.
+    </p>
+    <p>
+      Even the question "who runs the validators?" becomes political. If it is a government-run consortium chain, critics will say it is not truly decentralized. If it is a public chain, critics will ask why a country's election depends on external operators, token incentives, and global network conditions.
+    </p>
+
+    <h2>Auditability is more than reading a ledger</h2>
+    <p>
+      A blockchain can show that some data was recorded and not altered. It cannot, by itself, prove that the data corresponds to valid votes cast by eligible voters, on correct ballots, with correct handling of errors and accessibility needs.
+    </p>
+    <p>
+      Real audits require understanding the full pipeline. That includes the client software voters use, the authentication layer, the ballot definition, the encryption scheme, the tallying code, and the operational procedures. If any of those layers are compromised, an immutable ledger can faithfully preserve the wrong outcome.
+    </p>
+    <p>
+      This is why security researchers often say blockchains can make fraud harder to hide, but they do not necessarily make fraud harder to do.
+    </p>
+
+    <h2>What about zk-SNARKs and modern cryptography?</h2>
+    <p>
+      The strongest blockchain voting proposals lean on zero-knowledge proofs, mix-nets, and threshold cryptography. The idea is to publish proofs that votes are well-formed and counted correctly, without revealing who voted for what. In theory, this can deliver end-to-end verifiability while preserving privacy.
+    </p>
+    <p>
+      In practice, these systems are complex. Complexity is not automatically bad, but it raises the bar for implementation, auditing, and public understanding. Elections do not only need to be secure. They need to be convincingly secure to non-experts, under intense scrutiny, with adversaries actively searching for edge cases.
+    </p>
+    <p>
+      There is also a governance question hiding inside the math. Many advanced proof systems rely on setup ceremonies, parameter choices, and trusted components. You can distribute trust, but you rarely eliminate it. You mostly move it to places that are harder for the public to see.
+    </p>
+
+    <h2>Lessons from real-world experiments</h2>
+    <p>
+      When blockchain voting appears in pilots, it is usually in low-stakes settings such as internal organizational elections, small municipal trials, or limited remote voting experiments. These environments are useful for learning, but they do not replicate the threat model of a national election where the incentives to attack are enormous.
+    </p>
+    <p>
+      Meanwhile, the most cited example of successful internet voting at national scale, Estonia, does not rely on a blockchain. It relies on a national digital identity system, strong cryptography, and a process designed around verifiability and operational control. Whether one agrees with Estonia's approach or not, it underlines a key point: if your goal is secure digital voting, a blockchain is not the default missing ingredient.
+    </p>
+
+    <h2>The hidden costs are not just financial</h2>
+    <p>
+      Running a blockchain-based election is not a one-time software project. It is continuous infrastructure, continuous security review, continuous incident response planning, and continuous voter education. Every added cryptographic feature increases the need for expert audits and careful implementation.
+    </p>
+    <p>
+      There is also a social cost. If a system is too hard to explain, it becomes easier to delegitimize. Elections live and die on broad public confidence. A design that requires citizens to trust that "the math works" without intuitive checks can backfire, even if the math is sound.
+    </p>
+
+    <h2>So why do we keep coming back to the idea?</h2>
+    <p>
+      Because the pain is real. People want elections that are harder to tamper with, easier to audit, and less dependent on opaque machinery. Blockchains offer a simple narrative: put it on a ledger and let everyone verify it.
+    </p>
+    <p>
+      The better narrative is less catchy but more accurate. Transparent elections are built from layered guarantees: voter-verified records, robust audits, strong operational controls, and systems that fail safely. Sometimes that includes cryptography. Sometimes it includes paper. Often it includes both.
+    </p>
+
+    <h2>Where blockchain ideas may still help</h2>
+    <p>
+      The most promising role for a blockchain is not as the ballot box, but as a narrow integrity layer. It can timestamp and publish audit artifacts, commit to ballot definitions, or anchor logs so that later tampering is detectable. Used this way, it behaves like a public notary rather than the election itself.
+    </p>
+    <p>
+      That approach does not magically solve coercion, identity, or usability. But it can strengthen transparency without forcing the secret ballot to live on a public ledger.
+    </p>
+    <p>
+      If blockchain voting ever becomes mainstream, it will not be because we found a clever way to store votes in blocks. It will be because we found a way to give every voter privacy, safety from coercion, and a simple reason to trust the result, even when they do not trust each other.
     </main>
 
     <footer class="bg-black text-gray-200 py-12">
