@@ -1,5 +1,18 @@
 [
   {
+    "title": "Fame Factor Politics: Why Celebrity Candidates Keep Winning in 2024",
+    "slug": "fame-factor-politics-why-celebrity-candidates-keep-winning-in-2024",
+    "description": "Politics is increasingly celebrity-focused as social media rewards attention, familiarity and emotion. Here's what's driving the trend, how it changes campaigns and governance, and what voters can do to separate fame from competence.",
+    "image": "fame-factor-politics-why-celebrity-candidates-keep-winning-in-2024.png",
+    "category": "Politics",
+    "path": "2026/07/",
+    "featured": false,
+    "date": "2026-07-28T22:25:52.730Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why Blockchain Voting Still Fails: Technical Limits Explained",
     "slug": "why-blockchain-voting-still-fails-technical-limits-explained",
     "description": "Blockchains promise transparent elections, but real voting needs privacy, coercion resistance, and reliable identity at national scale. Here's why public ledgers struggle, what pilots taught us, and what cryptography may change next.",
