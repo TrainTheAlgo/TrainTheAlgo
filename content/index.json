@@ -1,5 +1,18 @@
 [
   {
+    "title": "Why Quantum Entanglement Can't Enable FasterThanLight Messaging",
+    "slug": "why-quantum-entanglement-cant-enable-faster-than-light-messaging",
+    "description": "Entanglement links distant particles in uncanny ways, but physics still blocks instant messaging. Here's what experiments, the nocommunication theorem, and real quantum networks say about fasterthanlight communication.",
+    "image": "why-quantum-entanglement-cant-enable-faster-than-light-messaging.png",
+    "category": "Physics",
+    "path": "2026/08/",
+    "featured": false,
+    "date": "2026-08-01T19:50:18.392Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Could AI Predict Your Next Move? How Surveillance Data Makes Human Behavior Look Predictable",
     "slug": "could-ai-predict-your-next-move-surveillance-data-human-behavior-predictable",
     "description": "AI can forecast patterns in where we go, what we buy, and what we might do next using surveillance and digital traces. Here's what's technically possible, what fails in practice, and what governance decides.",
