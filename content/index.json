@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Biggest Breakthroughs in Physics Over the Next Decade: What to Watch Before 2036",
+    "slug": "biggest-breakthroughs-in-physics-next-decade",
+    "description": "From Higgs precision at the HL-LHC to dark matter hunts, CMB B-modes, quantum fault tolerance, and new superconductors, here's what could genuinely change physics by the mid-2030s.",
+    "image": "biggest-breakthroughs-in-physics-next-decade.png",
+    "category": "Physics",
+    "path": "2026/08/",
+    "featured": false,
+    "date": "2026-08-07T16:59:06.414Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Why Quantum Entanglement Can't Enable FasterThanLight Messaging",
     "slug": "why-quantum-entanglement-cant-enable-faster-than-light-messaging",
     "description": "Entanglement links distant particles in uncanny ways, but physics still blocks instant messaging. Here's what experiments, the nocommunication theorem, and real quantum networks say about fasterthanlight communication.",
