@@ -1,5 +1,18 @@
 [
   {
+    "title": "Who Is Responsible? Moral Accountability in Autonomous AGI",
+    "slug": "who-is-responsible-moral-accountability-in-autonomous-agi",
+    "description": "As AI systems become more autonomous, the hardest question isn't what they can do, but who answers for what they do. A clear guide to moral responsibility, liability, and governance for autonomous AGI.",
+    "image": "who-is-responsible-moral-accountability-in-autonomous-agi.png",
+    "category": "AI",
+    "path": "2026/08/",
+    "featured": false,
+    "date": "2026-08-08T05:16:57.565Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Autonomous Vehicles and Speed Limits: Could Safety Improve Enough to Raise Them, or Remove Them?",
     "slug": "autonomous-vehicles-speed-limits-raise-remove",
     "description": "Could autonomous vehicles make roads safe enough to raise speed limits or even eliminate them? A clear look at physics, real-world AV safety data, mixed traffic risks, and what regulators would need before letting cars go faster.",
