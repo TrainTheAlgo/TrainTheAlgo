@@ -1,5 +1,18 @@
 [
   {
+    "title": "How AI Turns Mass Surveillance Into Behavioral Forecasts",
+    "slug": "how-ai-turns-mass-surveillance-into-behavioral-forecasts",
+    "description": "AI can already predict where we'll go, what we'll buy, and who might reoffend, using surveillance data. Here's what's genuinely predictable, what isn't, and how to spot the line between safety, convenience, and control.",
+    "image": "how-ai-turns-mass-surveillance-into-behavioral-forecasts.png",
+    "category": "AI",
+    "path": "2026/08/",
+    "featured": false,
+    "date": "2026-08-10T17:23:42.478Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Who Is Responsible? Moral Accountability in Autonomous AGI",
     "slug": "who-is-responsible-moral-accountability-in-autonomous-agi",
     "description": "As AI systems become more autonomous, the hardest question isn't what they can do, but who answers for what they do. A clear guide to moral responsibility, liability, and governance for autonomous AGI.",
