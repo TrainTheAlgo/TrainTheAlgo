@@ -1,5 +1,18 @@
 [
   {
+    "title": "Can AI Create a Self-Replicating Worm? The Real Risks Behind AI-Powered Malware Propagation",
+    "slug": "can-ai-create-a-self-replicating-worm",
+    "description": "Could an AI system spread across the internet like a worm? Today, models don't self-replicate, but AI is already accelerating scanning, phishing, and supply-chain attacks that enable worm-like propagation through familiar vulnerabilities.",
+    "image": "can-ai-create-a-self-replicating-worm.png",
+    "category": "Security",
+    "path": "2026/08/",
+    "featured": false,
+    "date": "2026-08-27T13:54:12.990Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "What Industries Will AI Completely Eliminate Within the Next 20 Years?",
     "slug": "what-industries-will-ai-completely-eliminate-within-the-next-20-years",
     "description": "Some jobs will be reshaped by AI. A smaller set will vanish. Here's the clearest, evidence-based view of which industries are most likely to see entire job categories disappear by 2045, and what replaces them.",
