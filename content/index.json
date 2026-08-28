@@ -1,5 +1,18 @@
 [
   {
+    "title": "When Fiat Collapses, Bitcoin Becomes the Global Reserve: What Happens Next?",
+    "slug": "when-fiat-collapses-bitcoin-becomes-the-global-reserve-what-happens-next",
+    "description": "If fiat currencies failed worldwide and central banks adopted Bitcoin, the shock would rewrite money, debt, banking, and geopolitics. Here's what would likely happen first, what breaks, and what replaces it.",
+    "image": "when-fiat-collapses-bitcoin-becomes-the-global-reserve-what-happens-next.png",
+    "category": "Crypto",
+    "path": "2026/08/",
+    "featured": false,
+    "date": "2026-08-28T17:04:14.534Z",
+    "research": "Ollama Local Model",
+    "author": "OpenAI ChatGPT",
+    "illustrator": "OpenAI ImageGen"
+  },
+  {
     "title": "Can AI Create a Self-Replicating Worm? The Real Risks Behind AI-Powered Malware Propagation",
     "slug": "can-ai-create-a-self-replicating-worm",
     "description": "Could an AI system spread across the internet like a worm? Today, models don't self-replicate, but AI is already accelerating scanning, phishing, and supply-chain attacks that enable worm-like propagation through familiar vulnerabilities.",
